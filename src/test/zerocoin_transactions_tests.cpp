@@ -13,7 +13,7 @@
 #include "wallet/wallet.h"
 #include "wallet/walletdb.h"
 #include "txdb.h"
-#include "zpiv/zpivmodule.h"
+#include "zmk2/zmk2module.h"
 #include "wallet/test/wallet_test_fixture.h"
 #include <boost/test/unit_test.hpp>
 #include <iostream>
@@ -30,7 +30,7 @@ BOOST_AUTO_TEST_CASE(zerocoin_spend_test)
 
     bool fFirstRun;
     pwalletMain->LoadWallet(fFirstRun);
-    pwalletMain->zpivTracker = std::unique_ptr<CzPIVTracker>(new CzPIVTracker(pwalletMain));
+    pwalletMain->zmk2Tracker = std::unique_ptr<CzMK2Tracker>(new CzMK2Tracker(pwalletMain));
     CMutableTransaction tx;
     CWalletTx* wtx = new CWalletTx(pwalletMain, tx);
     std::vector<CZerocoinSpend> vSpends;

@@ -9,7 +9,7 @@
 
 #include "dbwrapper.h"
 #include "main.h"
-#include "zpiv/zerocoin.h"
+#include "zmk2/zerocoin.h"
 
 #include <map>
 #include <string>
@@ -110,11 +110,11 @@ private:
     void operator=(const CZerocoinDB&);
 
 public:
-    /** Write zPIV mints to the zerocoinDB in a batch */
+    /** Write zMK2 mints to the zerocoinDB in a batch */
     bool WriteCoinMintBatch(const std::vector<std::pair<libzerocoin::PublicCoin, uint256> >& mintInfo);
     bool ReadCoinMint(const CBigNum& bnPubcoin, uint256& txHash);
     bool ReadCoinMint(const uint256& hashPubcoin, uint256& hashTx);
-    /** Write zPIV spends to the zerocoinDB in a batch */
+    /** Write zMK2 spends to the zerocoinDB in a batch */
     bool WriteCoinSpendBatch(const std::vector<std::pair<libzerocoin::CoinSpend, uint256> >& spendInfo);
     bool ReadCoinSpend(const CBigNum& bnSerial, uint256& txHash);
     bool ReadCoinSpend(const uint256& hashSerial, uint256 &txHash);

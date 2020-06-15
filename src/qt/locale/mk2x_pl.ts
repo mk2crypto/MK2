@@ -1010,8 +1010,8 @@ adres</translation>
         <translation>PIV</translation>
     </message>
     <message>
-        <source>zPIV</source>
-        <translation>zPIV</translation>
+        <source>zMK2</source>
+        <translation>zMK2</translation>
     </message>
     <message>
         <source>Sort by</source>
@@ -1042,8 +1042,8 @@ adres</translation>
         <translation>Możesz zobaczyć historię swojego konta</translation>
     </message>
     <message>
-        <source>Amount of PIV and zPIV staked.</source>
-        <translation>Ilość PIV i zPIV staked.</translation>
+        <source>Amount of PIV and zMK2 staked.</source>
+        <translation>Ilość PIV i zMK2 staked.</translation>
     </message>
     <message>
         <source>Please wait until the wallet is fully synced to see your correct balance</source>
@@ -1054,8 +1054,8 @@ adres</translation>
         <translation>Brak transakcji</translation>
     </message>
     <message>
-        <source>How to get PIV or zPIV</source>
-        <translation>Jak zdobyć PIV lub zPIV</translation>
+        <source>How to get PIV or zMK2</source>
+        <translation>Jak zdobyć PIV lub zMK2</translation>
     </message>
     <message>
         <source>You can verify the staking activity in the status bar at the top right of the wallet.
@@ -1876,36 +1876,36 @@ https://www.transifex.com/mk2x-project/mk2x-project-translations </translation>
         <translation>Mapuj port za pomocą &amp;UPnP</translation>
     </message>
     <message>
-        <source>Enable automatic minting of PIV units to zPIV</source>
-        <translation>Włącz automatyczny minting PIV do zPIV</translation>
+        <source>Enable automatic minting of PIV units to zMK2</source>
+        <translation>Włącz automatyczny minting PIV do zMK2</translation>
     </message>
     <message>
-        <source>Enable zPIV Automint</source>
-        <translation>Włącz zPIV Automint</translation>
+        <source>Enable zMK2 Automint</source>
+        <translation>Włącz zMK2 Automint</translation>
     </message>
     <message>
-        <source>Enable automatic zPIV minting from specific addresses</source>
-        <translation>Włącz automatyczne wybijanie zPIV-ów z określonych adresów</translation>
+        <source>Enable automatic zMK2 minting from specific addresses</source>
+        <translation>Włącz automatyczne wybijanie zMK2-ów z określonych adresów</translation>
     </message>
     <message>
         <source>Enable Automint Addresses</source>
         <translation>Włącz adresy Automint</translation>
     </message>
     <message>
-        <source>Percentage of incoming PIV which get automatically converted to zPIV via Zerocoin Protocol (min: 10%)</source>
-        <translation>Procent PIV, które są automatycznie konwertowane na zPIV za pomocą protokołu Zerocoin (min: 10%)</translation>
+        <source>Percentage of incoming PIV which get automatically converted to zMK2 via Zerocoin Protocol (min: 10%)</source>
+        <translation>Procent PIV, które są automatycznie konwertowane na zMK2 za pomocą protokołu Zerocoin (min: 10%)</translation>
     </message>
     <message>
-        <source>Percentage of autominted zPIV</source>
-        <translation>Procent automint zPIV</translation>
+        <source>Percentage of autominted zMK2</source>
+        <translation>Procent automint zMK2</translation>
     </message>
     <message>
         <source>Wait with automatic conversion to Zerocoin until enough PIV for this denomination is available</source>
         <translation>Zaczekaj z automatyczną konwersją na Zerocoin, aż będzie dostępna wystarczająca wartość PIV dla tego nominału</translation>
     </message>
     <message>
-        <source>Preferred Automint zPIV Denomination</source>
-        <translation>Preferowane nominały Automint zPIV</translation>
+        <source>Preferred Automint zMK2 Denomination</source>
+        <translation>Preferowane nominały Automint zMK2</translation>
     </message>
     <message>
         <source>Stake split threshold:</source>
@@ -2276,50 +2276,50 @@ Adres: %4
         <translation>Mint</translation>
     </message>
     <message>
-        <source>Minting zPIV anonymizes your PIV by removing any
+        <source>Minting zMK2 anonymizes your PIV by removing any
 transaction history, making transactions untraceable </source>
-        <translation>Minting zPIV anonimizuje Twój PIV, usuwając
+        <translation>Minting zMK2 anonimizuje Twój PIV, usuwając
 historie transakcji, dzięki czemu transakcje są niemożliwe do śledzenia</translation>
     </message>
     <message>
-        <source>Mint new zPIV or convert back to PIV</source>
-        <translation>Utwórz nowy zPIV lub przekonwertuj z powrotem na PIV</translation>
+        <source>Mint new zMK2 or convert back to PIV</source>
+        <translation>Utwórz nowy zMK2 lub przekonwertuj z powrotem na PIV</translation>
     </message>
     <message>
-        <source>Last zPIV Movements</source>
-        <translation>Ostatnie ruchy zPIV</translation>
+        <source>Last zMK2 Movements</source>
+        <translation>Ostatnie ruchy zMK2</translation>
     </message>
     <message>
         <source>No transactions yet</source>
         <translation>Brak transakcji</translation>
     </message>
     <message>
-        <source>Mint zPIV</source>
-        <translation>Mint zPIV</translation>
+        <source>Mint zMK2</source>
+        <translation>Mint zMK2</translation>
     </message>
     <message>
-        <source>Enter amount of PIV to mint into zPIV</source>
-        <translation>Wprowadź ilość PIV do konwersji na zPIV</translation>
+        <source>Enter amount of PIV to mint into zMK2</source>
+        <translation>Wprowadź ilość PIV do konwersji na zMK2</translation>
     </message>
     <message>
         <source>Convert back to PIV</source>
         <translation>Powróć do PIV</translation>
     </message>
     <message>
-        <source>Enter amount of zPIV to convert back into PIV</source>
-        <translation>Wprowadź kwotę zPIV, aby ponownie zamienić na PIV</translation>
+        <source>Enter amount of zMK2 to convert back into PIV</source>
+        <translation>Wprowadź kwotę zMK2, aby ponownie zamienić na PIV</translation>
     </message>
     <message>
         <source>Zerocoin</source>
         <translation>Zerocoin</translation>
     </message>
     <message>
-        <source>zPIV is currently undergoing maintenance</source>
-        <translation>zPIV jest obecnie w trakcie konserwacji</translation>
+        <source>zMK2 is currently undergoing maintenance</source>
+        <translation>zMK2 jest obecnie w trakcie konserwacji</translation>
     </message>
     <message>
-        <source>You need to unlock the wallet to be able to %1 zPIV</source>
-        <translation>Musisz odblokować portfel, aby móc %1 zPIV</translation>
+        <source>You need to unlock the wallet to be able to %1 zMK2</source>
+        <translation>Musisz odblokować portfel, aby móc %1 zMK2</translation>
     </message>
     <message>
         <source>convert</source>
@@ -2334,12 +2334,12 @@ historie transakcji, dzięki czemu transakcje są niemożliwe do śledzenia</tra
         <translation>niewłaściwa wartość</translation>
     </message>
     <message>
-        <source>zPIV minted successfully</source>
+        <source>zMK2 minted successfully</source>
         <translation>ZPIV udało się wybić</translation>
     </message>
     <message>
-        <source>zPIV converted back to PIV</source>
-        <translation>zPIV ponownie przekonwertowany na PIV</translation>
+        <source>zMK2 converted back to PIV</source>
+        <translation>zMK2 ponownie przekonwertowany na PIV</translation>
     </message>
     <message>
         <source>You don't have any PIV to select.</source>
@@ -2354,8 +2354,8 @@ historie transakcji, dzięki czemu transakcje są niemożliwe do śledzenia</tra
         <translation>Twoje mints zerocoin będą skanowane przez blockchain od zera</translation>
     </message>
     <message>
-        <source>Reset Spent zPIV</source>
-        <translation>Zresetuj wydane zPIV</translation>
+        <source>Reset Spent zMK2</source>
+        <translation>Zresetuj wydane zMK2</translation>
     </message>
     <message>
         <source>Your zerocoin spends are going to be scanned from the blockchain from scratch</source>
@@ -2728,8 +2728,8 @@ historie transakcji, dzięki czemu transakcje są niemożliwe do śledzenia</tra
         <translation>Standardowa ścieżka kopii zapasowej:</translation>
     </message>
     <message>
-        <source>Custom zPIV Backup Path:</source>
-        <translation>standardowa ścieżka kopii zapasowej zPIV:</translation>
+        <source>Custom zMK2 Backup Path:</source>
+        <translation>standardowa ścieżka kopii zapasowej zMK2:</translation>
     </message>
     <message>
         <source>Custom Backups Threshold:</source>
@@ -3276,8 +3276,8 @@ historie transakcji, dzięki czemu transakcje są niemożliwe do śledzenia</tra
         <translation>Wyślij</translation>
     </message>
     <message>
-        <source>You can transfer public coins (PIV) or private coins (zPIV)</source>
-        <translation>Możesz przelewać monety publiczne (PIV) lub monety prywatne (zPIV)</translation>
+        <source>You can transfer public coins (PIV) or private coins (zMK2)</source>
+        <translation>Możesz przelewać monety publiczne (PIV) lub monety prywatne (zMK2)</translation>
     </message>
     <message>
         <source>Select coin type to spend</source>
@@ -3312,8 +3312,8 @@ historie transakcji, dzięki czemu transakcje są niemożliwe do śledzenia</tra
         <translation>Wyślij PIV</translation>
     </message>
     <message>
-        <source>Send zPIV</source>
-        <translation>Wyślij zPIV</translation>
+        <source>Send zMK2</source>
+        <translation>Wyślij zMK2</translation>
     </message>
     <message>
         <source>Total remaining from the selected UTXO</source>
@@ -3376,8 +3376,8 @@ Monety te nie będą już cold-staked.</translation>
         <translation>Wydaj Zerocoin</translation>
     </message>
     <message>
-        <source>zPIV is currently undergoing maintenance.</source>
-        <translation>zPIV jest obecnie w trakcie konserwacji.</translation>
+        <source>zMK2 is currently undergoing maintenance.</source>
+        <translation>zMK2 jest obecnie w trakcie konserwacji.</translation>
     </message>
     <message>
         <source>Coin control mint not found</source>
@@ -3396,12 +3396,12 @@ Monety te nie będą już cold-staked.</translation>
 %2</translation>
     </message>
     <message>
-        <source>zPIV transaction sent!</source>
-        <translation>Transakcja zPIV wysłana!</translation>
+        <source>zMK2 transaction sent!</source>
+        <translation>Transakcja zMK2 wysłana!</translation>
     </message>
     <message>
-        <source>Version 1 zPIV require a security level of 100 to successfully spend.</source>
-        <translation>Wersja 1 zPIV wymaga poziomu bezpieczeństwa 100, aby pomyślnie wydać.</translation>
+        <source>Version 1 zMK2 require a security level of 100 to successfully spend.</source>
+        <translation>Wersja 1 zMK2 wymaga poziomu bezpieczeństwa 100, aby pomyślnie wydać.</translation>
     </message>
     <message>
         <source>Too much inputs (</source>
@@ -3440,8 +3440,8 @@ Albo wybierz wyższe nominały (potrzeba mniej wejść) albo zmniejsz kwotę do 
         <translation>Nie masz żadnych PIV-ów do wyboru.</translation>
     </message>
     <message>
-        <source>You don't have any zPIV in your balance to select.</source>
-        <translation>Nie masz w swoim bilansie żadnego zPIV do wyboru.</translation>
+        <source>You don't have any zMK2 in your balance to select.</source>
+        <translation>Nie masz w swoim bilansie żadnego zMK2 do wyboru.</translation>
     </message>
     <message>
         <source>No contacts available, you can go to the contacts screen and add some there!</source>
@@ -3892,26 +3892,26 @@ Sprawdź, czy zainstalowałeś określony edytor tekstu.</translation>
         <translation>2) Dlaczego mojego PIV nie można wydać?</translation>
     </message>
     <message>
-        <source>3) PIVX privacy? What is Zerocoin (zPIV)?</source>
-        <translation>3) Prywatność PIVX? Co to jest Zerocoin (zPIV)?</translation>
+        <source>3) PIVX privacy? What is Zerocoin (zMK2)?</source>
+        <translation>3) Prywatność PIVX? Co to jest Zerocoin (zMK2)?</translation>
     </message>
     <message>
-        <source>4) Why are my zPIV unspendable?</source>
-        <translation>4) Dlaczego mojego zPIV nie można wydać?</translation>
+        <source>4) Why are my zMK2 unspendable?</source>
+        <translation>4) Dlaczego mojego zMK2 nie można wydać?</translation>
     </message>
     <message>
         <source>5) Why did my wallet convert the balance
-    into zPIV automatically?</source>
+    into zMK2 automatically?</source>
         <translation>5) Dlaczego mój portfel przeliczył saldo
-do zPIV automatycznie?</translation>
+do zMK2 automatycznie?</translation>
     </message>
     <message>
-        <source>6) How do I receive PIV/zPIV?</source>
-        <translation>6) Jak otrzymać PIV / zPIV?</translation>
+        <source>6) How do I receive PIV/zMK2?</source>
+        <translation>6) Jak otrzymać PIV / zMK2?</translation>
     </message>
     <message>
-        <source>7) How do I stake PIV/zPIV?</source>
-        <translation>7) Jak robić stake PIV / zPIV?</translation>
+        <source>7) How do I stake PIV/zMK2?</source>
+        <translation>7) Jak robić stake PIV / zMK2?</translation>
     </message>
     <message>
         <source>8) Where I should go if I need support?</source>
@@ -3946,40 +3946,40 @@ do zPIV automatycznie?</translation>
         <translation>3</translation>
     </message>
     <message>
-        <source>PIVX privacy? What is Zerocoin (zPIV)?</source>
-        <translation>Prywatność PIVX? Co to jest Zerocoin (zPIV)?</translation>
+        <source>PIVX privacy? What is Zerocoin (zMK2)?</source>
+        <translation>Prywatność PIVX? Co to jest Zerocoin (zMK2)?</translation>
     </message>
     <message>
         <source>4</source>
         <translation>4</translation>
     </message>
     <message>
-        <source>Why are my zPIV unspendable?</source>
-        <translation>Dlaczego mojego zPIV nie można wydać?</translation>
+        <source>Why are my zMK2 unspendable?</source>
+        <translation>Dlaczego mojego zMK2 nie można wydać?</translation>
     </message>
     <message>
         <source>5</source>
         <translation>5</translation>
     </message>
     <message>
-        <source>Why did my wallet convert the balance into zPIV automatically?</source>
-        <translation>Dlaczego mój portfel automatycznie przeliczył saldo na zPIV?</translation>
+        <source>Why did my wallet convert the balance into zMK2 automatically?</source>
+        <translation>Dlaczego mój portfel automatycznie przeliczył saldo na zMK2?</translation>
     </message>
     <message>
         <source>6</source>
         <translation>6</translation>
     </message>
     <message>
-        <source>How do I receive PIV/zPIV?</source>
-        <translation>Jak otrzymać PIV / zPIV?</translation>
+        <source>How do I receive PIV/zMK2?</source>
+        <translation>Jak otrzymać PIV / zMK2?</translation>
     </message>
     <message>
         <source>7</source>
         <translation>7</translation>
     </message>
     <message>
-        <source>How do I stake PIV/zPIV?</source>
-        <translation>Jak robić stake PIV / zPIV?</translation>
+        <source>How do I stake PIV/zMK2?</source>
+        <translation>Jak robić stake PIV / zMK2?</translation>
     </message>
     <message>
         <source>Where should I go if I need support?</source>
@@ -5223,8 +5223,8 @@ Jesteś pewny?
         <translation>PIV Stake</translation>
     </message>
     <message>
-        <source>zPIV Stake</source>
-        <translation>zPIV Stake</translation>
+        <source>zMK2 Stake</source>
+        <translation>zMK2 Stake</translation>
     </message>
     <message>
         <source>PIV Cold Stake</source>
@@ -5235,24 +5235,24 @@ Jesteś pewny?
         <translation>Delegacja Stake</translation>
     </message>
     <message>
-        <source>Converted PIV to zPIV</source>
-        <translation>przekonwertowany PIV to zPIV</translation>
+        <source>Converted PIV to zMK2</source>
+        <translation>przekonwertowany PIV to zMK2</translation>
     </message>
     <message>
-        <source>Spent zPIV</source>
-        <translation>Wydaj zPIV</translation>
+        <source>Spent zMK2</source>
+        <translation>Wydaj zMK2</translation>
     </message>
     <message>
-        <source>Received PIV from zPIV</source>
-        <translation>Otrzymano PIV z zPIV</translation>
+        <source>Received PIV from zMK2</source>
+        <translation>Otrzymano PIV z zMK2</translation>
     </message>
     <message>
-        <source>Minted Change as zPIV from zPIV Spend</source>
-        <translation>Reszta Minted jako zPIV z Wysyłki zPIV</translation>
+        <source>Minted Change as zMK2 from zMK2 Spend</source>
+        <translation>Reszta Minted jako zMK2 z Wysyłki zMK2</translation>
     </message>
     <message>
-        <source>Converted zPIV to PIV</source>
-        <translation>przekonwertowany zPIV to PIV</translation>
+        <source>Converted zMK2 to PIV</source>
+        <translation>przekonwertowany zMK2 to PIV</translation>
     </message>
     <message>
         <source>Sent to</source>
@@ -5512,8 +5512,8 @@ Portfel PIVX Core</translation>
 <context>
     <name>ZPivControlDialog</name>
     <message>
-        <source>Select zPIV to Spend</source>
-        <translation>Wybierz zPIV do wydania</translation>
+        <source>Select zMK2 to Spend</source>
+        <translation>Wybierz zMK2 do wydania</translation>
     </message>
     <message>
         <source>Coin Control</source>
@@ -5524,8 +5524,8 @@ Portfel PIVX Core</translation>
         <translation>Naciśnij przycisk</translation>
     </message>
     <message>
-        <source>zPiv</source>
-        <translation>zPiv</translation>
+        <source>zMk2</source>
+        <translation>zMk2</translation>
     </message>
     <message>
         <source>0.00 </source>
@@ -5548,8 +5548,8 @@ Portfel PIVX Core</translation>
         <translation>Wybierz / Odznacz wszystko</translation>
     </message>
     <message>
-        <source>Select zPIV Denominations to Spend</source>
-        <translation>Wybierz nominały zPIV do wydania</translation>
+        <source>Select zMK2 Denominations to Spend</source>
+        <translation>Wybierz nominały zMK2 do wydania</translation>
     </message>
 </context>
 <context>
@@ -5611,8 +5611,8 @@ Portfel PIVX Core</translation>
         <translation>Włączanie lub wyłączanie funkcji stake dla przychodzących PIV (0-1, domyślnie:%u)</translation>
     </message>
     <message>
-        <source>Enable or disable staking functionality for zPIV inputs (0-1, default: %u)</source>
-        <translation>Włączanie lub wyłączanie funkcji staking dla nowych zPIV (0-1, domyślnie: %u)</translation>
+        <source>Enable or disable staking functionality for zMK2 inputs (0-1, default: %u)</source>
+        <translation>Włączanie lub wyłączanie funkcji staking dla nowych zMK2 (0-1, domyślnie: %u)</translation>
     </message>
     <message>
         <source>Enable spork administration functionality with the appropriate private key.</source>
@@ -6099,8 +6099,8 @@ Portfel PIVX Core</translation>
         <translation>Przeliczanie podaży PIV ...</translation>
     </message>
     <message>
-        <source>Reindex the PIV and zPIV money supply statistics</source>
-        <translation>Ponownie oblicz statystyki podaży pieniądza PIV i zPIV</translation>
+        <source>Reindex the PIV and zMK2 money supply statistics</source>
+        <translation>Ponownie oblicz statystyki podaży pieniądza PIV i zMK2</translation>
     </message>
     <message>
         <source>Reindexing zerocoin database...</source>
@@ -6575,8 +6575,8 @@ Portfel PIVX Core</translation>
         <translation>Synchronizowanie sporks...</translation>
     </message>
     <message>
-        <source>Syncing zPIV wallet...</source>
-        <translation>Synchronizuję portfel zPIV ...</translation>
+        <source>Syncing zMK2 wallet...</source>
+        <translation>Synchronizuję portfel zMK2 ...</translation>
     </message>
     <message>
         <source>This help message</source>
@@ -6683,8 +6683,8 @@ Portfel PIVX Core</translation>
         <translation>Nazwa użytkownika dla połączeń JSON-RPC</translation>
     </message>
     <message>
-        <source>Value is below the smallest available denomination (= 1) of zPIV</source>
-        <translation>Wartość jest mniejsza od najmniejszej dostępnej (= 1) zPIV</translation>
+        <source>Value is below the smallest available denomination (= 1) of zMK2</source>
+        <translation>Wartość jest mniejsza od najmniejszej dostępnej (= 1) zMK2</translation>
     </message>
     <message>
         <source>Verifying blocks...</source>

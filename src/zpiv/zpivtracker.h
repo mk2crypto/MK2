@@ -10,10 +10,10 @@
 #include <list>
 
 class CDeterministicMint;
-class CzPIVWallet;
+class CzMK2Wallet;
 class CWallet;
 
-class CzPIVTracker
+class CzMK2Tracker
 {
 private:
     bool fInitialized;
@@ -23,9 +23,9 @@ private:
     std::map<uint256, uint256> mapPendingSpends; //serialhash, txid of spend
     bool UpdateStatusInternal(const std::set<uint256>& setMempool, CMintMeta& mint);
 public:
-    CzPIVTracker(CWallet* parent);
-    ~CzPIVTracker();
-    void Add(const CDeterministicMint& dMint, bool isNew = false, bool isArchived = false, CzPIVWallet* zPIVWallet = NULL);
+    CzMK2Tracker(CWallet* parent);
+    ~CzMK2Tracker();
+    void Add(const CDeterministicMint& dMint, bool isNew = false, bool isArchived = false, CzMK2Wallet* zMK2Wallet = NULL);
     void Add(const CZerocoinMint& mint, bool isNew = false, bool isArchived = false);
     bool Archive(CMintMeta& meta);
     bool HasPubcoin(const CBigNum& bnValue) const;

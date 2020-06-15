@@ -47,7 +47,7 @@
 #include "utilmoneystr.h"
 #include "util/threadnames.h"
 #include "validationinterface.h"
-#include "zpivchain.h"
+#include "zmk2chain.h"
 
 #ifdef ENABLE_WALLET
 #include "wallet/db.h"
@@ -76,7 +76,7 @@
 
 
 #ifdef ENABLE_WALLET
-CzPIVWallet* zwalletMain = NULL;
+CzMK2Wallet* zwalletMain = NULL;
 int nWalletBackups = 10;
 #endif
 volatile bool fFeeEstimatesInitialized = false;
@@ -1536,17 +1536,17 @@ bool AppInit2()
                     LOCK(cs_main);
                     chainHeight = chainActive.Height();
 
-                    // initialize PIV and zPIV supply to 0
+                    // initialize PIV and zMK2 supply to 0
                     mapZerocoinSupply.clear();
                     for (auto& denom : libzerocoin::zerocoinDenomList) mapZerocoinSupply.insert(std::make_pair(denom, 0));
                     nMoneySupply = 0;
 
-                    // Load PIV and zPIV supply from DB
+                    // Load PIV and zMK2 supply from DB
                     if (chainHeight >= 0) {
                         const uint256& tipHash = chainActive[chainHeight]->GetBlockHash();
                         CLegacyBlockIndex bi;
 
-                        // Load zPIV supply map
+                        // Load zMK2 supply map
                         if (!fReindexZerocoin && chainHeight >= consensus.height_start_ZC && !zerocoinDB->ReadZCSupply(mapZerocoinSupply)) {
                             // try first reading legacy block index from DB
                             if (pblocktree->ReadLegacyBlockIndex(tipHash, bi) && !bi.mapZerocoinSupply.empty()) {
@@ -1584,7 +1584,7 @@ bool AppInit2()
                 // Recalculate money supply
                 if (fReindexMoneySupply) {
                     LOCK(cs_main);
-                    // Skip zpiv if already reindexed
+                    // Skip zmk2 if already reindexed
                     RecalculatePIVSupply(1, fReindexZerocoin);
                 }
 
@@ -1779,7 +1779,7 @@ bool AppInit2()
 
         LogPrintf("Init errors: %s\n", strErrors.str());
         LogPrintf("Wallet completed loading in %15dms\n", GetTimeMillis() - nWalletStartTime);
-        zwalletMain = new CzPIVWallet(pwalletMain);
+        zwalletMain = new CzMK2Wallet(pwalletMain);
         pwalletMain->setZWallet(zwalletMain);
 
         RegisterValidationInterface(pwalletMain);
@@ -1830,11 +1830,11 @@ bool AppInit2()
         fVerifyingBlocks = false;
 
         if (!zwalletMain->GetMasterSeed().IsNull()) {
-            //Inititalize zPIVWallet
-            uiInterface.InitMessage(_("Syncing zPIV wallet..."));
+            //Inititalize zMK2Wallet
+            uiInterface.InitMessage(_("Syncing zMK2 wallet..."));
 
             //Load zerocoin mint hashes to memory
-            pwalletMain->zpivTracker->Init();
+            pwalletMain->zmk2Tracker->Init();
             zwalletMain->LoadMintPoolFromDB();
             zwalletMain->SyncWithChain();
         }

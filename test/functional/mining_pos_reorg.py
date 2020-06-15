@@ -51,13 +51,13 @@ class ReorgStakeTest(PivxTestFramework):
         wi = self.nodes[nodeid].getwalletinfo()
         return wi['balance'] + wi['immature_balance']
 
-    def check_money_supply(self, expected_piv, expected_zpiv):
+    def check_money_supply(self, expected_piv, expected_zmk2):
         g_info = [self.nodes[i].getinfo() for i in range(self.num_nodes)]
-        # verify that nodes have the expected PIV and zPIV supply
+        # verify that nodes have the expected PIV and zMK2 supply
         for node in g_info:
             assert_equal(node['moneysupply'], DecimalAmt(expected_piv))
-            for denom in node['zPIVsupply']:
-                assert_equal(node['zPIVsupply'][denom], DecimalAmt(expected_zpiv[denom]))
+            for denom in node['zMK2supply']:
+                assert_equal(node['zMK2supply'][denom], DecimalAmt(expected_zmk2[denom]))
 
 
     def run_test(self):
@@ -68,10 +68,10 @@ class ReorgStakeTest(PivxTestFramework):
                     return True, x
             return False, None
 
-        # Check PIV and zPIV supply at the beginning
+        # Check PIV and zMK2 supply at the beginning
         # ------------------------------------------
-        # zPIV supply: 2 coins for each denomination
-        expected_zpiv_supply = {
+        # zMK2 supply: 2 coins for each denomination
+        expected_zmk2_supply = {
             "1": 2,
             "5": 10,
             "10": 20,
@@ -84,7 +84,7 @@ class ReorgStakeTest(PivxTestFramework):
         }
         # PIV supply: block rewards minus burned fees for minting
         expected_money_supply = 250.0 * 330 - 16 * 0.01
-        self.check_money_supply(expected_money_supply, expected_zpiv_supply)
+        self.check_money_supply(expected_money_supply, expected_zmk2_supply)
 
         # Stake with node 0 and node 1 up to public spend activation (400)
         # 70 blocks: 5 blocks each (x7)
@@ -168,9 +168,9 @@ class ReorgStakeTest(PivxTestFramework):
         self.log.info("Balance for node 2 checks out.")
 
         # Double spending txes not possible
-        assert_raises_rpc_error(-26, "bad-txns-invalid-zpiv",
+        assert_raises_rpc_error(-26, "bad-txns-invalid-zmk2",
                                 self.nodes[0].sendrawtransaction, tx_B0)
-        assert_raises_rpc_error(-26, "bad-txns-invalid-zpiv",
+        assert_raises_rpc_error(-26, "bad-txns-invalid-zmk2",
                                 self.nodes[0].sendrawtransaction, tx_B1)
 
         # verify that the stakeinput can't be spent
@@ -230,15 +230,15 @@ class ReorgStakeTest(PivxTestFramework):
         res, utxo = findUtxoInList(stakeinput["txid"], stakeinput["vout"], self.nodes[0].listunspent())
         assert (not res or not utxo["spendable"])
 
-        # Verify that PIV and zPIV supplies were properly updated after the spends and reorgs
-        self.log.info("Check PIV and zPIV supply...")
+        # Verify that PIV and zMK2 supplies were properly updated after the spends and reorgs
+        self.log.info("Check PIV and zMK2 supply...")
         expected_money_supply += 250.0 * (self.nodes[1].getblockcount() - 330)
         spent_coin_0 = mints[0]["denomination"]
         spent_coin_1 = mints[1]["denomination"]
-        expected_zpiv_supply[str(spent_coin_0)] -= spent_coin_0
-        expected_zpiv_supply[str(spent_coin_1)] -= spent_coin_1
-        expected_zpiv_supply["total"] -= (spent_coin_0 + spent_coin_1)
-        self.check_money_supply(expected_money_supply, expected_zpiv_supply)
+        expected_zmk2_supply[str(spent_coin_0)] -= spent_coin_0
+        expected_zmk2_supply[str(spent_coin_1)] -= spent_coin_1
+        expected_zmk2_supply["total"] -= (spent_coin_0 + spent_coin_1)
+        self.check_money_supply(expected_money_supply, expected_zmk2_supply)
         self.log.info("Supply checks out.")
 
 

@@ -2,14 +2,14 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "zpivchain.h"
+#include "zmk2chain.h"
 
 #include "guiinterface.h"
 #include "invalid.h"
 #include "main.h"
 #include "txdb.h"
 #include "wallet/wallet.h"
-#include "zpiv/zpivmodule.h"
+#include "zmk2/zmk2module.h"
 
 // 6 comes from OPCODE (1) + vch.size() (1) + BIGNUM size (4)
 #define SCRIPT_OFFSET 6
@@ -427,7 +427,7 @@ bool UpdateZPIVSupplyConnect(const CBlock& block, CBlockIndex* pindex, bool fJus
     if (pindex->nHeight < consensus.height_start_ZC)
         return true;
 
-    //Add mints to zPIV supply (mints are forever disabled after last checkpoint)
+    //Add mints to zMK2 supply (mints are forever disabled after last checkpoint)
     if (pindex->nHeight < consensus.height_last_ZC_AccumCheckpoint) {
         std::list<CZerocoinMint> listMints;
         std::set<uint256> setAddedToWallet;
@@ -456,7 +456,7 @@ bool UpdateZPIVSupplyConnect(const CBlock& block, CBlockIndex* pindex, bool fJus
         }
     }
 
-    //Remove spends from zPIV supply
+    //Remove spends from zMK2 supply
     std::list<libzerocoin::CoinDenomination> listDenomsSpent = ZerocoinSpendListFromBlock(block, true);
     for (const libzerocoin::CoinDenomination& denom : listDenomsSpent) {
         mapZerocoinSupply.at(denom)--;
@@ -466,7 +466,7 @@ bool UpdateZPIVSupplyConnect(const CBlock& block, CBlockIndex* pindex, bool fJus
     }
 
     // Update Wrapped Serials amount
-    // A one-time event where only the zPIV supply was off (due to serial duplication off-chain on main net)
+    // A one-time event where only the zMK2 supply was off (due to serial duplication off-chain on main net)
     if (Params().NetworkID() == CBaseChainParams::MAIN && pindex->nHeight == consensus.height_last_ZC_WrappedSerials + 1) {
         for (const libzerocoin::CoinDenomination& denom : libzerocoin::zerocoinDenomList)
             mapZerocoinSupply.at(denom) += GetWrapppedSerialInflation(denom);
@@ -487,19 +487,19 @@ bool UpdateZPIVSupplyDisconnect(const CBlock& block, CBlockIndex* pindex)
         return true;
 
     // Undo Update Wrapped Serials amount
-    // A one-time event where only the zPIV supply was off (due to serial duplication off-chain on main net)
+    // A one-time event where only the zMK2 supply was off (due to serial duplication off-chain on main net)
     if (Params().NetworkID() == CBaseChainParams::MAIN && pindex->nHeight == consensus.height_last_ZC_WrappedSerials + 1) {
         for (const libzerocoin::CoinDenomination& denom : libzerocoin::zerocoinDenomList)
             mapZerocoinSupply.at(denom) -= GetWrapppedSerialInflation(denom);
     }
 
-    // Re-add spends to zPIV supply
+    // Re-add spends to zMK2 supply
     std::list<libzerocoin::CoinDenomination> listDenomsSpent = ZerocoinSpendListFromBlock(block, true);
     for (const libzerocoin::CoinDenomination& denom : listDenomsSpent) {
         mapZerocoinSupply.at(denom)++;
     }
 
-    // Remove mints from zPIV supply (mints are forever disabled after last checkpoint)
+    // Remove mints from zMK2 supply (mints are forever disabled after last checkpoint)
     if (pindex->nHeight < consensus.height_last_ZC_AccumCheckpoint) {
         std::list<CZerocoinMint> listMints;
         std::set<uint256> setAddedToWallet;

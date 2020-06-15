@@ -1015,8 +1015,8 @@ vlasnika</translation>
         <translation>PIV</translation>
     </message>
     <message>
-        <source>zPIV</source>
-        <translation>zPIV</translation>
+        <source>zMK2</source>
+        <translation>zMK2</translation>
     </message>
     <message>
         <source>Sort by</source>
@@ -1047,8 +1047,8 @@ vlasnika</translation>
         <translation>Možete pregledati povijest računa</translation>
     </message>
     <message>
-        <source>Amount of PIV and zPIV staked.</source>
-        <translation>Iznos PIV i zPIV koji se stakea.</translation>
+        <source>Amount of PIV and zMK2 staked.</source>
+        <translation>Iznos PIV i zMK2 koji se stakea.</translation>
     </message>
     <message>
         <source>Please wait until the wallet is fully synced to see your correct balance</source>
@@ -1059,8 +1059,8 @@ vlasnika</translation>
         <translation>Nema još transakcija</translation>
     </message>
     <message>
-        <source>How to get PIV or zPIV</source>
-        <translation>Kako nabaviti PIV ili zPIV</translation>
+        <source>How to get PIV or zMK2</source>
+        <translation>Kako nabaviti PIV ili zMK2</translation>
     </message>
     <message>
         <source>You can verify the staking activity in the status bar at the top right of the wallet.
@@ -1910,36 +1910,36 @@ https://www.transifex.com/mk2x-project/mk2x-project-translations</translation>
         <translation>Mapiranje porta koristeći &amp;UPnP</translation>
     </message>
     <message>
-        <source>Enable automatic minting of PIV units to zPIV</source>
-        <translation>Omogući automatsko stvaranje PIV jedinica na zPIV</translation>
+        <source>Enable automatic minting of PIV units to zMK2</source>
+        <translation>Omogući automatsko stvaranje PIV jedinica na zMK2</translation>
     </message>
     <message>
-        <source>Enable zPIV Automint</source>
-        <translation>Omogući automatsko stvaranje zPIV-a</translation>
+        <source>Enable zMK2 Automint</source>
+        <translation>Omogući automatsko stvaranje zMK2-a</translation>
     </message>
     <message>
-        <source>Enable automatic zPIV minting from specific addresses</source>
-        <translation>Omogući automatsko stvaranje zPIV-a s određjenih adresa</translation>
+        <source>Enable automatic zMK2 minting from specific addresses</source>
+        <translation>Omogući automatsko stvaranje zMK2-a s određjenih adresa</translation>
     </message>
     <message>
         <source>Enable Automint Addresses</source>
         <translation>Omogući Automint adrese</translation>
     </message>
     <message>
-        <source>Percentage of incoming PIV which get automatically converted to zPIV via Zerocoin Protocol (min: 10%)</source>
-        <translation>Postotak dolaznih PIV koji se automatski pretvara u zPIV putem Zerocoin Protokola (min: 10%)</translation>
+        <source>Percentage of incoming PIV which get automatically converted to zMK2 via Zerocoin Protocol (min: 10%)</source>
+        <translation>Postotak dolaznih PIV koji se automatski pretvara u zMK2 putem Zerocoin Protokola (min: 10%)</translation>
     </message>
     <message>
-        <source>Percentage of autominted zPIV</source>
-        <translation>Postotak automatski stvorenog zPIV-a</translation>
+        <source>Percentage of autominted zMK2</source>
+        <translation>Postotak automatski stvorenog zMK2-a</translation>
     </message>
     <message>
         <source>Wait with automatic conversion to Zerocoin until enough PIV for this denomination is available</source>
         <translation>Pričekajte s automatskom pretvorbom u Zerocoin dok ne bude dostupno dovoljno PIV-a za ovu denominaciju</translation>
     </message>
     <message>
-        <source>Preferred Automint zPIV Denomination</source>
-        <translation>Preferirana denominacija za automatsko stvaranje zPIV-a</translation>
+        <source>Preferred Automint zMK2 Denomination</source>
+        <translation>Preferirana denominacija za automatsko stvaranje zMK2-a</translation>
     </message>
     <message>
         <source>Stake split threshold:</source>
@@ -2310,50 +2310,50 @@ Adresa: %4
         <translation>Stvori</translation>
     </message>
     <message>
-        <source>Minting zPIV anonymizes your PIV by removing any
+        <source>Minting zMK2 anonymizes your PIV by removing any
 transaction history, making transactions untraceable </source>
-        <translation>Stvaranje zPIV-a anonimizira Vaš PIV brišući cijelu
+        <translation>Stvaranje zMK2-a anonimizira Vaš PIV brišući cijelu
 povijest transakcija, čineći transakcije nepratljivima</translation>
     </message>
     <message>
-        <source>Mint new zPIV or convert back to PIV</source>
-        <translation>Stvori novi zPIV ili pretvori natrag u PIV</translation>
+        <source>Mint new zMK2 or convert back to PIV</source>
+        <translation>Stvori novi zMK2 ili pretvori natrag u PIV</translation>
     </message>
     <message>
-        <source>Last zPIV Movements</source>
-        <translation>Posljednja zPIV kretanja</translation>
+        <source>Last zMK2 Movements</source>
+        <translation>Posljednja zMK2 kretanja</translation>
     </message>
     <message>
         <source>No transactions yet</source>
         <translation>Nema još transakcija</translation>
     </message>
     <message>
-        <source>Mint zPIV</source>
-        <translation>Stvori zPIV</translation>
+        <source>Mint zMK2</source>
+        <translation>Stvori zMK2</translation>
     </message>
     <message>
-        <source>Enter amount of PIV to mint into zPIV</source>
-        <translation>Unesite iznos PIV-a za pretvorbu u zPIV</translation>
+        <source>Enter amount of PIV to mint into zMK2</source>
+        <translation>Unesite iznos PIV-a za pretvorbu u zMK2</translation>
     </message>
     <message>
         <source>Convert back to PIV</source>
         <translation>Pretvori natrag u PIV</translation>
     </message>
     <message>
-        <source>Enter amount of zPIV to convert back into PIV</source>
-        <translation>Upišite iznos zPIV za konverziju natrag u PIV</translation>
+        <source>Enter amount of zMK2 to convert back into PIV</source>
+        <translation>Upišite iznos zMK2 za konverziju natrag u PIV</translation>
     </message>
     <message>
         <source>Zerocoin</source>
         <translation>Zerocoin</translation>
     </message>
     <message>
-        <source>zPIV is currently undergoing maintenance</source>
-        <translation>zPIV se trenutno održava</translation>
+        <source>zMK2 is currently undergoing maintenance</source>
+        <translation>zMK2 se trenutno održava</translation>
     </message>
     <message>
-        <source>You need to unlock the wallet to be able to %1 zPIV</source>
-        <translation>Morate otključati novčanik kako biste mogli %1 zPIV</translation>
+        <source>You need to unlock the wallet to be able to %1 zMK2</source>
+        <translation>Morate otključati novčanik kako biste mogli %1 zMK2</translation>
     </message>
     <message>
         <source>convert</source>
@@ -2368,12 +2368,12 @@ povijest transakcija, čineći transakcije nepratljivima</translation>
         <translation>Nevažeća vrijednost</translation>
     </message>
     <message>
-        <source>zPIV minted successfully</source>
-        <translation>zPIV uspješno stvoren</translation>
+        <source>zMK2 minted successfully</source>
+        <translation>zMK2 uspješno stvoren</translation>
     </message>
     <message>
-        <source>zPIV converted back to PIV</source>
-        <translation>zPIV pretvoren natrag u PIV</translation>
+        <source>zMK2 converted back to PIV</source>
+        <translation>zMK2 pretvoren natrag u PIV</translation>
     </message>
     <message>
         <source>You don't have any PIV to select.</source>
@@ -2388,8 +2388,8 @@ povijest transakcija, čineći transakcije nepratljivima</translation>
         <translation>Vaši zerocoin novčići skenirat će se iz blockchaina od samog početka</translation>
     </message>
     <message>
-        <source>Reset Spent zPIV</source>
-        <translation>Resetiraj potrošeni zPIV</translation>
+        <source>Reset Spent zMK2</source>
+        <translation>Resetiraj potrošeni zMK2</translation>
     </message>
     <message>
         <source>Your zerocoin spends are going to be scanned from the blockchain from scratch</source>
@@ -2802,8 +2802,8 @@ povijest transakcija, čineći transakcije nepratljivima</translation>
         <translation>Put prilagođenog sigurnosnog kopiranja:</translation>
     </message>
     <message>
-        <source>Custom zPIV Backup Path:</source>
-        <translation>Prilagođeni put zPIV sigurnosne kopije:</translation>
+        <source>Custom zMK2 Backup Path:</source>
+        <translation>Prilagođeni put zMK2 sigurnosne kopije:</translation>
     </message>
     <message>
         <source>Custom Backups Threshold:</source>
@@ -3362,8 +3362,8 @@ povijest transakcija, čineći transakcije nepratljivima</translation>
         <translation>Pošalji</translation>
     </message>
     <message>
-        <source>You can transfer public coins (PIV) or private coins (zPIV)</source>
-        <translation>Mogućnost prijenosa javnih novčića (PIV) ili anonimnih novčića (zPIV)</translation>
+        <source>You can transfer public coins (PIV) or private coins (zMK2)</source>
+        <translation>Mogućnost prijenosa javnih novčića (PIV) ili anonimnih novčića (zMK2)</translation>
     </message>
     <message>
         <source>Select coin type to spend</source>
@@ -3398,8 +3398,8 @@ povijest transakcija, čineći transakcije nepratljivima</translation>
         <translation>Pošalji PIV</translation>
     </message>
     <message>
-        <source>Send zPIV</source>
-        <translation>Pošalji zPIV</translation>
+        <source>Send zMK2</source>
+        <translation>Pošalji zMK2</translation>
     </message>
     <message>
         <source>Total remaining from the selected UTXO</source>
@@ -3474,8 +3474,8 @@ Ovi novčići više neće biti cold-stakeani.</translation>
         <translation>Potroši Zerocoin</translation>
     </message>
     <message>
-        <source>zPIV is currently undergoing maintenance.</source>
-        <translation>Radovi u tijeku na zPIV.</translation>
+        <source>zMK2 is currently undergoing maintenance.</source>
+        <translation>Radovi u tijeku na zMK2.</translation>
     </message>
     <message>
         <source>Coin control mint not found</source>
@@ -3494,12 +3494,12 @@ Ovi novčići više neće biti cold-stakeani.</translation>
 %2</translation>
     </message>
     <message>
-        <source>zPIV transaction sent!</source>
-        <translation>zPIV transakcija poslana!</translation>
+        <source>zMK2 transaction sent!</source>
+        <translation>zMK2 transakcija poslana!</translation>
     </message>
     <message>
-        <source>Version 1 zPIV require a security level of 100 to successfully spend.</source>
-        <translation>Verzija 1 zPIV zahtjeva sigurnosnu razinu 100 da se uspješno utroši.</translation>
+        <source>Version 1 zMK2 require a security level of 100 to successfully spend.</source>
+        <translation>Verzija 1 zMK2 zahtjeva sigurnosnu razinu 100 da se uspješno utroši.</translation>
     </message>
     <message>
         <source>Too much inputs (</source>
@@ -3538,8 +3538,8 @@ Ili mintaj više vrijedne denominacije (tako da je potrebno manje ulaza) ili sma
         <translation>Nemate PIV-a za odabrati</translation>
     </message>
     <message>
-        <source>You don't have any zPIV in your balance to select.</source>
-        <translation>Nemate zPIV u svom saldu za odabir.</translation>
+        <source>You don't have any zMK2 in your balance to select.</source>
+        <translation>Nemate zMK2 u svom saldu za odabir.</translation>
     </message>
     <message>
         <source>No contacts available, you can go to the contacts screen and add some there!</source>
@@ -4046,26 +4046,26 @@ Došlo je do greške prilikom spremanja popisa adresa u %1. Molimo pokušajte po
         <translation>2) Zašto se moji PIV ne mogu potrošiti?</translation>
     </message>
     <message>
-        <source>3) PIVX privacy? What is Zerocoin (zPIV)?</source>
-        <translation>3) PIVX privatnost? Što je Zerocoin (zPIV)?</translation>
+        <source>3) PIVX privacy? What is Zerocoin (zMK2)?</source>
+        <translation>3) PIVX privatnost? Što je Zerocoin (zMK2)?</translation>
     </message>
     <message>
-        <source>4) Why are my zPIV unspendable?</source>
-        <translation>4) Zašto se moji zPIV ne mogu potrošiti?</translation>
+        <source>4) Why are my zMK2 unspendable?</source>
+        <translation>4) Zašto se moji zMK2 ne mogu potrošiti?</translation>
     </message>
     <message>
         <source>5) Why did my wallet convert the balance
-    into zPIV automatically?</source>
+    into zMK2 automatically?</source>
         <translation>5) Zašto je moj novčanik pretvorio saldo
-u zPIV automatski?</translation>
+u zMK2 automatski?</translation>
     </message>
     <message>
-        <source>6) How do I receive PIV/zPIV?</source>
-        <translation>6) Kako mogu primiti PIV/zPIV?</translation>
+        <source>6) How do I receive PIV/zMK2?</source>
+        <translation>6) Kako mogu primiti PIV/zMK2?</translation>
     </message>
     <message>
-        <source>7) How do I stake PIV/zPIV?</source>
-        <translation>7) Kako stakeam PIV/zPIV?</translation>
+        <source>7) How do I stake PIV/zMK2?</source>
+        <translation>7) Kako stakeam PIV/zMK2?</translation>
     </message>
     <message>
         <source>8) Where I should go if I need support?</source>
@@ -4094,7 +4094,7 @@ u zPIV automatski?</translation>
                            that can be easily transferred globally, instantly, and with near
                            zero fees.  PIVX incorporates market leading security &amp;
                            privacy and is also the first PoS (Proof of Stake) Cryptocurrency
-                           to implement ZeroCoin(zPIV) and Zerocoin staking.
+                           to implement ZeroCoin(zMK2) and Zerocoin staking.
                            &lt;/p&gt;&lt;p align="justify"&gt;
                            PIVX utilizes a Proof of Stake (PoS) consensus system algorithm,
                            allowing all owners of PIVX to participate in earning block rewards
@@ -4108,7 +4108,7 @@ PIVX je oblik digitalnog online novca koji koristi blockchain tehnologiju
 koji se lako može slati i primati globalno, trenutno, i gotovo bez naknade.
 PIVX uključuje vodeću sigurnost  i privatnost na tržištu
 i takođjer je prva PoS (Proof of Stake) kriptovaluta
-koja je implementirala ZeroCoin (zPIV) i Zerocoin staking.
+koja je implementirala ZeroCoin (zMK2) i Zerocoin staking.
 &lt;/p&gt;&lt;p align="justify"&gt;
 PIVX koristi algoritam konsenzusa Proof of Stake (PoS),
 omogućujući svim vlasnicima PIVX-a sudjelovanje u zarađi blokovih nagrada
@@ -4150,25 +4150,25 @@ da biste vidjeli i mogli potrošiti sredstva na mreži.
         <translation>3</translation>
     </message>
     <message>
-        <source>PIVX privacy? What is Zerocoin (zPIV)?</source>
-        <translation>PIVX privatnost? Što je Zerocoin (zPIV)?</translation>
+        <source>PIVX privacy? What is Zerocoin (zMK2)?</source>
+        <translation>PIVX privatnost? Što je Zerocoin (zMK2)?</translation>
     </message>
     <message>
         <source>
                            &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
-                           zPIV is an optional privacy-centric method of coin mixing on the
+                           zMK2 is an optional privacy-centric method of coin mixing on the
                            PIVX blockchain. Basically all your transactions cannot be tracked
                            on to any block explorer. You can read more about the technicals in the
-                           &lt;a style='color: #b088ff' href='https://PIVX.org/zpiv/'&gt;
-                           "PIVX Zerocoin (zPIV) Technical Paper"&lt;/a&gt;.
+                           &lt;a style='color: #b088ff' href='https://PIVX.org/zmk2/'&gt;
+                           "PIVX Zerocoin (zMK2) Technical Paper"&lt;/a&gt;.
                            &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
                          </source>
         <translation>
 &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
-zPIV je opcionalna metoda miješanja novčića usmjerena na privatnost
+zMK2 je opcionalna metoda miješanja novčića usmjerena na privatnost
 na PIVX blockchainu. Sve transakcije ne mogu biti praćene na bilo kojem block exploreru. Više o tehničkim detaljima možete pročitati na
-&lt;a style='color: #b088ff' href='https://PIVX.org/zpiv/'&gt;
-"PIVX Zerocoin (zPIV) Technical Paper"&lt;/a&gt;.
+&lt;a style='color: #b088ff' href='https://PIVX.org/zmk2/'&gt;
+"PIVX Zerocoin (zMK2) Technical Paper"&lt;/a&gt;.
 &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
 </translation>
     </message>
@@ -4177,20 +4177,20 @@ na PIVX blockchainu. Sve transakcije ne mogu biti praćene na bilo kojem block e
         <translation>4</translation>
     </message>
     <message>
-        <source>Why are my zPIV unspendable?</source>
-        <translation>Zašto se moji zPIV ne mogu potrošiti?</translation>
+        <source>Why are my zMK2 unspendable?</source>
+        <translation>Zašto se moji zMK2 ne mogu potrošiti?</translation>
     </message>
     <message>
         <source>
                            &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
-                           After minting, zPIV will require 20 confirmations as well as 1
+                           After minting, zMK2 will require 20 confirmations as well as 1
                            additional mint of the same denomination on the network to
                            become eligible for spending.
                            &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
                          </source>
         <translation>
 &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
-Nakon stvaranja, zPIV će zahtjevati 20 potvrda kao i 1
+Nakon stvaranja, zMK2 će zahtjevati 20 potvrda kao i 1
 dodatno stvaranje iste denominacije na mreži
 da bi se mogli potrošiti.
 &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
@@ -4201,39 +4201,39 @@ da bi se mogli potrošiti.
         <translation>5</translation>
     </message>
     <message>
-        <source>Why did my wallet convert the balance into zPIV automatically?</source>
-        <translation>Zašto je moj novčanik automatski pretvorio saldo u zPIV?</translation>
+        <source>Why did my wallet convert the balance into zMK2 automatically?</source>
+        <translation>Zašto je moj novčanik automatski pretvorio saldo u zMK2?</translation>
     </message>
     <message>
         <source>
                            &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
                            By default the PIVX wallet will convert 10% of your entire PIV
-                           balance to zPIV to assist the network. If you do not wish to
-                           stake zPIV or take advantage of the privacy benefit it brings,
+                           balance to zMK2 to assist the network. If you do not wish to
+                           stake zMK2 or take advantage of the privacy benefit it brings,
                            you can disable the automatic minting in your PIVX wallet by
-                           going to Settings-&gt;Options and deselecting “Enable zPIV Automint”.
+                           going to Settings-&gt;Options and deselecting “Enable zMK2 Automint”.
                            If you are not making use of the PIVX-QT or GUI you can simply open
                            your mk2x.conf file and add &lt;i&gt;enablezeromint=0&lt;/i&gt; Without the quotation
                            marks and restart your wallet to disable automint.&lt;/p&gt;
                            &lt;/p&gt;&lt;p align="justify"&gt;
-                           You can read more about zPIV in the
-                           &lt;a style='color: #b088ff' href='https://PIVX.org/zpiv/'&gt; "PIVX Zerocoin (zPIV) Technical Paper"&lt;/a&gt;.
-                           If you would like to keep and stake your zPIV, please read the "How do I stake"
+                           You can read more about zMK2 in the
+                           &lt;a style='color: #b088ff' href='https://PIVX.org/zmk2/'&gt; "PIVX Zerocoin (zMK2) Technical Paper"&lt;/a&gt;.
+                           If you would like to keep and stake your zMK2, please read the "How do I stake"
                            section of the FAQ below.
                            &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
                          </source>
         <translation>
 &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
-Prema početno zadanom PIVX novčanik će pretvoriti 10% vaših PIV sredstava u zPIV da pomognu mreži. Ako ne želite stake-ati zPIV ili iskoristiti prednosti privatnosti koje donosi,
+Prema početno zadanom PIVX novčanik će pretvoriti 10% vaših PIV sredstava u zMK2 da pomognu mreži. Ako ne želite stake-ati zMK2 ili iskoristiti prednosti privatnosti koje donosi,
 možete onemogućiti autoamtsko stvaranje u vašem PIVX novčaniku tako da
-odete u Postavke -&gt; Mogućnosti i odznačite "Omogući automatsko stvaranje zPIV-a".
+odete u Postavke -&gt; Mogućnosti i odznačite "Omogući automatsko stvaranje zMK2-a".
 Ako ne koristite PIVX-QT ili grafičko sučelje, jednostavno možete otvoriti
 vašu mk2x.conf datoteku i dodati &lt;i&gt;enablezeromint=0&lt;/i&gt; bez navodnika
 i ponovno pokrenuti novčanik da biste onemogućili automatsko stvaranje.&lt;/p&gt;
 &lt;/p&gt;&lt;p align="justify"&gt;
-Više o zPIV-u možete pročitati u
-&lt;a style='color: #b088ff' href='https://PIVX.org/zpiv/'&gt;"PIVX Zerocoin (zPIV) Technical Paper"&lt;/a&gt;.
-Ako želite zadržati i stake-ati vaš zPIV, molimo pročitajte "Kako mogu stake-ati"
+Više o zMK2-u možete pročitati u
+&lt;a style='color: #b088ff' href='https://PIVX.org/zmk2/'&gt;"PIVX Zerocoin (zMK2) Technical Paper"&lt;/a&gt;.
+Ako želite zadržati i stake-ati vaš zMK2, molimo pročitajte "Kako mogu stake-ati"
 odjeljak u najčešće postavljenim pitanjima ispod.
 &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
@@ -4242,24 +4242,24 @@ odjeljak u najčešće postavljenim pitanjima ispod.
         <translation>6</translation>
     </message>
     <message>
-        <source>How do I receive PIV/zPIV?</source>
-        <translation>Kako mogu primiti PIV/zPIV?</translation>
+        <source>How do I receive PIV/zMK2?</source>
+        <translation>Kako mogu primiti PIV/zMK2?</translation>
     </message>
     <message>
         <source>
                            &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
-                           zPIV can be spent and sent to any PIVX address. The receiver will
-                           receive standard PIVX but the origin of the PIVX is anonymized by the zPIV Protocol.
+                           zMK2 can be spent and sent to any PIVX address. The receiver will
+                           receive standard PIVX but the origin of the PIVX is anonymized by the zMK2 Protocol.
                            &lt;/p&gt;&lt;p align="justify"&gt;
-                           If you want more zPIV you will need to mint your balance in the “Privacy” tab.
+                           If you want more zMK2 you will need to mint your balance in the “Privacy” tab.
                            &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
                          </source>
         <translation>
 &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
-zPIV se može trošiti i slati na bilo koju PIVX adresu. Primatelj će
-primiti standardni PIVX, ali podrijetlo PIVX-a je postalo anonimno zPIV Protokolom.
+zMK2 se može trošiti i slati na bilo koju PIVX adresu. Primatelj će
+primiti standardni PIVX, ali podrijetlo PIVX-a je postalo anonimno zMK2 Protokolom.
 &lt;/p&gt;&lt;p align="justify"&gt;
-Ako želite više zPIV-a, morat ćete stvoriti svoj saldo u kartici "Privatnost" .
+Ako želite više zMK2-a, morat ćete stvoriti svoj saldo u kartici "Privatnost" .
 &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
 </translation>
     </message>
@@ -4268,8 +4268,8 @@ Ako želite više zPIV-a, morat ćete stvoriti svoj saldo u kartici "Privatnost"
         <translation>7</translation>
     </message>
     <message>
-        <source>How do I stake PIV/zPIV?</source>
-        <translation>Kako stakeam PIV/zPIV?</translation>
+        <source>How do I stake PIV/zMK2?</source>
+        <translation>Kako stakeam PIV/zMK2?</translation>
     </message>
     <message>
         <source>
@@ -4288,12 +4288,12 @@ Ako želite više zPIV-a, morat ćete stvoriti svoj saldo u kartici "Privatnost"
                            You can see the status of staking in the wallet by mousing over the package icon in the row on the top left of the wallet interface. There package will be lit up and will state "Staking Enabled" to indicate it is staking.  Using the command line interface (mk2x-cli); the command &lt;i&gt;getstakingstatus&lt;/i&gt; will confirm that staking is active.
                            &lt;/li&gt;&lt;/ol&gt;
                            &lt;/p&gt;&lt;p align="justify"&gt;
-                           To Stake zPIV:
+                           To Stake zMK2:
                            &lt;/p&gt;&lt;p align="justify"&gt;
                            &lt;ol&gt;&lt;li&gt;
                            Make sure your wallet is completely synchronized and you are using the latest release.
                            &lt;li&gt;
-                           Your newly minted or existing zPIV balance must have a minimum of 200 confirmations.
+                           Your newly minted or existing zMK2 balance must have a minimum of 200 confirmations.
                            &lt;li&gt;
                            Your wallet must stay online and be unlocked for anonymization and staking purposes.
                            Staking should now be enabled.
@@ -4316,11 +4316,11 @@ Kada su svi navedeni koraci napravljeni, tada će staking biti omogućen.
 Status stakinga možete vidjeti u vašem novčaniku prelaskom miša preko Staking ikone u gornjem desnom kutu. Ikona će zasvjetliti i ispisati "Staking omogućen" i potvrditi staking. Koristeći sučelje naredbene linije (mk2x-cli); naredba &lt;i&gt;getstakingstatus&lt;/i&gt;će potvrditi da je staking aktivan.
 &lt;/li&gt;&lt;/ol&gt;
 &lt;/p&gt;&lt;p align="justify"&gt;
-Da biste stake-ali zPIV:&lt;/p&gt;&lt;p align="justify"&gt;
+Da biste stake-ali zMK2:&lt;/p&gt;&lt;p align="justify"&gt;
 &lt;ol&gt;&lt;li&gt;
 Provjerite da je vaš wallet u potpunosti sinkroniziran i koristite li najnoviju verziju.
 &lt;li&gt;
-Vaši novostvoreni ili postojeći zPIV saldo mora imati najmanje 200 potvrda.
+Vaši novostvoreni ili postojeći zMK2 saldo mora imati najmanje 200 potvrda.
 &lt;li&gt;
 Vaš novčanik mora ostati online i biti otključan za staking.
 Sada bi staking trebao biti omogućen.
@@ -5750,8 +5750,8 @@ se nova sigurnosna kopija.
         <translation>PIV Stake</translation>
     </message>
     <message>
-        <source>zPIV Stake</source>
-        <translation>zPIV Stake</translation>
+        <source>zMK2 Stake</source>
+        <translation>zMK2 Stake</translation>
     </message>
     <message>
         <source>PIV Cold Stake</source>
@@ -5762,24 +5762,24 @@ se nova sigurnosna kopija.
         <translation>Stake delegacija</translation>
     </message>
     <message>
-        <source>Converted PIV to zPIV</source>
-        <translation>Pretvoreni PIV u zPIV</translation>
+        <source>Converted PIV to zMK2</source>
+        <translation>Pretvoreni PIV u zMK2</translation>
     </message>
     <message>
-        <source>Spent zPIV</source>
-        <translation>Potrošeni zPIV</translation>
+        <source>Spent zMK2</source>
+        <translation>Potrošeni zMK2</translation>
     </message>
     <message>
-        <source>Received PIV from zPIV</source>
-        <translation>Primljeni PIV od zPIV</translation>
+        <source>Received PIV from zMK2</source>
+        <translation>Primljeni PIV od zMK2</translation>
     </message>
     <message>
-        <source>Minted Change as zPIV from zPIV Spend</source>
-        <translation>Mintana razlika zPIV od zPIV Utroška</translation>
+        <source>Minted Change as zMK2 from zMK2 Spend</source>
+        <translation>Mintana razlika zMK2 od zMK2 Utroška</translation>
     </message>
     <message>
-        <source>Converted zPIV to PIV</source>
-        <translation>Pretvoreni zPIV u PIV</translation>
+        <source>Converted zMK2 to PIV</source>
+        <translation>Pretvoreni zMK2 u PIV</translation>
     </message>
     <message>
         <source>Sent to</source>
@@ -6047,8 +6047,8 @@ PIVX temeljni novčanik</translation>
 <context>
     <name>ZPivControlDialog</name>
     <message>
-        <source>Select zPIV to Spend</source>
-        <translation>Odabrani zPIV za utrošiti</translation>
+        <source>Select zMK2 to Spend</source>
+        <translation>Odabrani zMK2 za utrošiti</translation>
     </message>
     <message>
         <source>Coin Control</source>
@@ -6059,8 +6059,8 @@ PIVX temeljni novčanik</translation>
         <translation>TipkaZaPritisak</translation>
     </message>
     <message>
-        <source>zPiv</source>
-        <translation>zPiv</translation>
+        <source>zMk2</source>
+        <translation>zMk2</translation>
     </message>
     <message>
         <source>0.00 </source>
@@ -6083,8 +6083,8 @@ PIVX temeljni novčanik</translation>
         <translation>Odaberite/poništi odabir za Sve</translation>
     </message>
     <message>
-        <source>Select zPIV Denominations to Spend</source>
-        <translation>Odaberite zPIV denominacije za potrošnju</translation>
+        <source>Select zMK2 Denominations to Spend</source>
+        <translation>Odaberite zMK2 denominacije za potrošnju</translation>
     </message>
 </context>
 <context>
@@ -6146,8 +6146,8 @@ PIVX temeljni novčanik</translation>
         <translation>Omogući ili onemogući staking funkcionalnosti za PIV unose (0-1, default: %u)</translation>
     </message>
     <message>
-        <source>Enable or disable staking functionality for zPIV inputs (0-1, default: %u)</source>
-        <translation>Omogući ili onemogući staking funkcionalnosti za zPIV unose (0-1, default: %u)</translation>
+        <source>Enable or disable staking functionality for zMK2 inputs (0-1, default: %u)</source>
+        <translation>Omogući ili onemogući staking funkcionalnosti za zMK2 unose (0-1, default: %u)</translation>
     </message>
     <message>
         <source>Enable spork administration functionality with the appropriate private key.</source>
@@ -6639,8 +6639,8 @@ PIVX temeljni novčanik</translation>
         <translation>Preračunavanje PIV-a u optjecaju...</translation>
     </message>
     <message>
-        <source>Reindex the PIV and zPIV money supply statistics</source>
-        <translation>Ponovno indeksirati statistiku PIV i zPIV ponude novca</translation>
+        <source>Reindex the PIV and zMK2 money supply statistics</source>
+        <translation>Ponovno indeksirati statistiku PIV i zMK2 ponude novca</translation>
     </message>
     <message>
         <source>Reindexing zerocoin database...</source>
@@ -7139,8 +7139,8 @@ PIVX temeljni novčanik</translation>
         <translation>Sinkronizacija sporkova...</translation>
     </message>
     <message>
-        <source>Syncing zPIV wallet...</source>
-        <translation>Sinkronizacija zPIV novčanika...</translation>
+        <source>Syncing zMK2 wallet...</source>
+        <translation>Sinkronizacija zMK2 novčanika...</translation>
     </message>
     <message>
         <source>This help message</source>
@@ -7255,8 +7255,8 @@ PIVX temeljni novčanik</translation>
         <translation>Korisničko ime za JSON-RPC veze</translation>
     </message>
     <message>
-        <source>Value is below the smallest available denomination (= 1) of zPIV</source>
-        <translation>Vrijednost je niža od najmanje dostupne denominacije (= 1) zPIV-a</translation>
+        <source>Value is below the smallest available denomination (= 1) of zMK2</source>
+        <translation>Vrijednost je niža od najmanje dostupne denominacije (= 1) zMK2-a</translation>
     </message>
     <message>
         <source>Verifying blocks...</source>

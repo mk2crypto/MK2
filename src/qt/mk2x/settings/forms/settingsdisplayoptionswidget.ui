@@ -121,7 +121,7 @@
          </layout>
         </item>
         <item>
-         <layout class="QHBoxLayout" name="horizontalPercentagezPiv">
+         <layout class="QHBoxLayout" name="horizontalPercentagezMk2">
           <item>
            <widget class="QLabel" name="labelTitleUnit">
             <property name="text">
@@ -130,7 +130,7 @@
            </widget>
           </item>
           <item>
-           <spacer name="horizontalSpacerPercentagezPiv">
+           <spacer name="horizontalSpacerPercentagezMk2">
             <property name="orientation">
              <enum>Qt::Horizontal</enum>
             </property>
@@ -161,7 +161,7 @@
          </layout>
         </item>
         <item>
-         <layout class="QHBoxLayout" name="horizontalDenomzPiv">
+         <layout class="QHBoxLayout" name="horizontalDenomzMk2">
           <item>
            <widget class="QLabel" name="labelTitleDigits">
             <property name="text">
@@ -170,7 +170,7 @@
            </widget>
           </item>
           <item>
-           <spacer name="horizontalDenomzPiv_1">
+           <spacer name="horizontalDenomzMk2_1">
             <property name="orientation">
              <enum>Qt::Horizontal</enum>
             </property>

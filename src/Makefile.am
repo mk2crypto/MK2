@@ -200,14 +200,14 @@ BITCOIN_CORE_H = \
   wallet/wallet.h \
   wallet/wallet_ismine.h \
   wallet/walletdb.h \
-  zpivchain.h \
-  zpiv/deterministicmint.h \
-  zpiv/mintpool.h \
-  zpiv/zerocoin.h \
-  zpiv/zpivtracker.h \
-  zpiv/zpivwallet.h \
-  zpiv/zpivmodule.h \
-  zpiv/zpos.h \
+  zmk2chain.h \
+  zmk2/deterministicmint.h \
+  zmk2/mintpool.h \
+  zmk2/zerocoin.h \
+  zmk2/zmk2tracker.h \
+  zmk2/zmk2wallet.h \
+  zmk2/zmk2module.h \
+  zmk2/zpos.h \
   zmq/zmqabstractnotifier.h \
   zmq/zmqconfig.h \
   zmq/zmqnotificationinterface.h \
@@ -257,7 +257,7 @@ libbitcoin_server_a_SOURCES = \
   txdb.cpp \
   txmempool.cpp \
   validationinterface.cpp \
-  zpivchain.cpp \
+  zmk2chain.cpp \
   $(BITCOIN_CORE_H)
 
 if ENABLE_ZMQ
@@ -299,14 +299,14 @@ libbitcoin_wallet_a_SOURCES = \
   wallet/wallet_ismine.cpp \
   wallet/wallet_zerocoin.cpp \
   wallet/walletdb.cpp \
-  zpiv/deterministicmint.cpp \
-  zpiv/zerocoin.cpp \
-  zpiv/mintpool.cpp \
-  zpiv/zpivwallet.cpp \
-  zpiv/zpivtracker.cpp \
+  zmk2/deterministicmint.cpp \
+  zmk2/zerocoin.cpp \
+  zmk2/mintpool.cpp \
+  zmk2/zmk2wallet.cpp \
+  zmk2/zmk2tracker.cpp \
   stakeinput.cpp \
-  zpiv/zpivmodule.cpp \
-  zpiv/zpos.cpp \
+  zmk2/zmk2module.cpp \
+  zmk2/zpos.cpp \
   $(BITCOIN_CORE_H)
 
 # crypto primitives library
@@ -392,9 +392,9 @@ libbitcoin_common_a_SOURCES = \
   compressor.cpp \
   consensus/merkle.cpp \
   primitives/block.cpp \
-  zpiv/deterministicmint.cpp \
+  zmk2/deterministicmint.cpp \
   primitives/transaction.cpp \
-  zpiv/zerocoin.cpp \
+  zmk2/zerocoin.cpp \
   core_read.cpp \
   core_write.cpp \
   hash.cpp \
@@ -572,7 +572,7 @@ CLEANFILES += univalue/*.gcda univalue/*.gcno
 CLEANFILES += wallet/*.gcda wallet/*.gcno
 CLEANFILES += wallet/test/*.gcda wallet/test/*.gcno
 CLEANFILES += zmq/*.gcda zmq/*.gcno
-CLEANFILES += zpiv/*.gcda zpiv/*.gcno
+CLEANFILES += zmk2/*.gcda zmk2/*.gcno
 CLEANFILES += obj/build.h
 
 CTAES_DIST =  crypto/ctaes/bench.c

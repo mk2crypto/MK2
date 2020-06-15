@@ -10,7 +10,7 @@
 #include "swifttx.h"
 #include "timedata.h"
 #include "wallet/wallet.h"
-#include "zpivchain.h"
+#include "zmk2chain.h"
 #include "main.h"
 
 #include <algorithm>
@@ -42,8 +42,8 @@ QList<TransactionRecord> TransactionRecord::decomposeTransaction(const CWallet* 
         if (!wtx.HasZerocoinSpendInputs() && !ExtractDestination(wtx.vout[1].scriptPubKey, address))
             return parts;
 
-        if (wtx.HasZerocoinSpendInputs() && (fZSpendFromMe || wallet->zpivTracker->HasMintTx(hash))) {
-            //zPIV stake reward
+        if (wtx.HasZerocoinSpendInputs() && (fZSpendFromMe || wallet->zmk2Tracker->HasMintTx(hash))) {
+            //zMK2 stake reward
             sub.involvesWatchAddress = false;
             sub.type = TransactionRecord::StakeZPIV;
             sub.address = mapValue["zerocoinmint"];
@@ -97,7 +97,7 @@ QList<TransactionRecord> TransactionRecord::decomposeTransaction(const CWallet* 
                 isminetype mine = wallet->IsMine(txout);
                 TransactionRecord sub(hash, nTime, wtx.GetTotalSize());
                 sub.involvesWatchAddress = mine & ISMINE_WATCH_ONLY;
-                sub.type = TransactionRecord::ZerocoinSpend_Change_zPiv;
+                sub.type = TransactionRecord::ZerocoinSpend_Change_zMk2;
                 sub.address = mapValue["zerocoinmint"];
                 if (!fFeeAssigned) {
                     sub.debit -= (wtx.GetZerocoinSpent() - wtx.GetValueOut());
@@ -400,7 +400,7 @@ bool IsZPIVType(TransactionRecord::Type type)
         case TransactionRecord::ZerocoinMint:
         case TransactionRecord::ZerocoinSpend:
         case TransactionRecord::RecvFromZerocoinSpend:
-        case TransactionRecord::ZerocoinSpend_Change_zPiv:
+        case TransactionRecord::ZerocoinSpend_Change_zMk2:
         case TransactionRecord::ZerocoinSpend_FromMe:
             return true;
         default:

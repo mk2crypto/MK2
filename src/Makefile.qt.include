@@ -394,11 +394,11 @@ RES_ICONS = \
   qt/mk2x/res/img/ic-receive-off.svg \
   qt/mk2x/res/img/img-empty-staking-on.svg \
   qt/mk2x/res/img/ic-arrow-drop-up-white.svg \
-  qt/mk2x/res/img/ic-coin-zpiv.png \
+  qt/mk2x/res/img/ic-coin-zmk2.png \
   qt/mk2x/res/img/ic-receive-on.svg \
   qt/mk2x/res/img/img-empty-transactions.svg \
   qt/mk2x/res/img/ic-arrow-drop-up.svg \
-  qt/mk2x/res/img/ic-coin-zpiv.svg \
+  qt/mk2x/res/img/ic-coin-zmk2.svg \
   qt/mk2x/res/img/ic-received.svg \
   qt/mk2x/res/img/img-logo-mk2x.png \
   qt/mk2x/res/img/ic-arrow-drop-white-down.svg \

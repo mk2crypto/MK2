@@ -20,7 +20,7 @@
 #include "pairresult.h"
 #include "primitives/block.h"
 #include "primitives/transaction.h"
-#include "zpiv/zerocoin.h"
+#include "zmk2/zerocoin.h"
 #include "guiinterface.h"
 #include "util.h"
 #include "util/memory.h"
@@ -28,9 +28,9 @@
 #include "wallet/wallet_ismine.h"
 #include "wallet/scriptpubkeyman.h"
 #include "wallet/walletdb.h"
-#include "zpiv/zpivmodule.h"
-#include "zpiv/zpivwallet.h"
-#include "zpiv/zpivtracker.h"
+#include "zmk2/zmk2module.h"
+#include "zmk2/zmk2wallet.h"
+#include "zmk2/zmk2tracker.h"
 
 #include <algorithm>
 #include <map>
@@ -101,7 +101,7 @@ enum AvailableCoinsType {
     STAKEABLE_COINS = 6                             // UTXO's that are valid for staking
 };
 
-// Possible states for zPIV send
+// Possible states for zMK2 send
 enum ZerocoinSpendStatus {
     ZPIV_SPEND_OKAY = 0,                            // No error
     ZPIV_SPEND_ERROR = 1,                           // Unspecified class of errors, more details are (hopefully) in the returning text
@@ -613,11 +613,11 @@ public:
     CAmount GetImmatureZerocoinBalance() const;
     std::map<libzerocoin::CoinDenomination, CAmount> GetMyZerocoinDistribution() const;
 
-    // zPIV wallet
-    CzPIVWallet* zwalletMain{nullptr};
-    std::unique_ptr<CzPIVTracker> zpivTracker{nullptr};
-    void setZWallet(CzPIVWallet* zwallet);
-    CzPIVWallet* getZWallet();
+    // zMK2 wallet
+    CzMK2Wallet* zwalletMain{nullptr};
+    std::unique_ptr<CzMK2Tracker> zmk2Tracker{nullptr};
+    void setZWallet(CzMK2Wallet* zwallet);
+    CzMK2Wallet* getZWallet();
     bool IsMyZerocoinSpend(const CBigNum& bnSerial) const;
     bool IsMyMint(const CBigNum& bnValue) const;
     std::string ResetMintZerocoin();
@@ -631,8 +631,8 @@ public:
     bool UpdateMint(const CBigNum& bnValue, const int& nHeight, const uint256& txid, const libzerocoin::CoinDenomination& denom);
     // Zerocoin entry changed. (called with lock cs_wallet held)
     boost::signals2::signal<void(CWallet* wallet, const std::string& pubCoin, const std::string& isUsed, ChangeType status)> NotifyZerocoinChanged;
-    // zPIV reset
-    boost::signals2::signal<void()> NotifyzPIVReset;
+    // zMK2 reset
+    boost::signals2::signal<void()> NotifyzMK2Reset;
 
     /* Wallets parameter interaction */
     static bool ParameterInteraction();

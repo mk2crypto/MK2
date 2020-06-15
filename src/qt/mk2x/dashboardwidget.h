@@ -83,7 +83,7 @@ public:
     qint64 totalPiv = 0;
     qint64 totalZpiv = 0;
     QList<qreal> valuesPiv;
-    QList<qreal> valueszPiv;
+    QList<qreal> valueszMk2;
     QStringList xLabels;
 };
 

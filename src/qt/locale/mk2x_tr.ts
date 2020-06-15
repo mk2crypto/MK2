@@ -919,8 +919,8 @@ kopyala</translation>
         <translation>PIV</translation>
     </message>
     <message>
-        <source>zPIV</source>
-        <translation>zPIV</translation>
+        <source>zMK2</source>
+        <translation>zMK2</translation>
     </message>
     <message>
         <source>Sort by</source>
@@ -951,8 +951,8 @@ kopyala</translation>
         <translation>Hesap geçmişinizde görebilirsiniz</translation>
     </message>
     <message>
-        <source>Amount of PIV and zPIV staked.</source>
-        <translation>Stake edilmiş PIV ve zPIV miktarı</translation>
+        <source>Amount of PIV and zMK2 staked.</source>
+        <translation>Stake edilmiş PIV ve zMK2 miktarı</translation>
     </message>
     <message>
         <source>Please wait until the wallet is fully synced to see your correct balance</source>
@@ -963,8 +963,8 @@ kopyala</translation>
         <translation>İşlem bulunmuyor</translation>
     </message>
     <message>
-        <source>How to get PIV or zPIV</source>
-        <translation>PIV veya zPIV nasıl alınır</translation>
+        <source>How to get PIV or zMK2</source>
+        <translation>PIV veya zMK2 nasıl alınır</translation>
     </message>
     <message>
         <source>You can verify the staking activity in the status bar at the top right of the wallet.
@@ -1693,36 +1693,36 @@ https://www.transifex.com/mk2x-project/mk2x-project-translations</translation>
         <translation>Map port using &amp;UPnP</translation>
     </message>
     <message>
-        <source>Enable automatic minting of PIV units to zPIV</source>
-        <translation>PIV birimlerinin zPIV'e otomatik basımını ektinleştir</translation>
+        <source>Enable automatic minting of PIV units to zMK2</source>
+        <translation>PIV birimlerinin zMK2'e otomatik basımını ektinleştir</translation>
     </message>
     <message>
-        <source>Enable zPIV Automint</source>
-        <translation>zPIV Otomatik basımı etkinleştir</translation>
+        <source>Enable zMK2 Automint</source>
+        <translation>zMK2 Otomatik basımı etkinleştir</translation>
     </message>
     <message>
-        <source>Enable automatic zPIV minting from specific addresses</source>
-        <translation>Belirli bir adresten otomatik zPIV minting yapılmasını etkinleştir</translation>
+        <source>Enable automatic zMK2 minting from specific addresses</source>
+        <translation>Belirli bir adresten otomatik zMK2 minting yapılmasını etkinleştir</translation>
     </message>
     <message>
         <source>Enable Automint Addresses</source>
         <translation>Automint adreslerini etkinleştir</translation>
     </message>
     <message>
-        <source>Percentage of incoming PIV which get automatically converted to zPIV via Zerocoin Protocol (min: 10%)</source>
-        <translation>Zerocoin Protokolü üzerinden otomatik olarak zPIV'ye dönüştürülen gelen PIV yüzdesi (dakika: 10%)</translation>
+        <source>Percentage of incoming PIV which get automatically converted to zMK2 via Zerocoin Protocol (min: 10%)</source>
+        <translation>Zerocoin Protokolü üzerinden otomatik olarak zMK2'ye dönüştürülen gelen PIV yüzdesi (dakika: 10%)</translation>
     </message>
     <message>
-        <source>Percentage of autominted zPIV</source>
-        <translation>Otomatikleştirilmiş zPIV yüzdesi</translation>
+        <source>Percentage of autominted zMK2</source>
+        <translation>Otomatikleştirilmiş zMK2 yüzdesi</translation>
     </message>
     <message>
         <source>Wait with automatic conversion to Zerocoin until enough PIV for this denomination is available</source>
         <translation>Bu bölen için yeterli PIV bulunana kadar Zerocoin'e otomatik dönüştürmede kalın</translation>
     </message>
     <message>
-        <source>Preferred Automint zPIV Denomination</source>
-        <translation>Tercih edilen Automint zPIV Nominal değeri</translation>
+        <source>Preferred Automint zMK2 Denomination</source>
+        <translation>Tercih edilen Automint zMK2 Nominal değeri</translation>
     </message>
     <message>
         <source>Stake split threshold:</source>
@@ -2093,45 +2093,45 @@ Adres: %4
         <translation>Mint</translation>
     </message>
     <message>
-        <source>Minting zPIV anonymizes your PIV by removing any
+        <source>Minting zMK2 anonymizes your PIV by removing any
 transaction history, making transactions untraceable </source>
-        <translation>zPIV mintleme işlemi PIV'lerinizin işlem geçmişini siler, işlemleri takip edilemez yapar</translation>
+        <translation>zMK2 mintleme işlemi PIV'lerinizin işlem geçmişini siler, işlemleri takip edilemez yapar</translation>
     </message>
     <message>
-        <source>Mint new zPIV or convert back to PIV</source>
-        <translation>Yeni zPIV mintle veya PIV'e geri dönüştür</translation>
+        <source>Mint new zMK2 or convert back to PIV</source>
+        <translation>Yeni zMK2 mintle veya PIV'e geri dönüştür</translation>
     </message>
     <message>
         <source>No transactions yet</source>
         <translation>İşlem bulunmuyor</translation>
     </message>
     <message>
-        <source>Mint zPIV</source>
+        <source>Mint zMK2</source>
         <translation>Mint ZPIV</translation>
     </message>
     <message>
-        <source>Enter amount of PIV to mint into zPIV</source>
-        <translation>zPIV'e mintlenmek için dönüştürülecek PIV miktarını gir</translation>
+        <source>Enter amount of PIV to mint into zMK2</source>
+        <translation>zMK2'e mintlenmek için dönüştürülecek PIV miktarını gir</translation>
     </message>
     <message>
         <source>Convert back to PIV</source>
         <translation>PIV'e geri dönüştür</translation>
     </message>
     <message>
-        <source>Enter amount of zPIV to convert back into PIV</source>
-        <translation>PIV'e geri dönüştürülecek zPIV miktarını gir</translation>
+        <source>Enter amount of zMK2 to convert back into PIV</source>
+        <translation>PIV'e geri dönüştürülecek zMK2 miktarını gir</translation>
     </message>
     <message>
         <source>Zerocoin</source>
         <translation>Zerocoin</translation>
     </message>
     <message>
-        <source>zPIV is currently undergoing maintenance</source>
-        <translation>zPIV şu anda bakımdadır</translation>
+        <source>zMK2 is currently undergoing maintenance</source>
+        <translation>zMK2 şu anda bakımdadır</translation>
     </message>
     <message>
-        <source>You need to unlock the wallet to be able to %1 zPIV</source>
-        <translation>%1 zPIV yapabilmek için cüzdanınızın kilidini kaldırmalısınız</translation>
+        <source>You need to unlock the wallet to be able to %1 zMK2</source>
+        <translation>%1 zMK2 yapabilmek için cüzdanınızın kilidini kaldırmalısınız</translation>
     </message>
     <message>
         <source>convert</source>
@@ -2146,12 +2146,12 @@ transaction history, making transactions untraceable </source>
         <translation>Geçersiz değer</translation>
     </message>
     <message>
-        <source>zPIV minted successfully</source>
-        <translation>zPIV minting başarılı</translation>
+        <source>zMK2 minted successfully</source>
+        <translation>zMK2 minting başarılı</translation>
     </message>
     <message>
-        <source>zPIV converted back to PIV</source>
-        <translation>zPIV PIV'e dönüştürüldü</translation>
+        <source>zMK2 converted back to PIV</source>
+        <translation>zMK2 PIV'e dönüştürüldü</translation>
     </message>
     <message>
         <source>You don't have any PIV to select.</source>
@@ -2516,8 +2516,8 @@ transaction history, making transactions untraceable </source>
         <translation>Özel Yedekleme Yolu:</translation>
     </message>
     <message>
-        <source>Custom zPIV Backup Path:</source>
-        <translation>Özel zPIV Yedekleme Yolu:</translation>
+        <source>Custom zMK2 Backup Path:</source>
+        <translation>Özel zMK2 Yedekleme Yolu:</translation>
     </message>
     <message>
         <source>Custom Backups Threshold:</source>
@@ -3032,8 +3032,8 @@ transaction history, making transactions untraceable </source>
         <translation>Gönder</translation>
     </message>
     <message>
-        <source>You can transfer public coins (PIV) or private coins (zPIV)</source>
-        <translation>Açık koin PIV veya gizli koin zPIV transfer edebilirsiniz</translation>
+        <source>You can transfer public coins (PIV) or private coins (zMK2)</source>
+        <translation>Açık koin PIV veya gizli koin zMK2 transfer edebilirsiniz</translation>
     </message>
     <message>
         <source>Select coin type to spend</source>
@@ -3068,8 +3068,8 @@ transaction history, making transactions untraceable </source>
         <translation>PIV Gönder</translation>
     </message>
     <message>
-        <source>Send zPIV</source>
-        <translation>zPIV gönder</translation>
+        <source>Send zMK2</source>
+        <translation>zMK2 gönder</translation>
     </message>
     <message>
         <source>Total remaining from the selected UTXO</source>
@@ -3124,8 +3124,8 @@ Bu koinler artık soğuk stakelenmeyecektir.</translation>
         <translation>Zerocoin Harca</translation>
     </message>
     <message>
-        <source>zPIV is currently undergoing maintenance.</source>
-        <translation>zPIV halen bakımda.</translation>
+        <source>zMK2 is currently undergoing maintenance.</source>
+        <translation>zMK2 halen bakımda.</translation>
     </message>
     <message>
         <source>Coin control mint not found</source>
@@ -3144,12 +3144,12 @@ Bu koinler artık soğuk stakelenmeyecektir.</translation>
 %2 adreslerine gönderiliyor</translation>
     </message>
     <message>
-        <source>zPIV transaction sent!</source>
-        <translation>zPIV ödemesi gönderildi</translation>
+        <source>zMK2 transaction sent!</source>
+        <translation>zMK2 ödemesi gönderildi</translation>
     </message>
     <message>
-        <source>Version 1 zPIV require a security level of 100 to successfully spend.</source>
-        <translation>Versiyon 1 olan zPIV'lerin başarıyla harcanabilmesi için güvenlik seviyesinin 100 olması gerekiyor.</translation>
+        <source>Version 1 zMK2 require a security level of 100 to successfully spend.</source>
+        <translation>Versiyon 1 olan zMK2'lerin başarıyla harcanabilmesi için güvenlik seviyesinin 100 olması gerekiyor.</translation>
     </message>
     <message>
         <source>Too much inputs (</source>
@@ -3188,8 +3188,8 @@ Ya daha yüksek mezhepleri daraltın (daha az girdi gereklidir) veya harcama mik
         <translation>Seçebileceğiniz PIV'iniz bulunmuyor</translation>
     </message>
     <message>
-        <source>You don't have any zPIV in your balance to select.</source>
-        <translation>Bakiyenizde seçebileceğiniz zPIV'iniz bulunmuyor</translation>
+        <source>You don't have any zMK2 in your balance to select.</source>
+        <translation>Bakiyenizde seçebileceğiniz zMK2'iniz bulunmuyor</translation>
     </message>
     <message>
         <source>No contacts available, you can go to the contacts screen and add some there!</source>
@@ -3610,26 +3610,26 @@ Verify that you have installed a predetermined text editor.</source>
         <translation>2) PIV'lerim neden harcanabilir değil?</translation>
     </message>
     <message>
-        <source>3) PIVX privacy? What is Zerocoin (zPIV)?</source>
-        <translation>3)PIVX gizliliği? Zerocoin (zPIV) nedir?</translation>
+        <source>3) PIVX privacy? What is Zerocoin (zMK2)?</source>
+        <translation>3)PIVX gizliliği? Zerocoin (zMK2) nedir?</translation>
     </message>
     <message>
-        <source>4) Why are my zPIV unspendable?</source>
-        <translation>4)  zPIV'lerim neden harcanabilir değil?</translation>
+        <source>4) Why are my zMK2 unspendable?</source>
+        <translation>4)  zMK2'lerim neden harcanabilir değil?</translation>
     </message>
     <message>
         <source>5) Why did my wallet convert the balance
-    into zPIV automatically?</source>
+    into zMK2 automatically?</source>
         <translation>5)Neden cüzdanım bakiyemi otomatik olarak
-zPIV'e dönüştürdü?</translation>
+zMK2'e dönüştürdü?</translation>
     </message>
     <message>
-        <source>6) How do I receive PIV/zPIV?</source>
-        <translation>6) Nasıl PIV/zPIV alabilirim?</translation>
+        <source>6) How do I receive PIV/zMK2?</source>
+        <translation>6) Nasıl PIV/zMK2 alabilirim?</translation>
     </message>
     <message>
-        <source>7) How do I stake PIV/zPIV?</source>
-        <translation>7) Nasıl PIV/zPIV staking yapabilirim?</translation>
+        <source>7) How do I stake PIV/zMK2?</source>
+        <translation>7) Nasıl PIV/zMK2 staking yapabilirim?</translation>
     </message>
     <message>
         <source>8) Where I should go if I need support?</source>
@@ -3650,7 +3650,7 @@ zPIV'e dönüştürdü?</translation>
                            that can be easily transferred globally, instantly, and with near
                            zero fees.  PIVX incorporates market leading security &amp;
                            privacy and is also the first PoS (Proof of Stake) Cryptocurrency
-                           to implement ZeroCoin(zPIV) and Zerocoin staking.
+                           to implement ZeroCoin(zMK2) and Zerocoin staking.
                            &lt;/p&gt;&lt;p align="justify"&gt;
                            PIVX utilizes a Proof of Stake (PoS) consensus system algorithm,
                            allowing all owners of PIVX to participate in earning block rewards
@@ -3663,7 +3663,7 @@ zPIV'e dönüştürdü?</translation>
                            PIVX blockchain teknolojisini kullanan bir dijital online para birimidir
                            global olarak anında ve sıfıra yakın ücretlerle transfer edilebilir
                            PIVX sektördeki en ileri güvenlik ve gizliliğe sahip olmakla birlikte
-                          Zerocoin (zPIV) ve Zerocoin staking özelliklerini
+                          Zerocoin (zMK2) ve Zerocoin staking özelliklerini
                           uygulayan ilk PoS (Proof of Stake) Kriptoparadır.
                            &lt;/p&gt;&lt;p align="justify"&gt;
                            PIVX bir  Proof of Stake (PoS) konsensüs algoritma sistemi kullanmaktadır,
@@ -3706,27 +3706,27 @@ bu sayede PIVX sahipleri blok ödülü kazanımına katılabilmektedir
         <translation>3</translation>
     </message>
     <message>
-        <source>PIVX privacy? What is Zerocoin (zPIV)?</source>
-        <translation>PIVX gizliliği? Zerocoin (zPIV) nedir?</translation>
+        <source>PIVX privacy? What is Zerocoin (zMK2)?</source>
+        <translation>PIVX gizliliği? Zerocoin (zMK2) nedir?</translation>
     </message>
     <message>
         <source>
                            &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
-                           zPIV is an optional privacy-centric method of coin mixing on the
+                           zMK2 is an optional privacy-centric method of coin mixing on the
                            PIVX blockchain. Basically all your transactions cannot be tracked
                            on to any block explorer. You can read more about the technicals in the
-                           &lt;a style='color: #b088ff' href='https://PIVX.org/zpiv/'&gt;
-                           "PIVX Zerocoin (zPIV) Technical Paper"&lt;/a&gt;.
+                           &lt;a style='color: #b088ff' href='https://PIVX.org/zmk2/'&gt;
+                           "PIVX Zerocoin (zMK2) Technical Paper"&lt;/a&gt;.
                            &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
                          </source>
         <translation>
                            &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
-                           zPIV PIVX blockchaini üzerinde koinleri karıştırmak için kullanılan
+                           zMK2 PIVX blockchaini üzerinde koinleri karıştırmak için kullanılan
 gizlilik-odaklı opsiyonel bir metoddur. Temel olarak işlemleriniz
  hiçbir tarayıcı tarafından takip edilemez. Teknik detayları
  hakkında daha çok bilgi almak için
-                           &lt;a style='color: #b088ff' href='https://PIVX.org/zpiv/'&gt;
-                           "PIVX Zerocoin (zPIV) Teknik Makalesi"&lt;/a&gt;.
+                           &lt;a style='color: #b088ff' href='https://PIVX.org/zmk2/'&gt;
+                           "PIVX Zerocoin (zMK2) Teknik Makalesi"&lt;/a&gt;.
                            &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
                          </translation>
     </message>
@@ -3735,20 +3735,20 @@ gizlilik-odaklı opsiyonel bir metoddur. Temel olarak işlemleriniz
         <translation>4</translation>
     </message>
     <message>
-        <source>Why are my zPIV unspendable?</source>
-        <translation>zPIV'lerim neden harcanabilir değil?</translation>
+        <source>Why are my zMK2 unspendable?</source>
+        <translation>zMK2'lerim neden harcanabilir değil?</translation>
     </message>
     <message>
         <source>
                            &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
-                           After minting, zPIV will require 20 confirmations as well as 1
+                           After minting, zMK2 will require 20 confirmations as well as 1
                            additional mint of the same denomination on the network to
                            become eligible for spending.
                            &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
                          </source>
         <translation>
                            &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
-                           Mint işlemi sonrasında, zPIV'lerin harcanabilir duruma gelmesi
+                           Mint işlemi sonrasında, zMK2'lerin harcanabilir duruma gelmesi
  için 20 onay alması ve kendisiyle aynı
  bölüme sahip fazladan 1 mint'e ihtiyaç vardır.
                            &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
@@ -3759,34 +3759,34 @@ gizlilik-odaklı opsiyonel bir metoddur. Temel olarak işlemleriniz
         <translation>5</translation>
     </message>
     <message>
-        <source>Why did my wallet convert the balance into zPIV automatically?</source>
-        <translation>Neden cüzdanım bakiyemi otomatik olarak zPIV'e dönüştürdü?</translation>
+        <source>Why did my wallet convert the balance into zMK2 automatically?</source>
+        <translation>Neden cüzdanım bakiyemi otomatik olarak zMK2'e dönüştürdü?</translation>
     </message>
     <message>
         <source>
                            &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
                            By default the PIVX wallet will convert 10% of your entire PIV
-                           balance to zPIV to assist the network. If you do not wish to
-                           stake zPIV or take advantage of the privacy benefit it brings,
+                           balance to zMK2 to assist the network. If you do not wish to
+                           stake zMK2 or take advantage of the privacy benefit it brings,
                            you can disable the automatic minting in your PIVX wallet by
-                           going to Settings-&gt;Options and deselecting “Enable zPIV Automint”.
+                           going to Settings-&gt;Options and deselecting “Enable zMK2 Automint”.
                            If you are not making use of the PIVX-QT or GUI you can simply open
                            your mk2x.conf file and add &lt;i&gt;enablezeromint=0&lt;/i&gt; Without the quotation
                            marks and restart your wallet to disable automint.&lt;/p&gt;
                            &lt;/p&gt;&lt;p align="justify"&gt;
-                           You can read more about zPIV in the
-                           &lt;a style='color: #b088ff' href='https://PIVX.org/zpiv/'&gt; "PIVX Zerocoin (zPIV) Technical Paper"&lt;/a&gt;.
-                           If you would like to keep and stake your zPIV, please read the "How do I stake"
+                           You can read more about zMK2 in the
+                           &lt;a style='color: #b088ff' href='https://PIVX.org/zmk2/'&gt; "PIVX Zerocoin (zMK2) Technical Paper"&lt;/a&gt;.
+                           If you would like to keep and stake your zMK2, please read the "How do I stake"
                            section of the FAQ below.
                            &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
                          </source>
         <translation>
                            &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
-                           PIVX cüzdanınız ağa destek olmak için varsayılan olarak tüm PIV bakiyenizin 10% 'unu zPIV'e dönüştürecektir. Getirdiği gizlilik avantajını istemiyor veya zPIV stakelemek istemiyorsanız cüzdanınızın otomint özelliğini Ayarlar-&gt;Seçenekler içindeki “zPIV Otomint etkin” seçeneğini değiştirerek devredışı bırakabilirsiniz. PIVXQT veya GUI kullanmıyorsanız, mk2x.conf dosyası içine  &lt;i&gt;enablezeromint=0&lt;/i&gt; ifadesini tırnak işareti olmadan girerek devredışı bırakabilirsiniz. &lt;/p&gt;
+                           PIVX cüzdanınız ağa destek olmak için varsayılan olarak tüm PIV bakiyenizin 10% 'unu zMK2'e dönüştürecektir. Getirdiği gizlilik avantajını istemiyor veya zMK2 stakelemek istemiyorsanız cüzdanınızın otomint özelliğini Ayarlar-&gt;Seçenekler içindeki “zMK2 Otomint etkin” seçeneğini değiştirerek devredışı bırakabilirsiniz. PIVXQT veya GUI kullanmıyorsanız, mk2x.conf dosyası içine  &lt;i&gt;enablezeromint=0&lt;/i&gt; ifadesini tırnak işareti olmadan girerek devredışı bırakabilirsiniz. &lt;/p&gt;
                            &lt;/p&gt;&lt;p align="justify"&gt;
                            Teknik detayları hakkında daha çok bilgi almak için
-                           &lt;a style='color: #b088ff' href='https://PIVX.org/zpiv/'&gt; "PIVX Zerocoin (zPIV) Teknik Makalesi"&lt;/a&gt;.
-                           zPIV'lerinizi tutmak ve stakelemek istiyorsanız, lütfen SSS kısmındaki "Nasıl Stake yaparım"
+                           &lt;a style='color: #b088ff' href='https://PIVX.org/zmk2/'&gt; "PIVX Zerocoin (zMK2) Teknik Makalesi"&lt;/a&gt;.
+                           zMK2'lerinizi tutmak ve stakelemek istiyorsanız, lütfen SSS kısmındaki "Nasıl Stake yaparım"
 kısmını okuyunuz.
                            &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
                          </translation>
@@ -3796,25 +3796,25 @@ kısmını okuyunuz.
         <translation>6</translation>
     </message>
     <message>
-        <source>How do I receive PIV/zPIV?</source>
-        <translation>Nasıl PIV/zPIV alabilirim?</translation>
+        <source>How do I receive PIV/zMK2?</source>
+        <translation>Nasıl PIV/zMK2 alabilirim?</translation>
     </message>
     <message>
         <source>
                            &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
-                           zPIV can be spent and sent to any PIVX address. The receiver will
-                           receive standard PIVX but the origin of the PIVX is anonymized by the zPIV Protocol.
+                           zMK2 can be spent and sent to any PIVX address. The receiver will
+                           receive standard PIVX but the origin of the PIVX is anonymized by the zMK2 Protocol.
                            &lt;/p&gt;&lt;p align="justify"&gt;
-                           If you want more zPIV you will need to mint your balance in the “Privacy” tab.
+                           If you want more zMK2 you will need to mint your balance in the “Privacy” tab.
                            &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
                          </source>
         <translation>
                            &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
-                           zPIV herhangi bir PIVX adresine gönderilerek harcanabilir.
+                           zMK2 herhangi bir PIVX adresine gönderilerek harcanabilir.
                            Alıcı standart PIVX alacaktır fakat PIVX kaynağı
-zPIV Protokolü ile anonimleştirilmiş olacaktır.
+zMK2 Protokolü ile anonimleştirilmiş olacaktır.
                            &lt;/p&gt;&lt;p align="justify"&gt;
-                           Daha fazla zPIV istiyorsanız, "Gizlilik" tabından bakiyenizi mintlemeniz gerekecektir.
+                           Daha fazla zMK2 istiyorsanız, "Gizlilik" tabından bakiyenizi mintlemeniz gerekecektir.
                            &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
                          </translation>
     </message>
@@ -3823,8 +3823,8 @@ zPIV Protokolü ile anonimleştirilmiş olacaktır.
         <translation>7</translation>
     </message>
     <message>
-        <source>How do I stake PIV/zPIV?</source>
-        <translation>Nasıl PIV/zPIV staking yapabilirim?</translation>
+        <source>How do I stake PIV/zMK2?</source>
+        <translation>Nasıl PIV/zMK2 staking yapabilirim?</translation>
     </message>
     <message>
         <source>What is a Masternode?</source>
@@ -5038,8 +5038,8 @@ Emin misiniz?
         <translation>PIV Stake</translation>
     </message>
     <message>
-        <source>zPIV Stake</source>
-        <translation>zPIV Stake</translation>
+        <source>zMK2 Stake</source>
+        <translation>zMK2 Stake</translation>
     </message>
     <message>
         <source>PIV Cold Stake</source>
@@ -5050,24 +5050,24 @@ Emin misiniz?
         <translation>Stake delegasyonu</translation>
     </message>
     <message>
-        <source>Converted PIV to zPIV</source>
-        <translation>PIV'den zPIV'e dönüştürülen</translation>
+        <source>Converted PIV to zMK2</source>
+        <translation>PIV'den zMK2'e dönüştürülen</translation>
     </message>
     <message>
-        <source>Spent zPIV</source>
-        <translation>zPIV Harca</translation>
+        <source>Spent zMK2</source>
+        <translation>zMK2 Harca</translation>
     </message>
     <message>
-        <source>Received PIV from zPIV</source>
-        <translation>zPIV'den PIV olarak alınan</translation>
+        <source>Received PIV from zMK2</source>
+        <translation>zMK2'den PIV olarak alınan</translation>
     </message>
     <message>
-        <source>Minted Change as zPIV from zPIV Spend</source>
-        <translation>zPIV harcamasından kaynaklanan zPIV mint farkı</translation>
+        <source>Minted Change as zMK2 from zMK2 Spend</source>
+        <translation>zMK2 harcamasından kaynaklanan zMK2 mint farkı</translation>
     </message>
     <message>
-        <source>Converted zPIV to PIV</source>
-        <translation>zPIV'den PIV' dönüştürülen</translation>
+        <source>Converted zMK2 to PIV</source>
+        <translation>zMK2'den PIV' dönüştürülen</translation>
     </message>
     <message>
         <source>Sent to</source>
@@ -5307,8 +5307,8 @@ Hoşgeldiniz</translation>
 <context>
     <name>ZPivControlDialog</name>
     <message>
-        <source>Select zPIV to Spend</source>
-        <translation>Harcanacak zPIV'leri seçin</translation>
+        <source>Select zMK2 to Spend</source>
+        <translation>Harcanacak zMK2'leri seçin</translation>
     </message>
     <message>
         <source>Coin Control</source>
@@ -5319,8 +5319,8 @@ Hoşgeldiniz</translation>
         <translation>Butona Basın</translation>
     </message>
     <message>
-        <source>zPiv</source>
-        <translation>zPiv</translation>
+        <source>zMk2</source>
+        <translation>zMk2</translation>
     </message>
     <message>
         <source>0.00 </source>
@@ -5343,8 +5343,8 @@ Hoşgeldiniz</translation>
         <translation>Seç/Çıkar Hepsini</translation>
     </message>
     <message>
-        <source>Select zPIV Denominations to Spend</source>
-        <translation>Harcanacak zPIV Bölümlerini Seçin</translation>
+        <source>Select zMK2 Denominations to Spend</source>
+        <translation>Harcanacak zMK2 Bölümlerini Seçin</translation>
     </message>
 </context>
 <context>
@@ -5406,8 +5406,8 @@ Hoşgeldiniz</translation>
         <translation>PIV girişleri için stake fonksiyonunu aç veya kapat (0-1, varsayılan: %u)</translation>
     </message>
     <message>
-        <source>Enable or disable staking functionality for zPIV inputs (0-1, default: %u)</source>
-        <translation>zPIV girişleri için stake fonksiyonunu aç veya kapat (0-1, varsayılan: %u)</translation>
+        <source>Enable or disable staking functionality for zMK2 inputs (0-1, default: %u)</source>
+        <translation>zMK2 girişleri için stake fonksiyonunu aç veya kapat (0-1, varsayılan: %u)</translation>
     </message>
     <message>
         <source>Enable spork administration functionality with the appropriate private key.</source>
@@ -5890,8 +5890,8 @@ Hoşgeldiniz</translation>
         <translation>PIV tedariği tekrar hesaplanıyor...</translation>
     </message>
     <message>
-        <source>Reindex the PIV and zPIV money supply statistics</source>
-        <translation>PIV ve zPIV para tedarik istatistiklerini tekrar endeksle</translation>
+        <source>Reindex the PIV and zMK2 money supply statistics</source>
+        <translation>PIV ve zMK2 para tedarik istatistiklerini tekrar endeksle</translation>
     </message>
     <message>
         <source>Reindexing zerocoin database...</source>
@@ -6354,8 +6354,8 @@ Hoşgeldiniz</translation>
         <translation>Sporklar eşzamanlanıyor..</translation>
     </message>
     <message>
-        <source>Syncing zPIV wallet...</source>
-        <translation>zPIV cüzdanı eşzamanlanıyor..</translation>
+        <source>Syncing zMK2 wallet...</source>
+        <translation>zMK2 cüzdanı eşzamanlanıyor..</translation>
     </message>
     <message>
         <source>This help message</source>
@@ -6462,8 +6462,8 @@ Hoşgeldiniz</translation>
         <translation>JSON-RPC bağlantısı için kullanıcı adı</translation>
     </message>
     <message>
-        <source>Value is below the smallest available denomination (= 1) of zPIV</source>
-        <translation>Aşağıdaki değer zPIV'in mümkün olan en küçük bölüm değeridir (=1)</translation>
+        <source>Value is below the smallest available denomination (= 1) of zMK2</source>
+        <translation>Aşağıdaki değer zMK2'in mümkün olan en küçük bölüm değeridir (=1)</translation>
     </message>
     <message>
         <source>Verifying blocks...</source>

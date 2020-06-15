@@ -2,8 +2,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "zpiv/zpivmodule.h"
-#include "zpivchain.h"
+#include "zmk2/zmk2module.h"
+#include "zmk2chain.h"
 #include "libzerocoin/Commitment.h"
 #include "libzerocoin/Coin.h"
 #include "hash.h"
@@ -158,7 +158,7 @@ namespace ZPIVModule {
         if (!fUseV1Params) {
             CKey key;
             if (!mint.GetKeyPair(key))
-                return error("%s: failed to set zPIV privkey mint.", __func__);
+                return error("%s: failed to set zMK2 privkey mint.", __func__);
             spend.setPubKey(key.GetPubKey(), true);
 
             std::vector<unsigned char> vchSig;
@@ -230,7 +230,7 @@ namespace ZPIVModule {
         }
         if (!ZPIVModule::parseCoinSpend(txIn, tx, prevOut, publicSpend)) {
             return state.Invalid(error("%s: invalid public coin spend parse %s\n", __func__,
-                                       tx.GetHash().GetHex()), REJECT_INVALID, "bad-txns-invalid-zpiv");
+                                       tx.GetHash().GetHex()), REJECT_INVALID, "bad-txns-invalid-zmk2");
         }
         return true;
     }

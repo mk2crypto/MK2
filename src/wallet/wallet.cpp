@@ -17,7 +17,7 @@
 #include "swifttx.h"    // mapTxLockReq
 #include "util.h"
 #include "utilmoneystr.h"
-#include "zpivchain.h"
+#include "zmk2chain.h"
 
 #include <boost/algorithm/string/replace.hpp>
 #include <boost/thread.hpp>
@@ -351,7 +351,7 @@ bool CWallet::Unlock(const CKeyingMaterial& vMasterKeyIn)
             if (CWalletDB(strWalletFile).ReadCurrentSeedHash(hashSeed)) {
                 uint256 nSeed;
                 if (!GetDeterministicSeed(hashSeed, nSeed)) {
-                    return error("Failed to read zPIV seed from DB. Wallet is probably corrupt.");
+                    return error("Failed to read zMK2 seed from DB. Wallet is probably corrupt.");
                 }
                 zwalletMain->SetMasterSeed(nSeed, false);
             }
@@ -1632,7 +1632,7 @@ int CWallet::ScanForWalletTransactions(CBlockIndex* pindexStart, bool fUpdate, b
     int64_t nNow = GetTime();
     bool fCheckZPIV = GetBoolArg("-zapwallettxes", false);
     if (fCheckZPIV)
-        zpivTracker->Init();
+        zmk2Tracker->Init();
 
     CBlockIndex* pindex = pindexStart;
     {
@@ -1662,7 +1662,7 @@ int CWallet::ScanForWalletTransactions(CBlockIndex* pindexStart, bool fUpdate, b
                     ret++;
             }
 
-            //If this is a zapwallettx, need to readd zpiv
+            //If this is a zapwallettx, need to readd zmk2
             if (fCheckZPIV && pindex->nHeight >= Params().GetConsensus().height_start_ZC) {
                 std::list<CZerocoinMint> listMints;
                 BlockToZerocoinMintList(block, listMints, true);
@@ -2705,13 +2705,13 @@ bool CWallet::CreateCoinStake(
                 return error("%s: extracting pubcoin from txout failed", __func__);
 
             uint256 hashPubcoin = GetPubCoinHash(pubcoin.getValue());
-            if (!zpivTracker->HasPubcoinHash(hashPubcoin))
+            if (!zmk2Tracker->HasPubcoinHash(hashPubcoin))
                 return error("%s: could not find pubcoinhash %s in tracker", __func__, hashPubcoin.GetHex());
 
-            CMintMeta meta = zpivTracker->GetMetaFromPubcoin(hashPubcoin);
+            CMintMeta meta = zmk2Tracker->GetMetaFromPubcoin(hashPubcoin);
             meta.txid = txNew.GetHash();
             meta.nHeight = chainActive.Height() + 1;
-            if (!zpivTracker->UpdateState(meta))
+            if (!zmk2Tracker->UpdateState(meta))
                 return error("%s: failed to update metadata in tracker", __func__);
         }
     }
