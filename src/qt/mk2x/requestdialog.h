@@ -5,8 +5,8 @@
 #ifndef REQUESTDIALOG_H
 #define REQUESTDIALOG_H
 
-#include "qt/pivx/focuseddialog.h"
-#include "qt/pivx/snackbar.h"
+#include "qt/mk2x/focuseddialog.h"
+#include "qt/mk2x/snackbar.h"
 #include "walletmodel.h"
 
 #include <QPixmap>

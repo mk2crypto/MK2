@@ -5,11 +5,11 @@
 #ifndef ADDRESSESWIDGET_H
 #define ADDRESSESWIDGET_H
 
-#include "qt/pivx/pwidget.h"
+#include "qt/mk2x/pwidget.h"
 #include "addresstablemodel.h"
-#include "qt/pivx/tooltipmenu.h"
+#include "qt/mk2x/tooltipmenu.h"
 #include "furabstractlistitemdelegate.h"
-#include "qt/pivx/addressfilterproxymodel.h"
+#include "qt/mk2x/addressfilterproxymodel.h"
 
 #include <QWidget>
 

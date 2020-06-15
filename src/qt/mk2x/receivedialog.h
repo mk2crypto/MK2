@@ -5,7 +5,7 @@
 #ifndef RECEIVEDIALOG_H
 #define RECEIVEDIALOG_H
 
-#include "qt/pivx/focuseddialog.h"
+#include "qt/mk2x/focuseddialog.h"
 #include <QPixmap>
 
 class SendCoinsRecipient;

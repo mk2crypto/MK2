@@ -2,15 +2,15 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/pivx/masternodewizarddialog.h"
-#include "qt/pivx/forms/ui_masternodewizarddialog.h"
+#include "qt/mk2x/masternodewizarddialog.h"
+#include "qt/mk2x/forms/ui_masternodewizarddialog.h"
 
 #include "activemasternode.h"
 #include "optionsmodel.h"
 #include "pairresult.h"
-#include "qt/pivx/mnmodel.h"
-#include "qt/pivx/guitransactionsutils.h"
-#include "qt/pivx/qtutils.h"
+#include "qt/mk2x/mnmodel.h"
+#include "qt/mk2x/guitransactionsutils.h"
+#include "qt/mk2x/qtutils.h"
 
 #include <QFile>
 #include <QIntValidator>

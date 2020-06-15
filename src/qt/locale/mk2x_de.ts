@@ -1607,7 +1607,7 @@ Please wait few more minutes (masternode collaterals require %1 confirmations).<
 on a remote server to your clipboard.
 
 
-You will only have to paste the data in the pivx.conf file
+You will only have to paste the data in the mk2x.conf file
 of your remote server and start it, then start the Masternode using
 this controller wallet (select the Masternode in the list and press "start").
 </source>
@@ -1616,7 +1616,7 @@ um einen Masternode auf einem externen Server laufen zu lassen,
 in die Zwischenablage zu kopieren.
 
 
-SIe müssen lediglich die Daten in das pivx.conf-File ihres externen Servers einfügen,
+SIe müssen lediglich die Daten in das mk2x.conf-File ihres externen Servers einfügen,
 die Pivx-wallet starten, um dann von der Kontrollwallet aus
 ihren Masternode zu starten.
 </translation>
@@ -1784,8 +1784,8 @@ Sind sie sicher?</translation>
         <translation>Zu viele Daten zu parsen</translation>
     </message>
     <message>
-        <source>Invalid URI, not starting with "pivx" prefix</source>
-        <translation>Ungültige URI, sie beginnt nicht mit "pivx"-Präfix</translation>
+        <source>Invalid URI, not starting with "mk2x" prefix</source>
+        <translation>Ungültige URI, sie beginnt nicht mit "mk2x"-Präfix</translation>
     </message>
 </context>
 <context>
@@ -1891,9 +1891,9 @@ Sind sie sicher?</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/pivx-project/pivx-project-translations</source>
+https://www.transifex.com/mk2x-project/mk2x-project-translations</source>
         <translation>Sprache fehlt oder ist unvollständig? Helfe mit und trage zur Übersetzung bei unter:
-https://www.transifex.com/pivx-project/pivx-project-translations</translation>
+https://www.transifex.com/mk2x-project/mk2x-project-translations</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -2181,7 +2181,7 @@ Adresse: %4</translation>
         <translation>Ungültige Zahlungsaufforderungsadresse %1</translation>
     </message>
     <message>
-        <source>Cannot start pivx: click-to-pay handler</source>
+        <source>Cannot start mk2x: click-to-pay handler</source>
         <translation>Kann PIVX nicht starten: click-to-pay Handler</translation>
     </message>
     <message>
@@ -4271,8 +4271,8 @@ zPIV ist eine optionale Methode zur Mischung von Münzen auf der PIVX Blockchain
         <translation>Backup-Ordner konnte nicht geöffnet werden</translation>
     </message>
     <message>
-        <source>Unable to open pivx.conf with default application</source>
-        <translation>pivx.conf konnte mit der Standardanwendung nicht geöffnet werden</translation>
+        <source>Unable to open mk2x.conf with default application</source>
+        <translation>mk2x.conf konnte mit der Standardanwendung nicht geöffnet werden</translation>
     </message>
     <message>
         <source>In:</source>
@@ -5762,7 +5762,7 @@ PIVX Core Wallet</source>
     </message>
 </context>
 <context>
-    <name>pivx-core</name>
+    <name>mk2x-core</name>
     <message>
         <source>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</source>
         <translation>(1 = behalte Tx-Meta-Daten z.B. Betrag, Besitzer und Zahlungsanforderungsinformationen, 2 = verwerfe Tx-Meta-Daten)</translation>

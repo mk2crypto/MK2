@@ -425,7 +425,7 @@
             <string/>
            </property>
            <property name="icon">
-            <iconset resource="../pivx.qrc">
+            <iconset resource="../mk2x.qrc">
              <normaloff>:/icons/remove</normaloff>:/icons/remove</iconset>
            </property>
            <property name="shortcut">
@@ -1639,7 +1639,7 @@
   </customwidget>
  </customwidgets>
  <resources>
-  <include location="../pivx.qrc"/>
+  <include location="../mk2x.qrc"/>
  </resources>
  <connections/>
 </ui>

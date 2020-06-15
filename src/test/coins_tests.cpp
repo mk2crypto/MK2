@@ -7,7 +7,7 @@
 #include "script/standard.h"
 #include "uint256.h"
 #include "utilstrencodings.h"
-#include "test/test_pivx.h"
+#include "test/test_mk2x.h"
 
 #include <vector>
 #include <map>

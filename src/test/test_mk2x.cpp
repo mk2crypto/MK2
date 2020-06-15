@@ -5,7 +5,7 @@
 
 #define BOOST_TEST_MODULE Pivx Test Suite
 
-#include "test_pivx.h"
+#include "test_mk2x.h"
 
 #include "main.h"
 #include "random.h"
@@ -38,7 +38,7 @@ BasicTestingSetup::~BasicTestingSetup()
 TestingSetup::TestingSetup()
 {
         ClearDatadirCache();
-        pathTemp = GetTempPath() / strprintf("test_pivx_%lu_%i", (unsigned long)GetTime(), (int)(InsecureRandRange(100000)));
+        pathTemp = GetTempPath() / strprintf("test_mk2x_%lu_%i", (unsigned long)GetTime(), (int)(InsecureRandRange(100000)));
         fs::create_directories(pathTemp);
         mapArgs["-datadir"] = pathTemp.string();
         pblocktree = new CBlockTreeDB(1 << 20, true);

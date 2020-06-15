@@ -6,7 +6,7 @@
 
 #include "primitives/transaction.h"
 #include "main.h"
-#include "test_pivx.h"
+#include "test_mk2x.h"
 
 #include <boost/test/unit_test.hpp>
 

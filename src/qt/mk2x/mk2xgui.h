@@ -6,7 +6,7 @@
 #define PIVX_CORE_NEW_GUI_PIVXGUI_H
 
 #if defined(HAVE_CONFIG_H)
-#include "config/pivx-config.h"
+#include "config/mk2x-config.h"
 #endif
 
 #include <QMainWindow>
@@ -14,16 +14,16 @@
 #include <QSystemTrayIcon>
 #include <QLabel>
 
-#include "qt/pivx/navmenuwidget.h"
-#include "qt/pivx/topbar.h"
-#include "qt/pivx/dashboardwidget.h"
-#include "qt/pivx/send.h"
-#include "qt/pivx/receivewidget.h"
-#include "qt/pivx/addresseswidget.h"
-#include "qt/pivx/coldstakingwidget.h"
-#include "qt/pivx/masternodeswidget.h"
-#include "qt/pivx/snackbar.h"
-#include "qt/pivx/settings/settingswidget.h"
+#include "qt/mk2x/navmenuwidget.h"
+#include "qt/mk2x/topbar.h"
+#include "qt/mk2x/dashboardwidget.h"
+#include "qt/mk2x/send.h"
+#include "qt/mk2x/receivewidget.h"
+#include "qt/mk2x/addresseswidget.h"
+#include "qt/mk2x/coldstakingwidget.h"
+#include "qt/mk2x/masternodeswidget.h"
+#include "qt/mk2x/snackbar.h"
+#include "qt/mk2x/settings/settingswidget.h"
 #include "qt/rpcconsole.h"
 
 

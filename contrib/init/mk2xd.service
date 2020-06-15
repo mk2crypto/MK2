@@ -5,19 +5,19 @@
 # See "man systemd.service" for details.
 
 # Note that almost all daemon options could be specified in
-# /etc/pivx/pivx.conf
+# /etc/mk2x/mk2x.conf
 
 [Unit]
 Description=PIVX daemon
 After=network.target
 
 [Service]
-ExecStart=/usr/bin/pivxd -daemon -conf=/etc/pivx/pivx.conf -pid=/run/pivxd/pivxd.pid
-# Creates /run/pivxd owned by pivx
-RuntimeDirectory=pivxd
-User=pivx
+ExecStart=/usr/bin/mk2xd -daemon -conf=/etc/mk2x/mk2x.conf -pid=/run/mk2xd/mk2xd.pid
+# Creates /run/mk2xd owned by mk2x
+RuntimeDirectory=mk2xd
+User=mk2x
 Type=forking
-PIDFile=/run/pivxd/pivxd.pid
+PIDFile=/run/mk2xd/mk2xd.pid
 Restart=on-failure
 
 # Hardening measures

@@ -5,7 +5,7 @@
 #ifndef SETTINGSMAINOPTIONSWIDGET_H
 #define SETTINGSMAINOPTIONSWIDGET_H
 
-#include "qt/pivx/pwidget.h"
+#include "qt/mk2x/pwidget.h"
 
 #include <QWidget>
 

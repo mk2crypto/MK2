@@ -609,7 +609,7 @@ bool CWallet::CreateZCPublicSpendTransaction(
 
             for (std::pair<CTxDestination,CAmount> pair : addressesTo){
                 CScript scriptZerocoinSpend = GetScriptForDestination(pair.first);
-                //add output to pivx address to the transaction (the actual primary spend taking place)
+                //add output to mk2x address to the transaction (the actual primary spend taking place)
                 // TODO: check value?
                 CTxOut txOutZerocoinSpend(pair.second, scriptZerocoinSpend);
                 txNew.vout.push_back(txOutZerocoinSpend);

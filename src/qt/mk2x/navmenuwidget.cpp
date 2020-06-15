@@ -2,10 +2,10 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/pivx/navmenuwidget.h"
-#include "qt/pivx/forms/ui_navmenuwidget.h"
-#include "qt/pivx/pivxgui.h"
-#include "qt/pivx/qtutils.h"
+#include "qt/mk2x/navmenuwidget.h"
+#include "qt/mk2x/forms/ui_navmenuwidget.h"
+#include "qt/mk2x/mk2xgui.h"
+#include "qt/mk2x/qtutils.h"
 #include "clientversion.h"
 #include "optionsmodel.h"
 #include <QScrollBar>

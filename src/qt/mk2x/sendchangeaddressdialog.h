@@ -5,8 +5,8 @@
 #ifndef SENDCHANGEADDRESSDIALOG_H
 #define SENDCHANGEADDRESSDIALOG_H
 
-#include "qt/pivx/focuseddialog.h"
-#include "qt/pivx/snackbar.h"
+#include "qt/mk2x/focuseddialog.h"
+#include "qt/mk2x/snackbar.h"
 
 class WalletModel;
 

@@ -2,14 +2,14 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/pivx/sendmultirow.h"
-#include "qt/pivx/forms/ui_sendmultirow.h"
+#include "qt/mk2x/sendmultirow.h"
+#include "qt/mk2x/forms/ui_sendmultirow.h"
 
 #include "optionsmodel.h"
 #include "addresstablemodel.h"
 #include "guiutil.h"
 #include "bitcoinunits.h"
-#include "qt/pivx/qtutils.h"
+#include "qt/mk2x/qtutils.h"
 
 SendMultiRow::SendMultiRow(PWidget *parent) :
     PWidget(parent),

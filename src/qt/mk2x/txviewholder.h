@@ -5,8 +5,8 @@
 #ifndef TXVIEWHOLDER_H
 #define TXVIEWHOLDER_H
 
-#include "qt/pivx/furlistrow.h"
-#include "qt/pivx/txrow.h"
+#include "qt/mk2x/furlistrow.h"
+#include "qt/mk2x/txrow.h"
 #include "bitcoinunits.h"
 #include <transactionfilterproxy.h>
 

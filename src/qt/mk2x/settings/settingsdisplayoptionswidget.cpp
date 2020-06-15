@@ -2,8 +2,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/pivx/settings/settingsdisplayoptionswidget.h"
-#include "qt/pivx/settings/forms/ui_settingsdisplayoptionswidget.h"
+#include "qt/mk2x/settings/settingsdisplayoptionswidget.h"
+#include "qt/mk2x/settings/forms/ui_settingsdisplayoptionswidget.h"
 #include <QListView>
 #include <QSettings>
 #include <QDir>
@@ -11,7 +11,7 @@
 #include "clientmodel.h"
 #include "optionsmodel.h"
 #include "bitcoinunits.h"
-#include "qt/pivx/qtutils.h"
+#include "qt/mk2x/qtutils.h"
 
 SettingsDisplayOptionsWidget::SettingsDisplayOptionsWidget(PIVXGUI* _window, QWidget *parent) :
     PWidget(_window,parent),

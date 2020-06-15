@@ -7,13 +7,13 @@ reset-files.bash
 *.tar.gz
 
 *.exe
-src/pivx
-src/pivxd
-src/pivx-cli
-src/pivx-tx
-src/bench/bench_pivx
-src/test/test_pivx
-src/qt/test/test_pivx-qt
+src/mk2x
+src/mk2xd
+src/mk2x-cli
+src/mk2x-tx
+src/bench/bench_mk2x
+src/test/test_mk2x
+src/qt/test/test_mk2x-qt
 
 # autoreconf
 Makefile.in
@@ -39,8 +39,8 @@ confdefs.h
 conftest.cpp
 conftest.err
 libtool
-src/config/pivx-config.h
-src/config/pivx-config.h.in
+src/config/mk2x-config.h
+src/config/mk2x-config.h.in
 src/config/stamp-h1
 share/setup.nsi
 share/qt/Info.plist
@@ -66,7 +66,7 @@ src/qt/test/moc*.cpp
 *.o
 *.o-*
 *.patch
-.pivx
+.mk2x
 *.a
 *.pb.cc
 *.pb.h
@@ -85,13 +85,13 @@ src/qt/test/moc*.cpp
 # Compilation and Qt preprocessor part
 *.qm
 Makefile
-pivx-qt
+mk2x-qt
 PIVX-Qt.app
 background.tiff*
 
 # Unit-tests
 Makefile.test
-pivx-qt_test
+mk2x-qt_test
 src/test/buildenv.py
 
 # Resources cpp
@@ -107,7 +107,7 @@ build
 #lcov
 *.gcno
 /*.info
-test_pivx.coverage/
+test_mk2x.coverage/
 total.coverage/
 coverage_percent.txt
 
@@ -138,5 +138,5 @@ moc_*
 *.tmp
 ui_*
 build*
-pivxd.*
-pivxd-new-gui.*
+mk2xd.*
+mk2xd-new-gui.*

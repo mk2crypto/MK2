@@ -2,14 +2,14 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/pivx/contactsdropdown.h"
+#include "qt/mk2x/contactsdropdown.h"
 
 #include <QPainter>
 #include <QSizePolicy>
-#include "qt/pivx/addresslabelrow.h"
-#include "qt/pivx/contactdropdownrow.h"
-#include "qt/pivx/qtutils.h"
-#include "qt/pivx/furlistrow.h"
+#include "qt/mk2x/addresslabelrow.h"
+#include "qt/mk2x/contactdropdownrow.h"
+#include "qt/mk2x/qtutils.h"
+#include "qt/mk2x/furlistrow.h"
 #include "walletmodel.h"
 #include "addresstablemodel.h"
 

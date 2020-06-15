@@ -17,7 +17,7 @@
 #include "serialize.h"
 #include "util.h"
 
-#include "test/test_pivx.h"
+#include "test/test_mk2x.h"
 
 #include <stdint.h>
 

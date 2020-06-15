@@ -10,7 +10,7 @@
 #include "uint256.h"
 #include "util.h"
 #include "utilstrencodings.h"
-#include "test_pivx.h"
+#include "test_mk2x.h"
 
 #include <string>
 #include <vector>

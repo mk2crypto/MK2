@@ -6,7 +6,7 @@
 #include "serialize.h"
 #include "streams.h"
 #include "hash.h"
-#include "test/test_pivx.h"
+#include "test/test_mk2x.h"
 
 #include <stdint.h>
 

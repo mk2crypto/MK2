@@ -6,18 +6,18 @@
 #define SETTINGSWIDGET_H
 
 #include <QWidget>
-#include "qt/pivx/pwidget.h"
-#include "qt/pivx/settings/settingsbackupwallet.h"
-#include "qt/pivx/settings/settingsexportcsv.h"
-#include "qt/pivx/settings/settingsbittoolwidget.h"
-#include "qt/pivx/settings/settingssignmessagewidgets.h"
-#include "qt/pivx/settings/settingswalletrepairwidget.h"
-#include "qt/pivx/settings/settingswalletoptionswidget.h"
-#include "qt/pivx/settings/settingsmainoptionswidget.h"
-#include "qt/pivx/settings/settingsdisplayoptionswidget.h"
-#include "qt/pivx/settings/settingsmultisendwidget.h"
-#include "qt/pivx/settings/settingsinformationwidget.h"
-#include "qt/pivx/settings/settingsconsolewidget.h"
+#include "qt/mk2x/pwidget.h"
+#include "qt/mk2x/settings/settingsbackupwallet.h"
+#include "qt/mk2x/settings/settingsexportcsv.h"
+#include "qt/mk2x/settings/settingsbittoolwidget.h"
+#include "qt/mk2x/settings/settingssignmessagewidgets.h"
+#include "qt/mk2x/settings/settingswalletrepairwidget.h"
+#include "qt/mk2x/settings/settingswalletoptionswidget.h"
+#include "qt/mk2x/settings/settingsmainoptionswidget.h"
+#include "qt/mk2x/settings/settingsdisplayoptionswidget.h"
+#include "qt/mk2x/settings/settingsmultisendwidget.h"
+#include "qt/mk2x/settings/settingsinformationwidget.h"
+#include "qt/mk2x/settings/settingsconsolewidget.h"
 
 class PIVXGUI;
 

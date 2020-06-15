@@ -7,7 +7,7 @@
 
 #include <QWidget>
 #include <QDataWidgetMapper>
-#include "qt/pivx/pwidget.h"
+#include "qt/mk2x/pwidget.h"
 
 namespace Ui {
 class SettingsNetworkWidget;

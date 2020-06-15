@@ -1,25 +1,25 @@
-# /etc/conf.d/pivxd: config file for /etc/init.d/pivxd
+# /etc/conf.d/mk2xd: config file for /etc/init.d/mk2xd
 
 # Config file location
-#BITCOIND_CONFIGFILE="/etc/pivx/pivx.conf"
+#BITCOIND_CONFIGFILE="/etc/mk2x/mk2x.conf"
 
 # What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
-#BITCOIND_PIDDIR="/var/run/pivxd"
+#BITCOIND_PIDDIR="/var/run/mk2xd"
 
 # What filename to give the pidfile
-#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/pivxd.pid"
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/mk2xd.pid"
 
-# Where to write pivxd data (be mindful that the blockchain is large)
-#BITCOIND_DATADIR="/var/lib/pivxd"
+# Where to write mk2xd data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/mk2xd"
 
-# User and group to own pivxd process
-#BITCOIND_USER="pivx"
-#BITCOIND_GROUP="pivx"
+# User and group to own mk2xd process
+#BITCOIND_USER="mk2x"
+#BITCOIND_GROUP="mk2x"
 
-# Path to pivxd executable
-#BITCOIND_BIN="/usr/bin/pivxd"
+# Path to mk2xd executable
+#BITCOIND_BIN="/usr/bin/mk2xd"
 
-# Nice value to run pivxd under
+# Nice value to run mk2xd under
 #BITCOIND_NICE=0
 
 # Additional options (avoid -conf and -datadir, use flags above)

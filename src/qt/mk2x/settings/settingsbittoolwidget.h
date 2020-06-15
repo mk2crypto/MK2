@@ -6,8 +6,8 @@
 #define SETTINGSBITTOOLWIDGET_H
 
 #include <QWidget>
-#include "qt/pivx/pwidget.h"
-#include "qt/pivx/contactsdropdown.h"
+#include "qt/mk2x/pwidget.h"
+#include "qt/mk2x/contactsdropdown.h"
 #include "key.h"
 
 namespace Ui {

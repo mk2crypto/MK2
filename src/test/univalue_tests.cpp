@@ -8,7 +8,7 @@
 #include <string>
 #include <map>
 #include <univalue.h>
-#include "test/test_pivx.h"
+#include "test/test_mk2x.h"
 
 #include <boost/test/unit_test.hpp>
 

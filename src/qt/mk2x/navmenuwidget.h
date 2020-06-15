@@ -6,7 +6,7 @@
 #define NAVMENUWIDGET_H
 
 #include <QWidget>
-#include "qt/pivx/pwidget.h"
+#include "qt/mk2x/pwidget.h"
 
 class PIVXGUI;
 

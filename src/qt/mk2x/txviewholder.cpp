@@ -2,8 +2,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/pivx/txviewholder.h"
-#include "qt/pivx/qtutils.h"
+#include "qt/mk2x/txviewholder.h"
+#include "qt/mk2x/qtutils.h"
 #include "transactiontablemodel.h"
 #include <QModelIndex>
 

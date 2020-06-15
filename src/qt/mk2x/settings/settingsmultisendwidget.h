@@ -7,8 +7,8 @@
 
 #include <QWidget>
 #include <QAbstractTableModel>
-#include "qt/pivx/pwidget.h"
-#include "qt/pivx/furabstractlistitemdelegate.h"
+#include "qt/mk2x/pwidget.h"
+#include "qt/mk2x/furabstractlistitemdelegate.h"
 
 class PIVXGUI;
 

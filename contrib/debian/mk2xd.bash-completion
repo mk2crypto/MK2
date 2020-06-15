@@ -1,2 +1,2 @@
-contrib/pivxd.bash-completion	pivxd
-contrib/pivx-cli.bash-completion pivx-cli
+contrib/mk2xd.bash-completion	mk2xd
+contrib/mk2x-cli.bash-completion mk2x-cli

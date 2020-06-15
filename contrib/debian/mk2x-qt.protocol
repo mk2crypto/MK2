@@ -1,6 +1,6 @@
 [Protocol]
-exec=pivx-qt '%u'
-protocol=pivx
+exec=mk2x-qt '%u'
+protocol=mk2x
 input=none
 output=none
 helper=true

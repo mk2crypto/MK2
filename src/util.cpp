@@ -6,7 +6,7 @@
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #if defined(HAVE_CONFIG_H)
-#include "config/pivx-config.h"
+#include "config/mk2x-config.h"
 #endif
 
 #include "util.h"
@@ -264,7 +264,7 @@ static std::string FormatException(const std::exception* pex, const char* pszThr
     char pszModule[MAX_PATH] = "";
     GetModuleFileNameA(NULL, pszModule, sizeof(pszModule));
 #else
-    const char* pszModule = "pivx";
+    const char* pszModule = "mk2x";
 #endif
     if (pex)
         return strprintf(
@@ -287,7 +287,7 @@ fs::path GetDefaultDataDir()
 // Windows < Vista: C:\Documents and Settings\Username\Application Data\PIVX
 // Windows >= Vista: C:\Users\Username\AppData\Roaming\PIVX
 // Mac: ~/Library/Application Support/PIVX
-// Unix: ~/.pivx
+// Unix: ~/.mk2x
 #ifdef WIN32
     // Windows
     return GetSpecialFolderPath(CSIDL_APPDATA) / "PIVX";
@@ -305,7 +305,7 @@ fs::path GetDefaultDataDir()
     return pathRet / "PIVX";
 #else
     // Unix
-    return pathRet / ".pivx";
+    return pathRet / ".mk2x";
 #endif
 #endif
 }
@@ -350,7 +350,7 @@ void ClearDatadirCache()
 
 fs::path GetConfigFile()
 {
-    fs::path pathConfigFile(GetArg("-conf", "pivx.conf"));
+    fs::path pathConfigFile(GetArg("-conf", "mk2x.conf"));
     if (!pathConfigFile.is_complete())
         pathConfigFile = GetDataDir(false) / pathConfigFile;
 
@@ -369,7 +369,7 @@ void ReadConfigFile(std::map<std::string, std::string>& mapSettingsRet,
 {
     fs::ifstream streamConfig(GetConfigFile());
     if (!streamConfig.good()) {
-        // Create empty pivx.conf if it does not exist
+        // Create empty mk2x.conf if it does not exist
         FILE* configFile = fsbridge::fopen(GetConfigFile(), "a");
         if (configFile != NULL)
             fclose(configFile);
@@ -380,7 +380,7 @@ void ReadConfigFile(std::map<std::string, std::string>& mapSettingsRet,
     setOptions.insert("*");
 
     for (boost::program_options::detail::config_file_iterator it(streamConfig, setOptions), end; it != end; ++it) {
-        // Don't overwrite existing settings so command line settings override pivx.conf
+        // Don't overwrite existing settings so command line settings override mk2x.conf
         std::string strKey = std::string("-") + it->string_key;
         std::string strValue = it->value[0];
         InterpretNegativeSetting(strKey, strValue);
@@ -403,7 +403,7 @@ fs::path AbsPathForConfigVal(const fs::path& path, bool net_specific)
 #ifndef WIN32
 fs::path GetPidFile()
 {
-    fs::path pathPidFile(GetArg("-pid", "pivxd.pid"));
+    fs::path pathPidFile(GetArg("-pid", "mk2xd.pid"));
     if (!pathPidFile.is_complete()) pathPidFile = GetDataDir() / pathPidFile;
     return pathPidFile;
 }
