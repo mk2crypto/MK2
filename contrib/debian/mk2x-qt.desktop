@@ -10,4 +10,4 @@ Type=Application
 Icon=mk2x128
 MimeType=x-scheme-handler/mk2x;
 Categories=Office;Finance;
-StartupWMClass=Pivx-qt
+StartupWMClass=Mk2x-qt

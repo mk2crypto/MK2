@@ -38,7 +38,7 @@
   <true/>
 
   <key>CFBundleIdentifier</key>
-  <string>io.mk2x.Pivx-Qt</string>
+  <string>io.mk2x.Mk2x-Qt</string>
 
   <key>CFBundleURLTypes</key>
   <array>
@@ -46,7 +46,7 @@
       <key>CFBundleTypeRole</key>
       <string>Editor</string>
       <key>CFBundleURLName</key>
-      <string>io.mk2x.PivxPayment</string>
+      <string>io.mk2x.Mk2xPayment</string>
       <key>CFBundleURLSchemes</key>
       <array>
         <string>mk2x</string>
@@ -60,7 +60,7 @@
       <key>UTTypeIdentifier</key>
       <string>io.mk2x.paymentrequest</string>
       <key>UTTypeDescription</key>
-      <string>Pivx payment request</string>
+      <string>Mk2x payment request</string>
       <key>UTTypeConformsTo</key>
       <array>
         <string>public.data</string>

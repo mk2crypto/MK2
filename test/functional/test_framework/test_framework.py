@@ -73,7 +73,7 @@ TEST_EXIT_SKIPPED = 77
 TMPDIR_PREFIX = "mk2x_func_test_"
 
 
-class PivxTestFramework():
+class Mk2xTestFramework():
     """Base class for a mk2x test script.
 
     Individual mk2x test scripts should subclass this class and override the set_test_params() and run_test() methods.
@@ -1097,7 +1097,7 @@ class PivxTestFramework():
 
 ### ------------------------------------------------------
 
-class ComparisonTestFramework(PivxTestFramework):
+class ComparisonTestFramework(Mk2xTestFramework):
     """Test framework for doing p2p comparison testing
 
     Sets up some mk2xd binaries:

@@ -1976,7 +1976,7 @@ Adres: %4
     </message>
     <message>
         <source>Cannot start mk2x: click-to-pay handler</source>
-        <translation>Pivx başlatılamıyor: tıkla ve ödeme işleyicisi</translation>
+        <translation>Mk2x başlatılamıyor: tıkla ve ödeme işleyicisi</translation>
     </message>
     <message>
         <source>URI cannot be parsed! This can be caused by an invalid MK2X address or malformed URI parameters.</source>

@@ -11,7 +11,7 @@
 
 /**
  * CBaseChainParams defines the base parameters (shared between mk2x-cli and mk2xd)
- * of a given instance of the Pivx system.
+ * of a given instance of the Mk2x system.
  */
 class CBaseChainParams
 {

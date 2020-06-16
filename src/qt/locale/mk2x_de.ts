@@ -1617,7 +1617,7 @@ in die Zwischenablage zu kopieren.
 
 
 SIe müssen lediglich die Daten in das mk2x.conf-File ihres externen Servers einfügen,
-die Pivx-wallet starten, um dann von der Kontrollwallet aus
+die Mk2x-wallet starten, um dann von der Kontrollwallet aus
 ihren Masternode zu starten.
 </translation>
     </message>
