@@ -622,7 +622,7 @@ bool WalletModel::createZpivSpend(
     }
 
     if (wallet->IsLocked()) {
-        receipt.SetStatus("Error: Wallet locked, unable to create transaction!", ZPIV_WALLET_LOCKED);
+        receipt.SetStatus("Error: Wallet locked, unable to create transaction!", ZMK2_WALLET_LOCKED);
         return false;
     }
 

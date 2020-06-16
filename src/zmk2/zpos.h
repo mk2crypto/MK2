@@ -21,7 +21,7 @@ public:
 
     explicit CLegacyZPivStake(const libzerocoin::CoinSpend& spend);
     bool InitFromTxIn(const CTxIn& txin) override;
-    bool IsZPIV() const override { return true; }
+    bool IsZMK2() const override { return true; }
     uint32_t GetChecksum() const { return nChecksum; }
     CBlockIndex* GetIndexFrom() override;
     CAmount GetValue() const override;

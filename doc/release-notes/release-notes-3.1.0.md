@@ -65,23 +65,23 @@ Users will now have the ability to search the blockchain for a specific serial #
 
 
 
-PIV/zMK2 Staking and Masternode Rewards
+MK2/zMK2 Staking and Masternode Rewards
 --------------
 
-### PIV, zMK2 and Masternode Payment Schedule
+### MK2, zMK2 and Masternode Payment Schedule
 
 To encourage the use of zMK2 and increase the MK2X zerocoin anonymity set, the MK2X payment schedule has been changed to the following:
 
 If a user staking zMK2 wins the reward for their block, the following zMK2 reward will be: 
-- 3 zMK2 (3 x 1 denominations) rewarded to the staker, 2 PIV rewarded to the masternode owner and 1 PIV available for the budget. This is a total block reward of 6 PIV, up from 5.
+- 3 zMK2 (3 x 1 denominations) rewarded to the staker, 2 MK2 rewarded to the masternode owner and 1 MK2 available for the budget. This is a total block reward of 6 MK2, up from 5.
 
-If a user staking PIV wins the reward, the following amounts will be rewarded: 
-- 2 PIV to the PIV staker, 3 PIV to the Masternode owner and 1 PIV available for the budget. This is a total block reward of 6 PIV, up from 5.
+If a user staking MK2 wins the reward, the following amounts will be rewarded: 
+- 2 MK2 to the MK2 staker, 3 MK2 to the Masternode owner and 1 MK2 available for the budget. This is a total block reward of 6 MK2, up from 5.
 
 
 ### Return change to sender when minting zMK2
 
-Previously, zMK2 minting would send any change to a newly generated "change address". This has caused confusion among some users, and in some cases insufficient backups of the wallet. The wallet will now find the contributing address which contained the most PIV and return the change from a zMK2 mint to that address.
+Previously, zMK2 minting would send any change to a newly generated "change address". This has caused confusion among some users, and in some cases insufficient backups of the wallet. The wallet will now find the contributing address which contained the most MK2 and return the change from a zMK2 mint to that address.
 
 
 User Experience
@@ -99,7 +99,7 @@ The overview tab has been simplified greatly to display only balances that are a
 There have been a number of changes to the tasks that you are able to perform from the wallet options. Users will now have the ability to do the following: 
 -	Enable and disable the auto zMK2 minting feature. This is enabled by default and the enablezeromint=0 setting in the mk2x.conf file will overwrite the GUI option.
 -	The percentage of autominted zMK2 can now be set from 1 to 100, changed from 10 – 100.
--	The stake split threshold can now be set VIA the wallet options. This setting is an advanced feature for those wishing to remain staking regular PIV.
+-	The stake split threshold can now be set VIA the wallet options. This setting is an advanced feature for those wishing to remain staking regular MK2.
 -	“Unlock for staking and anonymization only” is now selected by default when unlocking the wallet from the User Interface
 
 
@@ -206,11 +206,11 @@ Network Layer 2 Changes (Proposals / Budgets / SwiftX)
 
 ### Monthly Budget Increase
 
-As voted on by the MK2X masternodes, the monthly budget available to be utilised has been increased to 42,000 PIV / month. This PIV only has the opportunity to be raised once per month (paid to winning proposals) with any unused PIV not created by the blockchain.
+As voted on by the MK2X masternodes, the monthly budget available to be utilised has been increased to 42,000 MK2 / month. This MK2 only has the opportunity to be raised once per month (paid to winning proposals) with any unused MK2 not created by the blockchain.
 
 ### Budget Finalization Fee
 
-The MK2X finalization fee for successful proposals has now been reduced, this fee is now 5 PIV down from 50 PIV. The total fee outlay for a successful proposal is now a total of 55 PIV.
+The MK2X finalization fee for successful proposals has now been reduced, this fee is now 5 MK2 down from 50 MK2. The total fee outlay for a successful proposal is now a total of 55 MK2.
 
 
 ### SwiftX Raw Transactions
@@ -280,7 +280,7 @@ The serial troll situation is mitigated in version 2 by requiring that the seria
 Deterministic Zerocoin Generation
 --------------
 
-Zerocoins, or zMK2, are now deterministically generated using a unique 256 bit seed. Each wallet will generate a new seed on its first run. The deterministic seed is used to generate a string of zMK2 that can be recalculated at any time using the seed. Deterministic zMK2 allows for users to backup all of their future zMK2 by simply recording their seed and keeping it in a safe place (similar to backing up a private key for PIV). The zMK2 seed needs to remain in the wallet in order to spend the zMK2 after it is generated, if the seed is changed then the coins will not be spendable because the wallet will not have the ability to regenerate all of the private zMK2 data from the seed. It is important that users record & backup their seed after their first run of the wallet. If the wallet is locked during the first run, then the seed will be generated the first time the wallet is unlocked.
+Zerocoins, or zMK2, are now deterministically generated using a unique 256 bit seed. Each wallet will generate a new seed on its first run. The deterministic seed is used to generate a string of zMK2 that can be recalculated at any time using the seed. Deterministic zMK2 allows for users to backup all of their future zMK2 by simply recording their seed and keeping it in a safe place (similar to backing up a private key for MK2). The zMK2 seed needs to remain in the wallet in order to spend the zMK2 after it is generated, if the seed is changed then the coins will not be spendable because the wallet will not have the ability to regenerate all of the private zMK2 data from the seed. It is important that users record & backup their seed after their first run of the wallet. If the wallet is locked during the first run, then the seed will be generated the first time the wallet is unlocked.
 
 Zerocoin Modulus
 --------------

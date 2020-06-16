@@ -454,7 +454,7 @@
             <enum>Qt::NoFocus</enum>
            </property>
            <property name="text">
-            <string>How to get PIV</string>
+            <string>How to get MK2</string>
            </property>
           </widget>
          </item>
@@ -519,7 +519,7 @@
             <item>
              <widget class="QLabel" name="labelMessage">
               <property name="text">
-               <string>Amount of PIV and zMK2 staked.</string>
+               <string>Amount of MK2 and zMK2 staked.</string>
               </property>
              </widget>
             </item>
@@ -567,7 +567,7 @@
           <item>
            <widget class="QLabel" name="labelAmountPiv">
             <property name="text">
-             <string notr="true">0 PIV</string>
+             <string notr="true">0 MK2</string>
             </property>
             <property name="alignment">
              <set>Qt::AlignCenter</set>
@@ -694,7 +694,7 @@
                 <item>
                  <widget class="QLabel" name="labelPiv">
                   <property name="text">
-                   <string notr="true">PIV</string>
+                   <string notr="true">MK2</string>
                   </property>
                  </widget>
                 </item>

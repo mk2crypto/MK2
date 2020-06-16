@@ -141,7 +141,7 @@
             <item>
              <widget class="QCheckBox" name="checkBoxZeromintEnable">
               <property name="toolTip">
-               <string>Enable automatic minting of PIV units to zMK2</string>
+               <string>Enable automatic minting of MK2 units to zMK2</string>
               </property>
               <property name="layoutDirection">
                <enum>Qt::LeftToRight</enum>
@@ -171,7 +171,7 @@
             <item>
              <widget class="QLabel" name="percentage_label">
               <property name="toolTip">
-               <string>Percentage of incoming PIV which get automatically converted to zMK2 via Zerocoin Protocol (min: 10%)</string>
+               <string>Percentage of incoming MK2 which get automatically converted to zMK2 via Zerocoin Protocol (min: 10%)</string>
               </property>
               <property name="text">
                <string>Percentage of autominted zMK2</string>
@@ -204,7 +204,7 @@
                </size>
               </property>
               <property name="toolTip">
-               <string>Wait with automatic conversion to Zerocoin until enough PIV for this denomination is available</string>
+               <string>Wait with automatic conversion to Zerocoin until enough MK2 for this denomination is available</string>
               </property>
               <property name="text">
                <string>Preferred Automint zMK2 Denomination</string>
@@ -220,7 +220,7 @@
                </size>
               </property>
               <property name="toolTip">
-               <string>Wait with automatic conversion to Zerocoin until enough PIV for this denomination is available</string>
+               <string>Wait with automatic conversion to Zerocoin until enough MK2 for this denomination is available</string>
               </property>
               <property name="maxVisibleItems">
                <number>9</number>

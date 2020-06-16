@@ -633,10 +633,10 @@ void TopBar::updateBalances(const CAmount& balance, const CAmount& unconfirmedBa
     }
     ui->labelTitle1->setText(nLockedBalance > 0 ? tr("Available (Locked included)") : tr("Available"));
 
-    // PIV Total
+    // MK2 Total
     QString totalPiv = GUIUtil::formatBalance(balance, nDisplayUnit);
 
-    // PIV
+    // MK2
     // Top
     ui->labelAmountTopPiv->setText(totalPiv);
     // Expanded

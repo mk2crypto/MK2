@@ -2,8 +2,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef MK2X_ZPIVCHAIN_H
-#define MK2X_ZPIVCHAIN_H
+#ifndef MK2X_ZMK2CHAIN_H
+#define MK2X_ZMK2CHAIN_H
 
 #include "chain.h"
 #include "libzerocoin/Coin.h"
@@ -42,7 +42,7 @@ std::list<libzerocoin::CoinDenomination> ZerocoinSpendListFromBlock(const CBlock
 /** Global variable for the zerocoin supply */
 extern std::map<libzerocoin::CoinDenomination, int64_t> mapZerocoinSupply;
 int64_t GetZerocoinSupply();
-bool UpdateZPIVSupplyConnect(const CBlock& block, CBlockIndex* pindex, bool fJustCheck);
-bool UpdateZPIVSupplyDisconnect(const CBlock& block, CBlockIndex* pindex);
+bool UpdateZMK2SupplyConnect(const CBlock& block, CBlockIndex* pindex, bool fJustCheck);
+bool UpdateZMK2SupplyDisconnect(const CBlock& block, CBlockIndex* pindex);
 
-#endif //MK2X_ZPIVCHAIN_H
+#endif //MK2X_ZMK2CHAIN_H

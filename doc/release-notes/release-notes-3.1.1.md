@@ -41,7 +41,7 @@ zMK2 Updates
 
 ### Fix spending for v1 zMK2 created before block 1050020
 
-The transition to v2 zMK2 and reset of the accumulators caused blocks 1050000 - 1050010 to be accumulated twice. This was causing a number v1 zMK2 to not create valid witnesses, and thus were not spendable. This problem is fixed by double accumulating blocks 1050000-1050010 when creating the witness. Any user that had issues spending zMK2 v1 will now be able to convert that into PIV and then zMK2 v2 (if desired).
+The transition to v2 zMK2 and reset of the accumulators caused blocks 1050000 - 1050010 to be accumulated twice. This was causing a number v1 zMK2 to not create valid witnesses, and thus were not spendable. This problem is fixed by double accumulating blocks 1050000-1050010 when creating the witness. Any user that had issues spending zMK2 v1 will now be able to convert that into MK2 and then zMK2 v2 (if desired).
 
 ### Adjustment to staking properties to reduce orphaned blocks
 

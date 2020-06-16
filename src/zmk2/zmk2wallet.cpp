@@ -24,12 +24,12 @@ CzMK2Wallet::CzMK2Wallet(CWallet* parent)
     //Check for old db version of storing zmk2 seed
     if (fFirstRun) {
         uint256 seed;
-        if (walletdb.ReadZPIVSeed_deprecated(seed)) {
+        if (walletdb.ReadZMK2Seed_deprecated(seed)) {
             //Update to new format, erase old
             seedMaster = seed;
             hashSeed = Hash(seed.begin(), seed.end());
             if (wallet->AddDeterministicSeed(seed)) {
-                if (walletdb.EraseZPIVSeed_deprecated()) {
+                if (walletdb.EraseZMK2Seed_deprecated()) {
                     LogPrintf("%s: Updated zMK2 seed databasing\n", __func__);
                     fFirstRun = false;
                 } else {
@@ -84,8 +84,8 @@ bool CzMK2Wallet::SetMasterSeed(const uint256& seedMaster, bool fResetCount)
     nCountLastUsed = 0;
 
     if (fResetCount)
-        walletdb.WriteZPIVCount(nCountLastUsed);
-    else if (!walletdb.ReadZPIVCount(nCountLastUsed))
+        walletdb.WriteZMK2Count(nCountLastUsed);
+    else if (!walletdb.ReadZMK2Count(nCountLastUsed))
         nCountLastUsed = 0;
 
     mintPool.Reset();
@@ -146,7 +146,7 @@ void CzMK2Wallet::GenerateMintPool(uint32_t nCountStart, uint32_t nCountEnd)
         CBigNum bnSerial;
         CBigNum bnRandomness;
         CKey key;
-        SeedToZPIV(seedZerocoin, bnValue, bnSerial, bnRandomness, key);
+        SeedToZMK2(seedZerocoin, bnValue, bnSerial, bnRandomness, key);
 
         mintPool.Add(bnValue, i);
         CWalletDB(wallet->strWalletFile).WriteMintPoolPair(hashSeed, GetPubCoinHash(bnValue), i);
@@ -292,7 +292,7 @@ bool CzMK2Wallet::SetMintSeen(const CBigNum& bnValue, const int& nHeight, const 
     CBigNum bnSerial;
     CBigNum bnRandomness;
     CKey key;
-    SeedToZPIV(seedZerocoin, bnValueGen, bnSerial, bnRandomness, key);
+    SeedToZMK2(seedZerocoin, bnValueGen, bnSerial, bnRandomness, key);
 
     //Sanity check
     if (bnValueGen != bnValue)
@@ -334,7 +334,7 @@ bool CzMK2Wallet::SetMintSeen(const CBigNum& bnValue, const int& nHeight, const 
     if (nCountLastUsed < pMint.second) {
         CWalletDB walletdb(wallet->strWalletFile);
         nCountLastUsed = pMint.second;
-        walletdb.WriteZPIVCount(nCountLastUsed);
+        walletdb.WriteZMK2Count(nCountLastUsed);
     }
 
     //remove from the pool
@@ -350,7 +350,7 @@ bool IsValidCoinValue(const CBigNum& bnValue)
     return bnValue >= params->accumulatorParams.minCoinValue && bnValue <= params->accumulatorParams.maxCoinValue && bnValue.isPrime();
 }
 
-void CzMK2Wallet::SeedToZPIV(const uint512& seedZerocoin, CBigNum& bnValue, CBigNum& bnSerial, CBigNum& bnRandomness, CKey& key)
+void CzMK2Wallet::SeedToZMK2(const uint512& seedZerocoin, CBigNum& bnValue, CBigNum& bnSerial, CBigNum& bnRandomness, CKey& key)
 {
     libzerocoin::ZerocoinParams* params = Params().GetConsensus().Zerocoin_Params(false);
 
@@ -411,10 +411,10 @@ void CzMK2Wallet::UpdateCount()
 {
     nCountLastUsed++;
     CWalletDB walletdb(wallet->strWalletFile);
-    walletdb.WriteZPIVCount(nCountLastUsed);
+    walletdb.WriteZMK2Count(nCountLastUsed);
 }
 
-void CzMK2Wallet::GenerateDeterministicZPIV(libzerocoin::CoinDenomination denom, libzerocoin::PrivateCoin& coin, CDeterministicMint& dMint, bool fGenerateOnly)
+void CzMK2Wallet::GenerateDeterministicZMK2(libzerocoin::CoinDenomination denom, libzerocoin::PrivateCoin& coin, CDeterministicMint& dMint, bool fGenerateOnly)
 {
     GenerateMint(nCountLastUsed + 1, denom, coin, dMint);
     if (fGenerateOnly)
@@ -431,7 +431,7 @@ void CzMK2Wallet::GenerateMint(const uint32_t& nCount, const libzerocoin::CoinDe
     CBigNum bnSerial;
     CBigNum bnRandomness;
     CKey key;
-    SeedToZPIV(seedZerocoin, bnValue, bnSerial, bnRandomness, key);
+    SeedToZMK2(seedZerocoin, bnValue, bnSerial, bnRandomness, key);
     coin = libzerocoin::PrivateCoin(Params().GetConsensus().Zerocoin_Params(false), denom, bnSerial, bnRandomness);
     coin.setPrivKey(key.GetPrivKey());
     coin.setVersion(libzerocoin::PrivateCoin::CURRENT_VERSION);

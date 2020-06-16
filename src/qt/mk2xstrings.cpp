@@ -58,7 +58,7 @@ QT_TRANSLATE_NOOP("mk2x-core", ""
 QT_TRANSLATE_NOOP("mk2x-core", ""
 "Enable cold staking functionality (0-1, default: %u). Disabled if staking=0"),
 QT_TRANSLATE_NOOP("mk2x-core", ""
-"Enable or disable staking functionality for PIV inputs (0-1, default: %u)"),
+"Enable or disable staking functionality for MK2 inputs (0-1, default: %u)"),
 QT_TRANSLATE_NOOP("mk2x-core", ""
 "Enable or disable staking functionality for zMK2 inputs (0-1, default: %u)"),
 QT_TRANSLATE_NOOP("mk2x-core", ""
@@ -98,10 +98,10 @@ QT_TRANSLATE_NOOP("mk2x-core", ""
 QT_TRANSLATE_NOOP("mk2x-core", ""
 "Failed to find coin set amongst held coins with less than maxNumber of Spends"),
 QT_TRANSLATE_NOOP("mk2x-core", ""
-"Fees (in PIV/Kb) smaller than this are considered zero fee for relaying "
+"Fees (in MK2/Kb) smaller than this are considered zero fee for relaying "
 "(default: %s)"),
 QT_TRANSLATE_NOOP("mk2x-core", ""
-"Fees (in PIV/Kb) smaller than this are considered zero fee for transaction "
+"Fees (in MK2/Kb) smaller than this are considered zero fee for transaction "
 "creation (default: %s)"),
 QT_TRANSLATE_NOOP("mk2x-core", ""
 "Flush database activity from memory pool to disk log every <n> megabytes "
@@ -302,7 +302,7 @@ QT_TRANSLATE_NOOP("mk2x-core", "Failed to read block"),
 QT_TRANSLATE_NOOP("mk2x-core", "Failed to select a zerocoin"),
 QT_TRANSLATE_NOOP("mk2x-core", "Failed to wipe zerocoinDB"),
 QT_TRANSLATE_NOOP("mk2x-core", "Failed to write coin serial number into wallet"),
-QT_TRANSLATE_NOOP("mk2x-core", "Fee (in PIV/kB) to add to transactions you send (default: %s)"),
+QT_TRANSLATE_NOOP("mk2x-core", "Fee (in MK2/kB) to add to transactions you send (default: %s)"),
 QT_TRANSLATE_NOOP("mk2x-core", "Force safe mode (default: %u)"),
 QT_TRANSLATE_NOOP("mk2x-core", "Generate coins (default: %u)"),
 QT_TRANSLATE_NOOP("mk2x-core", "How many blocks to check at startup (default: %u, 0 = all)"),
@@ -364,8 +364,8 @@ QT_TRANSLATE_NOOP("mk2x-core", "RPC server options:"),
 QT_TRANSLATE_NOOP("mk2x-core", "Randomly drop 1 of every <n> network messages"),
 QT_TRANSLATE_NOOP("mk2x-core", "Randomly fuzz 1 of every <n> network messages"),
 QT_TRANSLATE_NOOP("mk2x-core", "Rebuild block chain index from current blk000??.dat files"),
-QT_TRANSLATE_NOOP("mk2x-core", "Recalculating PIV supply..."),
-QT_TRANSLATE_NOOP("mk2x-core", "Reindex the PIV and zMK2 money supply statistics"),
+QT_TRANSLATE_NOOP("mk2x-core", "Recalculating MK2 supply..."),
+QT_TRANSLATE_NOOP("mk2x-core", "Reindex the MK2 and zMK2 money supply statistics"),
 QT_TRANSLATE_NOOP("mk2x-core", "Reindexing zerocoin database..."),
 QT_TRANSLATE_NOOP("mk2x-core", "Reindexing zerocoin failed"),
 QT_TRANSLATE_NOOP("mk2x-core", "Relay and mine data carrier transactions (default: %u)"),

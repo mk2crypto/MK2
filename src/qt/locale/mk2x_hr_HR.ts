@@ -380,8 +380,8 @@ za staking</translation>
         <translation>Ako napravite enkripciju Vašeg novčanika i izgubite lozinku, tada ćete</translation>
     </message>
     <message>
-        <source>LOSE ALL OF YOUR PIV</source>
-        <translation>IZGUBITI SVE VAŠE PIV-ove</translation>
+        <source>LOSE ALL OF YOUR MK2</source>
+        <translation>IZGUBITI SVE VAŠE MK2-ove</translation>
     </message>
     <message>
         <source>ENCRYPT</source>
@@ -396,8 +396,8 @@ za staking</translation>
         <translation>UPOZORENJE: Caps Lock tipka je uključena!</translation>
     </message>
     <message>
-        <source>MK2X will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PIVs from being stolen by malware infecting your computer.</source>
-        <translation>MK2X će se sada zatvoriti kako bi se dovršio proces šifriranja. Ne zaboravite da šifriranje Vašeg novčanika ne može u potpunosti zaštititi vaše PIV od krađje zlonamjernog softvera koji zarazi vaše računalo.</translation>
+        <source>MK2X will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your MK2s from being stolen by malware infecting your computer.</source>
+        <translation>MK2X će se sada zatvoriti kako bi se dovršio proces šifriranja. Ne zaboravite da šifriranje Vašeg novčanika ne može u potpunosti zaštititi vaše MK2 od krađje zlonamjernog softvera koji zarazi vaše računalo.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -466,8 +466,8 @@ za staking</translation>
         <translation>Ušteđjevina</translation>
     </message>
     <message>
-        <source>0,00 PIV</source>
-        <translation>0,00 PIV</translation>
+        <source>0,00 MK2</source>
+        <translation>0,00 MK2</translation>
     </message>
     <message>
         <source>address</source>
@@ -508,8 +508,8 @@ za staking</translation>
         <translation>Odabir novčića</translation>
     </message>
     <message>
-        <source>Select PIV Outputs to Spend</source>
-        <translation>Odaberi PIV za potrošiti</translation>
+        <source>Select MK2 Outputs to Spend</source>
+        <translation>Odaberi MK2 za potrošiti</translation>
     </message>
     <message>
         <source>Dust:</source>
@@ -536,8 +536,8 @@ za staking</translation>
         <translation>Iznos</translation>
     </message>
     <message>
-        <source>0.00 PIV</source>
-        <translation>0.00 PIV</translation>
+        <source>0.00 MK2</source>
+        <translation>0.00 MK2</translation>
     </message>
     <message>
         <source>0</source>
@@ -803,17 +803,17 @@ za staking</translation>
         <translation>Greška pri učitavanju delegacija: %1</translation>
     </message>
     <message>
-        <source>You can delegate your PIVs, letting a hot node (24/7 online node)
+        <source>You can delegate your MK2s, letting a hot node (24/7 online node)
 stake on your behalf, while you keep the keys securely offline.</source>
-        <translation>Možete delegirati svoje PIV-ove, dopuštajući hot node-u (24/7 online node) da stake-a za Vas, dok su Vaši ključevi offline na sigurnom.</translation>
+        <translation>Možete delegirati svoje MK2-ove, dopuštajući hot node-u (24/7 online node) da stake-a za Vas, dok su Vaši ključevi offline na sigurnom.</translation>
     </message>
     <message>
         <source>Enter owner address</source>
         <translation>Unesi adresu vlasnika</translation>
     </message>
     <message>
-        <source>Accept PIV delegation / Delegate PIV</source>
-        <translation>Prihvati PIV delegaciju / Delegiraj PIV</translation>
+        <source>Accept MK2 delegation / Delegate MK2</source>
+        <translation>Prihvati MK2 delegaciju / Delegiraj MK2</translation>
     </message>
     <message>
         <source>Cold Staking address</source>
@@ -879,8 +879,8 @@ Potrošnja ovih novčića morat će se obaviti iz novčanika ili uredjaja koji s
         <translation>Novčići delegirani</translation>
     </message>
     <message>
-        <source>You don't have any PIV to select.</source>
-        <translation>Nemate PIV-a za odabrati</translation>
+        <source>You don't have any MK2 to select.</source>
+        <translation>Nemate MK2-a za odabrati</translation>
     </message>
     <message>
         <source>Cannot perform operation, wallet locked</source>
@@ -1011,8 +1011,8 @@ vlasnika</translation>
         <translation>Statistika stakinga</translation>
     </message>
     <message>
-        <source>PIV</source>
-        <translation>PIV</translation>
+        <source>MK2</source>
+        <translation>MK2</translation>
     </message>
     <message>
         <source>zMK2</source>
@@ -1047,8 +1047,8 @@ vlasnika</translation>
         <translation>Možete pregledati povijest računa</translation>
     </message>
     <message>
-        <source>Amount of PIV and zMK2 staked.</source>
-        <translation>Iznos PIV i zMK2 koji se stakea.</translation>
+        <source>Amount of MK2 and zMK2 staked.</source>
+        <translation>Iznos MK2 i zMK2 koji se stakea.</translation>
     </message>
     <message>
         <source>Please wait until the wallet is fully synced to see your correct balance</source>
@@ -1059,8 +1059,8 @@ vlasnika</translation>
         <translation>Nema još transakcija</translation>
     </message>
     <message>
-        <source>How to get PIV or zMK2</source>
-        <translation>Kako nabaviti PIV ili zMK2</translation>
+        <source>How to get MK2 or zMK2</source>
+        <translation>Kako nabaviti MK2 ili zMK2</translation>
     </message>
     <message>
         <source>You can verify the staking activity in the status bar at the top right of the wallet.
@@ -1399,8 +1399,8 @@ Automatski će se pokrenuti čim novčanik dobije dovoljno potvrda o neiskorišt
         <translation>Stvori novi Masternode Controller</translation>
     </message>
     <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;To create a MK2X Masternode you must dedicate 10,000 PIV (the unit of MK2X) to the network (however, these coins are still yours and will never leave your possession). &lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;You can deactivate the node and unlock the coins at any time.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Da biste stvoriti MK2X Masternode, morate odvojiti 10,000 PIV (jedinica MK2X-a) prema mreži (međjutim, ti novčići su i dalje vaši i nikad neće napustiti vaše vlasništvo). &lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt; Možete isključiti node i otključati novčiće u bilo kojem trenutku.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;To create a MK2X Masternode you must dedicate 10,000 MK2 (the unit of MK2X) to the network (however, these coins are still yours and will never leave your possession). &lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;You can deactivate the node and unlock the coins at any time.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Da biste stvoriti MK2X Masternode, morate odvojiti 10,000 MK2 (jedinica MK2X-a) prema mreži (međjutim, ti novčići su i dalje vaši i nikad neće napustiti vaše vlasništvo). &lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt; Možete isključiti node i otključati novčiće u bilo kojem trenutku.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <source>Set Masternode Name</source>
@@ -1419,8 +1419,8 @@ Automatski će se pokrenuti čim novčanik dobije dovoljno potvrda o neiskorišt
         <translation>Obavezno imajte tu količinu novčića.</translation>
     </message>
     <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;A transaction of 10,000 PIV will be made&lt;/p&gt;&lt;p&gt;to a new empty address in your wallet.&lt;/p&gt;&lt;p&gt;The Address is labeled under the master node's name.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Transakcija od 10,000 PIV će biti napravljena&lt;/p&gt;&lt;p&gt;u novu praznu adresu u Vašem novčaniku.&lt;/p&gt;&lt;p&gt;Adresa je označena pod imenom Masternode-a.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;A transaction of 10,000 MK2 will be made&lt;/p&gt;&lt;p&gt;to a new empty address in your wallet.&lt;/p&gt;&lt;p&gt;The Address is labeled under the master node's name.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Transakcija od 10,000 MK2 će biti napravljena&lt;/p&gt;&lt;p&gt;u novu praznu adresu u Vašem novčaniku.&lt;/p&gt;&lt;p&gt;Adresa je označena pod imenom Masternode-a.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <source>Address of the node that must always be online running the actual master node.</source>
@@ -1662,8 +1662,8 @@ Jeste li sigurni?</translation>
         <translation>Ne može se kreirati Masternode controller, novčanik je zaključan</translation>
     </message>
     <message>
-        <source>Not enough balance to create a masternode, 10,000 PIV required.</source>
-        <translation>Nema dovoljno novčića za stvaranje Masternodea, potrebno je 10000 PIV.</translation>
+        <source>Not enough balance to create a masternode, 10,000 MK2 required.</source>
+        <translation>Nema dovoljno novčića za stvaranje Masternodea, potrebno je 10000 MK2.</translation>
     </message>
     <message>
         <source>Error creating masternode</source>
@@ -1910,8 +1910,8 @@ https://www.transifex.com/mk2x-project/mk2x-project-translations</translation>
         <translation>Mapiranje porta koristeći &amp;UPnP</translation>
     </message>
     <message>
-        <source>Enable automatic minting of PIV units to zMK2</source>
-        <translation>Omogući automatsko stvaranje PIV jedinica na zMK2</translation>
+        <source>Enable automatic minting of MK2 units to zMK2</source>
+        <translation>Omogući automatsko stvaranje MK2 jedinica na zMK2</translation>
     </message>
     <message>
         <source>Enable zMK2 Automint</source>
@@ -1926,16 +1926,16 @@ https://www.transifex.com/mk2x-project/mk2x-project-translations</translation>
         <translation>Omogući Automint adrese</translation>
     </message>
     <message>
-        <source>Percentage of incoming PIV which get automatically converted to zMK2 via Zerocoin Protocol (min: 10%)</source>
-        <translation>Postotak dolaznih PIV koji se automatski pretvara u zMK2 putem Zerocoin Protokola (min: 10%)</translation>
+        <source>Percentage of incoming MK2 which get automatically converted to zMK2 via Zerocoin Protocol (min: 10%)</source>
+        <translation>Postotak dolaznih MK2 koji se automatski pretvara u zMK2 putem Zerocoin Protokola (min: 10%)</translation>
     </message>
     <message>
         <source>Percentage of autominted zMK2</source>
         <translation>Postotak automatski stvorenog zMK2-a</translation>
     </message>
     <message>
-        <source>Wait with automatic conversion to Zerocoin until enough PIV for this denomination is available</source>
-        <translation>Pričekajte s automatskom pretvorbom u Zerocoin dok ne bude dostupno dovoljno PIV-a za ovu denominaciju</translation>
+        <source>Wait with automatic conversion to Zerocoin until enough MK2 for this denomination is available</source>
+        <translation>Pričekajte s automatskom pretvorbom u Zerocoin dok ne bude dostupno dovoljno MK2-a za ovu denominaciju</translation>
     </message>
     <message>
         <source>Preferred Automint zMK2 Denomination</source>
@@ -2122,7 +2122,7 @@ https://www.transifex.com/mk2x-project/mk2x-project-translations</translation>
     </message>
     <message>
         <source>MK2X Core client</source>
-        <translation>PIVIX Core Klijent</translation>
+        <translation>MK2IX Core Klijent</translation>
     </message>
     <message>
         <source>Error</source>
@@ -2310,14 +2310,14 @@ Adresa: %4
         <translation>Stvori</translation>
     </message>
     <message>
-        <source>Minting zMK2 anonymizes your PIV by removing any
+        <source>Minting zMK2 anonymizes your MK2 by removing any
 transaction history, making transactions untraceable </source>
-        <translation>Stvaranje zMK2-a anonimizira Vaš PIV brišući cijelu
+        <translation>Stvaranje zMK2-a anonimizira Vaš MK2 brišući cijelu
 povijest transakcija, čineći transakcije nepratljivima</translation>
     </message>
     <message>
-        <source>Mint new zMK2 or convert back to PIV</source>
-        <translation>Stvori novi zMK2 ili pretvori natrag u PIV</translation>
+        <source>Mint new zMK2 or convert back to MK2</source>
+        <translation>Stvori novi zMK2 ili pretvori natrag u MK2</translation>
     </message>
     <message>
         <source>Last zMK2 Movements</source>
@@ -2332,16 +2332,16 @@ povijest transakcija, čineći transakcije nepratljivima</translation>
         <translation>Stvori zMK2</translation>
     </message>
     <message>
-        <source>Enter amount of PIV to mint into zMK2</source>
-        <translation>Unesite iznos PIV-a za pretvorbu u zMK2</translation>
+        <source>Enter amount of MK2 to mint into zMK2</source>
+        <translation>Unesite iznos MK2-a za pretvorbu u zMK2</translation>
     </message>
     <message>
-        <source>Convert back to PIV</source>
-        <translation>Pretvori natrag u PIV</translation>
+        <source>Convert back to MK2</source>
+        <translation>Pretvori natrag u MK2</translation>
     </message>
     <message>
-        <source>Enter amount of zMK2 to convert back into PIV</source>
-        <translation>Upišite iznos zMK2 za konverziju natrag u PIV</translation>
+        <source>Enter amount of zMK2 to convert back into MK2</source>
+        <translation>Upišite iznos zMK2 za konverziju natrag u MK2</translation>
     </message>
     <message>
         <source>Zerocoin</source>
@@ -2372,12 +2372,12 @@ povijest transakcija, čineći transakcije nepratljivima</translation>
         <translation>zMK2 uspješno stvoren</translation>
     </message>
     <message>
-        <source>zMK2 converted back to PIV</source>
-        <translation>zMK2 pretvoren natrag u PIV</translation>
+        <source>zMK2 converted back to MK2</source>
+        <translation>zMK2 pretvoren natrag u MK2</translation>
     </message>
     <message>
-        <source>You don't have any PIV to select.</source>
-        <translation>Nemate PIV-a za odabrati</translation>
+        <source>You don't have any MK2 to select.</source>
+        <translation>Nemate MK2-a za odabrati</translation>
     </message>
     <message>
         <source>Rescan Mints</source>
@@ -3048,8 +3048,8 @@ povijest transakcija, čineći transakcije nepratljivima</translation>
         <translation>Primi</translation>
     </message>
     <message>
-        <source>Scan the QR code or copy the address to receive PIV.</source>
-        <translation>Skenirajte QR kod ili kopirajte adresu da biste primili PIV.</translation>
+        <source>Scan the QR code or copy the address to receive MK2.</source>
+        <translation>Skenirajte QR kod ili kopirajte adresu da biste primili MK2.</translation>
     </message>
     <message>
         <source>No address </source>
@@ -3158,8 +3158,8 @@ povijest transakcija, čineći transakcije nepratljivima</translation>
         <translation>Iznos</translation>
     </message>
     <message>
-        <source>PIV</source>
-        <translation>PIV</translation>
+        <source>MK2</source>
+        <translation>MK2</translation>
     </message>
     <message>
         <source>TextLabel</source>
@@ -3292,8 +3292,8 @@ povijest transakcija, čineći transakcije nepratljivima</translation>
         <translation>Preporučeno</translation>
     </message>
     <message>
-        <source>PIV/kilobyte</source>
-        <translation>PIV/kilobajt</translation>
+        <source>MK2/kilobyte</source>
+        <translation>MK2/kilobajt</translation>
     </message>
     <message>
         <source>0.00 KB</source>
@@ -3362,8 +3362,8 @@ povijest transakcija, čineći transakcije nepratljivima</translation>
         <translation>Pošalji</translation>
     </message>
     <message>
-        <source>You can transfer public coins (PIV) or private coins (zMK2)</source>
-        <translation>Mogućnost prijenosa javnih novčića (PIV) ili anonimnih novčića (zMK2)</translation>
+        <source>You can transfer public coins (MK2) or private coins (zMK2)</source>
+        <translation>Mogućnost prijenosa javnih novčića (MK2) ili anonimnih novčića (zMK2)</translation>
     </message>
     <message>
         <source>Select coin type to spend</source>
@@ -3394,8 +3394,8 @@ povijest transakcija, čineći transakcije nepratljivima</translation>
         <translation>Ukupno za slanje</translation>
     </message>
     <message>
-        <source>Send PIV</source>
-        <translation>Pošalji PIV</translation>
+        <source>Send MK2</source>
+        <translation>Pošalji MK2</translation>
     </message>
     <message>
         <source>Send zMK2</source>
@@ -3534,8 +3534,8 @@ Ili mintaj više vrijedne denominacije (tako da je potrebno manje ulaza) ili sma
         <translation>Prilagođjena naknada %1</translation>
     </message>
     <message>
-        <source>You don't have any PIV to select.</source>
-        <translation>Nemate PIV-a za odabrati</translation>
+        <source>You don't have any MK2 to select.</source>
+        <translation>Nemate MK2-a za odabrati</translation>
     </message>
     <message>
         <source>You don't have any zMK2 in your balance to select.</source>
@@ -4042,8 +4042,8 @@ Došlo je do greške prilikom spremanja popisa adresa u %1. Molimo pokušajte po
         <translation>1) Što je MK2X?</translation>
     </message>
     <message>
-        <source>2) Why are my PIV unspendable?</source>
-        <translation>2) Zašto se moji PIV ne mogu potrošiti?</translation>
+        <source>2) Why are my MK2 unspendable?</source>
+        <translation>2) Zašto se moji MK2 ne mogu potrošiti?</translation>
     </message>
     <message>
         <source>3) MK2X privacy? What is Zerocoin (zMK2)?</source>
@@ -4060,12 +4060,12 @@ Došlo je do greške prilikom spremanja popisa adresa u %1. Molimo pokušajte po
 u zMK2 automatski?</translation>
     </message>
     <message>
-        <source>6) How do I receive PIV/zMK2?</source>
-        <translation>6) Kako mogu primiti PIV/zMK2?</translation>
+        <source>6) How do I receive MK2/zMK2?</source>
+        <translation>6) Kako mogu primiti MK2/zMK2?</translation>
     </message>
     <message>
-        <source>7) How do I stake PIV/zMK2?</source>
-        <translation>7) Kako stakeam PIV/zMK2?</translation>
+        <source>7) How do I stake MK2/zMK2?</source>
+        <translation>7) Kako stakeam MK2/zMK2?</translation>
     </message>
     <message>
         <source>8) Where I should go if I need support?</source>
@@ -4122,8 +4122,8 @@ vodjenje Masternode-ova za stvaranje i glasanje o prijedlozima.
         <translation>2</translation>
     </message>
     <message>
-        <source>Why are my PIV unspendable?</source>
-        <translation>Zašto se moji PIV ne mogu potrošiti?</translation>
+        <source>Why are my MK2 unspendable?</source>
+        <translation>Zašto se moji MK2 ne mogu potrošiti?</translation>
     </message>
     <message>
         <source>
@@ -4207,7 +4207,7 @@ da bi se mogli potrošiti.
     <message>
         <source>
                            &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
-                           By default the MK2X wallet will convert 10% of your entire PIV
+                           By default the MK2X wallet will convert 10% of your entire MK2
                            balance to zMK2 to assist the network. If you do not wish to
                            stake zMK2 or take advantage of the privacy benefit it brings,
                            you can disable the automatic minting in your MK2X wallet by
@@ -4224,7 +4224,7 @@ da bi se mogli potrošiti.
                          </source>
         <translation>
 &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
-Prema početno zadanom MK2X novčanik će pretvoriti 10% vaših PIV sredstava u zMK2 da pomognu mreži. Ako ne želite stake-ati zMK2 ili iskoristiti prednosti privatnosti koje donosi,
+Prema početno zadanom MK2X novčanik će pretvoriti 10% vaših MK2 sredstava u zMK2 da pomognu mreži. Ako ne želite stake-ati zMK2 ili iskoristiti prednosti privatnosti koje donosi,
 možete onemogućiti autoamtsko stvaranje u vašem MK2X novčaniku tako da
 odete u Postavke -&gt; Mogućnosti i odznačite "Omogući automatsko stvaranje zMK2-a".
 Ako ne koristite MK2X-QT ili grafičko sučelje, jednostavno možete otvoriti
@@ -4242,8 +4242,8 @@ odjeljak u najčešće postavljenim pitanjima ispod.
         <translation>6</translation>
     </message>
     <message>
-        <source>How do I receive PIV/zMK2?</source>
-        <translation>Kako mogu primiti PIV/zMK2?</translation>
+        <source>How do I receive MK2/zMK2?</source>
+        <translation>Kako mogu primiti MK2/zMK2?</translation>
     </message>
     <message>
         <source>
@@ -4268,8 +4268,8 @@ Ako želite više zMK2-a, morat ćete stvoriti svoj saldo u kartici "Privatnost"
         <translation>7</translation>
     </message>
     <message>
-        <source>How do I stake PIV/zMK2?</source>
-        <translation>Kako stakeam PIV/zMK2?</translation>
+        <source>How do I stake MK2/zMK2?</source>
+        <translation>Kako stakeam MK2/zMK2?</translation>
     </message>
     <message>
         <source>
@@ -4341,8 +4341,8 @@ Sada bi staking trebao biti omogućen.
         <translation>Što je Masternode Controller?</translation>
     </message>
     <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;A Masternode Controller wallet is where the 10,000 PIV collateral can reside during a Controller-Remote masternode setup. It is a wallet that can activate the remote masternode wallet(s) and allows you to keep your collateral coins offline while the remote masternode remains online. &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;Masternode Controller novčanik je mjesto gdje zalog od 10,000 PIV može stajati tijekom Controller-Remote podešavanja masternode-a. To je novčanik koji može aktivirati Remote masternode novčanik(e) i omogućiti Vam držanje zaloga novčića offline dok Remote masternode novčanik ostaje online.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;A Masternode Controller wallet is where the 10,000 MK2 collateral can reside during a Controller-Remote masternode setup. It is a wallet that can activate the remote masternode wallet(s) and allows you to keep your collateral coins offline while the remote masternode remains online. &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;Masternode Controller novčanik je mjesto gdje zalog od 10,000 MK2 može stajati tijekom Controller-Remote podešavanja masternode-a. To je novčanik koji može aktivirati Remote masternode novčanik(e) i omogućiti Vam držanje zaloga novčića offline dok Remote masternode novčanik ostaje online.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <source>8</source>
@@ -4378,7 +4378,7 @@ na našoj Freshdesk stranici za podršku&lt;/a&gt;.
         <source>
                            &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
                            A masternode is a computer running a full node MK2X core wallet with a
-                           requirement of 10,000 PIV secured collateral to provide extra services
+                           requirement of 10,000 MK2 secured collateral to provide extra services
                            to the network and in return, receive a portion of the block reward
                            regularly.  These services include:
                            &lt;/p&gt;&lt;p align="justify"&gt;
@@ -4410,7 +4410,7 @@ na našoj Freshdesk stranici za podršku&lt;/a&gt;.
                            Requirements:
                            &lt;/p&gt;&lt;p align="justify"&gt;
                            &lt;ul&gt;
-                           &lt;li&gt;10,000 PIV per single Masternode instance&lt;/li&gt;
+                           &lt;li&gt;10,000 MK2 per single Masternode instance&lt;/li&gt;
                            &lt;li&gt;Must be stored in a core wallet&lt;/li&gt;
                            &lt;li&gt;Need dedicated IP address&lt;/li&gt;
                            &lt;li&gt;Masternode wallet to remain online&lt;/li&gt;
@@ -4420,7 +4420,7 @@ na našoj Freshdesk stranici za podršku&lt;/a&gt;.
         <translation>
 &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
 Masternode je računalo koje pokreće full node MK2X Core novčanik sa
-zahtjevanih 10,000 PIV-a osiguranog zaloga da pruži dodatne usluge
+zahtjevanih 10,000 MK2-a osiguranog zaloga da pruži dodatne usluge
 mreži, i zauzvrat redovito primi dio nagrade blokova.
 Te usluge uključuju:
 &lt;/p&gt;&lt;p align="justify"&gt;
@@ -4452,7 +4452,7 @@ Povlastice masternode-ova:
 Zahtjevi:
 &lt;/p&gt;&lt;p align="justify"&gt;
 &lt;ul&gt;
-&lt;li&gt;10,000 PIV po svakom Masternode-u&lt;/li&gt;
+&lt;li&gt;10,000 MK2 po svakom Masternode-u&lt;/li&gt;
 &lt;li&gt;Mora biti pohranjem u Core novčaniku&lt;/li&gt;
 &lt;li&gt;Mora biti jedinstvena IP adresa&lt;/li&gt;
 &lt;li&gt;Masternode novčanik treba ostati online&lt;/li&gt;
@@ -5746,40 +5746,40 @@ se nova sigurnosna kopija.
         <translation>Zaprimljeno s</translation>
     </message>
     <message>
-        <source>PIV Stake</source>
-        <translation>PIV Stake</translation>
+        <source>MK2 Stake</source>
+        <translation>MK2 Stake</translation>
     </message>
     <message>
         <source>zMK2 Stake</source>
         <translation>zMK2 Stake</translation>
     </message>
     <message>
-        <source>PIV Cold Stake</source>
-        <translation>PIV Cold Stake</translation>
+        <source>MK2 Cold Stake</source>
+        <translation>MK2 Cold Stake</translation>
     </message>
     <message>
         <source>Stake delegation</source>
         <translation>Stake delegacija</translation>
     </message>
     <message>
-        <source>Converted PIV to zMK2</source>
-        <translation>Pretvoreni PIV u zMK2</translation>
+        <source>Converted MK2 to zMK2</source>
+        <translation>Pretvoreni MK2 u zMK2</translation>
     </message>
     <message>
         <source>Spent zMK2</source>
         <translation>Potrošeni zMK2</translation>
     </message>
     <message>
-        <source>Received PIV from zMK2</source>
-        <translation>Primljeni PIV od zMK2</translation>
+        <source>Received MK2 from zMK2</source>
+        <translation>Primljeni MK2 od zMK2</translation>
     </message>
     <message>
         <source>Minted Change as zMK2 from zMK2 Spend</source>
         <translation>Mintana razlika zMK2 od zMK2 Utroška</translation>
     </message>
     <message>
-        <source>Converted zMK2 to PIV</source>
-        <translation>Pretvoreni zMK2 u PIV</translation>
+        <source>Converted zMK2 to MK2</source>
+        <translation>Pretvoreni zMK2 u MK2</translation>
     </message>
     <message>
         <source>Sent to</source>
@@ -5794,8 +5794,8 @@ se nova sigurnosna kopija.
         <translation>Plaćanje sebi</translation>
     </message>
     <message>
-        <source>PIV Stake on behalf of</source>
-        <translation>PIV Stake u korist</translation>
+        <source>MK2 Stake on behalf of</source>
+        <translation>MK2 Stake u korist</translation>
     </message>
     <message>
         <source>Stake delegation spent by</source>
@@ -5960,8 +5960,8 @@ se nova sigurnosna kopija.
         <translation>18/05/18</translation>
     </message>
     <message>
-        <source>+0.000585 PIV</source>
-        <translation>+0.000585 PIV</translation>
+        <source>+0.000585 MK2</source>
+        <translation>+0.000585 MK2</translation>
     </message>
 </context>
 <context>
@@ -5971,8 +5971,8 @@ se nova sigurnosna kopija.
         <translation>Šalji novčiće</translation>
     </message>
     <message>
-        <source>SwiftX doesn't support sending values that high yet. Transactions are currently limited to %1 PIV.</source>
-        <translation>SwiftX ne podržava slanje visokih vrijednosti. Transakcije su trenutačno ograničene na %1 PIV.</translation>
+        <source>SwiftX doesn't support sending values that high yet. Transactions are currently limited to %1 MK2.</source>
+        <translation>SwiftX ne podržava slanje visokih vrijednosti. Transakcije su trenutačno ograničene na %1 MK2.</translation>
     </message>
 </context>
 <context>
@@ -6142,8 +6142,8 @@ MK2X temeljni novčanik</translation>
         <translation>Omogući cold staking funkcionalnost (0-1, zadano: %u). Onemogućeno ako je staking=0</translation>
     </message>
     <message>
-        <source>Enable or disable staking functionality for PIV inputs (0-1, default: %u)</source>
-        <translation>Omogući ili onemogući staking funkcionalnosti za PIV unose (0-1, default: %u)</translation>
+        <source>Enable or disable staking functionality for MK2 inputs (0-1, default: %u)</source>
+        <translation>Omogući ili onemogući staking funkcionalnosti za MK2 unose (0-1, default: %u)</translation>
     </message>
     <message>
         <source>Enable or disable staking functionality for zMK2 inputs (0-1, default: %u)</source>
@@ -6186,12 +6186,12 @@ MK2X temeljni novčanik</translation>
         <translation>Izvrši naredbu kada se promijeni najbolji blok (%s u cmd zamjenjuje se blokovskim raspršivanjem)</translation>
     </message>
     <message>
-        <source>Fees (in PIV/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Naknade (u PIV / Kb) manje od toga smatraju se nulom naknadom za prosljeđivanje (zadano: %s)</translation>
+        <source>Fees (in MK2/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Naknade (u MK2 / Kb) manje od toga smatraju se nulom naknadom za prosljeđivanje (zadano: %s)</translation>
     </message>
     <message>
-        <source>Fees (in PIV/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>Naknade (u PIV / Kb) manje od toga smatraju se nulom naknadom za izradu transakcija (zadano: %s)</translation>
+        <source>Fees (in MK2/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>Naknade (u MK2 / Kb) manje od toga smatraju se nulom naknadom za izradu transakcija (zadano: %s)</translation>
     </message>
     <message>
         <source>Flush database activity from memory pool to disk log every &lt;n&gt; megabytes (default: %u)</source>
@@ -6559,8 +6559,8 @@ MK2X temeljni novčanik</translation>
         <translation>Greška čitanja bloka</translation>
     </message>
     <message>
-        <source>Fee (in PIV/kB) to add to transactions you send (default: %s)</source>
-        <translation>Naknada (u PIV / kB) za dodavanje transakcija koje šaljete (zadano: %s)</translation>
+        <source>Fee (in MK2/kB) to add to transactions you send (default: %s)</source>
+        <translation>Naknada (u MK2 / kB) za dodavanje transakcija koje šaljete (zadano: %s)</translation>
     </message>
     <message>
         <source>Force safe mode (default: %u)</source>
@@ -6635,12 +6635,12 @@ MK2X temeljni novčanik</translation>
         <translation>Nevažeći port otkriven u masternode.conf</translation>
     </message>
     <message>
-        <source>Recalculating PIV supply...</source>
-        <translation>Preračunavanje PIV-a u optjecaju...</translation>
+        <source>Recalculating MK2 supply...</source>
+        <translation>Preračunavanje MK2-a u optjecaju...</translation>
     </message>
     <message>
-        <source>Reindex the PIV and zMK2 money supply statistics</source>
-        <translation>Ponovno indeksirati statistiku PIV i zMK2 ponude novca</translation>
+        <source>Reindex the MK2 and zMK2 money supply statistics</source>
+        <translation>Ponovno indeksirati statistiku MK2 i zMK2 ponude novca</translation>
     </message>
     <message>
         <source>Reindexing zerocoin database...</source>

@@ -2,8 +2,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef MK2X_ZPIVWALLET_H
-#define MK2X_ZPIVWALLET_H
+#ifndef MK2X_ZMK2WALLET_H
+#define MK2X_ZMK2WALLET_H
 
 #include <map>
 #include "libzerocoin/Coin.h"
@@ -29,7 +29,7 @@ public:
     bool SetMasterSeed(const uint256& seedMaster, bool fResetCount = false);
     uint256 GetMasterSeed() { return seedMaster; }
     void SyncWithChain(bool fGenerateMintPool = true);
-    void GenerateDeterministicZPIV(libzerocoin::CoinDenomination denom, libzerocoin::PrivateCoin& coin, CDeterministicMint& dMint, bool fGenerateOnly = false);
+    void GenerateDeterministicZMK2(libzerocoin::CoinDenomination denom, libzerocoin::PrivateCoin& coin, CDeterministicMint& dMint, bool fGenerateOnly = false);
     void GenerateMint(const uint32_t& nCount, const libzerocoin::CoinDenomination denom, libzerocoin::PrivateCoin& coin, CDeterministicMint& dMint);
     void GetState(int& nCount, int& nLastGenerated);
     bool RegenerateMint(const CDeterministicMint& dMint, CZerocoinMint& mint);
@@ -40,7 +40,7 @@ public:
     bool IsInMintPool(const CBigNum& bnValue) { return mintPool.Has(bnValue); }
     void UpdateCount();
     void Lock();
-    void SeedToZPIV(const uint512& seed, CBigNum& bnValue, CBigNum& bnSerial, CBigNum& bnRandomness, CKey& key);
+    void SeedToZMK2(const uint512& seed, CBigNum& bnValue, CBigNum& bnSerial, CBigNum& bnRandomness, CKey& key);
     bool CheckSeed(const CDeterministicMint& dMint);
 
 private:
@@ -50,4 +50,4 @@ private:
     uint512 GetZerocoinSeed(uint32_t n);
 };
 
-#endif //MK2X_ZPIVWALLET_H
+#endif //MK2X_ZMK2WALLET_H

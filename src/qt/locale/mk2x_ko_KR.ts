@@ -377,8 +377,8 @@ for staking</source>
         <translation>지갑 암호화 후 암호를 분실하게 되면</translation>
     </message>
     <message>
-        <source>LOSE ALL OF YOUR PIV</source>
-        <translation>모든 PIV를 잃게 됩니다</translation>
+        <source>LOSE ALL OF YOUR MK2</source>
+        <translation>모든 MK2를 잃게 됩니다</translation>
     </message>
     <message>
         <source>ENCRYPT</source>
@@ -393,8 +393,8 @@ for staking</source>
         <translation>경고: Caps Lock 키가 활성화 되있습니다!</translation>
     </message>
     <message>
-        <source>MK2X will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PIVs from being stolen by malware infecting your computer.</source>
-        <translation>MK2X는 이제 암호화 프로세스를 마치기 위해 닫힐것입니다. 지갑을 암호화하더라도 맬웨어로 인한 PIVs 의 도난당하는 것을 완벽하게 보호 할 수는 없습니다.</translation>
+        <source>MK2X will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your MK2s from being stolen by malware infecting your computer.</source>
+        <translation>MK2X는 이제 암호화 프로세스를 마치기 위해 닫힐것입니다. 지갑을 암호화하더라도 맬웨어로 인한 MK2s 의 도난당하는 것을 완벽하게 보호 할 수는 없습니다.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -463,8 +463,8 @@ for staking</source>
         <translation>계좌</translation>
     </message>
     <message>
-        <source>0,00 PIV</source>
-        <translation>0,00 PIV</translation>
+        <source>0,00 MK2</source>
+        <translation>0,00 MK2</translation>
     </message>
     <message>
         <source>address</source>
@@ -505,8 +505,8 @@ for staking</source>
         <translation>코인 선택</translation>
     </message>
     <message>
-        <source>Select PIV Outputs to Spend</source>
-        <translation>사용할 PIV 아웃풋 선택</translation>
+        <source>Select MK2 Outputs to Spend</source>
+        <translation>사용할 MK2 아웃풋 선택</translation>
     </message>
     <message>
         <source>Dust:</source>
@@ -533,8 +533,8 @@ for staking</source>
         <translation>금액</translation>
     </message>
     <message>
-        <source>0.00 PIV</source>
-        <translation>0.00 PIV</translation>
+        <source>0.00 MK2</source>
+        <translation>0.00 MK2</translation>
     </message>
     <message>
         <source>0</source>
@@ -800,17 +800,17 @@ for staking</source>
         <translation>위임 데이터 로딩 에러: %1</translation>
     </message>
     <message>
-        <source>You can delegate your PIVs, letting a hot node (24/7 online node)
+        <source>You can delegate your MK2s, letting a hot node (24/7 online node)
 stake on your behalf, while you keep the keys securely offline.</source>
-        <translation>안전히 개인 프라이빗 키를 오프라인으로 보관한 상태로, 가지고 계신 PIV 를 매일 24시간 온라인으로 돌아가는 핫 노드로 위임하여, 대신 스테이킹을 하게 할수 있습니다. </translation>
+        <translation>안전히 개인 프라이빗 키를 오프라인으로 보관한 상태로, 가지고 계신 MK2 를 매일 24시간 온라인으로 돌아가는 핫 노드로 위임하여, 대신 스테이킹을 하게 할수 있습니다. </translation>
     </message>
     <message>
         <source>Enter owner address</source>
         <translation>Owner 주소 입력</translation>
     </message>
     <message>
-        <source>Accept PIV delegation / Delegate PIV</source>
-        <translation>PIV 위임권 수락하기 / PIV 위임 하기</translation>
+        <source>Accept MK2 delegation / Delegate MK2</source>
+        <translation>MK2 위임권 수락하기 / MK2 위임 하기</translation>
     </message>
     <message>
         <source>Cold Staking address</source>
@@ -876,8 +876,8 @@ Do you wish to proceed?</source>
         <translation>위임된 코인</translation>
     </message>
     <message>
-        <source>You don't have any PIV to select.</source>
-        <translation>선택할 PIV를 가지고 있지 않습니다.</translation>
+        <source>You don't have any MK2 to select.</source>
+        <translation>선택할 MK2를 가지고 있지 않습니다.</translation>
     </message>
     <message>
         <source>Cannot perform operation, wallet locked</source>
@@ -1008,8 +1008,8 @@ address</source>
         <translation>스테이킹 통계</translation>
     </message>
     <message>
-        <source>PIV</source>
-        <translation>PIV</translation>
+        <source>MK2</source>
+        <translation>MK2</translation>
     </message>
     <message>
         <source>zMK2</source>
@@ -1044,8 +1044,8 @@ address</source>
         <translation>당신의 입출금 이력을 확인할 수 있습니다.</translation>
     </message>
     <message>
-        <source>Amount of PIV and zMK2 staked.</source>
-        <translation>스테이킹 된 PIV와 zMK2 양</translation>
+        <source>Amount of MK2 and zMK2 staked.</source>
+        <translation>스테이킹 된 MK2와 zMK2 양</translation>
     </message>
     <message>
         <source>Please wait until the wallet is fully synced to see your correct balance</source>
@@ -1056,8 +1056,8 @@ address</source>
         <translation>아직 전송기록 없음</translation>
     </message>
     <message>
-        <source>How to get PIV or zMK2</source>
-        <translation>PIV 혹은 zMK2를 얻는 법</translation>
+        <source>How to get MK2 or zMK2</source>
+        <translation>MK2 혹은 zMK2를 얻는 법</translation>
     </message>
     <message>
         <source>You can verify the staking activity in the status bar at the top right of the wallet.
@@ -1395,8 +1395,8 @@ It will start automatically as soon as the wallet has enough confirmations on an
         <translation>새로운 마스터노드 컨트롤러 만들기</translation>
     </message>
     <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;To create a MK2X Masternode you must dedicate 10,000 PIV (the unit of MK2X) to the network (however, these coins are still yours and will never leave your possession). &lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;You can deactivate the node and unlock the coins at any time.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;MK2X 마스터노드를 생성하기 위해서는 10,000 PIV (MK2X 단위)를 네트워크에 예치해야 합니다. (예치한 코인은 계속 본인의 소유입니다.) &lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;언제든지 노드를 비활성화 시키고 코인을 잠금해제할 수 있습니다.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;To create a MK2X Masternode you must dedicate 10,000 MK2 (the unit of MK2X) to the network (however, these coins are still yours and will never leave your possession). &lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;You can deactivate the node and unlock the coins at any time.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;MK2X 마스터노드를 생성하기 위해서는 10,000 MK2 (MK2X 단위)를 네트워크에 예치해야 합니다. (예치한 코인은 계속 본인의 소유입니다.) &lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;언제든지 노드를 비활성화 시키고 코인을 잠금해제할 수 있습니다.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <source>Set Masternode Name</source>
@@ -1415,8 +1415,8 @@ It will start automatically as soon as the wallet has enough confirmations on an
         <translation>이만큼의 코인을 보유하고 있는지 확인하십시오.</translation>
     </message>
     <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;A transaction of 10,000 PIV will be made&lt;/p&gt;&lt;p&gt;to a new empty address in your wallet.&lt;/p&gt;&lt;p&gt;The Address is labeled under the master node's name.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;10,000 PIV의 트랜잭션은&lt;/p&gt;&lt;p&gt;지갑의 새로운 빈 주소로 만들어질 것입니다.&lt;/p&gt;&lt;p&gt;그 주소는 마스터노드 이름에 따라 레이블링됩니다.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;A transaction of 10,000 MK2 will be made&lt;/p&gt;&lt;p&gt;to a new empty address in your wallet.&lt;/p&gt;&lt;p&gt;The Address is labeled under the master node's name.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;10,000 MK2의 트랜잭션은&lt;/p&gt;&lt;p&gt;지갑의 새로운 빈 주소로 만들어질 것입니다.&lt;/p&gt;&lt;p&gt;그 주소는 마스터노드 이름에 따라 레이블링됩니다.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <source>Address of the node that must always be online running the actual master node.</source>
@@ -1656,8 +1656,8 @@ Are you sure?</source>
         <translation>마스터노드 컨트롤러를 생성할 수 없습니다. 지갑이 잠겨 있습니다.</translation>
     </message>
     <message>
-        <source>Not enough balance to create a masternode, 10,000 PIV required.</source>
-        <translation>마스터노드 생성에 필요한 잔고가 부족합니다. 마스터노드 생성에는 10,000 PIV가 필요합니다.</translation>
+        <source>Not enough balance to create a masternode, 10,000 MK2 required.</source>
+        <translation>마스터노드 생성에 필요한 잔고가 부족합니다. 마스터노드 생성에는 10,000 MK2가 필요합니다.</translation>
     </message>
     <message>
         <source>Error creating masternode</source>
@@ -1904,8 +1904,8 @@ https://www.transifex.com/mk2x-project/mk2x-project-translations</translation>
         <translation>&amp;UPnp를 사용하여 포트 매핑</translation>
     </message>
     <message>
-        <source>Enable automatic minting of PIV units to zMK2</source>
-        <translation>보상받은 PIV를 zMK2로 자동변환 활성화</translation>
+        <source>Enable automatic minting of MK2 units to zMK2</source>
+        <translation>보상받은 MK2를 zMK2로 자동변환 활성화</translation>
     </message>
     <message>
         <source>Enable zMK2 Automint</source>
@@ -1920,16 +1920,16 @@ https://www.transifex.com/mk2x-project/mk2x-project-translations</translation>
         <translation>Automint 주소 사용</translation>
     </message>
     <message>
-        <source>Percentage of incoming PIV which get automatically converted to zMK2 via Zerocoin Protocol (min: 10%)</source>
-        <translation>PIV수신시 자동변환 zMK2 비율 (최소값:10%)</translation>
+        <source>Percentage of incoming MK2 which get automatically converted to zMK2 via Zerocoin Protocol (min: 10%)</source>
+        <translation>MK2수신시 자동변환 zMK2 비율 (최소값:10%)</translation>
     </message>
     <message>
         <source>Percentage of autominted zMK2</source>
         <translation>자동 변환되는 zMK2 비율</translation>
     </message>
     <message>
-        <source>Wait with automatic conversion to Zerocoin until enough PIV for this denomination is available</source>
-        <translation>이 디노미네이션의 PIV가 충분해질 때까지 Zerocoin으로 자동전환은 보류됩니다.</translation>
+        <source>Wait with automatic conversion to Zerocoin until enough MK2 for this denomination is available</source>
+        <translation>이 디노미네이션의 MK2가 충분해질 때까지 Zerocoin으로 자동전환은 보류됩니다.</translation>
     </message>
     <message>
         <source>Preferred Automint zMK2 Denomination</source>
@@ -2312,16 +2312,16 @@ Address: %4
         <translation>zMK2 생성</translation>
     </message>
     <message>
-        <source>Enter amount of PIV to mint into zMK2</source>
-        <translation>zMK2 로 바꿀 PIV의 양을 넣으세요.</translation>
+        <source>Enter amount of MK2 to mint into zMK2</source>
+        <translation>zMK2 로 바꿀 MK2의 양을 넣으세요.</translation>
     </message>
     <message>
-        <source>Convert back to PIV</source>
-        <translation>PIV 로 재변환</translation>
+        <source>Convert back to MK2</source>
+        <translation>MK2 로 재변환</translation>
     </message>
     <message>
-        <source>Enter amount of zMK2 to convert back into PIV</source>
-        <translation>PIV로 바꿀 zMK2의 양을 넣으세요.</translation>
+        <source>Enter amount of zMK2 to convert back into MK2</source>
+        <translation>MK2로 바꿀 zMK2의 양을 넣으세요.</translation>
     </message>
     <message>
         <source>Zerocoin</source>
@@ -2348,12 +2348,12 @@ Address: %4
         <translation>zMK2 생성 성공</translation>
     </message>
     <message>
-        <source>zMK2 converted back to PIV</source>
-        <translation>PIV 로 zMK2 변환됨</translation>
+        <source>zMK2 converted back to MK2</source>
+        <translation>MK2 로 zMK2 변환됨</translation>
     </message>
     <message>
-        <source>You don't have any PIV to select.</source>
-        <translation>선택할 PIV를 가지고 있지 않습니다.</translation>
+        <source>You don't have any MK2 to select.</source>
+        <translation>선택할 MK2를 가지고 있지 않습니다.</translation>
     </message>
     <message>
         <source>Rescan Mints</source>
@@ -2977,8 +2977,8 @@ Address: %4
         <translation>받기</translation>
     </message>
     <message>
-        <source>Scan the QR code or copy the address to receive PIV.</source>
-        <translation>PIV 를 받기 위해 QR 코드를 스캔하거나 주소를 복사 하십시요.</translation>
+        <source>Scan the QR code or copy the address to receive MK2.</source>
+        <translation>MK2 를 받기 위해 QR 코드를 스캔하거나 주소를 복사 하십시요.</translation>
     </message>
     <message>
         <source>No address </source>
@@ -3087,8 +3087,8 @@ Address: %4
         <translation>금액</translation>
     </message>
     <message>
-        <source>PIV</source>
-        <translation>PIV</translation>
+        <source>MK2</source>
+        <translation>MK2</translation>
     </message>
     <message>
         <source>TextLabel</source>
@@ -3197,8 +3197,8 @@ Address: %4
         <translation>권장</translation>
     </message>
     <message>
-        <source>PIV/kilobyte</source>
-        <translation>PIV/Kilobyte</translation>
+        <source>MK2/kilobyte</source>
+        <translation>MK2/Kilobyte</translation>
     </message>
     <message>
         <source>0.00 KB</source>
@@ -3291,8 +3291,8 @@ Address: %4
         <translation>전송할 총 액수</translation>
     </message>
     <message>
-        <source>Send PIV</source>
-        <translation>PIV 보내기</translation>
+        <source>Send MK2</source>
+        <translation>MK2 보내기</translation>
     </message>
     <message>
         <source>Send zMK2</source>
@@ -3406,8 +3406,8 @@ Either mint higher denominations (so fewer inputs are needed) or reduce the amou
         <translation>커스텀 수수료 %1</translation>
     </message>
     <message>
-        <source>You don't have any PIV to select.</source>
-        <translation>선택할 수 있는 PIV를 가지고 있지 않습니다.</translation>
+        <source>You don't have any MK2 to select.</source>
+        <translation>선택할 수 있는 MK2를 가지고 있지 않습니다.</translation>
     </message>
     <message>
         <source>No contacts available, you can go to the contacts screen and add some there!</source>
@@ -5100,40 +5100,40 @@ NOTE: 업그레이드 이후에는
         <translation>수신됨</translation>
     </message>
     <message>
-        <source>PIV Stake</source>
-        <translation>PIV stake</translation>
+        <source>MK2 Stake</source>
+        <translation>MK2 stake</translation>
     </message>
     <message>
         <source>zMK2 Stake</source>
         <translation>zMK2 stake</translation>
     </message>
     <message>
-        <source>PIV Cold Stake</source>
-        <translation>PIV Cold Stake</translation>
+        <source>MK2 Cold Stake</source>
+        <translation>MK2 Cold Stake</translation>
     </message>
     <message>
         <source>Stake delegation</source>
         <translation>Stake delegation</translation>
     </message>
     <message>
-        <source>Converted PIV to zMK2</source>
-        <translation>PIV를 zMK2로 변환</translation>
+        <source>Converted MK2 to zMK2</source>
+        <translation>MK2를 zMK2로 변환</translation>
     </message>
     <message>
         <source>Spent zMK2</source>
         <translation>zMK2 사용</translation>
     </message>
     <message>
-        <source>Received PIV from zMK2</source>
-        <translation>zMK2를 PIV로 받음</translation>
+        <source>Received MK2 from zMK2</source>
+        <translation>zMK2를 MK2로 받음</translation>
     </message>
     <message>
         <source>Minted Change as zMK2 from zMK2 Spend</source>
         <translation>zMK2 전송후 남은 zMK2로 잔돈 생성</translation>
     </message>
     <message>
-        <source>Converted zMK2 to PIV</source>
-        <translation>zMK2를 PIV로 변환</translation>
+        <source>Converted zMK2 to MK2</source>
+        <translation>zMK2를 MK2로 변환</translation>
     </message>
     <message>
         <source>Sent to</source>
@@ -5294,8 +5294,8 @@ NOTE: 업그레이드 이후에는
         <translation>18/05/18</translation>
     </message>
     <message>
-        <source>+0.000585 PIV</source>
-        <translation>+0.000585 PIV</translation>
+        <source>+0.000585 MK2</source>
+        <translation>+0.000585 MK2</translation>
     </message>
 </context>
 <context>
@@ -5305,8 +5305,8 @@ NOTE: 업그레이드 이후에는
         <translation>코인 전송 </translation>
     </message>
     <message>
-        <source>SwiftX doesn't support sending values that high yet. Transactions are currently limited to %1 PIV.</source>
-        <translation>SwiftTX는 아직 높은 값을 전송하는 것을 지원하지 않습니다. 트랜잭션은 현재 %1 PIV로 제한됩니다.</translation>
+        <source>SwiftX doesn't support sending values that high yet. Transactions are currently limited to %1 MK2.</source>
+        <translation>SwiftTX는 아직 높은 값을 전송하는 것을 지원하지 않습니다. 트랜잭션은 현재 %1 MK2로 제한됩니다.</translation>
     </message>
 </context>
 <context>
@@ -5464,8 +5464,8 @@ MK2X Core Wallet</translation>
         <translation>MIT 소프트웨어 라이센스에 따라 배포, 첨부 파일 COPYING 또는 &lt;http://www.opensource.org/licenses/mit-license.php&gt; 를 참조하십시오.</translation>
     </message>
     <message>
-        <source>Enable or disable staking functionality for PIV inputs (0-1, default: %u)</source>
-        <translation>Enable or disable staking functionality for PIV inputs (0-1, default: %u)</translation>
+        <source>Enable or disable staking functionality for MK2 inputs (0-1, default: %u)</source>
+        <translation>Enable or disable staking functionality for MK2 inputs (0-1, default: %u)</translation>
     </message>
     <message>
         <source>Enable or disable staking functionality for zMK2 inputs (0-1, default: %u)</source>
@@ -5504,12 +5504,12 @@ MK2X Core Wallet</translation>
         <translation>최고 블록이 변경될 경우 명령을 실행하십시오 (명령 내 %s 는 블록 해시로 대체 되었습니다)</translation>
     </message>
     <message>
-        <source>Fees (in PIV/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>이것보다 작은 수수료 (PIV/Kb)는 중계 수수료가 없는 것으로 간주됩니다 (기본값: %s)</translation>
+        <source>Fees (in MK2/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>이것보다 작은 수수료 (MK2/Kb)는 중계 수수료가 없는 것으로 간주됩니다 (기본값: %s)</translation>
     </message>
     <message>
-        <source>Fees (in PIV/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>이것보다 작은 수수료 (PIV/Kb)는 트랜잭션 생성 수수료가 없는 것으로 간주됩니다 (기본값: %s)</translation>
+        <source>Fees (in MK2/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>이것보다 작은 수수료 (MK2/Kb)는 트랜잭션 생성 수수료가 없는 것으로 간주됩니다 (기본값: %s)</translation>
     </message>
     <message>
         <source>Flush database activity from memory pool to disk log every &lt;n&gt; megabytes (default: %u)</source>
@@ -5856,8 +5856,8 @@ MK2X Core Wallet</translation>
         <translation>블록을 받아오는데 실패했습니다.</translation>
     </message>
     <message>
-        <source>Fee (in PIV/kB) to add to transactions you send (default: %s)</source>
-        <translation>당신이 보내는 트랜잭션에 추가 할 수수료 (PIV/kB) (기본값: %s)</translation>
+        <source>Fee (in MK2/kB) to add to transactions you send (default: %s)</source>
+        <translation>당신이 보내는 트랜잭션에 추가 할 수수료 (MK2/kB) (기본값: %s)</translation>
     </message>
     <message>
         <source>Force safe mode (default: %u)</source>
@@ -5932,12 +5932,12 @@ MK2X Core Wallet</translation>
         <translation>masternode.conf 에서 유효하지 않은 포트가 감지되었습니다</translation>
     </message>
     <message>
-        <source>Recalculating PIV supply...</source>
-        <translation>PIV 공급 재계산중...</translation>
+        <source>Recalculating MK2 supply...</source>
+        <translation>MK2 공급 재계산중...</translation>
     </message>
     <message>
-        <source>Reindex the PIV and zMK2 money supply statistics</source>
-        <translation>PIV 및 zMK2 공급량 다시 색인</translation>
+        <source>Reindex the MK2 and zMK2 money supply statistics</source>
+        <translation>MK2 및 zMK2 공급량 다시 색인</translation>
     </message>
     <message>
         <source>Reindexing zerocoin database...</source>

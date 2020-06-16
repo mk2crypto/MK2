@@ -27,7 +27,7 @@ SettingsFaqWidget::SettingsFaqWidget(MK2XGUI *parent) :
     // Content
     setCssProperty({
            ui->labelNumber_Intro,
-           ui->labelNumber_UnspendablePIV,
+           ui->labelNumber_UnspendableMK2,
            ui->labelNumber_Stake,
            ui->labelNumber_Support,
            ui->labelNumber_Masternode,
@@ -36,7 +36,7 @@ SettingsFaqWidget::SettingsFaqWidget(MK2XGUI *parent) :
 
     setCssProperty({
               ui->labelSubtitle_Intro,
-              ui->labelSubtitle_UnspendablePIV,
+              ui->labelSubtitle_UnspendableMK2,
               ui->labelSubtitle_Stake,
               ui->labelSubtitle_Support,
               ui->labelSubtitle_Masternode,
@@ -46,7 +46,7 @@ SettingsFaqWidget::SettingsFaqWidget(MK2XGUI *parent) :
 
     setCssProperty({
               ui->labelContent_Intro,
-              ui->labelContent_UnspendablePIV,
+              ui->labelContent_UnspendableMK2,
               ui->labelContent_Stake,
               ui->labelContent_Support,
               ui->labelContent_Masternode,
@@ -56,7 +56,7 @@ SettingsFaqWidget::SettingsFaqWidget(MK2XGUI *parent) :
 
     setCssProperty({
               ui->pushButton_Intro,
-              ui->pushButton_UnspendablePIV,
+              ui->pushButton_UnspendableMK2,
               ui->pushButton_Stake,
               ui->pushButton_Support,
               ui->pushButton_Masternode,
@@ -75,7 +75,7 @@ SettingsFaqWidget::SettingsFaqWidget(MK2XGUI *parent) :
     // Buttons
     connect(ui->pushButtonExit, &QPushButton::clicked, this, &SettingsFaqWidget::close);
     connect(ui->pushButton_Intro, &QPushButton::clicked, [this](){onFaqClicked(ui->widget_Intro);});
-    connect(ui->pushButton_UnspendablePIV, &QPushButton::clicked, [this](){onFaqClicked(ui->widget_UnspendablePIV);});
+    connect(ui->pushButton_UnspendableMK2, &QPushButton::clicked, [this](){onFaqClicked(ui->widget_UnspendableMK2);});
     connect(ui->pushButton_Stake, &QPushButton::clicked, [this](){onFaqClicked(ui->widget_Stake);});
     connect(ui->pushButton_Support, &QPushButton::clicked, [this](){onFaqClicked(ui->widget_Support);});
     connect(ui->pushButton_Masternode, &QPushButton::clicked, [this](){onFaqClicked(ui->widget_Masternode);});
@@ -117,7 +117,7 @@ std::vector<QPushButton*> SettingsFaqWidget::getButtons()
 {
     return {
             ui->pushButton_Intro,
-            ui->pushButton_UnspendablePIV,
+            ui->pushButton_UnspendableMK2,
             ui->pushButton_Stake,
             ui->pushButton_Support,
             ui->pushButton_Masternode,

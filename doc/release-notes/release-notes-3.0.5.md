@@ -13,7 +13,7 @@ Please report bugs using the issue tracker at github:
 Mandatory Update
 ==============
 
-MK2X Core v3.0.5 is a mandatory update for all users. This release contains various updates/fixes pertaining to the zMK2 protocol, supply tracking, block transmission and relaying, as well as usability and quality-of-life updates to the GUI. Users are required to update before block `908000` which is when the accumulators will be refactored. Shortly after that block, zMK2 transactions will be enabled. **When zMK2 is enabled, autominting will also be enabled.** If you would like to disable automatic conversion of 10% of your PIV balance to zMK2, then you will need to add `enablezeromint=0` to your `mk2x.conf` file. For information about where to find your mk2x.conf you can visit this link from [MK2X Support](https://mk2x.freshdesk.com/support/solutions/articles/30000004664-where-are-my-wallet-dat-blockchain-and-configuration-conf-files-located-).
+MK2X Core v3.0.5 is a mandatory update for all users. This release contains various updates/fixes pertaining to the zMK2 protocol, supply tracking, block transmission and relaying, as well as usability and quality-of-life updates to the GUI. Users are required to update before block `908000` which is when the accumulators will be refactored. Shortly after that block, zMK2 transactions will be enabled. **When zMK2 is enabled, autominting will also be enabled.** If you would like to disable automatic conversion of 10% of your MK2 balance to zMK2, then you will need to add `enablezeromint=0` to your `mk2x.conf` file. For information about where to find your mk2x.conf you can visit this link from [MK2X Support](https://mk2x.freshdesk.com/support/solutions/articles/30000004664-where-are-my-wallet-dat-blockchain-and-configuration-conf-files-located-).
 
 Users will have a grace period to update their clients before versions prior to this release are no longer allowed to connect to this (and future) version(s).
 
@@ -60,7 +60,7 @@ Handling the above noted libzerocoin exploit required the MK2X team to immediate
 
 Money Supply Indexing
 ---------------------
-The exploit in libzerocoin threw off some of the wallet's internal money supply calculations for both the zMK2 supply and the PIV supply. User's wallet's will automatically recalculate the supply on block `908001`. User's also have the ability to recalculate supply using the startup flag `reindexmoneysupply`.
+The exploit in libzerocoin threw off some of the wallet's internal money supply calculations for both the zMK2 supply and the MK2 supply. User's wallet's will automatically recalculate the supply on block `908001`. User's also have the ability to recalculate supply using the startup flag `reindexmoneysupply`.
 
 More Extensive Tracking of zMK2 Supply Through RPC
 ---------------------

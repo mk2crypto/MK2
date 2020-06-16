@@ -56,7 +56,7 @@ bool CheckZerocoinSpend(const CTransaction& tx, bool fVerifySignature, CValidati
             }
             libzerocoin::ZerocoinParams* params = consensus.Zerocoin_Params(false);
             PublicCoinSpend publicSpend(params);
-            if (!ZPIVModule::parseCoinSpend(txin, tx, prevOut, publicSpend)){
+            if (!ZMK2Module::parseCoinSpend(txin, tx, prevOut, publicSpend)){
                 return state.DoS(100, error("CheckZerocoinSpend(): public zerocoin spend parse failed"));
             }
             newSpend = publicSpend;
@@ -79,7 +79,7 @@ bool CheckZerocoinSpend(const CTransaction& tx, bool fVerifySignature, CValidati
         if (isPublicSpend) {
             libzerocoin::ZerocoinParams* params = consensus.Zerocoin_Params(false);
             PublicCoinSpend ret(params);
-            if (!ZPIVModule::validateInput(txin, prevOut, tx, ret)){
+            if (!ZMK2Module::validateInput(txin, prevOut, tx, ret)){
                 return state.DoS(100, error("CheckZerocoinSpend(): public zerocoin spend did not verify"));
             }
         }
@@ -189,7 +189,7 @@ bool ContextualCheckZerocoinSpendNoSerialCheck(const CTransaction& tx, const lib
     return true;
 }
 
-bool RecalculatePIVSupply(int nHeightStart, bool fSkipZpiv)
+bool RecalculateMK2Supply(int nHeightStart, bool fSkipZpiv)
 {
     AssertLockHeld(cs_main);
 
@@ -208,12 +208,12 @@ bool RecalculatePIVSupply(int nHeightStart, bool fSkipZpiv)
         for (auto& denom : libzerocoin::zerocoinDenomList) mapZerocoinSupply.insert(std::make_pair(denom, 0));
     }
 
-    uiInterface.ShowProgress(_("Recalculating PIV supply..."), 0);
+    uiInterface.ShowProgress(_("Recalculating MK2 supply..."), 0);
     while (true) {
         if (pindex->nHeight % 1000 == 0) {
             LogPrintf("%s : block %d...\n", __func__, pindex->nHeight);
             int percent = std::max(1, std::min(99, (int)((double)((pindex->nHeight - nHeightStart) * 100) / (chainHeight - nHeightStart))));
-            uiInterface.ShowProgress(_("Recalculating PIV supply..."), percent);
+            uiInterface.ShowProgress(_("Recalculating MK2 supply..."), percent);
         }
 
         CBlock block;
@@ -251,7 +251,7 @@ bool RecalculatePIVSupply(int nHeightStart, bool fSkipZpiv)
 
         // Rewrite zmk2 supply too
         if (!fSkipZpiv && pindex->nHeight >= consensus.height_start_ZC) {
-            UpdateZPIVSupplyConnect(block, pindex, true);
+            UpdateZMK2SupplyConnect(block, pindex, true);
         }
 
         // Add fraudulent funds to the supply and remove any recovered funds.

@@ -2,8 +2,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef MK2X_ZPIVTRACKER_H
-#define MK2X_ZPIVTRACKER_H
+#ifndef MK2X_ZMK2TRACKER_H
+#define MK2X_ZMK2TRACKER_H
 
 #include "zerocoin.h"
 #include "sync.h"
@@ -52,4 +52,4 @@ public:
     void Clear();
 };
 
-#endif //MK2X_ZPIVTRACKER_H
+#endif //MK2X_ZMK2TRACKER_H

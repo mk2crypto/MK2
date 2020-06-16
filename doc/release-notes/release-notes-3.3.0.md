@@ -37,13 +37,13 @@ Notable Changes
 
 Recent exploits of the Zerocoin protocol (Wrapped serials and broken P1 proof) required us to enable the zerocoin spork and deactivate zMK2 functionality in order to secure the supply until the pertinent review process was completed.
 
-Moving forward from this undesired situation, we are enabling a secure and chain storage friendly solution for the zerocoin public spend (aka zMK2 to PIV conversion).
+Moving forward from this undesired situation, we are enabling a secure and chain storage friendly solution for the zerocoin public spend (aka zMK2 to MK2 conversion).
 
 The explanation of how this works can be found in #891
 
 After block `1,880,000` has past, `SPORK_16` will be deactivated to allow zMK2 spends to occur using this new public spend method for version 2 zMK2 (version 1 zMK2 won't be spendable, see note below). zMK2 public spends, as the name suggests, are **NOT** private, they reveal the input mint that is being spent. The minting of **NEW** zMK2, as well as zMK2 staking will remain disabled for the time being.
 
-It is advised that users spend/convert their existing zMK2 to PIV, which can be done via the GUI or RPC as it was prior to the disabling of zMK2. Note that with the public spend method, the restriction on the number of denominations per transaction (previously 7) has been lifted, and now allows for several hundred denominations per transaction.
+It is advised that users spend/convert their existing zMK2 to MK2, which can be done via the GUI or RPC as it was prior to the disabling of zMK2. Note that with the public spend method, the restriction on the number of denominations per transaction (previously 7) has been lifted, and now allows for several hundred denominations per transaction.
 
 *Note on version 1 zMK2*: Version 1 zMK2 was only available to me minted between versions v3.0.0 (Oct 6, 2017) and v3.1.0 (May 8, 2018). The announcement that version 1 zMK2 was deprecated went out on May 1, 2018 with a recommendation for users to spend/convert their version 1 zMK2.
 
@@ -140,7 +140,7 @@ Detailed release notes follow. This overview includes changes that affect behavi
 ### Core
  - #875 `a99c2dd3bb` [Zerocoin] GMP BigNum: Fix limits for random number generators (random-zebra)
  - #888 `0c071c3fd0` [Zerocoin] remove CTransaction::IsZerocoinSpend/IsZerocoinMint (random-zebra)
- - #891 `855408c2c3` [ZPIV] Zerocoin public coin spend. (furszy)
+ - #891 `855408c2c3` [ZMK2] Zerocoin public coin spend. (furszy)
  - #897 `65bd788945` [zMK2] Disable zerocoin minting (random-zebra)
  - #899 `4b22a09024` [zMK2] Disable zMK2 staking (random-zebra)
  - #909 `458b08c8f2` [Consensus] Mainnet public spend enforcement height set. (furszy)

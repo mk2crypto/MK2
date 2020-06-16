@@ -53,7 +53,7 @@ class ReorgStakeTest(Mk2xTestFramework):
 
     def check_money_supply(self, expected_piv, expected_zmk2):
         g_info = [self.nodes[i].getinfo() for i in range(self.num_nodes)]
-        # verify that nodes have the expected PIV and zMK2 supply
+        # verify that nodes have the expected MK2 and zMK2 supply
         for node in g_info:
             assert_equal(node['moneysupply'], DecimalAmt(expected_piv))
             for denom in node['zMK2supply']:
@@ -68,7 +68,7 @@ class ReorgStakeTest(Mk2xTestFramework):
                     return True, x
             return False, None
 
-        # Check PIV and zMK2 supply at the beginning
+        # Check MK2 and zMK2 supply at the beginning
         # ------------------------------------------
         # zMK2 supply: 2 coins for each denomination
         expected_zmk2_supply = {
@@ -82,7 +82,7 @@ class ReorgStakeTest(Mk2xTestFramework):
             "5000": 10000,
             "total": 13332,
         }
-        # PIV supply: block rewards minus burned fees for minting
+        # MK2 supply: block rewards minus burned fees for minting
         expected_money_supply = 250.0 * 330 - 16 * 0.01
         self.check_money_supply(expected_money_supply, expected_zmk2_supply)
 
@@ -230,8 +230,8 @@ class ReorgStakeTest(Mk2xTestFramework):
         res, utxo = findUtxoInList(stakeinput["txid"], stakeinput["vout"], self.nodes[0].listunspent())
         assert (not res or not utxo["spendable"])
 
-        # Verify that PIV and zMK2 supplies were properly updated after the spends and reorgs
-        self.log.info("Check PIV and zMK2 supply...")
+        # Verify that MK2 and zMK2 supplies were properly updated after the spends and reorgs
+        self.log.info("Check MK2 and zMK2 supply...")
         expected_money_supply += 250.0 * (self.nodes[1].getblockcount() - 330)
         spent_coin_0 = mints[0]["denomination"]
         spent_coin_1 = mints[1]["denomination"]

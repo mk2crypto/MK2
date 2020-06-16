@@ -380,8 +380,8 @@ voor bewijs van Inzet</translation>
         <translation>Als u uw portemonnee versleutelt en uw wachtwoord vergeet, zal u</translation>
     </message>
     <message>
-        <source>LOSE ALL OF YOUR PIV</source>
-        <translation>AL UW PIV VERLIEZEN</translation>
+        <source>LOSE ALL OF YOUR MK2</source>
+        <translation>AL UW MK2 VERLIEZEN</translation>
     </message>
     <message>
         <source>ENCRYPT</source>
@@ -396,8 +396,8 @@ voor bewijs van Inzet</translation>
         <translation>Waarschuwing: De Caps Lock-toets staat aan!</translation>
     </message>
     <message>
-        <source>MK2X will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PIVs from being stolen by malware infecting your computer.</source>
-        <translation>MK2X zal nu afsluiten om het versleutelingsproces te voltooien. Onthoud dat het versleutelen van uw portemonnee u niet volledig kan beschermen tegen malware infecties op uw computer die uw PIV's kunnen stelen.</translation>
+        <source>MK2X will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your MK2s from being stolen by malware infecting your computer.</source>
+        <translation>MK2X zal nu afsluiten om het versleutelingsproces te voltooien. Onthoud dat het versleutelen van uw portemonnee u niet volledig kan beschermen tegen malware infecties op uw computer die uw MK2's kunnen stelen.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -466,8 +466,8 @@ voor bewijs van Inzet</translation>
         <translation>Besparingen</translation>
     </message>
     <message>
-        <source>0,00 PIV</source>
-        <translation>0,00 PIV</translation>
+        <source>0,00 MK2</source>
+        <translation>0,00 MK2</translation>
     </message>
     <message>
         <source>address</source>
@@ -508,8 +508,8 @@ voor bewijs van Inzet</translation>
         <translation>Munt Selectie</translation>
     </message>
     <message>
-        <source>Select PIV Outputs to Spend</source>
-        <translation>Selecteer PIV Outputs om te besteden</translation>
+        <source>Select MK2 Outputs to Spend</source>
+        <translation>Selecteer MK2 Outputs om te besteden</translation>
     </message>
     <message>
         <source>Dust:</source>
@@ -536,8 +536,8 @@ voor bewijs van Inzet</translation>
         <translation>Bedrag</translation>
     </message>
     <message>
-        <source>0.00 PIV</source>
-        <translation>0.00 PIV</translation>
+        <source>0.00 MK2</source>
+        <translation>0.00 MK2</translation>
     </message>
     <message>
         <source>0</source>
@@ -803,9 +803,9 @@ voor bewijs van Inzet</translation>
         <translation>Fout bij laden delegaties: %1</translation>
     </message>
     <message>
-        <source>You can delegate your PIVs, letting a hot node (24/7 online node)
+        <source>You can delegate your MK2s, letting a hot node (24/7 online node)
 stake on your behalf, while you keep the keys securely offline.</source>
-        <translation>Je kan jouw PIVs delegeren en een hot node (24/7 online node)
+        <translation>Je kan jouw MK2s delegeren en een hot node (24/7 online node)
 voor je laten staken, terwijl je de sleutels veilig offline opslag bewaart.</translation>
     </message>
     <message>
@@ -813,8 +813,8 @@ voor je laten staken, terwijl je de sleutels veilig offline opslag bewaart.</tra
         <translation>Voer eigenaarsadres in</translation>
     </message>
     <message>
-        <source>Accept PIV delegation / Delegate PIV</source>
-        <translation>Accepteer PIV delegatie / Delegeer PIV</translation>
+        <source>Accept MK2 delegation / Delegate MK2</source>
+        <translation>Accepteer MK2 delegatie / Delegeer MK2</translation>
     </message>
     <message>
         <source>Cold Staking address</source>
@@ -881,8 +881,8 @@ Wil je verdergaan?</translation>
         <translation>Gedelegeerde Munten</translation>
     </message>
     <message>
-        <source>You don't have any PIV to select.</source>
-        <translation>Je hebt geen PIV om te selecteren</translation>
+        <source>You don't have any MK2 to select.</source>
+        <translation>Je hebt geen MK2 om te selecteren</translation>
     </message>
     <message>
         <source>Cannot perform operation, wallet locked</source>
@@ -1012,8 +1012,8 @@ address</source>
         <translation>Staking statistieken</translation>
     </message>
     <message>
-        <source>PIV</source>
-        <translation>PIV</translation>
+        <source>MK2</source>
+        <translation>MK2</translation>
     </message>
     <message>
         <source>zMK2</source>
@@ -1048,8 +1048,8 @@ address</source>
         <translation>U kunt de geschiedenis van uw account bekijken</translation>
     </message>
     <message>
-        <source>Amount of PIV and zMK2 staked.</source>
-        <translation>Hoeveelheid aan gestaked PIV en zMK2.</translation>
+        <source>Amount of MK2 and zMK2 staked.</source>
+        <translation>Hoeveelheid aan gestaked MK2 en zMK2.</translation>
     </message>
     <message>
         <source>Please wait until the wallet is fully synced to see your correct balance</source>
@@ -1060,8 +1060,8 @@ address</source>
         <translation>Nog geen transacties</translation>
     </message>
     <message>
-        <source>How to get PIV or zMK2</source>
-        <translation>Hoe PIV of zMK2 verkrijgen</translation>
+        <source>How to get MK2 or zMK2</source>
+        <translation>Hoe MK2 of zMK2 verkrijgen</translation>
     </message>
     <message>
         <source>You can verify the staking activity in the status bar at the top right of the wallet.
@@ -1400,8 +1400,8 @@ Het zal automatisch starten zodra de portemonnee voldoende bevestigingen heeft o
         <translation>Creëer Nieuwe Masternode Controller</translation>
     </message>
     <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;To create a MK2X Masternode you must dedicate 10,000 PIV (the unit of MK2X) to the network (however, these coins are still yours and will never leave your possession). &lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;You can deactivate the node and unlock the coins at any time.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Om een MK2X Masternode te creëren moet u 10.000 PIV (de eenheid van MK2X) aan het netwerk wijden (deze munten zijn echter nog steeds van u en zullen nooit uw bezit verlaten). &lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;U kunt de node op elk gewenst moment deactiveren en de munten ontgrendelen.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;To create a MK2X Masternode you must dedicate 10,000 MK2 (the unit of MK2X) to the network (however, these coins are still yours and will never leave your possession). &lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;You can deactivate the node and unlock the coins at any time.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Om een MK2X Masternode te creëren moet u 10.000 MK2 (de eenheid van MK2X) aan het netwerk wijden (deze munten zijn echter nog steeds van u en zullen nooit uw bezit verlaten). &lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;U kunt de node op elk gewenst moment deactiveren en de munten ontgrendelen.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <source>Set Masternode Name</source>
@@ -1420,8 +1420,8 @@ Het zal automatisch starten zodra de portemonnee voldoende bevestigingen heeft o
         <translation>Zorg ervoor dat je deze hoeveelheid munten hebt.</translation>
     </message>
     <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;A transaction of 10,000 PIV will be made&lt;/p&gt;&lt;p&gt;to a new empty address in your wallet.&lt;/p&gt;&lt;p&gt;The Address is labeled under the master node's name.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Een transactie van 10,000 PIV zal gemaakt worden&lt;/p&gt;&lt;p&gt;naar een nieuw leeg adres in uw portemonnee.&lt;/p&gt;&lt;p&gt;Het adres is gelabeld onder de masternode's naam.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;A transaction of 10,000 MK2 will be made&lt;/p&gt;&lt;p&gt;to a new empty address in your wallet.&lt;/p&gt;&lt;p&gt;The Address is labeled under the master node's name.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Een transactie van 10,000 MK2 zal gemaakt worden&lt;/p&gt;&lt;p&gt;naar een nieuw leeg adres in uw portemonnee.&lt;/p&gt;&lt;p&gt;Het adres is gelabeld onder de masternode's naam.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <source>Address of the node that must always be online running the actual master node.</source>
@@ -1663,8 +1663,8 @@ Weet je het zeker?</translation>
         <translation>Kan geen Masternode controller aanmaken, portemonnee vergrendeld</translation>
     </message>
     <message>
-        <source>Not enough balance to create a masternode, 10,000 PIV required.</source>
-        <translation>Niet genoeg balans om een masternode te creëren, 10,000 PIV vereist.</translation>
+        <source>Not enough balance to create a masternode, 10,000 MK2 required.</source>
+        <translation>Niet genoeg balans om een masternode te creëren, 10,000 MK2 vereist.</translation>
     </message>
     <message>
         <source>Error creating masternode</source>
@@ -1911,8 +1911,8 @@ https://www.transifex.com/mk2x-project/mk2x-project-translations</translation>
         <translation>Map poort gebruikt &amp;UPnP</translation>
     </message>
     <message>
-        <source>Enable automatic minting of PIV units to zMK2</source>
-        <translation>Schakel automatisch slaan van PIV-eenheden in op zMK2</translation>
+        <source>Enable automatic minting of MK2 units to zMK2</source>
+        <translation>Schakel automatisch slaan van MK2-eenheden in op zMK2</translation>
     </message>
     <message>
         <source>Enable zMK2 Automint</source>
@@ -1927,16 +1927,16 @@ https://www.transifex.com/mk2x-project/mk2x-project-translations</translation>
         <translation>Automint Adressen Inschakelen</translation>
     </message>
     <message>
-        <source>Percentage of incoming PIV which get automatically converted to zMK2 via Zerocoin Protocol (min: 10%)</source>
-        <translation>Percentage inkomende PIV die automatisch wordt omgezet naar zMK2 via Zerocoin Protocol (min: 10%)</translation>
+        <source>Percentage of incoming MK2 which get automatically converted to zMK2 via Zerocoin Protocol (min: 10%)</source>
+        <translation>Percentage inkomende MK2 die automatisch wordt omgezet naar zMK2 via Zerocoin Protocol (min: 10%)</translation>
     </message>
     <message>
         <source>Percentage of autominted zMK2</source>
         <translation>Percentage autominted zMK2</translation>
     </message>
     <message>
-        <source>Wait with automatic conversion to Zerocoin until enough PIV for this denomination is available</source>
-        <translation>Wacht met automatische omzetting naar Zerocoin totdat er genoeg PIV voor deze denominatie beschikbaar is</translation>
+        <source>Wait with automatic conversion to Zerocoin until enough MK2 for this denomination is available</source>
+        <translation>Wacht met automatische omzetting naar Zerocoin totdat er genoeg MK2 voor deze denominatie beschikbaar is</translation>
     </message>
     <message>
         <source>Preferred Automint zMK2 Denomination</source>
@@ -2311,14 +2311,14 @@ Adres: %4
         <translation>Munt</translation>
     </message>
     <message>
-        <source>Minting zMK2 anonymizes your PIV by removing any
+        <source>Minting zMK2 anonymizes your MK2 by removing any
 transaction history, making transactions untraceable </source>
-        <translation>Munten van zMK2 anonimiseert uw PIV door het verwijderen van eender welke
+        <translation>Munten van zMK2 anonimiseert uw MK2 door het verwijderen van eender welke
 transactiegeschiedenis, waardoor transacties niet meer te traceren zijn</translation>
     </message>
     <message>
-        <source>Mint new zMK2 or convert back to PIV</source>
-        <translation>Munt nieuwe zMK2 of converteer deze terug in PIV</translation>
+        <source>Mint new zMK2 or convert back to MK2</source>
+        <translation>Munt nieuwe zMK2 of converteer deze terug in MK2</translation>
     </message>
     <message>
         <source>Last zMK2 Movements</source>
@@ -2333,16 +2333,16 @@ transactiegeschiedenis, waardoor transacties niet meer te traceren zijn</transla
         <translation>Munt zMK2</translation>
     </message>
     <message>
-        <source>Enter amount of PIV to mint into zMK2</source>
-        <translation>Vul de hoeveelheid PIV in die u omslaan in zMK2</translation>
+        <source>Enter amount of MK2 to mint into zMK2</source>
+        <translation>Vul de hoeveelheid MK2 in die u omslaan in zMK2</translation>
     </message>
     <message>
-        <source>Convert back to PIV</source>
-        <translation>Converteer terug naar PIV</translation>
+        <source>Convert back to MK2</source>
+        <translation>Converteer terug naar MK2</translation>
     </message>
     <message>
-        <source>Enter amount of zMK2 to convert back into PIV</source>
-        <translation>Voer de hoeveelheed zMK2 in om terug te converteren naar PIV</translation>
+        <source>Enter amount of zMK2 to convert back into MK2</source>
+        <translation>Voer de hoeveelheed zMK2 in om terug te converteren naar MK2</translation>
     </message>
     <message>
         <source>Zerocoin</source>
@@ -2373,12 +2373,12 @@ transactiegeschiedenis, waardoor transacties niet meer te traceren zijn</transla
         <translation>zMK2 munting succesvol</translation>
     </message>
     <message>
-        <source>zMK2 converted back to PIV</source>
-        <translation>zMK2 terug geconverteerd naar PIV</translation>
+        <source>zMK2 converted back to MK2</source>
+        <translation>zMK2 terug geconverteerd naar MK2</translation>
     </message>
     <message>
-        <source>You don't have any PIV to select.</source>
-        <translation>Je hebt geen PIV om te selecteren</translation>
+        <source>You don't have any MK2 to select.</source>
+        <translation>Je hebt geen MK2 om te selecteren</translation>
     </message>
     <message>
         <source>Rescan Mints</source>
@@ -3049,8 +3049,8 @@ transactiegeschiedenis, waardoor transacties niet meer te traceren zijn</transla
         <translation>Ontvangen</translation>
     </message>
     <message>
-        <source>Scan the QR code or copy the address to receive PIV.</source>
-        <translation>Scan de QR code of kopieer het adres om PIV te ontvangen.</translation>
+        <source>Scan the QR code or copy the address to receive MK2.</source>
+        <translation>Scan de QR code of kopieer het adres om MK2 te ontvangen.</translation>
     </message>
     <message>
         <source>No address </source>
@@ -3159,8 +3159,8 @@ transactiegeschiedenis, waardoor transacties niet meer te traceren zijn</transla
         <translation>Bedrag</translation>
     </message>
     <message>
-        <source>PIV</source>
-        <translation>PIV</translation>
+        <source>MK2</source>
+        <translation>MK2</translation>
     </message>
     <message>
         <source>TextLabel</source>
@@ -3293,8 +3293,8 @@ transactiegeschiedenis, waardoor transacties niet meer te traceren zijn</transla
         <translation>Aanbevolen</translation>
     </message>
     <message>
-        <source>PIV/kilobyte</source>
-        <translation>PIV/kilobyte</translation>
+        <source>MK2/kilobyte</source>
+        <translation>MK2/kilobyte</translation>
     </message>
     <message>
         <source>0.00 KB</source>
@@ -3363,8 +3363,8 @@ transactiegeschiedenis, waardoor transacties niet meer te traceren zijn</transla
         <translation>Zenden</translation>
     </message>
     <message>
-        <source>You can transfer public coins (PIV) or private coins (zMK2)</source>
-        <translation>Je kan publieke munten (PIV) of private munten (zMK2) overdragen</translation>
+        <source>You can transfer public coins (MK2) or private coins (zMK2)</source>
+        <translation>Je kan publieke munten (MK2) of private munten (zMK2) overdragen</translation>
     </message>
     <message>
         <source>Select coin type to spend</source>
@@ -3395,8 +3395,8 @@ transactiegeschiedenis, waardoor transacties niet meer te traceren zijn</transla
         <translation>Totaal te versturen</translation>
     </message>
     <message>
-        <source>Send PIV</source>
-        <translation>PIV Versturen</translation>
+        <source>Send MK2</source>
+        <translation>MK2 Versturen</translation>
     </message>
     <message>
         <source>Send zMK2</source>
@@ -3535,8 +3535,8 @@ Ofwel het munten van hogere denominaties (dus minder invoer nodig) of het te bes
         <translation>Aangepaste Kost %1</translation>
     </message>
     <message>
-        <source>You don't have any PIV to select.</source>
-        <translation>Je hebt geen PIV om te selecteren</translation>
+        <source>You don't have any MK2 to select.</source>
+        <translation>Je hebt geen MK2 om te selecteren</translation>
     </message>
     <message>
         <source>You don't have any zMK2 in your balance to select.</source>
@@ -4043,8 +4043,8 @@ Er was een fout opgetreden tijdens het opslaan van deze adreslijst naar %1. Prob
         <translation>1) Wat is MK2X?</translation>
     </message>
     <message>
-        <source>2) Why are my PIV unspendable?</source>
-        <translation>2) Waarom is mijn PIV niet besteedbaar?</translation>
+        <source>2) Why are my MK2 unspendable?</source>
+        <translation>2) Waarom is mijn MK2 niet besteedbaar?</translation>
     </message>
     <message>
         <source>3) MK2X privacy? What is Zerocoin (zMK2)?</source>
@@ -4061,12 +4061,12 @@ Er was een fout opgetreden tijdens het opslaan van deze adreslijst naar %1. Prob
     automatisch naar zMK2 geconverteerd?</translation>
     </message>
     <message>
-        <source>6) How do I receive PIV/zMK2?</source>
-        <translation>6) Hoe ontvang ik PIV/zMK2?</translation>
+        <source>6) How do I receive MK2/zMK2?</source>
+        <translation>6) Hoe ontvang ik MK2/zMK2?</translation>
     </message>
     <message>
-        <source>7) How do I stake PIV/zMK2?</source>
-        <translation>7) Hoe stake ik PIV/zMK2?</translation>
+        <source>7) How do I stake MK2/zMK2?</source>
+        <translation>7) Hoe stake ik MK2/zMK2?</translation>
     </message>
     <message>
         <source>8) Where I should go if I need support?</source>
@@ -4123,8 +4123,8 @@ Er was een fout opgetreden tijdens het opslaan van deze adreslijst naar %1. Prob
         <translation>2</translation>
     </message>
     <message>
-        <source>Why are my PIV unspendable?</source>
-        <translation>Waarom is mijn PIV niet besteedbaar?</translation>
+        <source>Why are my MK2 unspendable?</source>
+        <translation>Waarom is mijn MK2 niet besteedbaar?</translation>
     </message>
     <message>
         <source>
@@ -4209,7 +4209,7 @@ Er was een fout opgetreden tijdens het opslaan van deze adreslijst naar %1. Prob
     <message>
         <source>
                            &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
-                           By default the MK2X wallet will convert 10% of your entire PIV
+                           By default the MK2X wallet will convert 10% of your entire MK2
                            balance to zMK2 to assist the network. If you do not wish to
                            stake zMK2 or take advantage of the privacy benefit it brings,
                            you can disable the automatic minting in your MK2X wallet by
@@ -4226,7 +4226,7 @@ Er was een fout opgetreden tijdens het opslaan van deze adreslijst naar %1. Prob
                          </source>
         <translation>
                            &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
-                           Standaard zal de MK2X portemonnee 10% van uw gehele PIV-balans omzetten
+                           Standaard zal de MK2X portemonnee 10% van uw gehele MK2-balans omzetten
                           naar zMK2 om het netwerk te helpen. Als u niet wenst om
                            zMK2 te staken of voordeel te halen uit het privacyvoordeel dat dit oplevert,
                            kan je deze automatische omzetting uitschakelen in je MK2X portemonnee door
@@ -4247,8 +4247,8 @@ Er was een fout opgetreden tijdens het opslaan van deze adreslijst naar %1. Prob
         <translation>6</translation>
     </message>
     <message>
-        <source>How do I receive PIV/zMK2?</source>
-        <translation>Hoe ontvang ik PIV/zMK2?</translation>
+        <source>How do I receive MK2/zMK2?</source>
+        <translation>Hoe ontvang ik MK2/zMK2?</translation>
     </message>
     <message>
         <source>
@@ -4273,8 +4273,8 @@ Er was een fout opgetreden tijdens het opslaan van deze adreslijst naar %1. Prob
         <translation>7</translation>
     </message>
     <message>
-        <source>How do I stake PIV/zMK2?</source>
-        <translation>Hoe stake ik PIV/zMK2?</translation>
+        <source>How do I stake MK2/zMK2?</source>
+        <translation>Hoe stake ik MK2/zMK2?</translation>
     </message>
     <message>
         <source>
@@ -4347,8 +4347,8 @@ Er was een fout opgetreden tijdens het opslaan van deze adreslijst naar %1. Prob
         <translation>Wat is een Masternode Controller</translation>
     </message>
     <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;A Masternode Controller wallet is where the 10,000 PIV collateral can reside during a Controller-Remote masternode setup. It is a wallet that can activate the remote masternode wallet(s) and allows you to keep your collateral coins offline while the remote masternode remains online. &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;Een Masternode Controller portemonnee is waar de 10.000 PIV onderpand zich kan bevinden tijdens een Controller-Remote masternode setup. Het is een portemonnee die de remote masternode portemonnee(s) kan activeren en waarmee u uw ondergepande munten offline kunt houden terwijl de remote masternode online blijft. &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;A Masternode Controller wallet is where the 10,000 MK2 collateral can reside during a Controller-Remote masternode setup. It is a wallet that can activate the remote masternode wallet(s) and allows you to keep your collateral coins offline while the remote masternode remains online. &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;Een Masternode Controller portemonnee is waar de 10.000 MK2 onderpand zich kan bevinden tijdens een Controller-Remote masternode setup. Het is een portemonnee die de remote masternode portemonnee(s) kan activeren en waarmee u uw ondergepande munten offline kunt houden terwijl de remote masternode online blijft. &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <source>8</source>
@@ -4384,7 +4384,7 @@ Er was een fout opgetreden tijdens het opslaan van deze adreslijst naar %1. Prob
         <source>
                            &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
                            A masternode is a computer running a full node MK2X core wallet with a
-                           requirement of 10,000 PIV secured collateral to provide extra services
+                           requirement of 10,000 MK2 secured collateral to provide extra services
                            to the network and in return, receive a portion of the block reward
                            regularly.  These services include:
                            &lt;/p&gt;&lt;p align="justify"&gt;
@@ -4416,7 +4416,7 @@ Er was een fout opgetreden tijdens het opslaan van deze adreslijst naar %1. Prob
                            Requirements:
                            &lt;/p&gt;&lt;p align="justify"&gt;
                            &lt;ul&gt;
-                           &lt;li&gt;10,000 PIV per single Masternode instance&lt;/li&gt;
+                           &lt;li&gt;10,000 MK2 per single Masternode instance&lt;/li&gt;
                            &lt;li&gt;Must be stored in a core wallet&lt;/li&gt;
                            &lt;li&gt;Need dedicated IP address&lt;/li&gt;
                            &lt;li&gt;Masternode wallet to remain online&lt;/li&gt;
@@ -4426,7 +4426,7 @@ Er was een fout opgetreden tijdens het opslaan van deze adreslijst naar %1. Prob
         <translation>
                            &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
                            Een masternode is een computer met een volledige node MK2X core portemonnee met een
-                           vereiste van 10.000 PIV onderpand om extra diensten te kunnen verlenen
+                           vereiste van 10.000 MK2 onderpand om extra diensten te kunnen verlenen
                            aan het netwerk en in ruil daarvoor ontvangt u regelmatig een deel van de blokbeloning.
                            Deze diensten omvatten::
                            &lt;/p&gt;&lt;p align="justify"&gt;
@@ -4458,7 +4458,7 @@ Er was een fout opgetreden tijdens het opslaan van deze adreslijst naar %1. Prob
                            Vereisten:
                            &lt;/p&gt;&lt;p align="justify"&gt;
                            &lt;ul&gt;
-                           &lt;li&gt;10,000 PIV per Masternode instance&lt;/li&gt;
+                           &lt;li&gt;10,000 MK2 per Masternode instance&lt;/li&gt;
                            &lt;li&gt;Moet in een kernportemonnee worden opgeborgen&lt;/li&gt;
                            &lt;li&gt;Vereist een vast IP-adres
                            &lt;li&gt;Masternode portemonnee moet online blijven&lt;/li&gt;
@@ -5752,40 +5752,40 @@ nieuwe back-up aangemaakt worden.
         <translation>Ontvangen van</translation>
     </message>
     <message>
-        <source>PIV Stake</source>
-        <translation>PIV Stake</translation>
+        <source>MK2 Stake</source>
+        <translation>MK2 Stake</translation>
     </message>
     <message>
         <source>zMK2 Stake</source>
         <translation>zMK2 Stake</translation>
     </message>
     <message>
-        <source>PIV Cold Stake</source>
-        <translation>PIV Cold Stake</translation>
+        <source>MK2 Cold Stake</source>
+        <translation>MK2 Cold Stake</translation>
     </message>
     <message>
         <source>Stake delegation</source>
         <translation>Stake delegatie</translation>
     </message>
     <message>
-        <source>Converted PIV to zMK2</source>
-        <translation>Geconverteerde PIV naar zMK2</translation>
+        <source>Converted MK2 to zMK2</source>
+        <translation>Geconverteerde MK2 naar zMK2</translation>
     </message>
     <message>
         <source>Spent zMK2</source>
         <translation>Bestede zMK2</translation>
     </message>
     <message>
-        <source>Received PIV from zMK2</source>
-        <translation>Ontvangen PIV van zMK2</translation>
+        <source>Received MK2 from zMK2</source>
+        <translation>Ontvangen MK2 van zMK2</translation>
     </message>
     <message>
         <source>Minted Change as zMK2 from zMK2 Spend</source>
         <translation>Gemint wisselgeld als zMK2 van bestede zMK2</translation>
     </message>
     <message>
-        <source>Converted zMK2 to PIV</source>
-        <translation>Geconverteerde zMK2 naar PIV</translation>
+        <source>Converted zMK2 to MK2</source>
+        <translation>Geconverteerde zMK2 naar MK2</translation>
     </message>
     <message>
         <source>Sent to</source>
@@ -5800,8 +5800,8 @@ nieuwe back-up aangemaakt worden.
         <translation>Betaling naar jezelf</translation>
     </message>
     <message>
-        <source>PIV Stake on behalf of</source>
-        <translation>PIV Stake in naam van</translation>
+        <source>MK2 Stake on behalf of</source>
+        <translation>MK2 Stake in naam van</translation>
     </message>
     <message>
         <source>Stake delegation spent by</source>
@@ -5966,8 +5966,8 @@ nieuwe back-up aangemaakt worden.
         <translation>18/05/18</translation>
     </message>
     <message>
-        <source>+0.000585 PIV</source>
-        <translation>+0.000585 PIV</translation>
+        <source>+0.000585 MK2</source>
+        <translation>+0.000585 MK2</translation>
     </message>
 </context>
 <context>
@@ -5977,8 +5977,8 @@ nieuwe back-up aangemaakt worden.
         <translation>Verzend Munten</translation>
     </message>
     <message>
-        <source>SwiftX doesn't support sending values that high yet. Transactions are currently limited to %1 PIV.</source>
-        <translation>SwiftTX ondersteunt geen verzendwaarden die zo hoog zijn. Transacties zijn momenteel beperkt tot %1 PIV.</translation>
+        <source>SwiftX doesn't support sending values that high yet. Transactions are currently limited to %1 MK2.</source>
+        <translation>SwiftTX ondersteunt geen verzendwaarden die zo hoog zijn. Transacties zijn momenteel beperkt tot %1 MK2.</translation>
     </message>
 </context>
 <context>
@@ -6148,8 +6148,8 @@ MK2X Core Portemonnee</translation>
         <translation>Activeer cold staking functionaliteit (0-1, standaard: %u). Uitgeschakeld als staking=0</translation>
     </message>
     <message>
-        <source>Enable or disable staking functionality for PIV inputs (0-1, default: %u)</source>
-        <translation>In- of uitschakelen staking functionaliteit voor PIV inputs (0-1, standaard: %u)</translation>
+        <source>Enable or disable staking functionality for MK2 inputs (0-1, default: %u)</source>
+        <translation>In- of uitschakelen staking functionaliteit voor MK2 inputs (0-1, standaard: %u)</translation>
     </message>
     <message>
         <source>Enable or disable staking functionality for zMK2 inputs (0-1, default: %u)</source>
@@ -6192,12 +6192,12 @@ MK2X Core Portemonnee</translation>
         <translation>Uitvoeren commando wanneer het beste blok verandert (%s in cmd is vervangen door block hash)</translation>
     </message>
     <message>
-        <source>Fees (in PIV/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Kosten (in PIV/Kb) kleiner dan dit worden beschouwd als zero fee voor heruitzending (standaard: %s)</translation>
+        <source>Fees (in MK2/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Kosten (in MK2/Kb) kleiner dan dit worden beschouwd als zero fee voor heruitzending (standaard: %s)</translation>
     </message>
     <message>
-        <source>Fees (in PIV/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>Kosten (in PIV/Kb) kleiner dan dit worden beschouwd als zero fee voor transactie verrichting (standaard: %s)</translation>
+        <source>Fees (in MK2/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>Kosten (in MK2/Kb) kleiner dan dit worden beschouwd als zero fee voor transactie verrichting (standaard: %s)</translation>
     </message>
     <message>
         <source>Flush database activity from memory pool to disk log every &lt;n&gt; megabytes (default: %u)</source>
@@ -6564,8 +6564,8 @@ MK2X Core Portemonnee</translation>
         <translation>Mislukt om block te lezen</translation>
     </message>
     <message>
-        <source>Fee (in PIV/kB) to add to transactions you send (default: %s)</source>
-        <translation>Fee (in PIV/kB) om toe te voegen aan transacties die je verzendt (standaard: %s)</translation>
+        <source>Fee (in MK2/kB) to add to transactions you send (default: %s)</source>
+        <translation>Fee (in MK2/kB) om toe te voegen aan transacties die je verzendt (standaard: %s)</translation>
     </message>
     <message>
         <source>Force safe mode (default: %u)</source>
@@ -6640,12 +6640,12 @@ MK2X Core Portemonnee</translation>
         <translation>Ongeldige poort gedetecteerd in masternode.conf</translation>
     </message>
     <message>
-        <source>Recalculating PIV supply...</source>
-        <translation>Hercalculatie van PIV aanbod...</translation>
+        <source>Recalculating MK2 supply...</source>
+        <translation>Hercalculatie van MK2 aanbod...</translation>
     </message>
     <message>
-        <source>Reindex the PIV and zMK2 money supply statistics</source>
-        <translation>Indexeer de PIV- en zMK2-geldvoorraadstatistieken opnieuw</translation>
+        <source>Reindex the MK2 and zMK2 money supply statistics</source>
+        <translation>Indexeer de MK2- en zMK2-geldvoorraadstatistieken opnieuw</translation>
     </message>
     <message>
         <source>Reindexing zerocoin database...</source>

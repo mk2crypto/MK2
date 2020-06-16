@@ -103,23 +103,23 @@ enum AvailableCoinsType {
 
 // Possible states for zMK2 send
 enum ZerocoinSpendStatus {
-    ZPIV_SPEND_OKAY = 0,                            // No error
-    ZPIV_SPEND_ERROR = 1,                           // Unspecified class of errors, more details are (hopefully) in the returning text
-    ZPIV_WALLET_LOCKED = 2,                         // Wallet was locked
-    ZPIV_COMMIT_FAILED = 3,                         // Commit failed, reset status
-    ZPIV_ERASE_SPENDS_FAILED = 4,                   // Erasing spends during reset failed
-    ZPIV_ERASE_NEW_MINTS_FAILED = 5,                // Erasing new mints during reset failed
-    ZPIV_TRX_FUNDS_PROBLEMS = 6,                    // Everything related to available funds
-    ZPIV_TRX_CREATE = 7,                            // Everything related to create the transaction
-    ZPIV_TRX_CHANGE = 8,                            // Everything related to transaction change
-    ZPIV_TXMINT_GENERAL = 9,                        // General errors in MintsToInputVectorPublicSpend
-    ZPIV_INVALID_COIN = 10,                         // Selected mint coin is not valid
-    ZPIV_FAILED_ACCUMULATOR_INITIALIZATION = 11,    // Failed to initialize witness
-    ZPIV_INVALID_WITNESS = 12,                      // Spend coin transaction did not verify
-    ZPIV_BAD_SERIALIZATION = 13,                    // Transaction verification failed
-    ZPIV_SPENT_USED_ZPIV = 14,                      // Coin has already been spend
-    ZPIV_TX_TOO_LARGE = 15,                         // The transaction is larger than the max tx size
-    ZPIV_SPEND_V1_SEC_LEVEL                         // Spend is V1 and security level is not set to 100
+    ZMK2_SPEND_OKAY = 0,                            // No error
+    ZMK2_SPEND_ERROR = 1,                           // Unspecified class of errors, more details are (hopefully) in the returning text
+    ZMK2_WALLET_LOCKED = 2,                         // Wallet was locked
+    ZMK2_COMMIT_FAILED = 3,                         // Commit failed, reset status
+    ZMK2_ERASE_SPENDS_FAILED = 4,                   // Erasing spends during reset failed
+    ZMK2_ERASE_NEW_MINTS_FAILED = 5,                // Erasing new mints during reset failed
+    ZMK2_TRX_FUNDS_PROBLEMS = 6,                    // Everything related to available funds
+    ZMK2_TRX_CREATE = 7,                            // Everything related to create the transaction
+    ZMK2_TRX_CHANGE = 8,                            // Everything related to transaction change
+    ZMK2_TXMINT_GENERAL = 9,                        // General errors in MintsToInputVectorPublicSpend
+    ZMK2_INVALID_COIN = 10,                         // Selected mint coin is not valid
+    ZMK2_FAILED_ACCUMULATOR_INITIALIZATION = 11,    // Failed to initialize witness
+    ZMK2_INVALID_WITNESS = 12,                      // Spend coin transaction did not verify
+    ZMK2_BAD_SERIALIZATION = 13,                    // Transaction verification failed
+    ZMK2_SPENT_USED_ZMK2 = 14,                      // Coin has already been spend
+    ZMK2_TX_TOO_LARGE = 15,                         // The transaction is larger than the max tx size
+    ZMK2_SPEND_V1_SEC_LEVEL                         // Spend is V1 and security level is not set to 100
 };
 
 struct CompactTallyItem {
@@ -297,7 +297,7 @@ public:
     // Staker status (last hashed block and time)
     CStakerStatus* pStakerStatus = nullptr;
 
-    // User-defined fee PIV/kb
+    // User-defined fee MK2/kb
     bool fUseCustomFee;
     CAmount nCustomFee;
 
@@ -366,7 +366,7 @@ public:
 
     std::map<CBitcoinAddress, std::vector<COutput> > AvailableCoinsByAddress(bool fConfirmed = true, CAmount maxCoinValue = 0);
 
-    /// Get 10000 PIV output and keys which can be used for the Masternode
+    /// Get 10000 MK2 output and keys which can be used for the Masternode
     bool GetMasternodeVinAndKeys(CTxIn& txinRet, CPubKey& pubKeyRet, CKey& keyRet, std::string strTxHash = "", std::string strOutputIndex = "");
     /// Extract txin information and keys from output
     bool GetVinAndKeysFromOutput(COutput out, CTxIn& txinRet, CPubKey& pubKeyRet, CKey& keyRet, bool fColdStake = false);
@@ -586,7 +586,7 @@ public:
     //- ZC Mints (Only for regtest)
     std::string MintZerocoin(CAmount nValue, CWalletTx& wtxNew, std::vector<CDeterministicMint>& vDMints, const CCoinControl* coinControl = NULL);
     std::string MintZerocoinFromOutPoint(CAmount nValue, CWalletTx& wtxNew, std::vector<CDeterministicMint>& vDMints, const std::vector<COutPoint> vOutpts);
-    bool CreateZPIVOutPut(libzerocoin::CoinDenomination denomination, CTxOut& outMint, CDeterministicMint& dMint);
+    bool CreateZMK2OutPut(libzerocoin::CoinDenomination denomination, CTxOut& outMint, CDeterministicMint& dMint);
     bool CreateZerocoinMintTransaction(const CAmount nValue,
             CMutableTransaction& txNew,
             std::vector<CDeterministicMint>& vDMints,

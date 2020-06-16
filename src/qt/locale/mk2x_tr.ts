@@ -376,8 +376,8 @@ Stake için kaldırın</translation>
         <translation>İPTAL</translation>
     </message>
     <message>
-        <source>MK2X will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PIVs from being stolen by malware infecting your computer.</source>
-        <translation>MK2X şifreleme işlemini tamamlamak için şimdi kapanacaktır. Cüzdanınızı şifrelemenin, PIV'lerinizi bilgisayarınıza bulaşan kötücül yazılımlar tarafından çalınmasına tamamen engelleyemediğini unutmayın</translation>
+        <source>MK2X will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your MK2s from being stolen by malware infecting your computer.</source>
+        <translation>MK2X şifreleme işlemini tamamlamak için şimdi kapanacaktır. Cüzdanınızı şifrelemenin, MK2'lerinizi bilgisayarınıza bulaşan kötücül yazılımlar tarafından çalınmasına tamamen engelleyemediğini unutmayın</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -446,8 +446,8 @@ Stake için kaldırın</translation>
         <translation>Birikimler</translation>
     </message>
     <message>
-        <source>0,00 PIV</source>
-        <translation>0,00 PIV</translation>
+        <source>0,00 MK2</source>
+        <translation>0,00 MK2</translation>
     </message>
     <message>
         <source>address</source>
@@ -512,8 +512,8 @@ Stake için kaldırın</translation>
         <translation>Miktar</translation>
     </message>
     <message>
-        <source>0.00 PIV</source>
-        <translation>0.00 PIV</translation>
+        <source>0.00 MK2</source>
+        <translation>0.00 MK2</translation>
     </message>
     <message>
         <source>0</source>
@@ -787,8 +787,8 @@ Devam etmek istiyor musunuz?</translation>
         <translation>Koinler delege edildi</translation>
     </message>
     <message>
-        <source>You don't have any PIV to select.</source>
-        <translation>Seçebileceğiniz PIV'iniz bulunmuyor</translation>
+        <source>You don't have any MK2 to select.</source>
+        <translation>Seçebileceğiniz MK2'iniz bulunmuyor</translation>
     </message>
     <message>
         <source>URI copied to clipboard</source>
@@ -915,8 +915,8 @@ kopyala</translation>
         <translation>Stake İstatistikleri</translation>
     </message>
     <message>
-        <source>PIV</source>
-        <translation>PIV</translation>
+        <source>MK2</source>
+        <translation>MK2</translation>
     </message>
     <message>
         <source>zMK2</source>
@@ -951,8 +951,8 @@ kopyala</translation>
         <translation>Hesap geçmişinizde görebilirsiniz</translation>
     </message>
     <message>
-        <source>Amount of PIV and zMK2 staked.</source>
-        <translation>Stake edilmiş PIV ve zMK2 miktarı</translation>
+        <source>Amount of MK2 and zMK2 staked.</source>
+        <translation>Stake edilmiş MK2 ve zMK2 miktarı</translation>
     </message>
     <message>
         <source>Please wait until the wallet is fully synced to see your correct balance</source>
@@ -963,8 +963,8 @@ kopyala</translation>
         <translation>İşlem bulunmuyor</translation>
     </message>
     <message>
-        <source>How to get PIV or zMK2</source>
-        <translation>PIV veya zMK2 nasıl alınır</translation>
+        <source>How to get MK2 or zMK2</source>
+        <translation>MK2 veya zMK2 nasıl alınır</translation>
     </message>
     <message>
         <source>You can verify the staking activity in the status bar at the top right of the wallet.
@@ -1299,8 +1299,8 @@ Cüzdanınız senkronize olduktan ve harcanmamış bakiyeniz yeterli miktarda on
         <translation>Bu miktarda koininizin olduğundan emin olunuz.</translation>
     </message>
     <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;A transaction of 10,000 PIV will be made&lt;/p&gt;&lt;p&gt;to a new empty address in your wallet.&lt;/p&gt;&lt;p&gt;The Address is labeled under the master node's name.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;10.000 PIV'lik bir transfer &lt;/p&gt;&lt;p&gt;yeni ve boş bir adrese yapılacaktır.&lt;/p&gt;&lt;p&gt;Adres Masternode'unuz ismi ile etiketlenecektir.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;A transaction of 10,000 MK2 will be made&lt;/p&gt;&lt;p&gt;to a new empty address in your wallet.&lt;/p&gt;&lt;p&gt;The Address is labeled under the master node's name.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;10.000 MK2'lik bir transfer &lt;/p&gt;&lt;p&gt;yeni ve boş bir adrese yapılacaktır.&lt;/p&gt;&lt;p&gt;Adres Masternode'unuz ismi ile etiketlenecektir.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <source>Address of the node that must always be online running the actual master node.</source>
@@ -1453,8 +1453,8 @@ Emin misiniz?</translation>
         <translation> masternode.conf dosyası bulunamadı</translation>
     </message>
     <message>
-        <source>Not enough balance to create a masternode, 10,000 PIV required.</source>
-        <translation>Masternode yaratmak için yetersiz bakiye, 10,000 PIV gerekmektedir.</translation>
+        <source>Not enough balance to create a masternode, 10,000 MK2 required.</source>
+        <translation>Masternode yaratmak için yetersiz bakiye, 10,000 MK2 gerekmektedir.</translation>
     </message>
     <message>
         <source>Error creating masternode</source>
@@ -1693,8 +1693,8 @@ https://www.transifex.com/mk2x-project/mk2x-project-translations</translation>
         <translation>Map port using &amp;UPnP</translation>
     </message>
     <message>
-        <source>Enable automatic minting of PIV units to zMK2</source>
-        <translation>PIV birimlerinin zMK2'e otomatik basımını ektinleştir</translation>
+        <source>Enable automatic minting of MK2 units to zMK2</source>
+        <translation>MK2 birimlerinin zMK2'e otomatik basımını ektinleştir</translation>
     </message>
     <message>
         <source>Enable zMK2 Automint</source>
@@ -1709,16 +1709,16 @@ https://www.transifex.com/mk2x-project/mk2x-project-translations</translation>
         <translation>Automint adreslerini etkinleştir</translation>
     </message>
     <message>
-        <source>Percentage of incoming PIV which get automatically converted to zMK2 via Zerocoin Protocol (min: 10%)</source>
-        <translation>Zerocoin Protokolü üzerinden otomatik olarak zMK2'ye dönüştürülen gelen PIV yüzdesi (dakika: 10%)</translation>
+        <source>Percentage of incoming MK2 which get automatically converted to zMK2 via Zerocoin Protocol (min: 10%)</source>
+        <translation>Zerocoin Protokolü üzerinden otomatik olarak zMK2'ye dönüştürülen gelen MK2 yüzdesi (dakika: 10%)</translation>
     </message>
     <message>
         <source>Percentage of autominted zMK2</source>
         <translation>Otomatikleştirilmiş zMK2 yüzdesi</translation>
     </message>
     <message>
-        <source>Wait with automatic conversion to Zerocoin until enough PIV for this denomination is available</source>
-        <translation>Bu bölen için yeterli PIV bulunana kadar Zerocoin'e otomatik dönüştürmede kalın</translation>
+        <source>Wait with automatic conversion to Zerocoin until enough MK2 for this denomination is available</source>
+        <translation>Bu bölen için yeterli MK2 bulunana kadar Zerocoin'e otomatik dönüştürmede kalın</translation>
     </message>
     <message>
         <source>Preferred Automint zMK2 Denomination</source>
@@ -2093,13 +2093,13 @@ Adres: %4
         <translation>Mint</translation>
     </message>
     <message>
-        <source>Minting zMK2 anonymizes your PIV by removing any
+        <source>Minting zMK2 anonymizes your MK2 by removing any
 transaction history, making transactions untraceable </source>
-        <translation>zMK2 mintleme işlemi PIV'lerinizin işlem geçmişini siler, işlemleri takip edilemez yapar</translation>
+        <translation>zMK2 mintleme işlemi MK2'lerinizin işlem geçmişini siler, işlemleri takip edilemez yapar</translation>
     </message>
     <message>
-        <source>Mint new zMK2 or convert back to PIV</source>
-        <translation>Yeni zMK2 mintle veya PIV'e geri dönüştür</translation>
+        <source>Mint new zMK2 or convert back to MK2</source>
+        <translation>Yeni zMK2 mintle veya MK2'e geri dönüştür</translation>
     </message>
     <message>
         <source>No transactions yet</source>
@@ -2107,19 +2107,19 @@ transaction history, making transactions untraceable </source>
     </message>
     <message>
         <source>Mint zMK2</source>
-        <translation>Mint ZPIV</translation>
+        <translation>Mint ZMK2</translation>
     </message>
     <message>
-        <source>Enter amount of PIV to mint into zMK2</source>
-        <translation>zMK2'e mintlenmek için dönüştürülecek PIV miktarını gir</translation>
+        <source>Enter amount of MK2 to mint into zMK2</source>
+        <translation>zMK2'e mintlenmek için dönüştürülecek MK2 miktarını gir</translation>
     </message>
     <message>
-        <source>Convert back to PIV</source>
-        <translation>PIV'e geri dönüştür</translation>
+        <source>Convert back to MK2</source>
+        <translation>MK2'e geri dönüştür</translation>
     </message>
     <message>
-        <source>Enter amount of zMK2 to convert back into PIV</source>
-        <translation>PIV'e geri dönüştürülecek zMK2 miktarını gir</translation>
+        <source>Enter amount of zMK2 to convert back into MK2</source>
+        <translation>MK2'e geri dönüştürülecek zMK2 miktarını gir</translation>
     </message>
     <message>
         <source>Zerocoin</source>
@@ -2150,12 +2150,12 @@ transaction history, making transactions untraceable </source>
         <translation>zMK2 minting başarılı</translation>
     </message>
     <message>
-        <source>zMK2 converted back to PIV</source>
-        <translation>zMK2 PIV'e dönüştürüldü</translation>
+        <source>zMK2 converted back to MK2</source>
+        <translation>zMK2 MK2'e dönüştürüldü</translation>
     </message>
     <message>
-        <source>You don't have any PIV to select.</source>
-        <translation>Seçebileceğiniz PIV'iniz bulunmuyor</translation>
+        <source>You don't have any MK2 to select.</source>
+        <translation>Seçebileceğiniz MK2'iniz bulunmuyor</translation>
     </message>
     <message>
         <source>Rescan Mints</source>
@@ -2762,7 +2762,7 @@ transaction history, making transactions untraceable </source>
         <translation>Al</translation>
     </message>
     <message>
-        <source>Scan the QR code or copy the address to receive PIV.</source>
+        <source>Scan the QR code or copy the address to receive MK2.</source>
         <translation>MK2X almak için QR kodunu okutun veya adresi kopyalayın</translation>
     </message>
     <message>
@@ -2864,8 +2864,8 @@ transaction history, making transactions untraceable </source>
         <translation>Miktar</translation>
     </message>
     <message>
-        <source>PIV</source>
-        <translation>PIV</translation>
+        <source>MK2</source>
+        <translation>MK2</translation>
     </message>
     <message>
         <source>TextLabel</source>
@@ -2944,7 +2944,7 @@ transaction history, making transactions untraceable </source>
     </message>
     <message>
         <source>The remainder of the value resultant from the inputs minus the outputs value goes to the "change" MK2X address</source>
-        <translation>Giriş ve çıkış değerleri arasındaki kalan tutar "fark" PIV adresine gider</translation>
+        <translation>Giriş ve çıkış değerleri arasındaki kalan tutar "fark" MK2 adresine gider</translation>
     </message>
     <message>
         <source>SAVE</source>
@@ -3032,8 +3032,8 @@ transaction history, making transactions untraceable </source>
         <translation>Gönder</translation>
     </message>
     <message>
-        <source>You can transfer public coins (PIV) or private coins (zMK2)</source>
-        <translation>Açık koin PIV veya gizli koin zMK2 transfer edebilirsiniz</translation>
+        <source>You can transfer public coins (MK2) or private coins (zMK2)</source>
+        <translation>Açık koin MK2 veya gizli koin zMK2 transfer edebilirsiniz</translation>
     </message>
     <message>
         <source>Select coin type to spend</source>
@@ -3064,8 +3064,8 @@ transaction history, making transactions untraceable </source>
         <translation>Gönderilecek toplam</translation>
     </message>
     <message>
-        <source>Send PIV</source>
-        <translation>PIV Gönder</translation>
+        <source>Send MK2</source>
+        <translation>MK2 Gönder</translation>
     </message>
     <message>
         <source>Send zMK2</source>
@@ -3184,8 +3184,8 @@ Ya daha yüksek mezhepleri daraltın (daha az girdi gereklidir) veya harcama mik
         <translation>Belirlenmiş masraf %1</translation>
     </message>
     <message>
-        <source>You don't have any PIV to select.</source>
-        <translation>Seçebileceğiniz PIV'iniz bulunmuyor</translation>
+        <source>You don't have any MK2 to select.</source>
+        <translation>Seçebileceğiniz MK2'iniz bulunmuyor</translation>
     </message>
     <message>
         <source>You don't have any zMK2 in your balance to select.</source>
@@ -3606,8 +3606,8 @@ Verify that you have installed a predetermined text editor.</source>
         <translation>1)MK2X nedir?</translation>
     </message>
     <message>
-        <source>2) Why are my PIV unspendable?</source>
-        <translation>2) PIV'lerim neden harcanabilir değil?</translation>
+        <source>2) Why are my MK2 unspendable?</source>
+        <translation>2) MK2'lerim neden harcanabilir değil?</translation>
     </message>
     <message>
         <source>3) MK2X privacy? What is Zerocoin (zMK2)?</source>
@@ -3624,12 +3624,12 @@ Verify that you have installed a predetermined text editor.</source>
 zMK2'e dönüştürdü?</translation>
     </message>
     <message>
-        <source>6) How do I receive PIV/zMK2?</source>
-        <translation>6) Nasıl PIV/zMK2 alabilirim?</translation>
+        <source>6) How do I receive MK2/zMK2?</source>
+        <translation>6) Nasıl MK2/zMK2 alabilirim?</translation>
     </message>
     <message>
-        <source>7) How do I stake PIV/zMK2?</source>
-        <translation>7) Nasıl PIV/zMK2 staking yapabilirim?</translation>
+        <source>7) How do I stake MK2/zMK2?</source>
+        <translation>7) Nasıl MK2/zMK2 staking yapabilirim?</translation>
     </message>
     <message>
         <source>8) Where I should go if I need support?</source>
@@ -3678,8 +3678,8 @@ bu sayede MK2X sahipleri blok ödülü kazanımına katılabilmektedir
         <translation>2</translation>
     </message>
     <message>
-        <source>Why are my PIV unspendable?</source>
-        <translation>PIV'lerim neden harcanabilir değil?</translation>
+        <source>Why are my MK2 unspendable?</source>
+        <translation>MK2'lerim neden harcanabilir değil?</translation>
     </message>
     <message>
         <source>
@@ -3765,7 +3765,7 @@ gizlilik-odaklı opsiyonel bir metoddur. Temel olarak işlemleriniz
     <message>
         <source>
                            &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
-                           By default the MK2X wallet will convert 10% of your entire PIV
+                           By default the MK2X wallet will convert 10% of your entire MK2
                            balance to zMK2 to assist the network. If you do not wish to
                            stake zMK2 or take advantage of the privacy benefit it brings,
                            you can disable the automatic minting in your MK2X wallet by
@@ -3782,7 +3782,7 @@ gizlilik-odaklı opsiyonel bir metoddur. Temel olarak işlemleriniz
                          </source>
         <translation>
                            &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
-                           MK2X cüzdanınız ağa destek olmak için varsayılan olarak tüm PIV bakiyenizin 10% 'unu zMK2'e dönüştürecektir. Getirdiği gizlilik avantajını istemiyor veya zMK2 stakelemek istemiyorsanız cüzdanınızın otomint özelliğini Ayarlar-&gt;Seçenekler içindeki “zMK2 Otomint etkin” seçeneğini değiştirerek devredışı bırakabilirsiniz. MK2XQT veya GUI kullanmıyorsanız, mk2x.conf dosyası içine  &lt;i&gt;enablezeromint=0&lt;/i&gt; ifadesini tırnak işareti olmadan girerek devredışı bırakabilirsiniz. &lt;/p&gt;
+                           MK2X cüzdanınız ağa destek olmak için varsayılan olarak tüm MK2 bakiyenizin 10% 'unu zMK2'e dönüştürecektir. Getirdiği gizlilik avantajını istemiyor veya zMK2 stakelemek istemiyorsanız cüzdanınızın otomint özelliğini Ayarlar-&gt;Seçenekler içindeki “zMK2 Otomint etkin” seçeneğini değiştirerek devredışı bırakabilirsiniz. MK2XQT veya GUI kullanmıyorsanız, mk2x.conf dosyası içine  &lt;i&gt;enablezeromint=0&lt;/i&gt; ifadesini tırnak işareti olmadan girerek devredışı bırakabilirsiniz. &lt;/p&gt;
                            &lt;/p&gt;&lt;p align="justify"&gt;
                            Teknik detayları hakkında daha çok bilgi almak için
                            &lt;a style='color: #b088ff' href='https://MK2X.org/zmk2/'&gt; "MK2X Zerocoin (zMK2) Teknik Makalesi"&lt;/a&gt;.
@@ -3796,8 +3796,8 @@ kısmını okuyunuz.
         <translation>6</translation>
     </message>
     <message>
-        <source>How do I receive PIV/zMK2?</source>
-        <translation>Nasıl PIV/zMK2 alabilirim?</translation>
+        <source>How do I receive MK2/zMK2?</source>
+        <translation>Nasıl MK2/zMK2 alabilirim?</translation>
     </message>
     <message>
         <source>
@@ -3823,8 +3823,8 @@ zMK2 Protokolü ile anonimleştirilmiş olacaktır.
         <translation>7</translation>
     </message>
     <message>
-        <source>How do I stake PIV/zMK2?</source>
-        <translation>Nasıl PIV/zMK2 staking yapabilirim?</translation>
+        <source>How do I stake MK2/zMK2?</source>
+        <translation>Nasıl MK2/zMK2 staking yapabilirim?</translation>
     </message>
     <message>
         <source>What is a Masternode?</source>
@@ -3842,7 +3842,7 @@ zMK2 Protokolü ile anonimleştirilmiş olacaktır.
         <source>
                            &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
                            A masternode is a computer running a full node MK2X core wallet with a
-                           requirement of 10,000 PIV secured collateral to provide extra services
+                           requirement of 10,000 MK2 secured collateral to provide extra services
                            to the network and in return, receive a portion of the block reward
                            regularly.  These services include:
                            &lt;/p&gt;&lt;p align="justify"&gt;
@@ -3874,7 +3874,7 @@ zMK2 Protokolü ile anonimleştirilmiş olacaktır.
                            Requirements:
                            &lt;/p&gt;&lt;p align="justify"&gt;
                            &lt;ul&gt;
-                           &lt;li&gt;10,000 PIV per single Masternode instance&lt;/li&gt;
+                           &lt;li&gt;10,000 MK2 per single Masternode instance&lt;/li&gt;
                            &lt;li&gt;Must be stored in a core wallet&lt;/li&gt;
                            &lt;li&gt;Need dedicated IP address&lt;/li&gt;
                            &lt;li&gt;Masternode wallet to remain online&lt;/li&gt;
@@ -3883,7 +3883,7 @@ zMK2 Protokolü ile anonimleştirilmiş olacaktır.
                          </source>
         <translation>
                            &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
-                           Tam düğüm MK2X core cüzdanını çalıştıran, gereken 10,000 PIV
+                           Tam düğüm MK2X core cüzdanını çalıştıran, gereken 10,000 MK2
                            teminat bakiyesini barındırarak ağa ekstra hizmetler sunan ve
                            karşılığında da her blok ödülünden düzenli olarak pay alan bir
                            bilgisayardır.Bu hizmetler aşağıdaki gibidir:
@@ -3916,7 +3916,7 @@ işletim maliyetleri sonrası pasif bir gelir sunar.
                            Gereksinimler:
                            &lt;/p&gt;&lt;p align="justify"&gt;
                            &lt;ul&gt;
-                           &lt;li&gt;Her Masternod için ayrı 10,000 PIV
+                           &lt;li&gt;Her Masternod için ayrı 10,000 MK2
                            &lt;li&gt;Core cüzdan içinde saklanmalıdır.&lt;/li&gt;
                            &lt;li&gt;Atanmış IP adresi gerekmektedir. &lt;/li&gt;
                            &lt;li&gt;Masternode cüzdanının online olması&lt;/li&gt;
@@ -5034,40 +5034,40 @@ Emin misiniz?
         <translation>Tarafından alındı</translation>
     </message>
     <message>
-        <source>PIV Stake</source>
-        <translation>PIV Stake</translation>
+        <source>MK2 Stake</source>
+        <translation>MK2 Stake</translation>
     </message>
     <message>
         <source>zMK2 Stake</source>
         <translation>zMK2 Stake</translation>
     </message>
     <message>
-        <source>PIV Cold Stake</source>
-        <translation>PIV Soğuk Stake</translation>
+        <source>MK2 Cold Stake</source>
+        <translation>MK2 Soğuk Stake</translation>
     </message>
     <message>
         <source>Stake delegation</source>
         <translation>Stake delegasyonu</translation>
     </message>
     <message>
-        <source>Converted PIV to zMK2</source>
-        <translation>PIV'den zMK2'e dönüştürülen</translation>
+        <source>Converted MK2 to zMK2</source>
+        <translation>MK2'den zMK2'e dönüştürülen</translation>
     </message>
     <message>
         <source>Spent zMK2</source>
         <translation>zMK2 Harca</translation>
     </message>
     <message>
-        <source>Received PIV from zMK2</source>
-        <translation>zMK2'den PIV olarak alınan</translation>
+        <source>Received MK2 from zMK2</source>
+        <translation>zMK2'den MK2 olarak alınan</translation>
     </message>
     <message>
         <source>Minted Change as zMK2 from zMK2 Spend</source>
         <translation>zMK2 harcamasından kaynaklanan zMK2 mint farkı</translation>
     </message>
     <message>
-        <source>Converted zMK2 to PIV</source>
-        <translation>zMK2'den PIV' dönüştürülen</translation>
+        <source>Converted zMK2 to MK2</source>
+        <translation>zMK2'den MK2' dönüştürülen</translation>
     </message>
     <message>
         <source>Sent to</source>
@@ -5220,8 +5220,8 @@ Emin misiniz?
         <translation>18/05/18</translation>
     </message>
     <message>
-        <source>+0.000585 PIV</source>
-        <translation>+0.000585 PIV</translation>
+        <source>+0.000585 MK2</source>
+        <translation>+0.000585 MK2</translation>
     </message>
 </context>
 <context>
@@ -5231,8 +5231,8 @@ Emin misiniz?
         <translation>Koinleri göder</translation>
     </message>
     <message>
-        <source>SwiftX doesn't support sending values that high yet. Transactions are currently limited to %1 PIV.</source>
-        <translation>SwiftX yüksek değerler göndermeyi desteklemiyor. İşlemler şu anda %1 PIV ile sınırlıdır.</translation>
+        <source>SwiftX doesn't support sending values that high yet. Transactions are currently limited to %1 MK2.</source>
+        <translation>SwiftX yüksek değerler göndermeyi desteklemiyor. İşlemler şu anda %1 MK2 ile sınırlıdır.</translation>
     </message>
 </context>
 <context>
@@ -5402,8 +5402,8 @@ Hoşgeldiniz</translation>
         <translation>Soğuk stakeleme fonksiyonunu etkinleştirin (0-1, varsayılan: %u). Staking=0 ise etkin değildir</translation>
     </message>
     <message>
-        <source>Enable or disable staking functionality for PIV inputs (0-1, default: %u)</source>
-        <translation>PIV girişleri için stake fonksiyonunu aç veya kapat (0-1, varsayılan: %u)</translation>
+        <source>Enable or disable staking functionality for MK2 inputs (0-1, default: %u)</source>
+        <translation>MK2 girişleri için stake fonksiyonunu aç veya kapat (0-1, varsayılan: %u)</translation>
     </message>
     <message>
         <source>Enable or disable staking functionality for zMK2 inputs (0-1, default: %u)</source>
@@ -5442,12 +5442,12 @@ Hoşgeldiniz</translation>
         <translation>En iyi blok değiştirildiğinde komutu yürütün (cmd'deki %s yerine blok karması verilir)</translation>
     </message>
     <message>
-        <source>Fees (in PIV/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Bundan daha küçük ücretler (PIV / Kb cinsinden), aktarma için sıfır ücret olarak kabul edilir (varsayılan: %s)</translation>
+        <source>Fees (in MK2/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Bundan daha küçük ücretler (MK2 / Kb cinsinden), aktarma için sıfır ücret olarak kabul edilir (varsayılan: %s)</translation>
     </message>
     <message>
-        <source>Fees (in PIV/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>Bundan daha küçük ücretler (PIV / Kb cinsinden), işlem yaratmada sıfır ücret olarak kabul edilir (varsayılan: %s)</translation>
+        <source>Fees (in MK2/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>Bundan daha küçük ücretler (MK2 / Kb cinsinden), işlem yaratmada sıfır ücret olarak kabul edilir (varsayılan: %s)</translation>
     </message>
     <message>
         <source>Flush database activity from memory pool to disk log every &lt;n&gt; megabytes (default: %u)</source>
@@ -5810,8 +5810,8 @@ Hoşgeldiniz</translation>
         <translation>Blok okuma hatası</translation>
     </message>
     <message>
-        <source>Fee (in PIV/kB) to add to transactions you send (default: %s)</source>
-        <translation>Gönderdiğiniz transfere (PIV/kb cinsinden) bir masraf ekleyin (varsayılan: %s) </translation>
+        <source>Fee (in MK2/kB) to add to transactions you send (default: %s)</source>
+        <translation>Gönderdiğiniz transfere (MK2/kb cinsinden) bir masraf ekleyin (varsayılan: %s) </translation>
     </message>
     <message>
         <source>Force safe mode (default: %u)</source>
@@ -5886,12 +5886,12 @@ Hoşgeldiniz</translation>
         <translation>masternode.conf dosyasında geçersiz port tespit edildi</translation>
     </message>
     <message>
-        <source>Recalculating PIV supply...</source>
-        <translation>PIV tedariği tekrar hesaplanıyor...</translation>
+        <source>Recalculating MK2 supply...</source>
+        <translation>MK2 tedariği tekrar hesaplanıyor...</translation>
     </message>
     <message>
-        <source>Reindex the PIV and zMK2 money supply statistics</source>
-        <translation>PIV ve zMK2 para tedarik istatistiklerini tekrar endeksle</translation>
+        <source>Reindex the MK2 and zMK2 money supply statistics</source>
+        <translation>MK2 ve zMK2 para tedarik istatistiklerini tekrar endeksle</translation>
     </message>
     <message>
         <source>Reindexing zerocoin database...</source>
