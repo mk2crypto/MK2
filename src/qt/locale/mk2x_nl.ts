@@ -720,8 +720,8 @@ voor bewijs van Inzet</translation>
         <translation>Dit label wordt rood, als een ontvanger een hoeveelheid kleiner dan %1 ontvangt.</translation>
     </message>
     <message>
-        <source>Can vary +/- %1 upiv per input.</source>
-        <translation>Kan +/-%1 upiv per invoer variëren.</translation>
+        <source>Can vary +/- %1 umk2 per input.</source>
+        <translation>Kan +/-%1 umk2 per invoer variëren.</translation>
     </message>
     <message>
         <source>(no label)</source>

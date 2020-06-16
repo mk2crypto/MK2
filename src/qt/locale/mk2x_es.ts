@@ -720,8 +720,8 @@ para staking</translation>
         <translation>Esta etiqueta se vuelve roja, si algún destinatario recibe una cantidad menor que %1.</translation>
     </message>
     <message>
-        <source>Can vary +/- %1 upiv per input.</source>
-        <translation>Puede variar +/- %1 upiv por entrada.</translation>
+        <source>Can vary +/- %1 umk2 per input.</source>
+        <translation>Puede variar +/- %1 umk2 por entrada.</translation>
     </message>
     <message>
         <source>(no label)</source>

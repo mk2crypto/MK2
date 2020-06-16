@@ -98,7 +98,7 @@ size_t nCoinCacheUsage = 5000 * 300;
 /* If the tip is older than this (in seconds), the node is considered to be in initial block download. */
 int64_t nMaxTipAge = DEFAULT_MAX_TIP_AGE;
 
-/** Fees smaller than this (in upiv) are considered zero fee (for relaying, mining and transaction creation)
+/** Fees smaller than this (in umk2) are considered zero fee (for relaying, mining and transaction creation)
  * We are ~100 times smaller then bitcoin now (2015-06-23), set minRelayTxFee only 10 times higher
  * so it's still 10 times lower comparing to bitcoin.
  */
@@ -4025,17 +4025,17 @@ bool AcceptBlock(CBlock& block, CValidationState& state, CBlockIndex** ppindex, 
         CTransaction &stakeTxIn = block.vtx[1];
 
         // Inputs
-        std::vector<CTxIn> pivInputs;
+        std::vector<CTxIn> mk2Inputs;
         std::vector<CTxIn> zMK2Inputs;
 
         for (const CTxIn& stakeIn : stakeTxIn.vin) {
             if(stakeIn.IsZerocoinSpend()){
                 zMK2Inputs.push_back(stakeIn);
             }else{
-                pivInputs.push_back(stakeIn);
+                mk2Inputs.push_back(stakeIn);
             }
         }
-        const bool hasMK2Inputs = !pivInputs.empty();
+        const bool hasMK2Inputs = !mk2Inputs.empty();
         const bool hasZMK2Inputs = !zMK2Inputs.empty();
 
         // ZC started after PoS.
@@ -4076,8 +4076,8 @@ bool AcceptBlock(CBlock& block, CValidationState& state, CBlockIndex** ppindex, 
                 if(tx.IsCoinStake()) continue;
                 if(hasMK2Inputs) {
                     // Check if coinstake input is double spent inside the same block
-                    for (const CTxIn& pivIn : pivInputs)
-                        if(pivIn.prevout == in.prevout)
+                    for (const CTxIn& mk2In : mk2Inputs)
+                        if(mk2In.prevout == in.prevout)
                             // double spent coinstake input inside block
                             return error("%s: double spent coinstake input inside block", __func__);
                 }
@@ -4121,7 +4121,7 @@ bool AcceptBlock(CBlock& block, CValidationState& state, CBlockIndex** ppindex, 
 
                         // Loop through every input of the staking tx
                         if (hasMK2Inputs) {
-                            for (const CTxIn& stakeIn : pivInputs)
+                            for (const CTxIn& stakeIn : mk2Inputs)
                                 // check if the tx input is double spending any coinstake input
                                 if (stakeIn.prevout == in.prevout)
                                     return state.DoS(100, error("%s: input already spent on a previous block", __func__));

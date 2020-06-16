@@ -720,8 +720,8 @@ for staking</translation>
         <translation>This label turns red, if any recipient receives an amount smaller than %1.</translation>
     </message>
     <message>
-        <source>Can vary +/- %1 upiv per input.</source>
-        <translation>Can vary +/- %1 upiv per input.</translation>
+        <source>Can vary +/- %1 umk2 per input.</source>
+        <translation>Can vary +/- %1 umk2 per input.</translation>
     </message>
     <message>
         <source>(no label)</source>

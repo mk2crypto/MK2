@@ -664,8 +664,8 @@ Stake için kaldırın</translation>
         <translation>Herhangi bir alıcı %1 'den küçük bir miktar alırsa, bu etiket kırmızıya döner.</translation>
     </message>
     <message>
-        <source>Can vary +/- %1 upiv per input.</source>
-        <translation>Her giriş için +/- %1 upiv farkedebilir.</translation>
+        <source>Can vary +/- %1 umk2 per input.</source>
+        <translation>Her giriş için +/- %1 umk2 farkedebilir.</translation>
     </message>
     <message>
         <source>(no label)</source>

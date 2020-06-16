@@ -912,7 +912,7 @@ for staking</source>
     </message>
     <message>
         <location line="+8"/>
-        <source>Can vary +/- %1 upiv per input.</source>
+        <source>Can vary +/- %1 umk2 per input.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

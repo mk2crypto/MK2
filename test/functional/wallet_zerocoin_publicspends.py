@@ -62,13 +62,13 @@ class ZerocoinSpendTest(Mk2xTestFramework):
         def get_zerocoin_data(coin):
             return coin["s"], coin["r"], coin["k"], coin["id"], coin["d"], coin["t"]
 
-        def check_balances(denom, zmk2_bal, piv_bal):
+        def check_balances(denom, zmk2_bal, mk2_bal):
             zmk2_bal -= denom
             assert_equal(self.nodes[2].getzerocoinbalance()['Total'], zmk2_bal)
-            piv_bal += denom
+            mk2_bal += denom
             wi = self.nodes[2].getwalletinfo()
-            assert_equal(wi['balance'] + wi['immature_balance'], piv_bal)
-            return zmk2_bal, piv_bal
+            assert_equal(wi['balance'] + wi['immature_balance'], mk2_bal)
+            return zmk2_bal, mk2_bal
 
         def stake_4_blocks(block_time):
             for peer in range(2):

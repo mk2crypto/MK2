@@ -52,18 +52,18 @@ DashboardWidget::DashboardWidget(MK2XGUI* parent) :
 
     // Staking Information
     setCssSubtitleScreen(ui->labelMessage);
-    setCssProperty(ui->labelSquarePiv, "square-chart-piv");
+    setCssProperty(ui->labelSquarePiv, "square-chart-mk2");
     setCssProperty(ui->labelSquarezMk2, "square-chart-zmk2");
-    setCssProperty(ui->labelPiv, "text-chart-piv");
-    setCssProperty(ui->labelZpiv, "text-chart-zmk2");
+    setCssProperty(ui->labelPiv, "text-chart-mk2");
+    setCssProperty(ui->labelZmk2, "text-chart-zmk2");
 
     // Staking Amount
     QFont fontBold;
     fontBold.setWeight(QFont::Bold);
 
     setCssProperty(ui->labelChart, "legend-chart");
-    setCssProperty(ui->labelAmountPiv, "text-stake-piv-disable");
-    setCssProperty(ui->labelAmountZpiv, "text-stake-zmk2-disable");
+    setCssProperty(ui->labelAmountPiv, "text-stake-mk2-disable");
+    setCssProperty(ui->labelAmountZmk2, "text-stake-zmk2-disable");
 
     setCssProperty({ui->pushButtonAll,  ui->pushButtonMonth, ui->pushButtonYear}, "btn-check-time");
     setCssProperty({ui->comboBoxMonths,  ui->comboBoxYears}, "btn-combo-chart-selected");
@@ -533,7 +533,7 @@ const QMap<int, std::pair<qint64, qint64>> DashboardWidget::getAmountBy()
                 amountBy[time] = std::make_pair(amount, 0);
             } else {
                 amountBy[time] = std::make_pair(0, amount);
-                hasZpivStakes = true;
+                hasZmk2Stakes = true;
             }
         }
     }
@@ -561,22 +561,22 @@ bool DashboardWidget::loadChartData(bool withMonthNames)
 
     for (int j = range.first; j < range.second; j++) {
         int num = (isOrderedByMonth && j > daysInMonth) ? (j % daysInMonth) : j;
-        qreal piv = 0;
+        qreal mk2 = 0;
         qreal zmk2 = 0;
         if (chartData->amountsByCache.contains(num)) {
             std::pair <qint64, qint64> pair = chartData->amountsByCache[num];
-            piv = (pair.first != 0) ? pair.first / 100000000 : 0;
+            mk2 = (pair.first != 0) ? pair.first / 100000000 : 0;
             zmk2 = (pair.second != 0) ? pair.second / 100000000 : 0;
             chartData->totalPiv += pair.first;
-            chartData->totalZpiv += pair.second;
+            chartData->totalZmk2 += pair.second;
         }
 
         chartData->xLabels << ((withMonthNames) ? monthsNames[num - 1] : QString::number(num));
 
-        chartData->valuesPiv.append(piv);
+        chartData->valuesPiv.append(mk2);
         chartData->valueszMk2.append(zmk2);
 
-        int max = std::max(piv, zmk2);
+        int max = std::max(mk2, zmk2);
         if (max > chartData->maxValue) {
             chartData->maxValue = max;
         }
@@ -650,19 +650,19 @@ void DashboardWidget::onChartRefreshed()
 
     // Total
     nDisplayUnit = walletModel->getOptionsModel()->getDisplayUnit();
-    if (chartData->totalPiv > 0 || chartData->totalZpiv > 0) {
-        setCssProperty(ui->labelAmountPiv, "text-stake-piv");
-        setCssProperty(ui->labelAmountZpiv, "text-stake-zmk2");
+    if (chartData->totalPiv > 0 || chartData->totalZmk2 > 0) {
+        setCssProperty(ui->labelAmountPiv, "text-stake-mk2");
+        setCssProperty(ui->labelAmountZmk2, "text-stake-zmk2");
     } else {
-        setCssProperty(ui->labelAmountPiv, "text-stake-piv-disable");
-        setCssProperty(ui->labelAmountZpiv, "text-stake-zmk2-disable");
+        setCssProperty(ui->labelAmountPiv, "text-stake-mk2-disable");
+        setCssProperty(ui->labelAmountZmk2, "text-stake-zmk2-disable");
     }
-    forceUpdateStyle({ui->labelAmountPiv, ui->labelAmountZpiv});
+    forceUpdateStyle({ui->labelAmountPiv, ui->labelAmountZmk2});
     ui->labelAmountPiv->setText(GUIUtil::formatBalance(chartData->totalPiv, nDisplayUnit));
-    ui->labelAmountZpiv->setText(GUIUtil::formatBalance(chartData->totalZpiv, nDisplayUnit, true));
+    ui->labelAmountZmk2->setText(GUIUtil::formatBalance(chartData->totalZmk2, nDisplayUnit, true));
 
     series->append(set0);
-    if (hasZpivStakes)
+    if (hasZmk2Stakes)
         series->append(set1);
 
     // bar width

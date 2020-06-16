@@ -51,11 +51,11 @@ class ReorgStakeTest(Mk2xTestFramework):
         wi = self.nodes[nodeid].getwalletinfo()
         return wi['balance'] + wi['immature_balance']
 
-    def check_money_supply(self, expected_piv, expected_zmk2):
+    def check_money_supply(self, expected_mk2, expected_zmk2):
         g_info = [self.nodes[i].getinfo() for i in range(self.num_nodes)]
         # verify that nodes have the expected MK2 and zMK2 supply
         for node in g_info:
-            assert_equal(node['moneysupply'], DecimalAmt(expected_piv))
+            assert_equal(node['moneysupply'], DecimalAmt(expected_mk2))
             for denom in node['zMK2supply']:
                 assert_equal(node['zMK2supply'][denom], DecimalAmt(expected_zmk2[denom]))
 

@@ -717,8 +717,8 @@ for staking</source>
         <translation>받는 사람이 %1 보다 작은 금액을 받으면 라벨이 빨간색으로 변경됩니다.</translation>
     </message>
     <message>
-        <source>Can vary +/- %1 upiv per input.</source>
-        <translation>Can vary +/- %1 upiv per input.</translation>
+        <source>Can vary +/- %1 umk2 per input.</source>
+        <translation>Can vary +/- %1 umk2 per input.</translation>
     </message>
     <message>
         <source>(no label)</source>

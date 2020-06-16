@@ -720,8 +720,8 @@ for staking</source>
         <translation>如果任何收件人收到的金额小于%1，此标签将变为红色。</translation>
     </message>
     <message>
-        <source>Can vary +/- %1 upiv per input.</source>
-        <translation>每个输入可以浮动+/- %1 upiv。</translation>
+        <source>Can vary +/- %1 umk2 per input.</source>
+        <translation>每个输入可以浮动+/- %1 umk2。</translation>
     </message>
     <message>
         <source>(no label)</source>

@@ -20,7 +20,7 @@ int CurrentPublicCoinSpendVersion();
 bool CheckPublicCoinSpendVersion(int version);
 bool ContextualCheckZerocoinSpend(const CTransaction& tx, const libzerocoin::CoinSpend* spend, int nHeight, const uint256& hashBlock);
 bool ContextualCheckZerocoinSpendNoSerialCheck(const CTransaction& tx, const libzerocoin::CoinSpend* spend, int nHeight, const uint256& hashBlock);
-bool RecalculateMK2Supply(int nHeightStart, bool fSkipZpiv = true);
+bool RecalculateMK2Supply(int nHeightStart, bool fSkipZmk2 = true);
 CAmount GetInvalidUTXOValue();
 
 #endif //MK2X_CONSENSUS_ZEROCOIN_VERIFY_H

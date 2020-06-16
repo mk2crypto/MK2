@@ -3700,7 +3700,7 @@ UniValue spendzerocoin(const UniValue& params, bool fHelp)
     const std::string address_str = (params.size() > 1 ? params[1].get_str() : "");
 
     std::vector<CZerocoinMint> vMintsSelected;
-    return DoZpivSpend(nAmount, vMintsSelected, address_str);
+    return DoZmk2Spend(nAmount, vMintsSelected, address_str);
 }
 
 
@@ -3776,11 +3776,11 @@ UniValue spendzerocoinmints(const UniValue& params, bool fHelp)
         nAmount += mint.GetDenominationAsAmount();
     }
 
-    return DoZpivSpend(nAmount, vMintsSelected, address_str);
+    return DoZmk2Spend(nAmount, vMintsSelected, address_str);
 }
 
 
-extern UniValue DoZpivSpend(const CAmount nAmount, std::vector<CZerocoinMint>& vMintsSelected, std::string address_str)
+extern UniValue DoZmk2Spend(const CAmount nAmount, std::vector<CZerocoinMint>& vMintsSelected, std::string address_str)
 {
     int64_t nTimeStart = GetTimeMillis();
     CTxDestination address{CNoDestination()}; // Optional sending address. Dummy initialization here.
@@ -4545,6 +4545,6 @@ UniValue spendrawzerocoin(const UniValue& params, bool fHelp)
     }
 
     std::vector<CZerocoinMint> vMintsSelected = {mint};
-    return DoZpivSpend(mint.GetDenominationAsAmount(), vMintsSelected, address_str);
+    return DoZmk2Spend(mint.GetDenominationAsAmount(), vMintsSelected, address_str);
 }
 

@@ -189,7 +189,7 @@ bool ContextualCheckZerocoinSpendNoSerialCheck(const CTransaction& tx, const lib
     return true;
 }
 
-bool RecalculateMK2Supply(int nHeightStart, bool fSkipZpiv)
+bool RecalculateMK2Supply(int nHeightStart, bool fSkipZmk2)
 {
     AssertLockHeld(cs_main);
 
@@ -202,7 +202,7 @@ bool RecalculateMK2Supply(int nHeightStart, bool fSkipZpiv)
     if (nHeightStart == consensus.height_start_ZC)
         nMoneySupply = CAmount(5449796547496199);
 
-    if (!fSkipZpiv) {
+    if (!fSkipZmk2) {
         // initialize supply to 0
         mapZerocoinSupply.clear();
         for (auto& denom : libzerocoin::zerocoinDenomList) mapZerocoinSupply.insert(std::make_pair(denom, 0));
@@ -250,7 +250,7 @@ bool RecalculateMK2Supply(int nHeightStart, bool fSkipZpiv)
         nMoneySupply += (nValueOut - nValueIn);
 
         // Rewrite zmk2 supply too
-        if (!fSkipZpiv && pindex->nHeight >= consensus.height_start_ZC) {
+        if (!fSkipZmk2 && pindex->nHeight >= consensus.height_start_ZC) {
             UpdateZMK2SupplyConnect(block, pindex, true);
         }
 

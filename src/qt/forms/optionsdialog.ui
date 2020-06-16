@@ -131,8 +131,8 @@
         </spacer>
        </item>
        <item>
-        <widget class="QWidget" name="verticalZpivOptionsWidget" native="true">
-         <layout class="QVBoxLayout" name="verticalZpivOptionsLayout">
+        <widget class="QWidget" name="verticalZmk2OptionsWidget" native="true">
+         <layout class="QVBoxLayout" name="verticalZmk2OptionsLayout">
           <property name="margin">
            <number>0</number>
           </property>
@@ -561,8 +561,8 @@ https://www.transifex.com/mk2x-project/mk2x-project-translations</string>
         </layout>
        </item>
        <item>
-        <widget class="QWidget" name="verticalZpivDisplayWidget" native="true">
-         <layout class="QVBoxLayout" name="verticalZpivDisplayLayout">
+        <widget class="QWidget" name="verticalZmk2DisplayWidget" native="true">
+         <layout class="QVBoxLayout" name="verticalZmk2DisplayLayout">
           <property name="margin">
            <number>0</number>
           </property>

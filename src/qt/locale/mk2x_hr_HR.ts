@@ -720,8 +720,8 @@ za staking</translation>
         <translation>Ova oznaka postaje crvena ako neki primatelj prima iznos manji od %1.</translation>
     </message>
     <message>
-        <source>Can vary +/- %1 upiv per input.</source>
-        <translation>Može varirati +/- %1 upiv po unosu.</translation>
+        <source>Can vary +/- %1 umk2 per input.</source>
+        <translation>Može varirati +/- %1 umk2 po unosu.</translation>
     </message>
     <message>
         <source>(no label)</source>

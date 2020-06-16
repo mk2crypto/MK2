@@ -664,7 +664,7 @@ per lo staking</translation>
         <translation>Questa etichetta diventa rossa se uno dei destinatari riceve un importo inferiore a %1.</translation>
     </message>
     <message>
-        <source>Can vary +/- %1 upiv per input.</source>
+        <source>Can vary +/- %1 umk2 per input.</source>
         <translation>Può variare di +/- %1 uMK2 per input.</translation>
     </message>
     <message>

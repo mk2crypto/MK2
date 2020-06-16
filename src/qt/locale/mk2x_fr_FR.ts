@@ -720,8 +720,8 @@ pour le staking</translation>
         <translation>Ce libellé devient rouge si l'un des destinataires reçoit un montant inférieur à %1.</translation>
     </message>
     <message>
-        <source>Can vary +/- %1 upiv per input.</source>
-        <translation>Peut varier de +/- %1 upiv par entrée.</translation>
+        <source>Can vary +/- %1 umk2 per input.</source>
+        <translation>Peut varier de +/- %1 umk2 par entrée.</translation>
     </message>
     <message>
         <source>(no label)</source>

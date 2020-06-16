@@ -91,7 +91,7 @@ SendWidget::SendWidget(MK2XGUI* parent) :
     coinIcon->show();
     coinIcon->raise();
 
-    setCssProperty(coinIcon, "coin-icon-piv");
+    setCssProperty(coinIcon, "coin-icon-mk2");
 
     QSize BUTTON_SIZE = QSize(24, 24);
     coinIcon->setMinimumSize(BUTTON_SIZE);
@@ -645,8 +645,8 @@ void SendWidget::onContactMultiClicked()
             inform(tr("Invalid address"));
             return;
         }
-        CTxDestination pivAdd = DecodeDestination(address.toStdString());
-        if (walletModel->isMine(pivAdd)) {
+        CTxDestination mk2Add = DecodeDestination(address.toStdString());
+        if (walletModel->isMine(mk2Add)) {
             inform(tr("Cannot store your own address as contact"));
             return;
         }
@@ -666,7 +666,7 @@ void SendWidget::onContactMultiClicked()
             if (label == dialog->getLabel()) {
                 return;
             }
-            if (walletModel->updateAddressBookLabels(pivAdd, dialog->getLabel().toStdString(),
+            if (walletModel->updateAddressBookLabels(mk2Add, dialog->getLabel().toStdString(),
                     AddressBook::AddressBookPurpose::SEND)) {
                 inform(tr("New Contact Stored"));
             } else {

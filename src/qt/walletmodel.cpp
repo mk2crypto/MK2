@@ -608,7 +608,7 @@ bool WalletModel::mintCoins(CAmount value, CCoinControl* coinControl ,std::strin
 }
 
 
-bool WalletModel::createZpivSpend(
+bool WalletModel::createZmk2Spend(
         CWalletTx &wtxNew,
         std::vector<CZerocoinMint> &vMintsSelected,
         CZerocoinSpendReceipt &receipt,
@@ -646,7 +646,7 @@ bool WalletModel::createZpivSpend(
     return CheckTransaction(wtxNew, true, true, state, true);
 }
 
-bool WalletModel::sendZpiv(
+bool WalletModel::sendZmk2(
         std::vector<CZerocoinMint> &vMintsSelected,
         CZerocoinSpendReceipt &receipt,
         std::list<std::pair<CTxDestination, CAmount>> outputs,
@@ -670,7 +670,7 @@ bool WalletModel::sendZpiv(
 
 }
 
-bool WalletModel::convertBackZpiv(
+bool WalletModel::convertBackZmk2(
         CAmount value,
         std::vector<CZerocoinMint> &vMintsSelected,
         CZerocoinSpendReceipt &receipt)
