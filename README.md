@@ -1,16 +1,16 @@
-PIVX Core integration/staging repository
+MK2X Core integration/staging repository
 =====================================
 
-[![Build Status](https://travis-ci.org/PIVX-Project/PIVX.svg?branch=master)](https://travis-ci.org/PIVX-Project/PIVX) [![GitHub version](https://badge.fury.io/gh/PIVX-Project%2FPIVX.svg)](https://badge.fury.io/gh/PIVX-Project%2FPIVX)
+[![Build Status](https://travis-ci.org/MK2X-Project/MK2X.svg?branch=master)](https://travis-ci.org/MK2X-Project/MK2X) [![GitHub version](https://badge.fury.io/gh/MK2X-Project%2FMK2X.svg)](https://badge.fury.io/gh/MK2X-Project%2FMK2X)
 
-PIVX is an open source cryptocurrency focused on fast, private transactions using the Zerocoin protocol, with low transaction fees & environmental footprint.  It utilizes the first ever anonymous proof of stake protocol, called zPoS, combined with regular PoS and masternodes for securing its network. zPoS incentivizes using the privacy features available in PIVX by granting a higher block reward for zPoS over regular PoS and masternodes. In practice, PIVX has between 4 to 10 times higher use of its privacy features in comparison to other coins that combine public and private transactions. This is thanks to innovations like zPoS and integrating the Zerocoin protocol into light/mobile wallets, allowing for a complete and lightweight privacy protocol that can be used on the go. This also includes security improvements like [deterministic generation of zMK2 for easy backups.](https://www.reddit.com/r/mk2x/comments/8gbjf7/how_to_use_deterministic_zerocoin_generation/)
-The goal of PIVX is to achieve a decentralized, sustainable cryptocurrency with near instant full-time private transactions, fair governance and community intelligence.
+MK2X is an open source cryptocurrency focused on fast, private transactions using the Zerocoin protocol, with low transaction fees & environmental footprint.  It utilizes the first ever anonymous proof of stake protocol, called zPoS, combined with regular PoS and masternodes for securing its network. zPoS incentivizes using the privacy features available in MK2X by granting a higher block reward for zPoS over regular PoS and masternodes. In practice, MK2X has between 4 to 10 times higher use of its privacy features in comparison to other coins that combine public and private transactions. This is thanks to innovations like zPoS and integrating the Zerocoin protocol into light/mobile wallets, allowing for a complete and lightweight privacy protocol that can be used on the go. This also includes security improvements like [deterministic generation of zMK2 for easy backups.](https://www.reddit.com/r/mk2x/comments/8gbjf7/how_to_use_deterministic_zerocoin_generation/)
+The goal of MK2X is to achieve a decentralized, sustainable cryptocurrency with near instant full-time private transactions, fair governance and community intelligence.
 - Anonymized transactions & consensus using the [_Zerocoin Protocol_](http://www.mk2x.org/zmk2) and [zPoS](https://mk2x.org/zpos/).
 - light/mobile wallet privacy using the [Zerocoin Light Node Protocol](https://mk2x.org/wp-content/uploads/2018/11/Zerocoin_Light_Node_Protocol.pdf)
 - Fast transactions featuring guaranteed zero confirmation transactions, we call it _SwiftX_.
 - Decentralized blockchain voting utilizing Masternode technology to form a DAO. The blockchain will distribute monthly treasury funds based on successful proposals submitted by the community and voted on by the DAO.
 
-More information at [mk2x.org](http://www.mk2x.org) Visit our ANN thread at [BitcoinTalk](http://www.bitcointalk.org/index.php?topic=1262920). Join the community at [PIVX Discord](https://discordapp.com/invite/jzqVsJd).
+More information at [mk2x.org](http://www.mk2x.org) Visit our ANN thread at [BitcoinTalk](http://www.bitcointalk.org/index.php?topic=1262920). Join the community at [MK2X Discord](https://discordapp.com/invite/jzqVsJd).
 
 ### Coin Specs
 <table>
@@ -22,14 +22,14 @@ More information at [mk2x.org](http://www.mk2x.org) Visit our ANN thread at [Bit
 <tr><td>Premine</td><td>60,000 PIV*</td></tr>
 </table>
 
-*60,000 PIV Premine was burned in block [279917](http://www.presstab.pw/phpexplorer/PIVX/block.php?blockhash=206d9cfe859798a0b0898ab00d7300be94de0f5469bb446cecb41c3e173a57e0)
+*60,000 PIV Premine was burned in block [279917](http://www.presstab.pw/phpexplorer/MK2X/block.php?blockhash=206d9cfe859798a0b0898ab00d7300be94de0f5469bb446cecb41c3e173a57e0)
 
 ### Reward Distribution
 
 <table>
 <th colspan=4>Genesis Block</th>
 <tr><th>Block Height</th><th>Reward Amount</th><th>Notes</th></tr>
-<tr><td>1</td><td>60,000 PIV</td><td>Initial Pre-mine, burnt in block <a href="http://www.presstab.pw/phpexplorer/PIVX/block.php?blockhash=206d9cfe859798a0b0898ab00d7300be94de0f5469bb446cecb41c3e173a57e0">279917</a></td></tr>
+<tr><td>1</td><td>60,000 PIV</td><td>Initial Pre-mine, burnt in block <a href="http://www.presstab.pw/phpexplorer/MK2X/block.php?blockhash=206d9cfe859798a0b0898ab00d7300be94de0f5469bb446cecb41c3e173a57e0">279917</a></td></tr>
 </table>
 
 ### PoW Rewards Breakdown

@@ -1,9 +1,9 @@
-// Copyright (c) 2019 The PIVX developers
+// Copyright (c) 2019 The MK2X developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef FURSZY_PIVX_GUITRANSACTIONSUTILS_H
-#define FURSZY_PIVX_GUITRANSACTIONSUTILS_H
+#ifndef FURSZY_MK2X_GUITRANSACTIONSUTILS_H
+#define FURSZY_MK2X_GUITRANSACTIONSUTILS_H
 
 #include "walletmodel.h"
 #include "qt/mk2x/pwidget.h"
@@ -34,4 +34,4 @@ namespace GuiTransactionsUtils {
 }
 
 
-#endif //FURSZY_PIVX_GUITRANSACTIONSUTILS_H
+#endif //FURSZY_MK2X_GUITRANSACTIONSUTILS_H

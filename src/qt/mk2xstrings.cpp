@@ -30,7 +30,7 @@ QT_TRANSLATE_NOOP("mk2x-core", ""
 "notation for IPv6. This option can be specified multiple times (default: "
 "bind to all interfaces)"),
 QT_TRANSLATE_NOOP("mk2x-core", ""
-"Cannot obtain a lock on data directory %s. PIVX Core is probably already "
+"Cannot obtain a lock on data directory %s. MK2X Core is probably already "
 "running."),
 QT_TRANSLATE_NOOP("mk2x-core", ""
 "Change automatic finalized budget voting behavior. mode=auto: Vote for only "
@@ -48,7 +48,7 @@ QT_TRANSLATE_NOOP("mk2x-core", ""
 "Delete all zerocoin spends and mints that have been recorded to the "
 "blockchain database and reindex them (0-1, default: %u)"),
 QT_TRANSLATE_NOOP("mk2x-core", ""
-"Disable all PIVX specific functionality (Masternodes, Zerocoin, SwiftX, "
+"Disable all MK2X specific functionality (Masternodes, Zerocoin, SwiftX, "
 "Budgeting) (0-1, default: %u)"),
 QT_TRANSLATE_NOOP("mk2x-core", ""
 "Distributed under the MIT software license, see the accompanying file "
@@ -145,7 +145,7 @@ QT_TRANSLATE_NOOP("mk2x-core", ""
 "Output debugging information (default: %u, supplying <category> is optional)"),
 QT_TRANSLATE_NOOP("mk2x-core", ""
 "Please check that your computer's date and time are correct! If your clock "
-"is wrong PIVX Core will not work properly."),
+"is wrong MK2X Core will not work properly."),
 QT_TRANSLATE_NOOP("mk2x-core", ""
 "Query for peer addresses via DNS lookup, if low on addresses (default: 1 "
 "unless -connect)"),
@@ -195,7 +195,7 @@ QT_TRANSLATE_NOOP("mk2x-core", ""
 "Total length of network version string (%i) exceeds maximum length (%i). "
 "Reduce the number or size of uacomments."),
 QT_TRANSLATE_NOOP("mk2x-core", ""
-"Unable to bind to %s on this computer. PIVX Core is probably already running."),
+"Unable to bind to %s on this computer. MK2X Core is probably already running."),
 QT_TRANSLATE_NOOP("mk2x-core", ""
 "Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: "
 "%s)"),
@@ -207,7 +207,7 @@ QT_TRANSLATE_NOOP("mk2x-core", ""
 "pay if you send a transaction."),
 QT_TRANSLATE_NOOP("mk2x-core", ""
 "Warning: Please check that your computer's date and time are correct! If "
-"your clock is wrong PIVX Core will not work properly."),
+"your clock is wrong MK2X Core will not work properly."),
 QT_TRANSLATE_NOOP("mk2x-core", ""
 "Warning: The network does not appear to fully agree! Some miners appear to "
 "be experiencing issues."),
@@ -256,7 +256,7 @@ QT_TRANSLATE_NOOP("mk2x-core", "Connect to a node to retrieve peer addresses, an
 QT_TRANSLATE_NOOP("mk2x-core", "Connection options:"),
 QT_TRANSLATE_NOOP("mk2x-core", "Copyright (C) 2009-%i The Bitcoin Core Developers"),
 QT_TRANSLATE_NOOP("mk2x-core", "Copyright (C) 2014-%i The Dash Core Developers"),
-QT_TRANSLATE_NOOP("mk2x-core", "Copyright (C) 2015-%i The PIVX Core Developers"),
+QT_TRANSLATE_NOOP("mk2x-core", "Copyright (C) 2015-%i The MK2X Core Developers"),
 QT_TRANSLATE_NOOP("mk2x-core", "Corrupted block database detected"),
 QT_TRANSLATE_NOOP("mk2x-core", "Could not parse masternode.conf"),
 QT_TRANSLATE_NOOP("mk2x-core", "Debugging/Testing options:"),
@@ -282,7 +282,7 @@ QT_TRANSLATE_NOOP("mk2x-core", "Error initializing wallet database environment %
 QT_TRANSLATE_NOOP("mk2x-core", "Error loading block database"),
 QT_TRANSLATE_NOOP("mk2x-core", "Error loading wallet.dat"),
 QT_TRANSLATE_NOOP("mk2x-core", "Error loading wallet.dat: Wallet corrupted"),
-QT_TRANSLATE_NOOP("mk2x-core", "Error loading wallet.dat: Wallet requires newer version of PIVX Core"),
+QT_TRANSLATE_NOOP("mk2x-core", "Error loading wallet.dat: Wallet requires newer version of MK2X Core"),
 QT_TRANSLATE_NOOP("mk2x-core", "Error opening block database"),
 QT_TRANSLATE_NOOP("mk2x-core", "Error reading from database, shutting down."),
 QT_TRANSLATE_NOOP("mk2x-core", "Error writing zerocoinDB to disk"),
@@ -312,7 +312,7 @@ QT_TRANSLATE_NOOP("mk2x-core", "Imports blocks from external blk000??.dat file")
 QT_TRANSLATE_NOOP("mk2x-core", "Include IP addresses in debug output (default: %u)"),
 QT_TRANSLATE_NOOP("mk2x-core", "Incorrect or no genesis block found. Wrong datadir for network?"),
 QT_TRANSLATE_NOOP("mk2x-core", "Information"),
-QT_TRANSLATE_NOOP("mk2x-core", "Initialization sanity check failed. PIVX Core is shutting down."),
+QT_TRANSLATE_NOOP("mk2x-core", "Initialization sanity check failed. MK2X Core is shutting down."),
 QT_TRANSLATE_NOOP("mk2x-core", "Insufficient funds"),
 QT_TRANSLATE_NOOP("mk2x-core", "Insufficient funds."),
 QT_TRANSLATE_NOOP("mk2x-core", "Invalid -onion address or hostname: '%s'"),
@@ -444,7 +444,7 @@ QT_TRANSLATE_NOOP("mk2x-core", "Value is below the smallest available denominati
 QT_TRANSLATE_NOOP("mk2x-core", "Verifying blocks..."),
 QT_TRANSLATE_NOOP("mk2x-core", "Verifying wallet..."),
 QT_TRANSLATE_NOOP("mk2x-core", "Wallet %s resides outside data directory %s"),
-QT_TRANSLATE_NOOP("mk2x-core", "Wallet needed to be rewritten: restart PIVX Core to complete"),
+QT_TRANSLATE_NOOP("mk2x-core", "Wallet needed to be rewritten: restart MK2X Core to complete"),
 QT_TRANSLATE_NOOP("mk2x-core", "Wallet options:"),
 QT_TRANSLATE_NOOP("mk2x-core", "Wallet window title"),
 QT_TRANSLATE_NOOP("mk2x-core", "Warning"),

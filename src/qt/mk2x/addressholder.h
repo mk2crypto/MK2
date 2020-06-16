@@ -1,9 +1,9 @@
-// Copyright (c) 2019 The PIVX developers
+// Copyright (c) 2019 The MK2X developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef PIVX_ADDRESSHOLDER_H
-#define PIVX_ADDRESSHOLDER_H
+#ifndef MK2X_ADDRESSHOLDER_H
+#define MK2X_ADDRESSHOLDER_H
 
 #include <QWidget>
 #include <QColor>
@@ -38,4 +38,4 @@ public:
 };
 
 
-#endif //PIVX_ADDRESSHOLDER_H
+#endif //MK2X_ADDRESSHOLDER_H

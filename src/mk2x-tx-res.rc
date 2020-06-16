@@ -16,8 +16,8 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "PIVX"
-            VALUE "FileDescription",    "mk2x-tx (CLI PIVX transaction editor utility)"
+            VALUE "CompanyName",        "MK2X"
+            VALUE "FileDescription",    "mk2x-tx (CLI MK2X transaction editor utility)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
             VALUE "InternalName",       "mk2x-tx"
             VALUE "LegalCopyright",     COPYRIGHT_STR

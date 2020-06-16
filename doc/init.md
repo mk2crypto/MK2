@@ -84,9 +84,9 @@ OpenRC).
 ### macOS
 
 Binary:              `/usr/local/bin/mk2xd`
-Configuration file:  `~/Library/Application Support/PIVX/mk2x.conf`
-Data directory:      `~/Library/Application Support/PIVX`
-Lock file:           `~/Library/Application Support/PIVX/.lock`
+Configuration file:  `~/Library/Application Support/MK2X/mk2x.conf`
+Data directory:      `~/Library/Application Support/MK2X`
+Lock file:           `~/Library/Application Support/MK2X/.lock`
 
 Installing Service Configuration
 -----------------------------------
@@ -124,7 +124,7 @@ use old versions of Upstart and do not supply the start-stop-daemon utility.
 Copy mk2xd.init to /etc/init.d/mk2xd. Test by running `service mk2xd start`.
 
 Using this script, you can adjust the path and flags to the mk2xd program by
-setting the PIVXD and FLAGS environment variables in the file
+setting the MK2XD and FLAGS environment variables in the file
 /etc/sysconfig/mk2xd. You can also use the DAEMONOPTS environment variable here.
 
 ### macOS

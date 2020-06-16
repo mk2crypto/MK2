@@ -1,4 +1,4 @@
-// Copyright (c) 2019 The PIVX developers
+// Copyright (c) 2019 The MK2X developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -10,7 +10,7 @@
 #include "qt/mk2x/pwidget.h"
 #include "qt/mk2x/furabstractlistitemdelegate.h"
 
-class PIVXGUI;
+class MK2XGUI;
 
 namespace Ui {
 class SettingsMultisendWidget;

@@ -86,7 +86,7 @@ src/qt/test/moc*.cpp
 *.qm
 Makefile
 mk2x-qt
-PIVX-Qt.app
+MK2X-Qt.app
 background.tiff*
 
 # Unit-tests

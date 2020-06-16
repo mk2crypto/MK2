@@ -8,7 +8,7 @@
 # /etc/mk2x/mk2x.conf
 
 [Unit]
-Description=PIVX daemon
+Description=MK2X daemon
 After=network.target
 
 [Service]

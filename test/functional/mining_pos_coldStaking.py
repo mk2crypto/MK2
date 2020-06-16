@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# Copyright (c) 2019-2020 The PIVX developers
+# Copyright (c) 2019-2020 The MK2X developers
 # Distributed under the MIT software license, see the accompanying
 # file COPYING or http://www.opensource.org/licenses/mit-license.php.
 # -*- coding: utf-8 -*-
@@ -28,7 +28,7 @@ def getDelegatedUtxos(utxos):
     return [x for x in utxos if x["scriptPubKey"][:10] == '76a97b63d1']
 
 
-class PIVX_ColdStakingTest(PivxTestFramework):
+class MK2X_ColdStakingTest(PivxTestFramework):
 
     def set_test_params(self):
         self.num_nodes = 3
@@ -445,4 +445,4 @@ class PIVX_ColdStakingTest(PivxTestFramework):
 
 
 if __name__ == '__main__':
-    PIVX_ColdStakingTest().main()
+    MK2X_ColdStakingTest().main()

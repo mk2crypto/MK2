@@ -1,9 +1,9 @@
-// Copyright (c) 2018-2020 The PIVX developers
+// Copyright (c) 2018-2020 The MK2X developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef PIVX_ZPIVCHAIN_H
-#define PIVX_ZPIVCHAIN_H
+#ifndef MK2X_ZPIVCHAIN_H
+#define MK2X_ZPIVCHAIN_H
 
 #include "chain.h"
 #include "libzerocoin/Coin.h"
@@ -45,4 +45,4 @@ int64_t GetZerocoinSupply();
 bool UpdateZPIVSupplyConnect(const CBlock& block, CBlockIndex* pindex, bool fJustCheck);
 bool UpdateZPIVSupplyDisconnect(const CBlock& block, CBlockIndex* pindex);
 
-#endif //PIVX_ZPIVCHAIN_H
+#endif //MK2X_ZPIVCHAIN_H

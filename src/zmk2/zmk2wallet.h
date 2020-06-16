@@ -1,9 +1,9 @@
-// Copyright (c) 2017-2020 The PIVX developers
+// Copyright (c) 2017-2020 The MK2X developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef PIVX_ZPIVWALLET_H
-#define PIVX_ZPIVWALLET_H
+#ifndef MK2X_ZPIVWALLET_H
+#define MK2X_ZPIVWALLET_H
 
 #include <map>
 #include "libzerocoin/Coin.h"
@@ -50,4 +50,4 @@ private:
     uint512 GetZerocoinSeed(uint32_t n);
 };
 
-#endif //PIVX_ZPIVWALLET_H
+#endif //MK2X_ZPIVWALLET_H

@@ -1,7 +1,7 @@
 <!--- Remove this description and sections that do not apply -->
 
-This issue tracker is only for technical issues related to PIVX Core.
-General PIVX questions and/or support requests and are best directed to the [PIVX Discord](https://discord.mk2x.org).
+This issue tracker is only for technical issues related to MK2X Core.
+General MK2X questions and/or support requests and are best directed to the [MK2X Discord](https://discord.mk2x.org).
 
 ### Describe the issue
 
@@ -20,7 +20,7 @@ Tell us what happens instead
 ### Screenshots.
 If the issue is related to the GUI, screenshots can be added to this issue via drag & drop.
 
-### What version of PIVX Core are you using?
+### What version of MK2X Core are you using?
 List the version number/commit ID, and if it is an official binary, self compiled or a distribution package.
 
 ### Machine specs:

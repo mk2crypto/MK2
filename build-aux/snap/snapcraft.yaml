@@ -1,17 +1,17 @@
 # Copyright (c) 2018-2019 The Ion developers
-# Copyright (c) 2019 The PIVX developers
+# Copyright (c) 2019 The MK2X developers
 name: mk2x-core
 base: core18
 version: 4.1.99
-summary:   PIVX (Private – Instant – Verified – Transaction)
+summary:   MK2X (Private – Instant – Verified – Transaction)
 description: |
-  PIVX is an MIT licensed,
+  MK2X is an MIT licensed,
   open source, blockchain-based cryptocurrency with
   ultra fast transactions, low fees, high network decentralization, and
   Zero Knowledge cryptography proofs for industry-leading
   transaction anonymity.
 
-  - [Download](https://mk2x.org/wp-content/uploads/2018/10/PIVX-White.pdf) PIVX White Paper PDF
+  - [Download](https://mk2x.org/wp-content/uploads/2018/10/MK2X-White.pdf) MK2X White Paper PDF
 grade: devel
 confinement: strict
 apps:
@@ -68,7 +68,7 @@ apps:
     plugs: [home]
 parts:
   mk2x-core:
-    source: https://github.com/PIVX-Project/PIVX
+    source: https://github.com/MK2X-Project/MK2X
     source-type: git
     source-tag: master
     plugin: nil

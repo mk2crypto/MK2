@@ -32,10 +32,10 @@ git config --global user.email "MY_NAME@example.com"
 Fetching the Build Script
 --------------------------
 
-The build script we'll be using is contained in the PIVX github repository ([contrib/gitian-build.py](https://github.com/mk2x-project/mk2x/blob/master/contrib/gitian-build.py)). Since this is a completely fresh environment, we haven't yet cloned the PIVX repository and will need to fetch this script with the following commands:
+The build script we'll be using is contained in the MK2X github repository ([contrib/gitian-build.py](https://github.com/mk2x-project/mk2x/blob/master/contrib/gitian-build.py)). Since this is a completely fresh environment, we haven't yet cloned the MK2X repository and will need to fetch this script with the following commands:
 
 ```bash
-curl -L -O https://raw.githubusercontent.com/PIVX-Project/PIVX/master/contrib/gitian-build.py
+curl -L -O https://raw.githubusercontent.com/MK2X-Project/MK2X/master/contrib/gitian-build.py
 chmod +x gitian-build.py
 ```
 
