@@ -52,9 +52,9 @@ TopBar::TopBar(MK2XGUI* _mainWindow, QWidget *parent) :
 
     // Amount information top
     ui->widgetTopAmount->setVisible(false);
-    setCssProperty({ui->labelAmountTopPiv}, "amount-small-topbar");
-    setCssProperty({ui->labelAmountPiv}, "amount-topbar");
-    setCssProperty({ui->labelPendingPiv, ui->labelImmaturePiv}, "amount-small-topbar");
+    setCssProperty({ui->labelAmountTopMk2}, "amount-small-topbar");
+    setCssProperty({ui->labelAmountMk2}, "amount-topbar");
+    setCssProperty({ui->labelPendingMk2, ui->labelImmatureMk2}, "amount-small-topbar");
 
     // Progress Sync
     progressBar = new QProgressBar(ui->layoutSync);
@@ -634,15 +634,15 @@ void TopBar::updateBalances(const CAmount& balance, const CAmount& unconfirmedBa
     ui->labelTitle1->setText(nLockedBalance > 0 ? tr("Available (Locked included)") : tr("Available"));
 
     // MK2 Total
-    QString totalPiv = GUIUtil::formatBalance(balance, nDisplayUnit);
+    QString totalMk2 = GUIUtil::formatBalance(balance, nDisplayUnit);
 
     // MK2
     // Top
-    ui->labelAmountTopPiv->setText(totalPiv);
+    ui->labelAmountTopMk2->setText(totalMk2);
     // Expanded
-    ui->labelAmountPiv->setText(totalPiv);
-    ui->labelPendingPiv->setText(GUIUtil::formatBalance(unconfirmedBalance, nDisplayUnit));
-    ui->labelImmaturePiv->setText(GUIUtil::formatBalance(immatureBalance, nDisplayUnit));
+    ui->labelAmountMk2->setText(totalMk2);
+    ui->labelPendingMk2->setText(GUIUtil::formatBalance(unconfirmedBalance, nDisplayUnit));
+    ui->labelImmatureMk2->setText(GUIUtil::formatBalance(immatureBalance, nDisplayUnit));
 }
 
 void TopBar::resizeEvent(QResizeEvent *event)

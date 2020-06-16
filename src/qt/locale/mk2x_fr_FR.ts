@@ -6031,7 +6031,7 @@ Portefeuille MK2X Core</translation>
     </message>
 </context>
 <context>
-    <name>ZPivControlDialog</name>
+    <name>ZMk2ControlDialog</name>
     <message>
         <source>Select zMK2 to Spend</source>
         <translation>Choisir les zMK2 à dépenser</translation>

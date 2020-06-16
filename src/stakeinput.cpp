@@ -10,10 +10,10 @@
 #include "zmk2/deterministicmint.h"
 #include "wallet/wallet.h"
 
-bool CPivStake::InitFromTxIn(const CTxIn& txin)
+bool CMk2Stake::InitFromTxIn(const CTxIn& txin)
 {
     if (txin.IsZerocoinSpend())
-        return error("%s: unable to initialize CPivStake from zerocoin spend");
+        return error("%s: unable to initialize CMk2Stake from zerocoin spend");
 
     // Find the previous transaction in database
     uint256 hashBlock;
@@ -35,14 +35,14 @@ bool CPivStake::InitFromTxIn(const CTxIn& txin)
     return true;
 }
 
-bool CPivStake::SetPrevout(CTransaction txPrev, unsigned int n)
+bool CMk2Stake::SetPrevout(CTransaction txPrev, unsigned int n)
 {
     this->txFrom = txPrev;
     this->nPosition = n;
     return true;
 }
 
-bool CPivStake::GetTxFrom(CTransaction& tx) const
+bool CMk2Stake::GetTxFrom(CTransaction& tx) const
 {
     if (txFrom.IsNull())
         return false;
@@ -50,7 +50,7 @@ bool CPivStake::GetTxFrom(CTransaction& tx) const
     return true;
 }
 
-bool CPivStake::GetTxOutFrom(CTxOut& out) const
+bool CMk2Stake::GetTxOutFrom(CTxOut& out) const
 {
     if (txFrom.IsNull() || nPosition >= txFrom.vout.size())
         return false;
@@ -58,18 +58,18 @@ bool CPivStake::GetTxOutFrom(CTxOut& out) const
     return true;
 }
 
-bool CPivStake::CreateTxIn(CWallet* pwallet, CTxIn& txIn, uint256 hashTxOut)
+bool CMk2Stake::CreateTxIn(CWallet* pwallet, CTxIn& txIn, uint256 hashTxOut)
 {
     txIn = CTxIn(txFrom.GetHash(), nPosition);
     return true;
 }
 
-CAmount CPivStake::GetValue() const
+CAmount CMk2Stake::GetValue() const
 {
     return txFrom.vout[nPosition].nValue;
 }
 
-bool CPivStake::CreateTxOuts(CWallet* pwallet, std::vector<CTxOut>& vout, CAmount nTotal)
+bool CMk2Stake::CreateTxOuts(CWallet* pwallet, std::vector<CTxOut>& vout, CAmount nTotal)
 {
     std::vector<valtype> vSolutions;
     txnouttype whichType;
@@ -119,7 +119,7 @@ bool CPivStake::CreateTxOuts(CWallet* pwallet, std::vector<CTxOut>& vout, CAmoun
     return true;
 }
 
-CDataStream CPivStake::GetUniqueness() const
+CDataStream CMk2Stake::GetUniqueness() const
 {
     //The unique identifier for a MK2 stake is the outpoint
     CDataStream ss(SER_NETWORK, 0);
@@ -128,7 +128,7 @@ CDataStream CPivStake::GetUniqueness() const
 }
 
 //The block that the UTXO was added to the chain
-CBlockIndex* CPivStake::GetIndexFrom()
+CBlockIndex* CMk2Stake::GetIndexFrom()
 {
     if (pindexFrom)
         return pindexFrom;
@@ -149,7 +149,7 @@ CBlockIndex* CPivStake::GetIndexFrom()
 }
 
 // Verify stake contextual checks
-bool CPivStake::ContextCheck(int nHeight, uint32_t nTime)
+bool CMk2Stake::ContextCheck(int nHeight, uint32_t nTime)
 {
     const Consensus::Params& consensus = Params().GetConsensus();
     // Get Stake input block time/height

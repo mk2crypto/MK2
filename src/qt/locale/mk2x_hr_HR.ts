@@ -6045,7 +6045,7 @@ MK2X temeljni novčanik</translation>
     </message>
 </context>
 <context>
-    <name>ZPivControlDialog</name>
+    <name>ZMk2ControlDialog</name>
     <message>
         <source>Select zMK2 to Spend</source>
         <translation>Odabrani zMK2 za utrošiti</translation>

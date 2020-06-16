@@ -6012,7 +6012,7 @@ MK2X核心钱包</translation>
     </message>
 </context>
 <context>
-    <name>ZPivControlDialog</name>
+    <name>ZMk2ControlDialog</name>
     <message>
         <source>Select zMK2 to Spend</source>
         <translation>选择zMK2 花费</translation>

@@ -6051,7 +6051,7 @@ MK2X Core Portemonnee</translation>
     </message>
 </context>
 <context>
-    <name>ZPivControlDialog</name>
+    <name>ZMk2ControlDialog</name>
     <message>
         <source>Select zMK2 to Spend</source>
         <translation>Selecteer zMK2 om te besteden</translation>

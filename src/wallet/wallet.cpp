@@ -2579,10 +2579,10 @@ bool CWallet::CreateCoinStake(
         return false;
     }
 
-    // Parse utxos into CPivStakes
+    // Parse utxos into CMk2Stakes
     std::list<std::unique_ptr<CStakeInput> > listInputs;
     for (const COutput &out : vCoins) {
-        std::unique_ptr<CPivStake> input(new CPivStake());
+        std::unique_ptr<CMk2Stake> input(new CMk2Stake());
         input->SetPrevout((CTransaction) *out.tx, out.i);
         listInputs.emplace_back(std::move(input));
     }

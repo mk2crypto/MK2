@@ -52,9 +52,9 @@ DashboardWidget::DashboardWidget(MK2XGUI* parent) :
 
     // Staking Information
     setCssSubtitleScreen(ui->labelMessage);
-    setCssProperty(ui->labelSquarePiv, "square-chart-mk2");
+    setCssProperty(ui->labelSquareMk2, "square-chart-mk2");
     setCssProperty(ui->labelSquarezMk2, "square-chart-zmk2");
-    setCssProperty(ui->labelPiv, "text-chart-mk2");
+    setCssProperty(ui->labelMk2, "text-chart-mk2");
     setCssProperty(ui->labelZmk2, "text-chart-zmk2");
 
     // Staking Amount
@@ -62,7 +62,7 @@ DashboardWidget::DashboardWidget(MK2XGUI* parent) :
     fontBold.setWeight(QFont::Bold);
 
     setCssProperty(ui->labelChart, "legend-chart");
-    setCssProperty(ui->labelAmountPiv, "text-stake-mk2-disable");
+    setCssProperty(ui->labelAmountMk2, "text-stake-mk2-disable");
     setCssProperty(ui->labelAmountZmk2, "text-stake-zmk2-disable");
 
     setCssProperty({ui->pushButtonAll,  ui->pushButtonMonth, ui->pushButtonYear}, "btn-check-time");
@@ -503,7 +503,7 @@ const QMap<int, std::pair<qint64, qint64>> DashboardWidget::getAmountBy()
         QModelIndex modelIndex = stakesFilter->index(i, TransactionTableModel::ToAddress);
         qint64 amount = llabs(modelIndex.data(TransactionTableModel::AmountRole).toLongLong());
         QDate date = modelIndex.data(TransactionTableModel::DateRole).toDateTime().date();
-        bool isPiv = modelIndex.data(TransactionTableModel::TypeRole).toInt() != TransactionRecord::StakeZMK2;
+        bool isMk2 = modelIndex.data(TransactionTableModel::TypeRole).toInt() != TransactionRecord::StakeZMK2;
 
         int time = 0;
         switch (chartShow) {
@@ -524,12 +524,12 @@ const QMap<int, std::pair<qint64, qint64>> DashboardWidget::getAmountBy()
                 return amountBy;
         }
         if (amountBy.contains(time)) {
-            if (isPiv) {
+            if (isMk2) {
                 amountBy[time].first += amount;
             } else
                 amountBy[time].second += amount;
         } else {
-            if (isPiv) {
+            if (isMk2) {
                 amountBy[time] = std::make_pair(amount, 0);
             } else {
                 amountBy[time] = std::make_pair(0, amount);
@@ -567,13 +567,13 @@ bool DashboardWidget::loadChartData(bool withMonthNames)
             std::pair <qint64, qint64> pair = chartData->amountsByCache[num];
             mk2 = (pair.first != 0) ? pair.first / 100000000 : 0;
             zmk2 = (pair.second != 0) ? pair.second / 100000000 : 0;
-            chartData->totalPiv += pair.first;
+            chartData->totalMk2 += pair.first;
             chartData->totalZmk2 += pair.second;
         }
 
         chartData->xLabels << ((withMonthNames) ? monthsNames[num - 1] : QString::number(num));
 
-        chartData->valuesPiv.append(mk2);
+        chartData->valuesMk2.append(mk2);
         chartData->valueszMk2.append(zmk2);
 
         int max = std::max(mk2, zmk2);
@@ -645,20 +645,20 @@ void DashboardWidget::onChartRefreshed()
     series->attachAxis(axisX);
     series->attachAxis(axisY);
 
-    set0->append(chartData->valuesPiv);
+    set0->append(chartData->valuesMk2);
     set1->append(chartData->valueszMk2);
 
     // Total
     nDisplayUnit = walletModel->getOptionsModel()->getDisplayUnit();
-    if (chartData->totalPiv > 0 || chartData->totalZmk2 > 0) {
-        setCssProperty(ui->labelAmountPiv, "text-stake-mk2");
+    if (chartData->totalMk2 > 0 || chartData->totalZmk2 > 0) {
+        setCssProperty(ui->labelAmountMk2, "text-stake-mk2");
         setCssProperty(ui->labelAmountZmk2, "text-stake-zmk2");
     } else {
-        setCssProperty(ui->labelAmountPiv, "text-stake-mk2-disable");
+        setCssProperty(ui->labelAmountMk2, "text-stake-mk2-disable");
         setCssProperty(ui->labelAmountZmk2, "text-stake-zmk2-disable");
     }
-    forceUpdateStyle({ui->labelAmountPiv, ui->labelAmountZmk2});
-    ui->labelAmountPiv->setText(GUIUtil::formatBalance(chartData->totalPiv, nDisplayUnit));
+    forceUpdateStyle({ui->labelAmountMk2, ui->labelAmountZmk2});
+    ui->labelAmountMk2->setText(GUIUtil::formatBalance(chartData->totalMk2, nDisplayUnit));
     ui->labelAmountZmk2->setText(GUIUtil::formatBalance(chartData->totalZmk2, nDisplayUnit, true));
 
     series->append(set0);

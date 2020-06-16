@@ -7477,7 +7477,7 @@ MK2X Core Wallet</source>
     </message>
 </context>
 <context>
-    <name>ZPivControlDialog</name>
+    <name>ZMk2ControlDialog</name>
     <message>
         <location filename="../forms/zmk2controldialog.ui" line="+20"/>
         <source>Select zMK2 to Spend</source>

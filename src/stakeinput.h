@@ -33,14 +33,14 @@ public:
 };
 
 
-class CPivStake : public CStakeInput
+class CMk2Stake : public CStakeInput
 {
 private:
     CTransaction txFrom{CTransaction()};
     unsigned int nPosition{0};
 
 public:
-    CPivStake() {}
+    CMk2Stake() {}
 
     bool InitFromTxIn(const CTxIn& txin) override;
     bool SetPrevout(CTransaction txPrev, unsigned int n);

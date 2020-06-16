@@ -5305,7 +5305,7 @@ Hoşgeldiniz</translation>
     </message>
 </context>
 <context>
-    <name>ZPivControlDialog</name>
+    <name>ZMk2ControlDialog</name>
     <message>
         <source>Select zMK2 to Spend</source>
         <translation>Harcanacak zMK2'leri seçin</translation>

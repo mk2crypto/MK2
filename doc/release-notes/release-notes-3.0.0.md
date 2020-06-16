@@ -58,7 +58,7 @@ Other implementations of the zerocoin protocol only allow for spending of one de
 The MK2X zerocoin implementation is structured in such a way that denominations aren't needed to be known by the average user.
 
 ### Fees
-zMk2 transactions require more computation and disk space than typical MK2X transactions, and as such require a higher transaction fee in order to prevent network spam. Fees are only charged when minting zMk2, each minted denomination is charged a flat rate of 0.01 Piv. zMk2 spends are not charged a transaction fee unless the change is minted into zMk2, see the *Minting Change* section for details on fees for zMk2 spends with minted change.
+zMk2 transactions require more computation and disk space than typical MK2X transactions, and as such require a higher transaction fee in order to prevent network spam. Fees are only charged when minting zMk2, each minted denomination is charged a flat rate of 0.01 Mk2. zMk2 spends are not charged a transaction fee unless the change is minted into zMk2, see the *Minting Change* section for details on fees for zMk2 spends with minted change.
 
 ### Converting MK2 to zMK2 (*zMK2 Mint*)
 **GUI** - Conversion from MK2 to zMK2 can be done using the `Privacy Dialog` in the QT wallet. Enter the amount of MK2 you would like to convert and click `Mint Zerocoin`.
