@@ -70,7 +70,7 @@ MasterNodeWizardDialog::MasterNodeWizardDialog(WalletModel *model, QWidget *pare
     if (walletModel->isRegTestNetwork()) {
         ui->lineEditPort->setText("41476");
     } else if (walletModel->isTestNetwork()) {
-        ui->lineEditPort->setText("51474");
+        ui->lineEditPort->setText("41474");
     } else {
         ui->lineEditPort->setText("41472");
     }
