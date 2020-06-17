@@ -1,7 +1,7 @@
 MK2X Core integration/staging repository
 =====================================
 
-[![Build Status](https://travis-ci.org/MK2X-Project/MK2X.svg?branch=master)](https://travis-ci.org/MK2X-Project/MK2X) [![GitHub version](https://badge.fury.io/gh/MK2X-Project%2FMK2X.svg)](https://badge.fury.io/gh/MK2X-Project%2FMK2X)
+[![Build Status](https://travis-ci.org/mk2crypto/mk2.svg?branch=master)](https://travis-ci.org/mk2crypto/mk2) [![GitHub version](https://badge.fury.io/gh/mk2crypto%2Fmk2.svg)](https://badge.fury.io/gh/mk2crypto%2Fmk2)
 
 MK2X is an open source cryptocurrency focused on fast, private transactions using the Zerocoin protocol, with low transaction fees & environmental footprint.  It utilizes the first ever anonymous proof of stake protocol, called zPoS, combined with regular PoS and masternodes for securing its network. zPoS incentivizes using the privacy features available in MK2X by granting a higher block reward for zPoS over regular PoS and masternodes. In practice, MK2X has between 4 to 10 times higher use of its privacy features in comparison to other coins that combine public and private transactions. This is thanks to innovations like zPoS and integrating the Zerocoin protocol into light/mobile wallets, allowing for a complete and lightweight privacy protocol that can be used on the go. This also includes security improvements like [deterministic generation of zMK2 for easy backups.](https://www.reddit.com/r/mk2x/comments/8gbjf7/how_to_use_deterministic_zerocoin_generation/)
 The goal of MK2X is to achieve a decentralized, sustainable cryptocurrency with near instant full-time private transactions, fair governance and community intelligence.
@@ -57,3 +57,4 @@ More information at [mk2x.org](http://www.mk2x.org) Visit our ANN thread at [Bit
 <tr><td>Phase 9</td><td>648000-1154203</td><td>5 MK2</td><td>90% (4.5 MK2)</td><td>10% (0.5 MK2)</td></tr>
 <tr><td>Phase X</td><td>1154203-∞</td><td>6 MK2</td><td>84% (5 MK2/zMK2)</td><td>16% (1 MK2)</td></tr>
 </table>
+
