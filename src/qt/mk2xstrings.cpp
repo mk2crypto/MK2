@@ -230,10 +230,10 @@ QT_TRANSLATE_NOOP("mk2x-core", ""
 QT_TRANSLATE_NOOP("mk2x-core", ""
 "You must specify a masternodeprivkey in the configuration. Please see "
 "documentation for help."),
-QT_TRANSLATE_NOOP("mk2x-core", "(51472 could be used only on mainnet)"),
+QT_TRANSLATE_NOOP("mk2x-core", "(41472 could be used only on mainnet)"),
 QT_TRANSLATE_NOOP("mk2x-core", "(default: %s)"),
 QT_TRANSLATE_NOOP("mk2x-core", "(default: 1)"),
-QT_TRANSLATE_NOOP("mk2x-core", "(must be 51472 for mainnet)"),
+QT_TRANSLATE_NOOP("mk2x-core", "(must be 41472 for mainnet)"),
 QT_TRANSLATE_NOOP("mk2x-core", "<category> can be:"),
 QT_TRANSLATE_NOOP("mk2x-core", "Accept command line and JSON-RPC commands"),
 QT_TRANSLATE_NOOP("mk2x-core", "Accept connections from outside (default: 1 if no -proxy or -connect)"),
