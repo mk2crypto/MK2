@@ -200,7 +200,7 @@ public:
         pchMessageStart[1] = 0xc4;
         pchMessageStart[2] = 0xfd;
         pchMessageStart[3] = 0xe9;
-        nDefaultPort = 41472;
+        nDefaultPort = 51472;
 
         // Note that of those with the service bits flag, most only support a subset of possible options
         vSeeds.push_back(CDNSSeedData("fuzzbawls.pw", "mk2x.seed.fuzzbawls.pw", true));     // Primary DNS Seeder from Fuzzbawls
@@ -314,7 +314,7 @@ public:
         pchMessageStart[1] = 0x76;
         pchMessageStart[2] = 0x65;
         pchMessageStart[3] = 0xba;
-        nDefaultPort = 41474;
+        nDefaultPort = 51474;
 
         vFixedSeeds.clear();
         vSeeds.clear();
@@ -432,7 +432,7 @@ public:
         pchMessageStart[1] = 0xcf;
         pchMessageStart[2] = 0x7e;
         pchMessageStart[3] = 0xac;
-        nDefaultPort = 41476;
+        nDefaultPort = 51476;
 
         vFixedSeeds.clear(); //! Testnet mode doesn't have any fixed seeds.
         vSeeds.clear();      //! Testnet mode doesn't have any DNS seeds.
