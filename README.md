@@ -57,3 +57,5 @@ More information at [mk2x.org](http://www.mk2x.org) Visit our ANN thread at [Bit
 <tr><td>Phase 9</td><td>648000-1154203</td><td>5 MK2</td><td>90% (4.5 MK2)</td><td>10% (0.5 MK2)</td></tr>
 <tr><td>Phase X</td><td>1154203-∞</td><td>6 MK2</td><td>84% (5 MK2/zMK2)</td><td>16% (1 MK2)</td></tr>
 </table>
+
+image:https://badge.fury.io/gh/mk2crypto%2Fmk2.svg["GitHub version", link="https://badge.fury.io/gh/mk2crypto%2Fmk2"]
