@@ -127,6 +127,7 @@ jobs:
       env: >-
         HOST=i686-pc-linux-gnu
         PACKAGES="g++-multilib python3-zmq"
+        RUN_FUNCTIONAL_TESTS=false
         GOAL="install"
         BITCOIN_CONFIG="--enable-zmq --with-gui=qt5 --enable-glibc-back-compat --enable-reduce-exports LDFLAGS=-static-libstdc++"
         CONFIG_SHELL="/bin/dash"
@@ -137,7 +138,8 @@ jobs:
         HOST=x86_64-unknown-linux-gnu
         PACKAGES="python3-zmq qtbase5-dev qttools5-dev-tools libqt5svg5-dev libqt5charts5-dev libqrencode-dev protobuf-compiler libdbus-1-dev libharfbuzz-dev libprotobuf-dev"
         DEP_OPTS="NO_QT=1 NO_UPNP=1 DEBUG=1 ALLOW_HOST_PACKAGES=1"
-        RUN_FUNCTIONAL_TESTS=true
+        RUN_FUNCTIONAL_TESTS=false
+        #RUN_FUNCTIONAL_TESTS=true
         #TEST_RUNNER_EXTRA="--coverage --extended"  # Run extended tests so that coverage does not fail, but exclude the very slow dbcrash
         GOAL="install"
         BITCOIN_CONFIG="--enable-zmq --with-gui=qt5 --enable-glibc-back-compat --enable-reduce-exports"
@@ -150,7 +152,8 @@ jobs:
         PACKAGES="python3-zmq protobuf-compiler libdbus-1-dev libharfbuzz-dev libprotobuf-dev"
         DEP_OPTS="NO_QT=1 NO_UPNP=1 DEBUG=1 ALLOW_HOST_PACKAGES=1"
         RUN_UNIT_TESTS=false
-        RUN_FUNCTIONAL_TESTS=true
+        RUN_FUNCTIONAL_TESTS=false
+        #RUN_FUNCTIONAL_TESTS=true
         TEST_RUNNER_EXTRA="--legacywallet"  # Run functional tests on pre-HD wallet
         GOAL="install"
         BITCOIN_CONFIG="--enable-zmq --with-gui=no --enable-glibc-back-compat --enable-reduce-exports"
@@ -173,6 +176,7 @@ jobs:
         HOST=x86_64-unknown-linux-gnu
         DOCKER_NAME_TAG=ubuntu:16.04
         PACKAGES="python3-zmq qtbase5-dev qttools5-dev-tools libqt5svg5-dev libssl-dev libevent-dev bsdmainutils libboost-system-dev libboost-filesystem-dev libboost-chrono-dev libboost-program-options-dev libboost-test-dev libboost-thread-dev libdb5.3++-dev libminiupnpc-dev libzmq3-dev libprotobuf-dev protobuf-compiler libqrencode-dev libgmp-dev"
+        RUN_FUNCTIONAL_TESTS=false
         NO_DEPENDS=1
         GOAL="install"
         BITCOIN_CONFIG="--enable-zmq --with-incompatible-bdb --with-gui=qt5 CPPFLAGS=-DDEBUG_LOCKORDER --disable-hardening --disable-asm"
@@ -182,6 +186,7 @@ jobs:
       env: >-
         HOST=x86_64-unknown-linux-gnu
         PACKAGES="python3-zmq qtbase5-dev qttools5-dev-tools libqt5svg5-dev libqt5charts5-dev libssl1.0-dev libevent-dev bsdmainutils libboost-system-dev libboost-filesystem-dev libboost-chrono-dev libboost-program-options-dev libboost-test-dev libboost-thread-dev libdb5.3++-dev libminiupnpc-dev libzmq3-dev libprotobuf-dev protobuf-compiler libqrencode-dev libgmp-dev"
+        RUN_FUNCTIONAL_TESTS=false
         NO_DEPENDS=1
         GOAL="install"
         BITCOIN_CONFIG="--enable-zmq --with-incompatible-bdb --with-gui=qt5 CPPFLAGS=-DDEBUG_LOCKORDER"
@@ -235,37 +240,38 @@ jobs:
         - cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" $TRAVIS_BUILD_DIR
         - cmake --build $TRAVIS_BUILD_DIR/cmake-build-debug --target all -- -j 3
 
-    - stage: cmake
-      name: 'CMake macOS'
-      os: osx
-      osx_image: xcode11.1
-      language: cpp
-      compiler:
-        - clang
-      addons:
-        homebrew:
-          packages:
-            - python3
-            - ccache
-            - autoconf
-            - automake
-            - berkeley-db4
-            - libtool
-            - boost
-            - miniupnpc
-            - openssl
-            - pkg-config
-            - protobuf
-            - qt5
-            - zmq
-            - libevent
-            - qrencode
-            - gmp
-          update: false
-      before_install:
-      install:
-      before_script:
-      script:
-        - mkdir -p $TRAVIS_BUILD_DIR/cmake-build-debug && cd $TRAVIS_BUILD_DIR/cmake-build-debug
-        - cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" $TRAVIS_BUILD_DIR
-        - cmake --build $TRAVIS_BUILD_DIR/cmake-build-debug --target all -- -j 3
+    
+    #- stage: cmake
+    # name: 'CMake macOS'
+    #  os: osx
+    #  osx_image: xcode11.1
+    #  language: cpp
+    #  compiler:
+    #    - clang
+    #  addons:
+    #    homebrew:
+    #      packages:
+    #        - python3
+    #        - ccache
+    #        - autoconf
+    #        - automake
+    #        - berkeley-db4
+    #        - libtool
+    #        - boost
+    #        - miniupnpc
+    #        - openssl
+    #        - pkg-config
+    #        - protobuf
+    #        - qt5
+    #        - zmq
+    #        - libevent
+    #        - qrencode
+    #        - gmp
+    #      update: false
+    #  before_install:
+    #  install:
+    #  before_script:
+    #  script:
+    #    - mkdir -p $TRAVIS_BUILD_DIR/cmake-build-debug && cd $TRAVIS_BUILD_DIR/cmake-build-debug
+    #    - cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" $TRAVIS_BUILD_DIR
+    #    - cmake --build $TRAVIS_BUILD_DIR/cmake-build-debug --target all -- -j 3#
