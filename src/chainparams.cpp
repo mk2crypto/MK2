@@ -150,8 +150,8 @@ public:
         consensus.nTimeSlotLength = 15;
 
         // spork keys
-        consensus.strSporkPubKey = "040F129DE6546FE405995329A887329BED4321325B1A73B0A257423C05C1FCFE9E40EF0678AEF59036A22C42E61DFD29DF7EFB09F56CC73CADF64E05741880E3E7";
-        consensus.strSporkPubKeyOld = "0499A7AF4806FC6DE640D23BC5936C29B77ADF2174B4F45492727F897AE63CF8D27B2F05040606E0D14B547916379FA10716E344E745F880EDC037307186AA25B7";
+        consensus.strSporkPubKey = "0475233892ae2b8ee8dd42590edf8c0215eb0ff9cf6bd2f19ae2c776558433c3a2938a9d76af94cb4bcdb30329e884f7456bec6687dc73ec47866a6eb32c4da944";
+        consensus.strSporkPubKeyOld = "047232695a43582fcaff822c421e2ed5f9f7ddc28932d35a40e6813e72e93f6bb90099b4a1258095d65c5af9e5f3f43035d78bcb4e8c5db3fc80692fc5a0b68aaa";
         consensus.nTime_EnforceNewSporkKey = 1566860400;    //!> August 26, 2019 11:00:00 PM GMT
         consensus.nTime_RejectOldSporkKey = 1569538800;     //!> September 26, 2019 11:00:00 PM GMT
 
@@ -196,10 +196,10 @@ public:
          * The characters are rarely used upper ASCII, not valid as UTF-8, and produce
          * a large 4-byte int at any alignment.
          */
-        pchMessageStart[0] = 0x90;
-        pchMessageStart[1] = 0xc4;
-        pchMessageStart[2] = 0xfd;
-        pchMessageStart[3] = 0xe9;
+        pchMessageStart[0] = 0x80;
+        pchMessageStart[1] = 0xb4;
+        pchMessageStart[2] = 0xed;
+        pchMessageStart[3] = 0xd9;
         nDefaultPort = 41472;
 
         // Note that of those with the service bits flag, most only support a subset of possible options
