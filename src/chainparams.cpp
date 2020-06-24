@@ -150,8 +150,8 @@ public:
         consensus.nTimeSlotLength = 15;
 
         // spork keys
-        consensus.strSporkPubKey = "040F129DE6546FE405995329A887329BED4321325B1A73B0A257423C05C1FCFE9E40EF0678AEF59036A22C42E61DFD29DF7EFB09F56CC73CADF64E05741880E3E7";
-        consensus.strSporkPubKeyOld = "0499A7AF4806FC6DE640D23BC5936C29B77ADF2174B4F45492727F897AE63CF8D27B2F05040606E0D14B547916379FA10716E344E745F880EDC037307186AA25B7";
+        consensus.strSporkPubKey = "0475233892ae2b8ee8dd42590edf8c0215eb0ff9cf6bd2f19ae2c776558433c3a2938a9d76af94cb4bcdb30329e884f7456bec6687dc73ec47866a6eb32c4da944";
+        consensus.strSporkPubKeyOld = "04397faeefb9a90bf0be27be26d55bb3a8176cdfe706363e87265d61fe916e12c43fbb1938779635608af94df2428f8f59090d36d688488abcea38670017312379";
         consensus.nTime_EnforceNewSporkKey = 1566860400;    //!> August 26, 2019 11:00:00 PM GMT
         consensus.nTime_RejectOldSporkKey = 1569538800;     //!> September 26, 2019 11:00:00 PM GMT
 
@@ -196,19 +196,19 @@ public:
          * The characters are rarely used upper ASCII, not valid as UTF-8, and produce
          * a large 4-byte int at any alignment.
          */
-        pchMessageStart[0] = 0x90;
-        pchMessageStart[1] = 0xc4;
-        pchMessageStart[2] = 0xfd;
-        pchMessageStart[3] = 0xe9;
+        pchMessageStart[0] = 0x80;
+        pchMessageStart[1] = 0xb4;
+        pchMessageStart[2] = 0xed;
+        pchMessageStart[3] = 0xd9;
         nDefaultPort = 41472;
 
         // Note that of those with the service bits flag, most only support a subset of possible options
         vSeeds.push_back(CDNSSeedData("fuzzbawls.pw", "mk2x.seed.fuzzbawls.pw", true));     // Primary DNS Seeder from Fuzzbawls
         vSeeds.push_back(CDNSSeedData("fuzzbawls.pw", "mk2x.seed2.fuzzbawls.pw", true));    // Secondary DNS Seeder from Fuzzbawls
 
-        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 30);
-        base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 13);
-        base58Prefixes[STAKING_ADDRESS] = std::vector<unsigned char>(1, 63);     // starting with 'S'
+        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 50);
+        base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 45);
+        base58Prefixes[STAKING_ADDRESS] = std::vector<unsigned char>(1, 50);     // starting with 'S'
         base58Prefixes[SECRET_KEY] = std::vector<unsigned char>(1, 212);
         base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x02)(0x2D)(0x25)(0x33).convert_to_container<std::vector<unsigned char> >();
         base58Prefixes[EXT_SECRET_KEY] = boost::assign::list_of(0x02)(0x21)(0x31)(0x2B).convert_to_container<std::vector<unsigned char> >();
