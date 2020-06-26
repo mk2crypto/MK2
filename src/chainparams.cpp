@@ -78,11 +78,7 @@ static const Checkpoints::CCheckpointData data = {
 
 static Checkpoints::MapCheckpoints mapCheckpointsTestnet =
     boost::assign::map_list_of
-    (0, uint256S("0x001"))
-    (1016800, uint256S("6ae7d52092fd918c8ac8d9b1334400387d3057997e6e927a88e57186dc395231"))
-    (1106100, uint256S("c54b3e7e8b710e4075da1806adf2d508ae722627d5bcc43f594cf64d5eef8b30")) //!< zc public spend activation height
-    (1112700, uint256S("2ad8d507dbe3d3841b9f8a29c3878d570228e9361c3e057362d7915777bbc849"))
-    (1347000, uint256S("30c173ffc09a13f288bf6e828216107037ce5b79536b1cebd750a014f4939882")); //!< First v7 block
+    (0, uint256S("0x001") ; 
 static const Checkpoints::CCheckpointData dataTestnet = {
     &mapCheckpointsTestnet,
     1575145155,
@@ -140,18 +136,18 @@ public:
         consensus.height_last_PoW = 259200;
         consensus.height_last_ZC_AccumCheckpoint = 1686240;
         consensus.height_last_ZC_WrappedSerials = 1686229;
-        consensus.height_start_BIP65 = 1808634;             // Block v5: 82629b7a9978f5c7ea3f70a12db92633a7d2e436711500db28b97efd48b1e527
-        consensus.height_start_InvalidUTXOsCheck = 902850;
-        consensus.height_start_MessSignaturesV2 = 2153200;  // height_start_TimeProtoV2
-        consensus.height_start_StakeModifierNewSelection = 615800;
-        consensus.height_start_StakeModifierV2 = 1967000;   // Block v6: 0ef2556e40f3b9f6e02ce611b832e0bbfe7734a8ea751c7b555310ee49b61456
-        consensus.height_start_TimeProtoV2 = 2153200;       // Block v7: 14e477e597d24549cac5e59d97d32155e6ec2861c1003b42d0566f9bf39b65d5
-        consensus.height_start_ZC = 863787;                 // Block v4: 5b2482eca24caf2a46bb22e0545db7b7037282733faa3a42ec20542509999a64
-        consensus.height_start_ZC_InvalidSerials = 891737;
+        consensus.height_start_BIP65 = 1001;             // Block v5: 82629b7a9978f5c7ea3f70a12db92633a7d2e436711500db28b97efd48b1e527
+        consensus.height_start_InvalidUTXOsCheck = 1001;
+        consensus.height_start_MessSignaturesV2 = 1001;  // height_start_TimeProtoV2
+        consensus.height_start_StakeModifierNewSelection = 1001;
+        consensus.height_start_StakeModifierV2 = 1001;   // Block v6: 0ef2556e40f3b9f6e02ce611b832e0bbfe7734a8ea751c7b555310ee49b61456
+        consensus.height_start_TimeProtoV2 = 1001;       // Block v7: 14e477e597d24549cac5e59d97d32155e6ec2861c1003b42d0566f9bf39b65d5
+        consensus.height_start_ZC = 1001;                 // Block v4: 5b2482eca24caf2a46bb22e0545db7b7037282733faa3a42ec20542509999a64
+        consensus.height_start_ZC_InvalidSerials = 1001;
         consensus.height_start_ZC_PublicSpends = 1880000;
-        consensus.height_start_ZC_SerialRangeCheck = 895400;
-        consensus.height_start_ZC_SerialsV2 = 1153160;
-        consensus.height_ZC_RecalcAccumulators = 908000;
+        consensus.height_start_ZC_SerialRangeCheck = 1001;
+        consensus.height_start_ZC_SerialsV2 = 1001;
+        consensus.height_ZC_RecalcAccumulators = 1001;
 
         // validation by-pass
         consensus.nMk2xBadBlockTime = 1471401614;    // Skip nBit validation of Block 259201 per PR #915
