@@ -49,8 +49,8 @@ static CBlock CreateGenesisBlock(const char* pszTimestamp, const CScript& genesi
  */
 static CBlock CreateGenesisBlock(uint32_t nTime, uint32_t nNonce, uint32_t nBits, int32_t nVersion, const CAmount& genesisReward)
 {
-    const char* pszTimestamp = "U.S. News & World Report June 28 2020 Gunman at Walmart Distribution Center Was Former Employee";
-    const CScript genesisOutputScript = CScript() << ParseHex("04b96dea90ecf6063fb06ca2d9aa6a5f4ca865ca5115171b306e80d5c553190e00e47fafc14004b13a0d0d4c47febfebb24815c4c883ddbb3ae26fb92ea3f5da3c") << OP_CHECKSIG;
+    const char* pszTimestamp = "U.S. News & World Report Jan 28 2016 With His Absence, Trump Dominates Another Debate";
+    const CScript genesisOutputScript = CScript() << ParseHex("04c10e83b2703ccf322f7dbd62dd5855ac7c10bd055814ce121ba32607d573b8810c02c0582aed05b4deb9c4b77b26d92428c61256cd42774babea0a073b2ed0c9") << OP_CHECKSIG;
     return CreateGenesisBlock(pszTimestamp, genesisOutputScript, nTime, nNonce, nBits, nVersion, genesisReward);
 }
 
@@ -101,10 +101,10 @@ public:
         networkID = CBaseChainParams::MAIN;
         strNetworkID = "main";
 
-        genesis = CreateGenesisBlock(1593393768, 3727237, 0x1e0ffff0, 1, 250 * COIN);
+        genesis = CreateGenesisBlock(1454124731, 2402015, 0x1e0ffff0, 1, 250 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash();
-        assert(consensus.hashGenesisBlock == uint256S("0x000001b093a073ba310854df62651fd69a22b036f28b03aac2f45c0ad3ccc5e7"));
-        assert(genesis.hashMerkleRoot == uint256S("0x4bb64c7947fb936d014f58952408aa9bc44fc6a4cab15bd0ee2102e1c9501aa6"));
+        assert(consensus.hashGenesisBlock == uint256S("0x0000041e482b9b9691d98eefb48473405c0b8ec31b76df3797c74a78680ef818"));
+        assert(genesis.hashMerkleRoot == uint256S("0x1b2ef6e2f28be914103a277377ae7729dcd125dfeb8bf97bd5964ba72b6dc39b"));
 
         consensus.fPowAllowMinDifficultyBlocks = false;
         consensus.powLimit   = ~UINT256_ZERO >> 20;   // MK2X starting difficulty is 1 / 2^12
@@ -133,7 +133,7 @@ public:
         consensus.nTime_RejectOldSporkKey = 1569538800;     //!> September 26, 2019 11:00:00 PM GMT
 
         // height-based activations
-        consensus.height_last_PoW = 1000;
+        consensus.height_last_PoW = 259200;
         consensus.height_last_ZC_AccumCheckpoint = 1686240;
         consensus.height_last_ZC_WrappedSerials = 1686229;
         consensus.height_start_BIP65 = 1001;             // Block v5: 82629b7a9978f5c7ea3f70a12db92633a7d2e436711500db28b97efd48b1e527
