@@ -101,7 +101,7 @@ public:
         networkID = CBaseChainParams::MAIN;
         strNetworkID = "main";
 
-        genesis = CreateGenesisBlock(1454124731, 999191, 0x1e0ffff0, 1, 250 * COIN);
+        genesis = CreateGenesisBlock(1454124731, 2402015, 0x1e0ffff0, 1, 250 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash();
         assert(consensus.hashGenesisBlock == uint256S("0x00000103692541adfc7548d5d5dc14b6a1851f577fcb0d9b7146fd53c8afeecd"));
         assert(genesis.hashMerkleRoot == uint256S("0xbdfa5db8b70ae590c8ed8227b44ba1e0a60f45173493ef85886d2a9b20facd92"));
