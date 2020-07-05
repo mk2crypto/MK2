@@ -127,7 +127,7 @@ public:
         consensus.nTimeSlotLength = 15;
 
         // spork keys
-        consensus.strSporkPubKey = "047130f8fd25c5cd096fc4e59e82503103d9c7b3f7ab20251d9cef86c4c80b42a2927cbf0cd65da423196cf8d5dfd5349e7c98430a48da6bf0e7e712f4a8bb2483";
+        consensus.strSporkPubKey = "0450a499a4a6002c59a28bbfa542e7a4485b2215156245efbe97c64ede979171e87e267e8764dba358ed80159300e435abd49fb49c63d16f093f16ccba1959fc04";
         consensus.strSporkPubKeyOld = "047232695a43582fcaff822c421e2ed5f9f7ddc28932d35a40e6813e72e93f6bb90099b4a1258095d65c5af9e5f3f43035d78bcb4e8c5db3fc80692fc5a0b68aaa";
         consensus.nTime_EnforceNewSporkKey = 1566860400;    //!> August 26, 2019 11:00:00 PM GMT
         consensus.nTime_RejectOldSporkKey = 1569538800;     //!> September 26, 2019 11:00:00 PM GMT
