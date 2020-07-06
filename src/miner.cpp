@@ -115,6 +115,7 @@ CBlockTemplate* CreateNewBlock(const CScript& scriptPubKeyIn, CWallet* pwallet, 
     CReserveKey reservekey(pwallet);
 
     // Create new block
+    LogPrintf("CREATING new block\n");
     std::unique_ptr<CBlockTemplate> pblocktemplate(new CBlockTemplate());
     if (!pblocktemplate.get()) return nullptr;
     CBlock* pblock = &pblocktemplate->block; // pointer for convenience
@@ -136,6 +137,7 @@ CBlockTemplate* CreateNewBlock(const CScript& scriptPubKeyIn, CWallet* pwallet, 
     }
 
     // Create coinbase tx
+    LogPrintf("CREATING coinbase tranaction\n");
     CMutableTransaction txNew;
     txNew.vin.resize(1);
     txNew.vin[0].prevout.SetNull();
@@ -265,7 +267,7 @@ CBlockTemplate* CreateNewBlock(const CScript& scriptPubKeyIn, CWallet* pwallet, 
                 vecPriority.push_back(TxPriority(dPriority, feeRate, &mi->GetTx()));
         }
 
-        // Collect transactions into block
+        // Collect transactions into block                      
         uint64_t nBlockSize = 1000;
         uint64_t nBlockTx = 0;
         int nBlockSigOps = 100;
@@ -496,13 +498,14 @@ CBlockTemplate* CreateNewBlockWithKey(CReserveKey& reservekey, CWallet* pwallet)
 
     // If we're building a late PoW block, don't continue
     // PoS blocks are built directly with CreateNewBlock
+    LogPrintf("Checking to see if PoW phase is over\n");
     if ((nHeightNext > Params().GetConsensus().height_last_PoW)) {
         LogPrintf("%s: Aborting PoW block creation during PoS phase\n", __func__);
         // sleep 1/2 a block time so we don't go into a tight loop.
         MilliSleep((Params().GetConsensus().nTargetSpacing * 1000) >> 1);
         return nullptr;
     }
-
+    LogPrintf("PoW phase is not over\n");
     CScript scriptPubKey = CScript() << ToByteVector(pubkey) << OP_CHECKSIG;
     return CreateNewBlock(scriptPubKey, pwallet, false);
 }
@@ -578,6 +581,7 @@ void BitcoinMiner(CWallet* pwallet, bool fProofOfStake)
         }
         if (fProofOfStake) {
             if (pindexPrev->nHeight < last_pow_block) {
+                LogPrintf("HEY the last PoW block ain't even been mined yet!\n");
                 // The last PoW block hasn't even been mined yet.
                 MilliSleep(nSpacingMillis);       // sleep a block
                 continue;
@@ -594,6 +598,7 @@ void BitcoinMiner(CWallet* pwallet, bool fProofOfStake)
             }
 
             //search our map of hashed blocks, see if bestblock has been hashed yet
+            LogPrintf("SEEING if best block has been hashed yet\n");
             if (pwallet->pStakerStatus &&
                     pwallet->pStakerStatus->GetLastHash() == pindexPrev->GetBlockHash() &&
                     pwallet->pStakerStatus->GetLastTime() >= GetCurrentTimeSlot()) {
@@ -631,6 +636,7 @@ void BitcoinMiner(CWallet* pwallet, bool fProofOfStake)
         }
 
         // POW - miner main
+        LogPrintf("PoW miner main starting\n");
         IncrementExtraNonce(pblock, pindexPrev, nExtraNonce);
 
         LogPrintf("Running MK2XMiner with %u transactions in block (%u bytes)\n", pblock->vtx.size(),
@@ -639,6 +645,7 @@ void BitcoinMiner(CWallet* pwallet, bool fProofOfStake)
         //
         // Search
         //
+        LogPrintf("STARTING PoW block search\n");
         int64_t nStart = GetTime();
         uint256 hashTarget = uint256().SetCompact(pblock->nBits);
         while (true) {
@@ -647,6 +654,7 @@ void BitcoinMiner(CWallet* pwallet, bool fProofOfStake)
             uint256 hash;
             while (true) {
                 hash = pblock->GetHash();
+                LogPrintf("CHECKING to see if hash meets target\n");
                 if (hash <= hashTarget) {
                     // Found a solution
                     SetThreadPriority(THREAD_PRIORITY_NORMAL);
@@ -654,7 +662,7 @@ void BitcoinMiner(CWallet* pwallet, bool fProofOfStake)
                     LogPrintf("proof-of-work found  \n  hash: %s  \ntarget: %s\n", hash.GetHex(), hashTarget.GetHex());
                     ProcessBlockFound(pblock, *pwallet, reservekey);
                     SetThreadPriority(THREAD_PRIORITY_LOWEST);
-
+                    LogPrintf("BLOCK processed\n");
                     // In regression test mode, stop mining after a block is found. This
                     // allows developers to controllably generate a block on demand.
                     if (Params().IsRegTestNet())
@@ -662,6 +670,7 @@ void BitcoinMiner(CWallet* pwallet, bool fProofOfStake)
 
                     break;
                 }
+                LogPrintf("INCREASING Nonce\n");
                 pblock->nNonce += 1;
                 nHashesDone += 1;
                 if ((pblock->nNonce & 0xFF) == 0)
@@ -694,7 +703,7 @@ void BitcoinMiner(CWallet* pwallet, bool fProofOfStake)
 
             // Check for stop or if block needs to be rebuilt
             boost::this_thread::interruption_point();
-            if (    (vNodes.empty() && Params().MiningRequiresPeers()) || // Regtest mode doesn't require peers
+            if (    //(vNodes.empty() && Params().MiningRequiresPeers()) || // Regtest mode doesn't require peers
                     (pblock->nNonce >= 0xffff0000) ||
                     (mempool.GetTransactionsUpdated() != nTransactionsUpdatedLast && GetTime() - nStart > 60) ||
                     (pindexPrev != chainActive.Tip())
