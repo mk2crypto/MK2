@@ -106,7 +106,7 @@ public:
         assert(consensus.hashGenesisBlock == uint256S("0x00000a803dcc959041227d2a1e3e23793abe97a40b6bfd0c8f5c42f8eb426ba9"));
         assert(genesis.hashMerkleRoot == uint256S("0xbdfa5db8b70ae590c8ed8227b44ba1e0a60f45173493ef85886d2a9b20facd92"));
 
-        consensus.fPowAllowMinDifficultyBlocks = false;
+        consensus.fPowAllowMinDifficultyBlocks = true;
         consensus.powLimit   = ~UINT256_ZERO >> 20;   // MK2X starting difficulty is 1 / 2^12
         consensus.posLimitV1 = ~UINT256_ZERO >> 24;
         consensus.posLimitV2 = ~UINT256_ZERO >> 20;
