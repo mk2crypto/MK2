@@ -135,19 +135,19 @@ public:
         // height-based activations
         consensus.height_last_PoW = 259200;
         consensus.height_last_ZC_AccumCheckpoint = 1686240;
-        consensus.height_last_ZC_WrappedSerials = -1;
+        consensus.height_last_ZC_WrappedSerials = 1686229;
         consensus.height_start_BIP65 = 1001;             // Block v5: 82629b7a9978f5c7ea3f70a12db92633a7d2e436711500db28b97efd48b1e527
-        consensus.height_start_InvalidUTXOsCheck = 999999999;
+        consensus.height_start_InvalidUTXOsCheck = 1001;
         consensus.height_start_MessSignaturesV2 = 1001;  // height_start_TimeProtoV2
         consensus.height_start_StakeModifierNewSelection = 1001;
         consensus.height_start_StakeModifierV2 = 1001;   // Block v6: 0ef2556e40f3b9f6e02ce611b832e0bbfe7734a8ea751c7b555310ee49b61456
         consensus.height_start_TimeProtoV2 = 1001;       // Block v7: 14e477e597d24549cac5e59d97d32155e6ec2861c1003b42d0566f9bf39b65d5
         consensus.height_start_ZC = 1001;                 // Block v4: 5b2482eca24caf2a46bb22e0545db7b7037282733faa3a42ec20542509999a64
-        consensus.height_start_ZC_InvalidSerials = 999999999;
+        consensus.height_start_ZC_InvalidSerials = 1001;
         consensus.height_start_ZC_PublicSpends = 1880000;
-        consensus.height_start_ZC_SerialRangeCheck = 1;
+        consensus.height_start_ZC_SerialRangeCheck = 1001;
         consensus.height_start_ZC_SerialsV2 = 1001;
-        consensus.height_ZC_RecalcAccumulators = 999999999;
+        consensus.height_ZC_RecalcAccumulators = 1001;
 
         // validation by-pass
         consensus.nMk2xBadBlockTime = 1471401614;    // Skip nBit validation of Block 259201 per PR #915
@@ -298,26 +298,17 @@ public:
         // nodes with support for servicebits filtering should be at the top
         vSeeds.push_back(CDNSSeedData("fuzzbawls.pw", "mk2x-testnet.seed.fuzzbawls.pw", true));
         vSeeds.push_back(CDNSSeedData("fuzzbawls.pw", "mk2x-testnet.seed2.fuzzbawls.pw", true));
-        
-        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 30);
-        base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 13);
-        base58Prefixes[STAKING_ADDRESS] = std::vector<unsigned char>(1, 63);     // starting with 'S'
-        base58Prefixes[SECRET_KEY] = std::vector<unsigned char>(1, 212);         // D4
-        base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x02)(0x2D)(0x25)(0x33).convert_to_container<std::vector<unsigned char> >();
-        base58Prefixes[EXT_SECRET_KEY] = boost::assign::list_of(0x02)(0x21)(0x31)(0x2B).convert_to_container<std::vector<unsigned char> >();
-        // BIP44 coin type is from https://github.com/satoshilabs/slips/blob/master/slip-0044.md
-        base58Prefixes[EXT_COIN_TYPE] = boost::assign::list_of(0x80)(0x00)(0x00)(0x77).convert_to_container<std::vector<unsigned char> >();
 
-       // base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 139); // Testnet mk2x addresses start with 'x' or 'y'
-       // base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 19);  // Testnet mk2x script addresses start with '8' or '9'
-       // base58Prefixes[STAKING_ADDRESS] = std::vector<unsigned char>(1, 73);     // starting with 'W'
-       // base58Prefixes[SECRET_KEY] = std::vector<unsigned char>(1, 239);     // Testnet private keys start with '9' or 'c' (Bitcoin defaults)
+        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 139); // Testnet mk2x addresses start with 'x' or 'y'
+        base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 19);  // Testnet mk2x script addresses start with '8' or '9'
+        base58Prefixes[STAKING_ADDRESS] = std::vector<unsigned char>(1, 73);     // starting with 'W'
+        base58Prefixes[SECRET_KEY] = std::vector<unsigned char>(1, 239);     // Testnet private keys start with '9' or 'c' (Bitcoin defaults)
         // Testnet mk2x BIP32 pubkeys start with 'DRKV'
-       // base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x3a)(0x80)(0x61)(0xa0).convert_to_container<std::vector<unsigned char> >();
+        base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x3a)(0x80)(0x61)(0xa0).convert_to_container<std::vector<unsigned char> >();
         // Testnet mk2x BIP32 prvkeys start with 'DRKP'
-       // base58Prefixes[EXT_SECRET_KEY] = boost::assign::list_of(0x3a)(0x80)(0x58)(0x37).convert_to_container<std::vector<unsigned char> >();
+        base58Prefixes[EXT_SECRET_KEY] = boost::assign::list_of(0x3a)(0x80)(0x58)(0x37).convert_to_container<std::vector<unsigned char> >();
         // Testnet mk2x BIP44 coin type is '1' (All coin's testnet default)
-       // base58Prefixes[EXT_COIN_TYPE] = boost::assign::list_of(0x80)(0x00)(0x00)(0x01).convert_to_container<std::vector<unsigned char> >();
+        base58Prefixes[EXT_COIN_TYPE] = boost::assign::list_of(0x80)(0x00)(0x00)(0x01).convert_to_container<std::vector<unsigned char> >();
 
         vFixedSeeds = std::vector<SeedSpec6>(pnSeed6_test, pnSeed6_test + ARRAYLEN(pnSeed6_test));
     }
@@ -370,7 +361,7 @@ public:
         private key hex: bd4960dcbd9e7f2223f24e7164ecb6f1fe96fc3a416f5d3a830ba5720c84b8ca
         Address: yCvUVd72w7xpimf981m114FSFbmAmne7j9
         */
-        consensus.strSporkPubKey = "0450a499a4a6002c59a28bbfa542e7a4485b2215156245efbe97c64ede979171e87e267e8764dba358ed80159300e435abd49fb49c63d16f093f16ccba1959fc04";
+        consensus.strSporkPubKey = "043969b1b0e6f327de37f297a015d37e2235eaaeeb3933deecd8162c075cee0207b13537618bde640879606001a8136091c62ec272dd0133424a178704e6e75bb7";
         consensus.strSporkPubKeyOld = "";
         consensus.nTime_EnforceNewSporkKey = 0;
         consensus.nTime_RejectOldSporkKey = 0;
