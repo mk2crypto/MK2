@@ -3501,7 +3501,7 @@ bool CheckBlockHeader(const CBlockHeader& block, CValidationState& state, bool f
       //  if (block.nVersion >= 4)
       //      return state.DoS(50, error("CheckBlockHeader() : block version must be below 4 before ZerocoinStartHeight"),
       //      REJECT_INVALID, "block-version");
-    }
+    //}
 
     return true;
 }
