@@ -142,7 +142,7 @@ public:
         consensus.height_start_StakeModifierNewSelection = 1001;
         consensus.height_start_StakeModifierV2 = 1001;   // Block v6: 0ef2556e40f3b9f6e02ce611b832e0bbfe7734a8ea751c7b555310ee49b61456
         consensus.height_start_TimeProtoV2 = 1001;       // Block v7: 14e477e597d24549cac5e59d97d32155e6ec2861c1003b42d0566f9bf39b65d5
-        consensus.height_start_ZC = 1001;                 // Block v4: 5b2482eca24caf2a46bb22e0545db7b7037282733faa3a42ec20542509999a64
+        consensus.height_start_ZC = 0;                 // Block v4: 5b2482eca24caf2a46bb22e0545db7b7037282733faa3a42ec20542509999a64
         consensus.height_start_ZC_InvalidSerials = 999999999;
         consensus.height_start_ZC_PublicSpends = 1880000;
         consensus.height_start_ZC_SerialRangeCheck = 1;
