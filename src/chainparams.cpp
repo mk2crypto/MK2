@@ -106,7 +106,7 @@ public:
         assert(consensus.hashGenesisBlock == uint256S("0x00000a803dcc959041227d2a1e3e23793abe97a40b6bfd0c8f5c42f8eb426ba9"));
         assert(genesis.hashMerkleRoot == uint256S("0xbdfa5db8b70ae590c8ed8227b44ba1e0a60f45173493ef85886d2a9b20facd92"));
 
-        consensus.fPowAllowMinDifficultyBlocks = true;
+        consensus.fPowAllowMinDifficultyBlocks = false;
         consensus.powLimit   = ~UINT256_ZERO >> 20;   // MK2X starting difficulty is 1 / 2^12
         consensus.posLimitV1 = ~UINT256_ZERO >> 24;
         consensus.posLimitV2 = ~UINT256_ZERO >> 20;
@@ -133,20 +133,20 @@ public:
         consensus.nTime_RejectOldSporkKey = 1569538800;     //!> September 26, 2019 11:00:00 PM GMT
 
         // height-based activations
-        consensus.height_last_PoW = 259200;
-        consensus.height_last_ZC_AccumCheckpoint = 1686240;
+        consensus.height_last_PoW = 200;
+        consensus.height_last_ZC_AccumCheckpoint = 1106090;
         consensus.height_last_ZC_WrappedSerials = -1;
-        consensus.height_start_BIP65 = 1001;             // Block v5: 82629b7a9978f5c7ea3f70a12db92633a7d2e436711500db28b97efd48b1e527
+        consensus.height_start_BIP65 = 0;                  // Block v5: d1ec8838ba8f644e78dd4f8e861d31e75457dfe607b31deade30e806b5f46c1c
         consensus.height_start_InvalidUTXOsCheck = 999999999;
-        consensus.height_start_MessSignaturesV2 = 1001;  // height_start_TimeProtoV2
-        consensus.height_start_StakeModifierNewSelection = 1001;
-        consensus.height_start_StakeModifierV2 = 1001;   // Block v6: 0ef2556e40f3b9f6e02ce611b832e0bbfe7734a8ea751c7b555310ee49b61456
-        consensus.height_start_TimeProtoV2 = 1001;       // Block v7: 14e477e597d24549cac5e59d97d32155e6ec2861c1003b42d0566f9bf39b65d5
-        consensus.height_start_ZC = 0;                 // Block v4: 5b2482eca24caf2a46bb22e0545db7b7037282733faa3a42ec20542509999a64
+        consensus.height_start_MessSignaturesV2 = 1;      // height_start_TimeProtoV2
+        consensus.height_start_StakeModifierNewSelection = 1;
+        consensus.height_start_StakeModifierV2 =0;       // Block v6: 1822577176173752aea33d1f60607cefe9e0b1c54ebaa77eb40201a385506199
+        consensus.height_start_TimeProtoV2 = 1;           // Block v7: 30c173ffc09a13f288bf6e828216107037ce5b79536b1cebd750a014f4939882
+        consensus.height_start_ZC = 201576;                     // Block v4: 258c489f42f03cb97db2255e47938da4083eee4e242853c2d48bae2b1d0110a6
         consensus.height_start_ZC_InvalidSerials = 999999999;
-        consensus.height_start_ZC_PublicSpends = 1880000;
+        consensus.height_start_ZC_PublicSpends = 1106100;
         consensus.height_start_ZC_SerialRangeCheck = 1;
-        consensus.height_start_ZC_SerialsV2 = 444020;
+        consensus.height_start_ZC_SerialsV2 = 1;
         consensus.height_ZC_RecalcAccumulators = 999999999;
 
         // validation by-pass
