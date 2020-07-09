@@ -176,7 +176,7 @@ public:
         pchMessageStart[0] = 0x80;
         pchMessageStart[1] = 0xb4;
         pchMessageStart[2] = 0xed;
-        pchMessageStart[3] = 0xd9;
+        pchMessageStart[3] = 0xd4;
         nDefaultPort = 41472;
 
         // Note that of those with the service bits flag, most only support a subset of possible options
@@ -287,10 +287,10 @@ public:
          * a large 4-byte int at any alignment.
          */
 
-        pchMessageStart[0] = 0x45;
-        pchMessageStart[1] = 0x76;
-        pchMessageStart[2] = 0x65;
-        pchMessageStart[3] = 0xba;
+        pchMessageStart[0] = 0x4a;
+        pchMessageStart[1] = 0x7b;
+        pchMessageStart[2] = 0x6c;
+        pchMessageStart[3] = 0xbd;
         nDefaultPort = 41474;
 
         vFixedSeeds.clear();
@@ -405,10 +405,10 @@ public:
          * a large 4-byte int at any alignment.
          */
 
-        pchMessageStart[0] = 0xa1;
-        pchMessageStart[1] = 0xcf;
-        pchMessageStart[2] = 0x7e;
-        pchMessageStart[3] = 0xac;
+        pchMessageStart[0] = 0xac;
+        pchMessageStart[1] = 0xca;
+        pchMessageStart[2] = 0x7d;
+        pchMessageStart[3] = 0xab;
         nDefaultPort = 41476;
 
         vFixedSeeds.clear(); //! Testnet mode doesn't have any fixed seeds.
