@@ -33,7 +33,7 @@ class MK2X_ColdStakingTest(Mk2xTestFramework):
     def set_test_params(self):
         self.num_nodes = 3
         self.extra_args = [[]] * self.num_nodes
-        self.extra_args[0].append('-sporkkey=932HEevBSujW2ud7RfB1YF91AFygbBRQj3de3LyaCRqNzKKgWXi')
+        self.extra_args[0].append('-sporkkey=87w3Z937zNUcNto7ejytyZsAFRoL9Nxw6Fp69jLne5sJUCwNVkR')
 
     def setup_chain(self):
         # Start with PoW cache: 200 blocks
