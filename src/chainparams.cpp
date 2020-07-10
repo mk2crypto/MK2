@@ -133,20 +133,20 @@ public:
         consensus.nTime_RejectOldSporkKey = 1569538800;     //!> September 26, 2019 11:00:00 PM GMT
 
         // height-based activations
-        consensus.height_last_PoW = 200;
-        consensus.height_last_ZC_AccumCheckpoint = 1106090;
+        consensus.height_last_PoW = 250;
+        consensus.height_last_ZC_AccumCheckpoint = 310;
         consensus.height_last_ZC_WrappedSerials = -1;
         consensus.height_start_BIP65 = 1;                  // Block v5: d1ec8838ba8f644e78dd4f8e861d31e75457dfe607b31deade30e806b5f46c1c
         consensus.height_start_InvalidUTXOsCheck = 999999999;
         consensus.height_start_MessSignaturesV2 = 1;      // height_start_TimeProtoV2
-        consensus.height_start_StakeModifierNewSelection = 1;
-        consensus.height_start_StakeModifierV2 =1;       // Block v6: 1822577176173752aea33d1f60607cefe9e0b1c54ebaa77eb40201a385506199
-        consensus.height_start_TimeProtoV2 = 1;           // Block v7: 30c173ffc09a13f288bf6e828216107037ce5b79536b1cebd750a014f4939882
-        consensus.height_start_ZC = 0;                     // Block v4: 258c489f42f03cb97db2255e47938da4083eee4e242853c2d48bae2b1d0110a6
+        consensus.height_start_StakeModifierNewSelection = 0;
+        consensus.height_start_StakeModifierV2 =251;       // Block v6: 1822577176173752aea33d1f60607cefe9e0b1c54ebaa77eb40201a385506199
+        consensus.height_start_TimeProtoV2 =999999999;           // Block v7: 30c173ffc09a13f288bf6e828216107037ce5b79536b1cebd750a014f4939882
+        consensus.height_start_ZC = 300;                     // Block v4: 258c489f42f03cb97db2255e47938da4083eee4e242853c2d48bae2b1d0110a6
         consensus.height_start_ZC_InvalidSerials = 999999999;
-        consensus.height_start_ZC_PublicSpends = 1106100;
-        consensus.height_start_ZC_SerialRangeCheck = 1;
-        consensus.height_start_ZC_SerialsV2 = 1;
+        consensus.height_start_ZC_PublicSpends = 400;
+        consensus.height_start_ZC_SerialRangeCheck = 300;
+        consensus.height_start_ZC_SerialsV2 = 300;
         consensus.height_ZC_RecalcAccumulators = 999999999;
 
         // validation by-pass
