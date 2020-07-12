@@ -180,7 +180,7 @@ public:
         nDefaultPort = 41472;
 
         // Note that of those with the service bits flag, most only support a subset of possible options
-        // vSeeds.push_back(CDNSSeedData("fuzzbawls.pw", "mk2x.seed.fuzzbawls.pw", true));     // Primary DNS Seeder from Fuzzbawls
+        vSeeds.push_back(CDNSSeedData("54.242.188.100", "54.242.188.100", true));     // Primary DNS Seeder from Fuzzbawls
         // vSeeds.push_back(CDNSSeedData("fuzzbawls.pw", "mk2x.seed2.fuzzbawls.pw", true));    // Secondary DNS Seeder from Fuzzbawls
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 30);
