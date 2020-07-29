@@ -2603,7 +2603,7 @@ QPushButton[cssClass="btn-settings-options"]:checked {
 }
 
 QPushButton[cssClass="btn-settings-options"]:hover {
-    background-color: rgba(135, 123, 159, 0.7);
+    background-color: rgba(215, 175, 102, 0.7);
     border:none;
     font-size:20px;
     color: #FFFFFF;
