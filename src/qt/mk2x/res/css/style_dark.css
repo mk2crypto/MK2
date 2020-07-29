@@ -1792,10 +1792,10 @@ HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
 }
 
 *[cssClass="text-stake-zmk2-disable"] {
-    color:#423E4A;
+    color:#3e3e3e;
     font-size:16px;
     padding:10px;
-    border-bottom: 5px solid #423E4A;
+    border-bottom: 5px solid #3e3e3e;
 }
 
 *[cssClass="legend-chart"] {
