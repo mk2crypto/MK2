@@ -1771,10 +1771,10 @@ HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
 }
 
 *[cssClass="text-stake-mk2"] {
-    color:#4b4b4b;
+    color:#d79020;
     font-size:16px;
     padding:10px;
-    border-bottom: 5px solid #4b4b4b;
+    border-bottom: 5px solid #d79020;
 }
 
 *[cssClass="text-stake-mk2-disable"] {
@@ -1785,7 +1785,7 @@ HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
 }
 
 *[cssClass="text-stake-zmk2"] {
-    color:#888888;
+    color:#d7b616;
     font-size:16px;
     padding:10px;
     border-bottom: 5px solid #d7b616;
