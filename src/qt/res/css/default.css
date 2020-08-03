@@ -147,7 +147,7 @@ color:#333;
 }
 
 QTabBar::tab:hover:!selected {
-background-color:#dedbe5;
+background-color:#fff1c1;
 }
 
 QWidget {
@@ -162,7 +162,7 @@ color:#333;
 }
 
 QToolTip {
-background-color:#dedbe5;
+background-color:#fff1c1;
 color:#333;
 }
 
@@ -1690,7 +1690,7 @@ font-weight:bold;
 }
 
 QCalendarWidget QAbstractItemView { /* Calendar widget days */
-alternate-background-color:#dedbe5;
+alternate-background-color:#fff1c1;
 background-color:#fff;
 }
 
