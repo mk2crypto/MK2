@@ -1,17 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="24px" height="40px" viewBox="0 0 24 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
-    <title>Receive off</title>
-    <desc>Created with Sketch.</desc>
-    <g id="Receive-off" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="ic-receive-on" transform="translate(-1.000000, 11.000000)">
-            <polygon id="Rectangle_4413" points="0 0 26 0 26 26 0 26"></polygon>
-            <g id="Group_8987" transform="translate(2.000000, 2.000000)" fill="#B088FF">
-                <g id="Group_8986">
-                    <polygon id="Path_18953" points="18.178 10.734 16.822 9.265 12 13.716 12 0 10 0 10 13.716 5.178 9.266 3.822 10.734 11 17.361"></polygon>
-                    <polygon id="Path_18954" points="20 15 20 20 2 20 2 15 0 15 0 22 22 22 22 15"></polygon>
-                </g>
-            </g>
-        </g>
-    </g>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100" height="167" viewBox="0 0 100 167">
+  <image x="4" y="54" width="92" height="93" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFwAAABdCAYAAAAoswH9AAADX0lEQVR4nO2dsXXbMBCGj3kaQD2LeAR5g3gDjyBvYJXs7IqlsoG0QbKBvYE9ghr13oB5zDv4MYwkEtDhB5D8XymJ5OETCAJHEKykALpjuxKR7USkm6pu3nMvzSKDGOawFJFvE79b5hHqZb7kHNy/CIWDoXAwFA6GwsFQOBgKB0PhYCgcDIWDoXAwFA6GwsFQOBgKB0PhYCgcDIWDoXAwFA6GwsFQOBgKB0PhYCgcDIWDoXAwFA6GwsFQOBgKB0PhYCgcDIWDoXAwFA4mivDu2N7kXOg5xCqDufDu2PZPk711x3ZnvW8UGvublsUUU+Ea4Is+wrcuUbrGvNYyvFhLNxM+kL0afNxL/xGjpljTx9jHqrIdK2vpljV8LNtxH6OmWDKoLPcndrvS70wwEa6n4SnZfwSdo/QzZ+aYlVXzeLXwQZs3hZN+qWBQNJYp2Q6TaxK6H56NdE/ZZlwtvKqbBxHZe2yyTC19INunidtrWa/CpIZfIX1qhQhz9JhJZItlk6IBbTw2cdLntP8m6LF8ZW+sZIt1G17VzXcR8Q1uh5Cux/C96D1omcwwv2hWdbMPlP5oHYtD9x0i26eZnEWUXooGeiciHx6bbWOkAnSfU8s3DeljvoshW2J2C6u6eQ2Qbpp/8RgjOJzsV6sYxkTth+uiX0HSrxmVal4kVHbUhcqiD3wG0n0Ksg5NBQyG6j6y3xGye2DL6M3MWYxxf9acBJL7U4OOUdWNz1kYDGxorwXyrek+I8Kb3GULsoY7tKbvzqRCkfzUrh9MtqQQ7gi4qFliNlT3JelSqImkJ5MtqadJaMGfgYd8TilbUtdwR2Cew5coQ3Vfqhkp0kNVN4fYgUSWDpGtefaLParFjP5tf8o/2Yb2N72Q7tiK5j2s7n1+aHoVVbO3U6tAZzXVLTDpdY6oSahQsptbGJh/GQPJi4SQ5WTOgfSQa8chV9mS8+xZFXbrmQr4vU3OrybIerqyZ/4FnhcJIfv54TOlFyFbSnnphoq8PZMKSDpU96WoJyBOzH8pSrYU9FqZT3rBOkCS0mRLicKlUNEOPlQFhsLBUDgYCgdD4WAoHAyFg6FwMBQOZs5I82uKZ3EKZfJebH/XvvvfLSFhkwKGwsFQOBgKB0PhYCgcDIWDWegUBIJARH4BKco9c/TjcPYAAAAASUVORK5CYII="/>
 </svg>

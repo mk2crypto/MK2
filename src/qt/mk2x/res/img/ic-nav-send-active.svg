@@ -1,17 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="24px" height="40px" viewBox="0 0 24 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
-    <title>Send</title>
-    <desc>Created with Sketch.</desc>
-    <g id="Send" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="ic-send" transform="translate(-1.000000, 11.000000)">
-            <g id="Group_8811" transform="translate(1.000000, 1.000000)" fill="#B088FF">
-                <polygon id="Path_18865" points="0.352 9.1 7.562 13.606 9.014 12.154 4.914 9.59 19.714 4.283 14.407 19.083 11.842 14.983 10.391 16.434 14.9 23.648 23.025 0.975"></polygon>
-                <g id="Group_8810" transform="translate(8.000000, 8.000000)">
-                    <polygon id="Rectangle_4394" transform="translate(3.823718, 4.176339) rotate(-45.000000) translate(-3.823718, -4.176339) " points="-0.176282346 3.17633883 7.82371765 3.17633883 7.82371765 5.17633883 -0.176282346 5.17633883"></polygon>
-                </g>
-            </g>
-            <polygon id="Rectangle_4395" points="0 0 26 0 26 26 0 26"></polygon>
-        </g>
-    </g>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100" height="167" viewBox="0 0 100 167">
+  <image x="1" y="54" width="95" height="95" xlink:href="data:img/png;base64,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"/>
 </svg>

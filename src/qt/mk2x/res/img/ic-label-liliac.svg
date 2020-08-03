@@ -1,14 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
-    <title>Artboard</title>
-    <desc>Created with Sketch.</desc>
-    <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="ic-label-liliac" transform="translate(2.000000, 2.000000)">
-            <g id="Group_8996" transform="translate(5.000000, 2.000000)" fill="#B088FF" fill-rule="nonzero">
-                <path d="M10,16.414 L5,11.414 L0,16.414 L0,0 L10,0 L10,16.414 Z M5,8.586 L8,11.586 L8,2 L2,2 L2,11.586 L5,8.586 Z" id="Path_18961"></path>
-            </g>
-            <polygon id="Rectangle_4641" points="0 0 20 0 20 20 0 20"></polygon>
-        </g>
-    </g>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100" height="100" viewBox="0 0 100 100">
+  <image x="29" y="16" width="42" height="70" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAACoAAABGCAYAAAC69QZ6AAABcUlEQVRoge3Z3YmDQBiF4TGkgNyniW1hK9gW0kauNrmyjLS0TXi/HRhcPMFknfH7OSYT+F4YBFHngQFHsOm79pTeoG1K6fsdoJsKDKICyi6g7ALKbit43rnZH1fdFMZNp/g+j6VnF1B2AWUXUHYBZRdQdgFlF1B2AWUXUHYBZRdQdgFlR4f2XXsYRtXQEXgZBhtLg06QiIqlQGeQiIZ1QwtIRMG6oAIkcmPNUAUSubAmqAGJzFg11IFEJqwKSkAiNVYMJSKRCiv5K7IGEg1Y0YUS6FdK6UMx+c94lN5zmdyTTbL0WuTnOBYn18zB/Cj5Qzb74+8wDNhiLOgNiRNsLAP6D4mYWC80i0QsrAe6iEQMrBUqRiIv1gJVI5EHq4WakciK1UDdSGTBSqE0JNJiJVA6EmmwS9DVkEiKLUFXRyIJNgd9GhItYeegT0eiEvYR+jIkymGn0Jcj0RwW0GqQ6BG7qRGJ7rB91+7qYOXru3Z3BUcfxfhgBbOhAAAAAElFTkSuQmCC"/>
 </svg>

@@ -1,12 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
-    <title>Artboard</title>
-    <desc>Created with Sketch.</desc>
-    <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="ic-update-liliac" transform="translate(2.000000, 2.000000)">
-            <polygon id="Rectangle_4642" points="0 0 20 0 20 20 0 20"></polygon>
-            <path d="M13,8.5 L18,8.5 L18,3.5 L16,3.5 L16,4.715 C13.5656847,1.94871304 9.55671298,1.2030267 6.29053814,2.90899747 C3.0243633,4.61496824 1.34594778,8.33125994 2.22552783,11.9096078 C3.10510789,15.4879556 6.31513536,18.0026378 10,18.0000301 C12.1229023,18.0058338 14.1599129,17.1621506 15.657,15.657 L14.243,14.243 C12.4656191,16.0235516 9.76616433,16.5061689 7.48194074,15.4517642 C5.19771716,14.3973595 3.81387589,12.02988 4.01596945,9.52217092 C4.21806302,7.01446183 5.96316833,4.89914079 8.38676331,4.2241341 C10.8103583,3.5491274 13.3976904,4.45780116 14.867,6.5 L13,6.5 L13,8.5 Z" id="Path_18962" fill="#B088FF" fill-rule="nonzero"></path>
-        </g>
-    </g>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100" height="100" viewBox="0 0 100 100">
+  <image x="16" y="16" width="68" height="68" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEQAAABECAYAAAA4E5OyAAAD8klEQVR4nO1cy3EiMRDtoTYA7hy8IeAIsCPAG8GaCGwfOeE5zdEQATiCtSMAZ0AGyx7m7gxmS94nlxjDqPWbEWJfFeUq20jNo1v9Ufdk1AGqsrjCrt/xUrHD6z0bTLdtSxeckKosxAcWBIzws06ADlu83ohokw2mu5DyBiEEJNwQ0U8iGnpeXpDzTESrbDB997y2X0JgCoKEW5/rNmBFRAufpuWFkKoshBY8wSS6wIaIJj7MyYmQqiz6RDQjovuOiKhjTkS5iylZEwLzWFockqGxg7ZsavL2GefZzoqQqiweoRkxQ2jKoyKz+ALXGnnzb4ZE9KEVN5GTITCryuKCiB5MTIitISBj7cGNbuA6/+DnIYg9LnBIu+4n9rjGOn40xAMZL4gdNsxv69P+sbfQyLGlZkoics4/azXEgQzxwRfi5PcVQCHgEzHOHRH1LeTRvSfnELK2iC+c3Z9GplDuvpmQqiyeDDfdwuW1kpQhIFx6TA/yXsNmV4ZkiDD6us0MFXtdY28/ax76JVTyt4GdCtc29yWUDaqyuEf64IKjGjIzIGPSNRn0T1uEDBPXdb4QArvkmorQDG/q6grI8uCyzCEN4ardKgbNqAMyWX9Je4EZDlKOi91mg6mzeroAHvCYdzGNUT5Rj1TvmO/rlAxgGKL+8mkyStlPh7yL4m9bUM8QDhnviEKThUqIqIXqsAgVjseCD0JgLpzwN2ntIEVDOOYSpOwfGyQhI4Zcr6mTQYrb1ZpLNpi+hBfHCCE83U4SoqucbzR/bx3ZYOoUoh9DT7l4bsJbbISEwtF6SA1BL5hjQo/pbs+KEOtEKEVwTSbZ3KUOLiFnAy4hvpteokUPGex/AD3m+RBby0MwcE3mfAipN5YcASf5SwJSQ3SBV1e9Y61DEqI9R6qyOIUmGWdIQjjJ2zjiz+ENkhBOreMWd75J44MQ9Hdy3G8s7ZfBoLpd0fKkw13qWqISwjGbfupastcfUpXFL2YF/jLV27t6pLpgvm8ZQJYosEcIolZO5DqsyiJJUg7lMtxqtnDDbY2BtIYvhOBs4F5ZLmMihXmD0Ihj2W5uUCeJghTIsHY15YOE4A73h8E6yy7PFOwt9791kSXlxt2VTdsXp7WbG5uoyH32uB+QSQaIupkdY1JOrflfEmHS/G9ECmtexsN4iGiTfLXtIEAtZuww7bk3XdWErgaI3pQJblIybbm2nPgeeajWbdGDz9JSo5m7ExsxIySskyAjZipOcQiRi7MZU+XC+m4XG15G1pk4R2nCuuMppVH3Bx8BYQoPQ3h20Yg6TvlxGS8hniXS9gNVhhYE7ZTY5TQfqKIDzhwR0zQ9ckce3O2BiP4CL45uP4+RiroAAAAASUVORK5CYII="/>
 </svg>
