@@ -1,14 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
-    <title>ic-arrow-down</title>
-    <desc>Created with Sketch.</desc>
-    <g id="ic-arrow-down" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="ic-arrow-drop-down">
-            <g id="Group_8822" transform="translate(4.000000, 7.000000)" fill="#5C4B7D">
-                <polygon id="Path_18879" points="8 9.365 0.319 2.233 1.681 0.767 8 6.635 14.319 0.767 15.68 2.233"></polygon>
-            </g>
-            <polygon id="Rectangle_4407" points="0 0 24 0 24 24 0 24"></polygon>
-        </g>
-    </g>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100" height="100" viewBox="0 0 100 100">
+  <image x="17" y="32" width="65" height="37" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEEAAAAlCAYAAAAdkoQJAAACGklEQVRogdWawXGDMBBFv11BSuHIMSkhHcAMBaSTNMCM3YFLsI8c3UFacAkZkZUNQhCt2JXgnzzYQtKztPtXgDl1Lb67FsXsD3YmMxczJ9+oD76LXYsTgArAA8BH2eC+dwAArgDeAJzLBvXw+6OngQUAanTtWrwnG7GwaOwWgFFFc3xqBKFr8TUAYGVBuNf3AKByAFhVNNdez+1ADU7ujRzVZYOz7tBlxJlPDyGwwajhBuY5K+58Dl3bL5Ufz5JZ0iS4bEVOTAvR41g2fxmAMkGoJsFlC4oBYOY+jAnFTBDZxYqIBWDS/8gnEAhzM45JugH4pBWVXLSdLwArjd8ptvX+Z2KW6KZXJog7UU0KQmqsc45x8yAkxzhxjEaDYHljdFCQqVKvNwbxi7ttvX+SdyU4HUYHHEabYGkE8H8hYEMgtDKYdzu4optwXKJ44eUphEIUlMKDIOAFguMJxAqvhUJoSXWohwnaDp4Bcd1idL2Roj82BCQEkaqfKAh47dGLls2ODMbGuXLSeq9oCFCM1qmz0SoIUACRIx2vhgChwkuiEIqVCASs9PL0OVutIgYB60AgZ7EmCgHxy5oj8fMLcQhWEQEuRConWWoQIA9C7ShPFQLkQKieZapDQLz9tVJ/zpEEAjIUXhwlg4ANP+lKCgFhhVd0IRSr5BCwXG9keR8iCwT4QWR7ISQbBIwLL0gUQruVsdlktfMIwC8k/QpW+HRXZAAAAABJRU5ErkJggg=="/>
 </svg>

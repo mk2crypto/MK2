@@ -1,21 +1,3 @@
-<svg xmlns="http://www.w3.org/2000/svg" id="ic_error_sync" width="24" height="24" viewBox="0 0 24 24" shape-rendering="geometricPrecision">
-    <defs>
-        <style type="text/css">
-            .cls-1{fill:#7c7687}.cls-2{fill:none}
-        </style>
-    </defs>
-    <g id="Group_8889" data-name="Group 8889">
-        <g id="Group_8887" data-name="Group 8887">
-            <path id="Path_18905" d="M19.611 16.782A8.933 8.933 0 0 0 21 12h-2a6.95 6.95 0 0 1-.844 3.328z" class="cls-1" data-name="Path 18905"/>
-            <path id="Path_18906" d="M15.328 18.156A6.993 6.993 0 0 1 6.257 16H9v-2H3v6h2v-2.372a8.942 8.942 0 0 0 11.782 1.983z" class="cls-1" data-name="Path 18906"/>
-        </g>
-        <g id="Group_8888" data-name="Group 8888">
-            <path id="Path_18907" d="M8.672 5.844A7 7 0 0 1 17.745 8H15v2h6V4h-2v2.37A8.944 8.944 0 0 0 7.218 4.389z" class="cls-1" data-name="Path 18907"/>
-            <path id="Path_18908" d="M4.389 7.218A8.933 8.933 0 0 0 3 12h2a6.95 6.95 0 0 1 .844-3.328z" class="cls-1" data-name="Path 18908"/>
-        </g>
-    </g>
-    <g id="Group_8890" data-name="Group 8890">
-        <path id="Rectangle_4442" d="M0 0h2v22.627H0z" class="cls-1" data-name="Rectangle 4442" transform="rotate(-45 7.328 -1.622)"/>
-    </g>
-    <path id="Rectangle_4443" d="M0 0h24v24H0z" class="cls-2" data-name="Rectangle 4443"/>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100" height="100" viewBox="0 0 100 100">
+  <image x="12" y="12" width="76" height="76" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEwAAABMCAYAAADHl1ErAAAFIUlEQVR4nO2cvVIjRxDH/+gIyLAzZ9YjyNkFWwU8wcETIJ4AE3WIlVA1EXdPAIQXHRc5ZAkUmzdgnTlU6Myu2eq9G612NT1f+yHuX6UShUaa1k/z0dMzPXuHh4foS0T0E4AZgCk/Kv3Kz38b/yv48aKUWvVl81ZgRHSslMpjVUZEGsopgCMDlI9KcACeATwqpYpYNtrUCoyI5gDuANwrpS58K2BI+rPOAwDZpIE9AviUGl4jMANWJWdoRKRb0iWA40i2SqV7xINS6j7Fh28Aa4BVSQSNQd0mbE1S6Za2cAFHRH9YiuRrwLbAqtQKjYhmDKrrFmVTzuCsYzER/WcpspgYhW2wtOZE1FbmboCwwDY9EdEtz8pBKoHp2VAAq1IbtBOeuYaq3wH8xT3BWyUwbq4ug+QGNPaNhg5tytDmvh9QH8Pu2AWQamNM42b/xH6WTTn7Uhryqm2c4R5QOblHkbp+k+3WMaxplkwJbcX+0lel1KNDHRvi2fgDO8K+Y9Oa7V7AkAaa8xTvIu5i156uzDfbvYEhLrTTVKDqCgBX2h4EDJGg9SF2QK8dq/7IM+k2Ld4dHBy0vr5cLr9mWTYVDuBaM11ev69PYMvlMs+yTNvwHsAvwre9F5R53goM44b2T5ZlnxlYkO9lyA4M44b2r4ft2yQDhhFDw3fb9yL4b83A9PIhy7I/dZPWv1Kt4rFCyyO0tOdJywu3/MFP9QUrz4JBy6i+5GH7hjaAsQddNd2dgwbgKmS927Q0em1w/HQFJ/XNhyH5aTp849Dd6psuUi3qi2/dur60vHnQ0IjoqYN43KLeJS+3FN7F7uksM+I6FfxCM44OrOktQTNbmKRbFW0L6bcCzQR2Lii/2PbiW4BWxfQls4aOiFph7Dq0qoVtjEsNEkdIdxnaPj8fCco6LW84IAcHl0NDQ4DL0cXmS1H6YS3OqindHX/2qWGsQcg2Tdivso1f3r/ernXPiXA58RxSyS5BmwjXVMHjw65AkwKLcuJvF6C1xcPWFPMU4tihiYDF1pih7QvKJFEPfppVfIZjm4peT1FjeEFI+YG6vjS27tk7MIwM2iCAYQDQBONXqcEAQ//QJGfMikEBQ7/QJEvE4QFDf9AkIa6XQQJDP9BsLUzvZ6z2bm5u5sJ4foi8U1m68NMs+7GVdBLY2T4vvlNvgHqHhzpaEXwQlCm/w2C7pKkOuqd4T2MUwJAQGh8ktrkURZVWOBpgSAdNcnj4ofpjVMAQGRq3LkkA9Vt9owOGuNAeBeH33MzyHSUwRIImTChbOx4RAqzg5CrJI0kedgfQinp4XjuuPlkTaDtg14cSJpSd1ZPIQlrYzCEpNakStbS8KeMudAw7HfEJaRu0q6Y3hXRJU4M5D5F67RlrlhzzWXwn22O6FWXFMTL3Q5USWmw/bM4nrWNlj3krFTQpsI8OFc84c992y0hypYAmPVtx5ZGjc60P6oVceeAqXVfqPAJxl/RMbNIL27vU4BjUK/uFSZMvRG6FUmrPMM512jbV1TUMydJ8nIF5VtyklXFpmutFHzNB0C8JNC9gkF9u1LeiQ/N2K3gX6LdUkYhIiplQVm4UBflhSqkXhubidnStGUch6ra7QLuohotgx1U3d3Y7TjguNjRpmxrXikJoF+ae6n6sL8m/QB54D05M6aHiyjYbW/Y9L+ob0MlOIPZ8aeQnV7elYSLYgIWUwAxDpgzuNPG1pA88m3lPQga0RljoAljNoMFffGu77PfH1couAvA/JshNM32Z9McAAAAASUVORK5CYII="/>
 </svg>

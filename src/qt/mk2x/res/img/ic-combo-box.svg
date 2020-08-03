@@ -1,24 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
-    <title>ComboBox</title>
-    <desc>Created with Sketch.</desc>
-    <g id="ComboBox" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Group" transform="translate(5.000000, 0.000000)">
-            <g id="ic-arrow-drop-down" transform="translate(0.000000, 16.000000)">
-                <g id="Group_8822" transform="translate(4.000000, 7.000000)" fill="#5C4B7D">
-                    <polygon id="Path_18879" points="8 9.365 0.319 2.233 1.681 0.767 8 6.635 14.319 0.767 15.68 2.233"></polygon>
-                </g>
-                <polygon id="Rectangle_4407" points="0 0 24 0 24 24 0 24"></polygon>
-            </g>
-            <g id="ic-arrow-drop-up">
-                <g id="ic_arrow_drop_up" transform="translate(12.000000, 12.000000) rotate(180.000000) translate(-12.000000, -12.000000) translate(-0.000000, 0.000000)">
-                    <g id="Group_8822" transform="translate(4.000000, 7.000000)" fill="#5C4B7D">
-                        <polygon id="Path_18879" points="8 9.365 0.319 2.233 1.681 0.767 8 6.635 14.319 0.767 15.68 2.233"></polygon>
-                    </g>
-                    <polygon id="Rectangle_4407" points="0 0 24 0 24 24 0 24"></polygon>
-                </g>
-            </g>
-        </g>
-    </g>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="167" height="167" viewBox="0 0 167 167">
+  <image x="38" y="31" width="66" height="105" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEIAAABpCAYAAACOP/UdAAADlUlEQVR4nO2dzVEjMRCF20RACGwGu7c54hDIAFdNAhvBQgRm71MFGawzMMe5QQZsCIRAydXyzp89UqvV8tS+r8qFAY8sPWskPWi1qDRtQ9fuUboeq5JvzgLs+dt1VdNnqbpclXrjtqHvRPRBdPjqHvu2oZtS9SnSI1gE1xOGt8Qn94x36zqZC3FGBE8RMUxvjbah+xkRiH+3Z8HMMBOCRXieEcHjXvPG15hgcmt0RJCwqWp6yV3H7D2ibeghQQTHs0XPyNoj2uYggFYjnqqafiqVNSKbEMoieF6qmjbKZR5QF4JXi9sMIniyiKEqRGfJHDP1ufXCTeBs4tnxIKq2JFcTIkGENT8XXaslhooQKSL4hmiUkULy9DkwT6G8DhvAz9fcuFDUzFpSjwjwDVOcHeyEg22yPxELkUOEQfmx02+SGKJbI9A8DYma9vi1MUvrJLMWLUSkefJsJHM/X/MYcYnYrEXdGkLzlGyaLN43uEcIzZOKc+QyYntUlFkL6hHCgeuuqg/TpBrcsG3kbRlk1maFsB69A+qTZbY6KUSp+TyEHGJMCpGw3N1Y/dFVKMZJszYSovSaPwbNuvaEWJIIHq06H6dPLfNkjZZZW5GBb7AgdXBfcQEfSxahi3C6/3bFXWsXceHFikAys/bbaXAcLAOVNPlniwZsCX7NFHX8UIezxjkxFiOCZ8as9Xr21DrCDZq3gx8vTgTPCTFGt/eU+7zrTEV+VF2kCNR3rn6Kd20bmbBzS+w/7oISQRs54CXCll1xsXUPAAAAAAAAAAAAAAAAAAAAAAAAAMxBfAQzipjpRLLeclDmMIxocXS2Xvk2jUIpp0KHuuG8fp+UWR4HbSa2Xvme0aMnBEfVTYUgm6Qu0OZMVN09t/VINxZ7Ls5yUWIEbL3qieFjsWPCdi868pbi2/NY1fSw4gj1t/89FhvR+T46v1OQRIzXS4hbTNi84ur+l7CD51+dsaeLGS2oErcGmWUTE2692p36wLDvk8FOYGZ2k3xCHgd1sybMW/EUMs0HZQsQ5nFQNWsJeSuCspkhfwQTlVHEIo/DEKu8FaJkO8I8DtFLcsuBGlmHGOShYpJTtGmaNQ3zJAW56hhkL2SQz5JBhlMGOW+ZbOmgBWZtjiDzJCVrXmyBWTtFsHmSgkzpjNlpCqWcayimx0pEmDXzoyVwvgaDE1eYImfwcEPXnXQnxCvMH6UidHAq06VwEed0EdEX6X4XGG6PvhcAAAAASUVORK5CYII="/>
 </svg>

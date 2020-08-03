@@ -1,9 +1,3 @@
-<svg xmlns="http://www.w3.org/2000/svg" id="ic_peers_connection" width="24" height="24" viewBox="0 0 24 24" shape-rendering="geometricPrecision">
-    <defs>
-        <style type="text/css">
-            .cls-1{fill:#7c7687}.cls-2{fill:none}
-        </style>
-    </defs>
-    <path id="Path_18890" d="M16.333 15L13 12.5V9h2.5V2h-7v7H11v3.5L7.667 15H2v7h7v-5.5l3-2.25 3 2.25V22h7v-7zM10.5 4h3v3h-3zM7 20H4v-3h3zm13 0h-3v-3h3z" class="cls-1" data-name="Path 18890"/>
-    <path id="Rectangle_4410" d="M0 0h24v24H0z" class="cls-2" data-name="Rectangle 4410"/>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100" height="100" viewBox="0 0 100 100">
+  <image x="8" y="8" width="84" height="84" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFQAAABUCAYAAAAcaxDBAAACrklEQVR4nO2dO24bMRCGR4kLdVKZLvYNfAAV1hHSpbSP4GpKO42AqZQbJK5c2jdYpVCvIzhlOt0gAeEJYARw+NC/JC38X+WCj90PnDG55K4ms9lMaqGqaxE5r9bhMzszu67V2Umtjpwg86Jyn1V5d8w31wIKBUOhYCgUDIWCoVAwtadNMfZh3phZp6tpWG9CwyR8mVNBVX+Pdzn5MOTBUCgYCgVDoWAoFAyFgqFQMBQKhkLBUCgYCgXT21r+ore1eS4coWAoFAyFgqFQMBQKhkLBUCiY2vPQOxH5kVDuo4hcRsp8F5GfCW09JV4bhKqn71JR1bCTOUSKL81s089VP8OQB0OhYCgUDIWCoVAwFAqGQsFQKBgKBUOhYCgUDIWCoVAw3QlV1fD64jqh6NrLdkVXQlX10h/bpYgKZQav0w1dPA9V1bmPylI54WHztZntwZeWTfMR6mE7HCBTvO7QQwpoKjQzxGN0kQKahDwgxGM0SwHVRygoxGM0SwHvp9Nptc48HO9F5DSz6t+dy5yL/SAinxeLxa/tdpv7umMxVUL+wBB/FJEr//uh8N3OailgdKEedt8K//EECV//ae9WRG4K2gqj9MrMRh2tk9VqNfaXakLb88w6YSR9em3f3fftHwrbHVPoLggdOntFeuMy/xuenkZKU8BYbHo7Ev7FzG5TCrrw5QEpYBR6Wcvv/WhNksyXeJ2lt9GcHoSGED875JyS1z3ztprSOuSTQzxGLymg1Qh9Kg3xGK1TQCuhd2MeRfS2q62OXsItEDApOXTz1r9U8xpmNskpr6rROTtHKBgKBUOhYCgUDIWCoVAwFAqGQsFQKBgKBUOhYFLW8ue+hj06Cu4rupmZInR+xD83Ab8vhjwYCgVDoWAoFAyFgqFQMCeNdgdrfKmm/n2J7P4Ane6rHSljZvMAAAAASUVORK5CYII="/>
 </svg>

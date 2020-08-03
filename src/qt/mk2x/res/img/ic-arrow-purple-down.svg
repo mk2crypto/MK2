@@ -1,14 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
-    <title>ComboBox</title>
-    <desc>Created with Sketch.</desc>
-    <g id="ComboBox" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="ic-arrow-drop-down" transform="translate(0.000000, 8.000000)">
-            <g id="Group_8822" transform="translate(4.319000, 7.767000)" fill="#B088FF">
-                <polygon id="Path_18879" points="7.681 8.598 0 1.466 1.362 0 7.681 5.868 14 -8.8817842e-16 15.361 1.466"></polygon>
-            </g>
-            <polygon id="Rectangle_4407" points="0 0 24 0 24 24 0 24"></polygon>
-        </g>
-    </g>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="167" height="167" viewBox="0 0 167 167">
+  <image x="18" y="65" width="65" height="37" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEEAAAAlCAYAAAAdkoQJAAACPUlEQVRogd2ZzXHCMBCFn6kgd19SQuggdJB0AB0kR99y85F0AB2EDpIOoAO4+E4HzohZMY6Qba28K+O8CzP+Qd5PK2mfBJ/qqnz03piwumKauRfqqnwCsK+rcvOPAHwAONZVufTdz5yHDYBvAA906QBgkeXFOcnXKog6sxn8a5YXu2ZLVwh1VZrAjw0AVpMF4QFgdKZ4DvbCBQIBMBnw1PJ/kwJB8aw9AKz+gMgCAFidKJUOPc+NKkY8VxAGwj7gBS/BCQOwMh07N6sDJ6BLIzSB3pUiAIA6FbMsL1YAthEgnu8FAnXKkQlgZ+e55urwRpMJR6ssLzgAxeVZ1kO0pc6/yK0TzGzKLZJGAyEBAG7FSMGsbl7r1qatEtMUtckF8OkCgJsJVnVVvlBGDCKsJemM9UKAYKpJS2PI3hgoK6oFFnYZCdRS03iRERKfs1ozodGwyYgvABx7/UPVpViZ3eIDuhRc2PVCQHwhIuY3NAEgFAJGAhFghHxil/bBEDAMxIrrNwa0ZYbhidMWC4KVdnqmzrooCFAEMcawa10i+6RhvIYaoehYYl+0kjJeYxZngyFAoIobuzoVgYABIOh3HWGE3plttUoMAuKNF1fi1l0UAuJTO1QqexfiEKAHQm3zRgUC4o2XT+o73GoQEF/4NJVki18VAoaBSHbGEV0xhooquQXzfMM8O091yKOeCU0F+o3k555JIaAfxCgHv+rDwVWH8RpshKK/KXWDVo7xSrZdf3cyfqOuSq4DlRWAX4cgStZ4/M3TAAAAAElFTkSuQmCC"/>
 </svg>

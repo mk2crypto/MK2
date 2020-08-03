@@ -1,9 +1,3 @@
-<svg xmlns="http://www.w3.org/2000/svg" id="ic_unlocked" width="24" height="24" viewBox="0 0 24 24">
-    <defs>
-        <style type="text/css">
-            .cls-1{fill:#7c7687}.cls-2{fill:none}
-        </style>
-    </defs>
-    <path id="Path_18909" d="M8 10V8a4 4 0 0 1 6.827-2.83l1.412-1.416A6 6 0 0 0 6 8v2H4v12h16V10zm10 10H6v-8h12z" class="cls-1" data-name="Path 18909"/>
-    <path id="Rectangle_4444" d="M0 0h24v24H0z" class="cls-2" data-name="Rectangle 4444"/>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100" height="100" viewBox="0 0 100 100">
+  <image x="16" y="8" width="68" height="84" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEQAAABUCAYAAAA7xZEpAAACr0lEQVR4nO2czW0bMRCFnxIddFNKcAnOfYFIFTipIHEFzo1HxxcBc7JdgawKElcg+bB3dWCV4BICAjQgPHi15C6pP7wP8MkUd/bTcDiSFhyMx2PsE+fcJYAJgC8AvjVc+gXAG4C1ma32GV9xIc45f+PfAVxtiUjBi/FSns3sqWiwJYUEEb8B3HSQ0ISX8wjgwcze8kddQEghEUwxMVmFOOf8kpgDuMg26W42AK5z1pnPo9Eoy0TOuT9BRqms+Ah/rV9VVQ3qus4iJYsQ59w8LJNDMamq6qKu6+e+1++1ZEK9WAK4PKCMbf6Z2Y8+Ewx7BjDPIGMT/hBqT9f644vrXc9Yugtxzt2H/iKVNYCF7y3MbN0w93vz9jNSuJcxbZovhU5LxjnnRfxNfJlvqu7MbBMxdvtaPmNuffFsGJJNBroICXXjNWE3WYetsVfAIWt4iWaV4fnU4TX3CTKezOxrjoDDHNOQaSghA6kZEhqvZeRwL+O6c2S74/BvyiK3DHQQsgzFro1iMkoTLSQUt9eIoX73mB7zTe8ipYbcRIzx6/okM+OdFCExPcdj6rZ6bEQJCVteWwfps+PhlGUgIUNiC2mRL232SayQpu8+t1mc1J03ECukdbmU6AkOQayQtg9YZyEDHVv3j3jJG9bhyCXkbJAQQkIICSEkhJAQQkIICSEkhBjMZrNJxKfZ25b/r86kW10Ng4y2G24jRupJoCVDSAghIYSEEBJCSAghIUTUAzNmNthnUCWI/aFeGUJICCEhhIQQEkJICCEhhIQQEkJICCEhhIQQEkJICCEhhIQQEkJICCEhhIQQEkJICCEhhIQQEkJICCEhhIQQEkJICCEhhIQQUQ/MhEMQTp2oIz5ij9w5i6eUY9CSISSEkBBCQggJISSEGIZj9/Z6zO/RAmz+A3SUoXfvzgsSAAAAAElFTkSuQmCC"/>
 </svg>

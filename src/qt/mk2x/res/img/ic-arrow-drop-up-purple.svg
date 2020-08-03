@@ -1,13 +1,3 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-    <defs>
-        <style type="text/css">
-            .cls-1{fill:#5C4B7D}.cls-2{fill:none}
-        </style>
-    </defs>
-    <g id="ic_arrow_drop_up" transform="rotate(180 12 12)">
-        <g id="Group_8822" data-name="Group 8822">
-            <path id="Path_18879" d="M12 16.365L4.319 9.233l1.362-1.466L12 13.635l6.319-5.868 1.361 1.466z" class="cls-1" data-name="Path 18879"/>
-        </g>
-        <path id="Rectangle_4407" d="M0 0h24v24H0z" class="cls-2" data-name="Rectangle 4407"/>
-    </g>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100" height="100" viewBox="0 0 100 100">
+  <image x="17" y="31" width="66" height="37" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEIAAAAlCAYAAAD2pT8KAAACC0lEQVRogd2a0W3CMBCGf5igK3QDHvNIRugGIGWBTNIFIsEGHQEe88gGXaEjVEZ3EEKc+uzzmfSXIkVRnNx9ss/3Q1BafYc3d5SOY13y5X2HDYCTO+i8mFYvAIFnww+AumpwKRFPERATEFjFYJgvjb7D1gMBdO1E95jKFETfYTcDgcUwdpaxmS0NSuwgHLavGhwzhfQgExCREFgmMLKD6LsrgNRpfqwa7JVCmlRWEEoQWFlhZAOhDIGVDYY6CGqXv4BsW+AZwEfVXHsONamCIAhue5S0y9w8ScfUmjDUQCRAqOk8aqwWDJWGatAySxI5cyKUTE3XQrXRNGvJM2LGN8zJW/QiiqyKP0kCoQ1h8FxzGNFL4w/z5FPQ9kf3SLrJZLMWBSLQPI21l/QAdK+kZ0gya+KlYW2erN4nAlHKQVq8NxhEZAFzHaBkS5x7/5Y6VvWahFAQpba0iTiy7FIIAfEqEAbxZIHhBRFpni60NrP++EowDhGdrNesTYJI8Q3artAn7RifQCwBAksz1oeGKtU8CcaoSNOs3WZEzopsodSivvoPEFgpMFa0zr6XDoEVCeN9TeusFQwUmSdrRZi11jEY1oiQft7sn6dUSfO57Rp0YW5mLAYC7vnMzYx2mM9UHzFeY6rmyVoes/ZU43ydJcMo+vGGlka7oqzQ9x0+S3/OoymXi8tp8pkAfgH8IAjkj2yymgAAAABJRU5ErkJggg=="/>
 </svg>

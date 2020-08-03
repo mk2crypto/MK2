@@ -1,24 +1,3 @@
-<svg xmlns="http://www.w3.org/2000/svg" id="ic_error_connection" width="24" height="24" viewBox="0 0 24 24" shape-rendering="geometricPrecision">
-    <defs>
-        <style type="text/css">
-            .cls-1{fill:#7c7687}.cls-2{fill:none}
-        </style>
-    </defs>
-    <g id="Group_8828" data-name="Group 8828">
-        <circle id="Ellipse_601" cx="2" cy="2" r="2" class="cls-1" data-name="Ellipse 601" transform="translate(10 16)"/>
-        <g id="Group_8825" data-name="Group 8825">
-            <path id="Path_18883" d="M10 4.15a14.966 14.966 0 0 0-8.079 3.763l1.346 1.48A12.969 12.969 0 0 1 10 6.168z" class="cls-1" data-name="Path 18883"/>
-            <path id="Path_18884" d="M14 4.15v2.018a12.969 12.969 0 0 1 6.733 3.225l1.346-1.48A14.966 14.966 0 0 0 14 4.15z" class="cls-1" data-name="Path 18884"/>
-        </g>
-        <g id="Group_8826" data-name="Group 8826">
-            <path id="Path_18885" d="M10 8.185a11.008 11.008 0 0 0-5.392 2.684l1.346 1.48A9 9 0 0 1 10 10.236z" class="cls-1" data-name="Path 18885"/>
-            <path id="Path_18886" d="M14 8.185v2.051a9 9 0 0 1 4.046 2.113l1.346-1.48A11.008 11.008 0 0 0 14 8.185z" class="cls-1" data-name="Path 18886"/>
-        </g>
-        <g id="Group_8827" data-name="Group 8827">
-            <path id="Path_18887" d="M10 12.3a6.992 6.992 0 0 0-2.7 1.529l1.346 1.479A4.724 4.724 0 0 1 10 14.46z" class="cls-1" data-name="Path 18887"/>
-            <path id="Path_18888" d="M14 12.3v2.162a4.727 4.727 0 0 1 1.358.846l1.342-1.482A6.992 6.992 0 0 0 14 12.3z" class="cls-1" data-name="Path 18888"/>
-        </g>
-        <path id="Path_18889" d="M11 3v11.147a5.236 5.236 0 0 1 2 0V3z" class="cls-1" data-name="Path 18889"/>
-    </g>
-    <path id="Rectangle_4409" d="M0 0h24v24H0z" class="cls-2" data-name="Rectangle 4409"/>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100" height="100" viewBox="0 0 100 100">
+  <image x="8" y="12" width="84" height="72" xlink:href="data:img/png;base64,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"/>
 </svg>
