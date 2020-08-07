@@ -813,7 +813,7 @@ QPushButton[cssClass="btn-check-lock-sub-menu-staking"]:hover {
 
 
 *[cssClass="top-sub-menu"] {
-    background-color:#4C425F;
+    background-color:#a07d00;
 }
 
 
@@ -3131,7 +3131,7 @@ HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
     border-bottom: 1px solid #6e6e6eFF;
     border-radius:0px;
     color: #ffffff;
-    background-color:#26bababa;
+    background-color:#e0af00ba;
 }
 
 #treeWidget::item:selected {
@@ -3166,7 +3166,7 @@ HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
 }
 
 #treeWidget::branch:hover {
-    background-color:#260a0a0a;
+    background-color:#3025000a;
 }
 
 #treeWidget::branch:!has-children {
@@ -3323,7 +3323,7 @@ QPushButton[cssClass="btn-dots-welcome"]:pressed {
     font-size:18px;
     border-radius: 2px;
     padding:8px;
-    color: #66FFFFFF;
+    color: #ffdd65FF;
 }
 
 QRadioButton[cssClass="radio-welcome"]:checked {
