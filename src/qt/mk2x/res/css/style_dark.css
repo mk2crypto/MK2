@@ -214,8 +214,10 @@ QPushButton[cssClass="btn-check-cold-staking"]:checked {
 }
 
 *[cssClass="btn-nav-settings"]:hover {
-    background-color: #1a1a1a00;
-    color: #8d8d8d;
+    qproperty-icon: url("://ic-nav-settings-hover");
+    qproperty-iconSize: 24px 40px;
+    background-color: #1A000000;
+    color: #938da5;
 }
 
 *[cssClass="btn-nav-settings-active"] {
