@@ -2529,7 +2529,7 @@ QLineEdit[cssClass="edit-primary-dialog-error"] {
 QLabel[cssClass="label-subtitle-dialog"] {
     background-color:#0a0a0a;
     font-size:16px;
-    color: #888888;
+    color: #888888FF;
     padding-top: 10px;
     padding-bottom: 10px;
 }
