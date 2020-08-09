@@ -1747,9 +1747,9 @@ QProgressBar[cssClass="progress-splash"]::chunk:horizontal {
     y1: 0.5,
     x2: 1,
     y2: 0.5,
-    stop: 0 #80211aff,
+    stop: 0 #80211a2f,
     stop: 1 #808888FF,
-    stop: 2 #80211aff,);
+    stop: 2 #80211a2f,);
     margin-right: 2px;
 }
 
@@ -3108,7 +3108,7 @@ HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
 
 #treeWidget::item {
     border:none;
-    border-bottom: 1px solid #6e6e6e;
+    border-bottom: 1px solid #6e6e6eFF;
     border-radius:0px;
     color: #ffffff;
     padding-top: 6px;
@@ -3120,14 +3120,14 @@ HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
     border-image: none;
     background-color:#0a0a0a;
     image: url("://ic-arrow-drop-up");
-    border-bottom: 1px solid #6e6e6e;
+    border-bottom: 1px solid #6e6e6eFF;
 }
 
 #treeWidget::branch:closed:has-children:has-siblings {
     border-image: none;
     background-color:#0a0a0a;
     image: url("://ic-arrow-drop-up");
-    border-bottom: 1px solid #6e6e6e;
+    border-bottom: 1px solid #6e6e6eFF;
 }
 
 
@@ -3135,12 +3135,12 @@ HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
 #treeWidget::branch:open:has-children:has-siblings {
     border-image: none;
     image: url("://ic-arrow-drop-down");
-    border-bottom: 1px solid #6e6e6e;
+    border-bottom: 1px solid #6e6e6eFF;
 }
 
 #treeWidget::item:hover {
     border:none;
-    border-bottom: 1px solid #6e6e6e;
+    border-bottom: 1px solid #6e6e6eFF;
     border-radius:0px;
     color: #ffffff;
     background-color:#e0af00ba;
@@ -3148,7 +3148,7 @@ HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
 
 #treeWidget::item:selected {
     border:none;
-    border-bottom: 1px solid #6e6e6e;
+    border-bottom: 1px solid #6e6e6eFF;
     border-radius:0px;
     color: #ffffff;
     background-color:#40404088;
@@ -3157,7 +3157,7 @@ HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
 
 #treeWidget::item:hover:selected {
     border:none;
-    border-bottom: 1px solid #6e6e6e;
+    border-bottom: 1px solid #6e6e6eFF;
     border-radius:0px;
     color: #ffffff;
     background-color:#40404088;
