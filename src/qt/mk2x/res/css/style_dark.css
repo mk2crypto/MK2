@@ -13,23 +13,23 @@ HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
 
 *[cssClass="container-border-light"] {
     background-color:#0a0a0a;
-    border:  1px solid #696969FF;
+    border:  1px solid #696969;
     border-radius:2px;
 }
 
 *[cssClass="container_right"] {
     background-color:#0a0a0a;
-    border-left:  1px solid #696969FF;
+    border-left:  1px solid #696969;
 }
 
 *[cssClass="container-right"] {
     background-color:#0a0a0a;
-    border-left:  1px solid #696969FF;
+    border-left:  1px solid #696969;
 }
 
 *[cssClass="container-square"] {
     background-color:#0a0a0a;
-    border:  1px solid #696969FF;
+    border:  1px solid #696969;
 }
 
 *[cssClass="container-options"] {
