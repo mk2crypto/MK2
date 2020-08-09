@@ -1772,31 +1772,31 @@ HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
 }
 
 *[cssClass="text-stake-mk2"] {
-    color:#5c4b7d;
+    color:#d79020;
     font-size:16px;
     padding:10px;
-    border-bottom: 5px solid #5c4b7d;
+    border-bottom: 5px solid #d79020;
 }
 
 *[cssClass="text-stake-mk2-disable"] {
-    color:#d7d5da;
+    color:#69656F;
     font-size:16px;
     padding:10px;
-    border-bottom: 5px solid #bbb8c0;
+    border-bottom: 5px solid #69656F;
 }
 
 *[cssClass="text-stake-zmk2"] {
-    color:#b088ff;
+    color:#d7b616;
     font-size:16px;
     padding:10px;
-    border-bottom: 5px solid #b088ff;
+    border-bottom: 5px solid #d7b616;
 }
 
 *[cssClass="text-stake-zmk2-disable"] {
-    color:#d7d5da;
+    color:#3e3e3e;
     font-size:16px;
     padding:10px;
-    border-bottom: 5px solid #d7d5da;
+    border-bottom: 5px solid #3e3e3e;
 }
 
 *[cssClass="legend-chart"] {
@@ -1805,24 +1805,24 @@ HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
 }
 
 *[cssClass="text-chart-zmk2"] {
-    color:#b088ff;
+    color:#d7b616;
     font-size:16px;
     padding-left:4px;
 }
 
 *[cssClass="text-chart-mk2"] {
-    color:#5c4b7d;
+    color:#d79020;
     font-size:16px;
     padding-left:4px;
 }
 
 *[cssClass="square-chart-zmk2"] {
-    background-color:#b088ff;
+    background-color:#d7b616;
     border:none;
 }
 
 *[cssClass="square-chart-mk2"] {
-    background-color:#5c4b7d;
+    background-color:#d79020;
     border:none;
 }
 

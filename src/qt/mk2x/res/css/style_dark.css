@@ -901,22 +901,22 @@ HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
 
 
 *[cssClass="text-list-body1-grey"] {
-    color:#e6e6e6FF;
+    color:#e6e6e6;
     font-size:16px;
 }
 
 *[cssClass="text-list-body2-grey"] {
-    color:#e6e6e6FF;
+    color:#e6e6e6;
     font-size:14px;
 }
 
 *[cssClass="text-list-caption"] {
-    color:#888888FF;
+    color:#888888;
     font-size:12px;
 }
 
 *[cssClass="text-list-caption-medium"] {
-    color:#888888FF;
+    color:#888888;
     font-size:14px;
 }
 
@@ -1023,7 +1023,7 @@ HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
 }
 
 *[cssClass="text-main-light"] {
-    color:#888888FF;
+    color:#888888;
     font-size:17px;
 }
 
