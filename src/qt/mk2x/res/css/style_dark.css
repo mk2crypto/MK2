@@ -795,7 +795,7 @@ QPushButton[cssClass="btn-check-lock-sub-menu-locked"] {
 }
 
 QPushButton[cssClass="btn-check-lock-sub-menu-locked"]:checked {
-    background-color:#888888;
+    background-color:#88888888;
 }
 
 QPushButton[cssClass="btn-check-lock-sub-menu-locked"]:hover {
@@ -880,7 +880,7 @@ HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
 }
 
 *[cssClass="text-list-body1"] {
-    color:#e6e6e6;
+    color:#e6e6e6FF;
     font-size:16px;
 }
 
@@ -901,12 +901,12 @@ HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
 
 
 *[cssClass="text-list-body1-grey"] {
-    color:#e6e6e6;
+    color:#e6e6e6FF;
     font-size:16px;
 }
 
 *[cssClass="text-list-body2-grey"] {
-    color:#e6e6e6;
+    color:#e6e6e6FF;
     font-size:14px;
 }
 
@@ -1748,7 +1748,7 @@ QProgressBar[cssClass="progress-splash"]::chunk:horizontal {
     x2: 1,
     y2: 0.5,
     stop: 0 #80211a2f,
-    stop: 1 #808888FF,
+    stop: 1 #80888888,
     stop: 2 #80211a2f,);
     margin-right: 2px;
 }
@@ -2074,7 +2074,7 @@ HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
 
 *[cssClass="label-address-box"] {
     color:#FFFFFF;
-    background-color: #3c3c3c;
+    background-color: #3c3c3c88;
     font-size:22px;
     padding:10px 10px;
 }
@@ -2529,7 +2529,7 @@ QLineEdit[cssClass="edit-primary-dialog-error"] {
 QLabel[cssClass="label-subtitle-dialog"] {
     background-color:#0a0a0a;
     font-size:16px;
-    color: #ffd53f;
+    color: #888888;
     padding-top: 10px;
     padding-bottom: 10px;
 }
