@@ -437,7 +437,7 @@ HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
 
 *[cssClass="container-qr"] {
     border-radius: 2px;
-    background-color: #ffffff;
+    background-color: #000000;
 }
 
 QPushButton[cssClass="btn-qr"] {
