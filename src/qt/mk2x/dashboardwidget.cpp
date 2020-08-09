@@ -442,7 +442,7 @@ void DashboardWidget::changeChartColors()
         backgroundColor = linePenColorY;
         axisY->setGridLineColor(QColor("#1a000000"));
     } else {
-        gridY = QColor("#ffdd65ff");
+        gridY = QColor("#ffdd6500");
         axisY->setGridLineColor(gridY);
         gridLineColorX = QColor(15,11,22);
         linePenColorY =  gridLineColorX;
